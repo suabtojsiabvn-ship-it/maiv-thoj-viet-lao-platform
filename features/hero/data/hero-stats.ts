@@ -1,18 +1,18 @@
-import type { HeroStat } from "../types/hero.types";
+import type { HeroStatConfig } from "../types/hero.types";
 
-export const heroStats: HeroStat[] = [
+export const heroStats: HeroStatConfig[] = [
   {
+    key: "facebookCommunity",
     value: "454K+",
-    label: "Facebook Community",
   },
 
   {
+    key: "tiktokCommunity",
     value: "1.3M+",
-    label: "TikTok Community",
   },
 
   {
+    key: "languagesSupported",
     value: "5",
-    label: "Languages Supported",
   },
 ];

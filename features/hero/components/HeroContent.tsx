@@ -12,43 +12,42 @@ import {
 
 import { Badge, Button } from "@/components/ui";
 
-import { heroContent } from "../data/hero-content";
-import { heroHighlights } from "../data/hero-highlights";
-import { heroStats } from "../data/hero-stats";
+import { heroContentConfig } from "../data/hero-content";
+import { useHero } from "../hooks/useHero";
 
 export function HeroContent() {
+  const hero = useHero();
+
   return (
     <div
       className="relative z-10 mx-auto flex max-w-5xl flex-col items-center text-center"
-      aria-labelledby="hero-title"
+      aria-labelledby={heroContentConfig.titleId}
     >
       <FadeDown>
-        <Badge variant="cyan">
-          {heroContent.badge}
-        </Badge>
+        <Badge variant="cyan">{hero.content.badge}</Badge>
       </FadeDown>
 
       <FadeUp delay={0.1}>
         <h1
-          id="hero-title"
+          id={heroContentConfig.titleId}
           className="mt-8 font-heading text-5xl font-bold leading-tight text-white md:text-6xl lg:text-7xl"
         >
-          {heroContent.title.line1}
+          {hero.content.title.line1}
           <br />
-          {heroContent.title.line2}
+          {hero.content.title.line2}
         </h1>
       </FadeUp>
 
       <FadeUp delay={0.2}>
         <p className="mt-8 max-w-2xl text-lg leading-8 text-slate-300">
-          {heroContent.subtitle}
+          {hero.content.subtitle}
         </p>
       </FadeUp>
 
       <FadeUp delay={0.3}>
         <div className="mt-10 flex flex-col gap-4 sm:flex-row">
-          {heroContent.actions.map((action) => (
-            <HoverScale key={action.label}>
+          {hero.content.actions.map((action) => (
+            <HoverScale key={action.key}>
               <Button
                 asChild
                 variant={
@@ -58,9 +57,7 @@ export function HeroContent() {
                 }
                 size="lg"
               >
-                <Link href={action.href}>
-                  {action.label}
-                </Link>
+                <Link href={action.href}>{action.label}</Link>
               </Button>
             </HoverScale>
           ))}
@@ -69,11 +66,11 @@ export function HeroContent() {
 
       <FadeUp delay={0.4}>
         <MotionList className="mt-12 grid w-full gap-4 md:grid-cols-2 xl:grid-cols-4">
-          {heroHighlights.map((item) => {
+          {hero.highlights.map((item) => {
             const Icon = item.icon;
 
             return (
-              <MotionItem key={item.title}>
+              <MotionItem key={item.key}>
                 <div className="rounded-2xl border border-white/10 bg-white/5 p-5 text-left backdrop-blur-sm">
                   <Icon className="h-6 w-6 text-cyan-400" />
 
@@ -93,8 +90,8 @@ export function HeroContent() {
 
       <FadeUp delay={0.5}>
         <MotionList className="mt-14 grid w-full max-w-3xl grid-cols-3 gap-8">
-          {heroStats.map((stat) => (
-            <MotionItem key={stat.label}>
+          {hero.stats.map((stat) => (
+            <MotionItem key={stat.key}>
               <div>
                 <div className="text-3xl font-bold text-cyan-400">
                   {stat.value}
