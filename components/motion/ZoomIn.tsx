@@ -1,0 +1,32 @@
+"use client";
+
+import type { PropsWithChildren } from "react";
+import { motion } from "framer-motion";
+import { zoomIn } from "./animations";
+
+interface ZoomInProps extends PropsWithChildren {
+  delay?: number;
+  className?: string;
+}
+
+export function ZoomIn({
+  children,
+  delay = 0,
+  className,
+}: ZoomInProps) {
+  return (
+    <motion.div
+      className={className}
+      variants={zoomIn}
+      initial="hidden"
+      whileInView="visible"
+      viewport={{
+        once: true,
+        amount: 0.2,
+      }}
+      transition={{ delay }}
+    >
+      {children}
+    </motion.div>
+  );
+}

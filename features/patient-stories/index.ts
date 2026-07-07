@@ -1,0 +1,1 @@
+export { PatientStories } from "./components/PatientStories";
