@@ -14,7 +14,7 @@ export const coordinator: Coordinator = {
   ],
 
   profileImage: {
-    src: "/images/coordinator/a-su.jpg",
+    src: "/images/coordinator/a-su4.jpg",
     alt: "A Sử",
   },
 
@@ -57,8 +57,8 @@ export const coordinator: Coordinator = {
 
   gallery: [
     {
-      src: "/images/coordinator/airport-pickup.jpg",
-      alt: "Airport pickup",
+      src: "/images/coordinator/a-su4.jpg",
+      alt: "A Sử coordinating patient support",
     },
     {
       src: "/images/coordinator/clinic-support.jpg",

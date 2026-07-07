@@ -38,6 +38,6 @@ export const partners = [
 
     logo: "/images/partners/an-nhien-dental-logo.png",
 
-    coverImage: "/images/partners/an-nhien-dental-cover.jpg",
+    coverImage: "/images/partners/an-nhien-dental/clinic.jpg",
   },
 ] as const;
