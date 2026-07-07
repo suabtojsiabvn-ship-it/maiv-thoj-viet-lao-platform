@@ -15,7 +15,7 @@ export const anNhienDental: ClinicalPartner = {
   website: "",
 
   profileImage: {
-    src: "/images/partners/an-nhien-dental/clinic.jpg",
+    src: "/images/partners/an-nhien-dental/clinic.webp",
     alt: "An Nhien Dental",
   },
 

@@ -14,5 +14,5 @@ export const seo = {
     "Health and Beauty Vietnam",
   ],
 
-  ogImage: "/images/og-image.jpg",
+  ogImage: "/images/og-image.webp",
 };

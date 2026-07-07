@@ -16,7 +16,7 @@ export const patientStories: PatientStory[] = [
 
     rating: 5,
 
-    thumbnail: "/images/patient-stories/story-1.jpg",
+    thumbnail: "/images/patient-stories/story-1.webp",
 
     videoUrl: "#",
 
@@ -55,7 +55,7 @@ export const patientStories: PatientStory[] = [
 
     rating: 5,
 
-    thumbnail: "/images/patient-stories/story-2.jpg",
+    thumbnail: "/images/patient-stories/story-2.webp",
 
     videoUrl: "#",
 
@@ -94,7 +94,7 @@ export const patientStories: PatientStory[] = [
 
     rating: 5,
 
-    thumbnail: "/images/patient-stories/story-3.jpg",
+    thumbnail: "/images/patient-stories/story-3.webp",
 
     videoUrl: "#",
 

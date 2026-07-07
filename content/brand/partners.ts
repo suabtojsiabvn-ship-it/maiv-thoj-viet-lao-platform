@@ -36,8 +36,8 @@ export const partners = [
 
     website: "",
 
-    logo: "/images/partners/an-nhien-dental-logo.png",
+    logo: "/images/partners/an-nhien-dental-logo.webp",
 
-    coverImage: "/images/partners/an-nhien-dental/clinic.jpg",
+    coverImage: "/images/partners/an-nhien-dental/clinic.webp",
   },
 ] as const;

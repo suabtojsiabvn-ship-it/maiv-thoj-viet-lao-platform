@@ -40,7 +40,7 @@ export const founder: Founder = {
   ],
 
   profileImage: {
-    src: "/images/founder/maiv-thoj.jpg",
+    src: "/images/founder/maiv-thoj.webp",
     alt: "Maiv Thoj",
   },
 
