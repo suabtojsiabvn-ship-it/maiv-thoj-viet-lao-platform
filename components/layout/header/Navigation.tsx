@@ -1,11 +1,11 @@
 import Link from "next/link";
 
-import { navigation } from "@/data/navigation";
+import { site } from "@/content/site";
 
 export function Navigation() {
   return (
     <nav className="hidden items-center gap-8 lg:flex">
-      {navigation.map((item) => (
+      {site.navigation.main.map((item) => (
         <Link
           key={item.href}
           href={item.href}
