@@ -2,6 +2,7 @@ import type { SiteConfig } from "@/types/site";
 
 import { brand } from "@/content/branding";
 import { contact } from "@/content/contact";
+import { socials } from "@/content/config";
 import { navigation } from "@/content/navigation";
 import { seo } from "@/content/seo";
 
@@ -19,22 +20,7 @@ export const site: SiteConfig = {
 
   contact,
 
-  socials: {
-    facebook: {
-      label: "Facebook",
-      url: "https://www.facebook.com/maivthoj93",
-    },
-
-    tiktok: {
-      label: "TikTok",
-      url: "https://www.tiktok.com/@maivthojvietlaobrand1993",
-    },
-
-    youtube: {
-      label: "YouTube",
-      url: "",
-    },
-  },
+  socials,
 
   cta: {
     primary: "Start Your Journey",
