@@ -1,7 +1,9 @@
 import { notFound } from "next/navigation";
 
 import { isSupportedLocale } from "@/lib/i18n-routing";
+import { LocaleProvider } from "@/providers/LocaleProvider";
 import { locales } from "@/types/i18n";
+import type { Locale } from "@/types/i18n";
 
 interface LocaleLayoutProps {
   children: React.ReactNode;
@@ -26,5 +28,9 @@ export default async function LocaleLayout({
     notFound();
   }
 
-  return children;
+  return (
+    <LocaleProvider locale={locale as Locale}>
+      {children}
+    </LocaleProvider>
+  );
 }
