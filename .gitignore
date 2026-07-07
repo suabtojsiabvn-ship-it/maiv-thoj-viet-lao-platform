@@ -48,3 +48,10 @@ next-env.d.ts
 *.heic
 *.raw
 *.psd
+# Source media files
+assets/source/**/*.mp4
+assets/source/**/*.mov
+assets/source/**/*.arw
+assets/source/**/*.heic
+assets/source/**/*.raw
+assets/source/**/*.psd
