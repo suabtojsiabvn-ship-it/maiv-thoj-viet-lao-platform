@@ -1,7 +1,10 @@
 import type { Metadata } from "next";
 import { Inter, Playfair_Display } from "next/font/google";
 
-import { defaultMetadata } from "@/config/site";
+import {
+  defaultMetadata,
+  organizationJsonLd,
+} from "@/lib/metadata";
 
 import "./globals.css";
 
@@ -28,7 +31,16 @@ export default function RootLayout({
       suppressHydrationWarning
       className={`${inter.variable} ${playfair.variable}`}
     >
-      <body>{children}</body>
+      <body>
+        {children}
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(organizationJsonLd),
+          }}
+        />
+      </body>
     </html>
   );
 }
