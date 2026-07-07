@@ -1,33 +1,7 @@
-import { Hero } from "@/features/hero";
-import { Founder } from "@/features/founder";
-import { PatientCoordinator } from "@/features/patient-coordinator";
-import { ClinicalPartner } from "@/features/clinical-partner";
-import { Treatments } from "@/features/treatments";
-import { BeforeAfter } from "@/features/before-after";
-import { Journey } from "@/features/journey";
-import { Booking } from "@/features/booking";
-import { Footer } from "@/features/footer";
+import { redirect } from "next/navigation";
 
-export default function HomePage() {
-  return (
-    <main className="overflow-x-hidden bg-slate-950 text-white">
-      <Hero />
+import { defaultLocale } from "@/lib/i18n";
 
-      <Founder />
-
-      <PatientCoordinator />
-
-      <ClinicalPartner />
-
-      <Treatments />
-
-      <BeforeAfter />
-
-      <Journey />
-
-      <Booking />
-
-      <Footer />
-    </main>
-  );
+export default function RootPage() {
+  redirect(`/${defaultLocale}`);
 }
