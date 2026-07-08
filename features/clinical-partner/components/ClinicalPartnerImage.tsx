@@ -1,4 +1,8 @@
+"use client";
+
 import Image from "next/image";
+
+import { useClinicalPartner } from "../hooks/useClinicalPartner";
 
 interface ClinicalPartnerImageProps {
   src: string;
@@ -9,6 +13,11 @@ export function ClinicalPartnerImage({
   src,
   alt,
 }: ClinicalPartnerImageProps) {
+  const { clinicalPartner } = useClinicalPartner();
+
+  const featuredTechnology =
+    clinicalPartner.technologies[0];
+
   return (
     <div className="relative mx-auto w-full max-w-2xl">
       <div className="overflow-hidden rounded-3xl border border-white/10 bg-slate-900 shadow-2xl">
@@ -24,12 +33,11 @@ export function ClinicalPartnerImage({
 
       <div className="absolute -bottom-6 left-1/2 w-[92%] -translate-x-1/2 rounded-2xl border border-cyan-500/20 bg-slate-900/90 p-6 backdrop-blur">
         <h3 className="text-lg font-semibold text-white">
-          Trusted Clinical Excellence
+          {featuredTechnology.name}
         </h3>
 
         <p className="mt-2 text-sm leading-6 text-slate-300">
-          Modern technology, experienced clinicians and personalized care for
-          every international patient.
+          {featuredTechnology.description}
         </p>
       </div>
     </div>

@@ -1,51 +1,55 @@
+"use client";
+
 import Link from "next/link";
 
-import { clinicalPartnerContent } from "../data/clinical-partner-content";
+import { useClinicalPartner } from "../hooks/useClinicalPartner";
 
 import { ClinicalHighlights } from "./ClinicalHighlights";
 import { ClinicalTechnology } from "./ClinicalTechnology";
 import { ClinicalQuote } from "./ClinicalQuote";
 
 export function ClinicalPartnerContent() {
+  const { clinicalPartner } = useClinicalPartner();
+
   return (
     <div className="flex flex-col justify-center">
       {/* Badge */}
       <span className="inline-flex w-fit rounded-full border border-cyan-500/20 bg-cyan-500/10 px-4 py-1 text-sm font-medium uppercase tracking-wide text-cyan-300">
-        {clinicalPartnerContent.badge}
+        {clinicalPartner.badge}
       </span>
 
       {/* Heading */}
       <h2 className="mt-6 text-4xl font-bold tracking-tight text-white lg:text-5xl">
-        {clinicalPartnerContent.heading}
+        {clinicalPartner.heading}
       </h2>
 
       {/* Intro */}
       <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-300">
-        {clinicalPartnerContent.intro}
+        {clinicalPartner.intro}
       </p>
 
       {/* Highlights */}
       <ClinicalHighlights
-        highlights={clinicalPartnerContent.highlights}
+        highlights={clinicalPartner.highlights}
       />
 
       {/* Technology */}
       <ClinicalTechnology
-        technologies={clinicalPartnerContent.technologies}
+        technologies={clinicalPartner.technologies}
       />
 
       {/* Quote */}
       <ClinicalQuote
-        quote={clinicalPartnerContent.quote}
+        quote={clinicalPartner.quote}
       />
 
       {/* CTA */}
       <div className="mt-10">
         <Link
-          href={clinicalPartnerContent.cta.href}
+          href="/booking"
           className="inline-flex items-center justify-center rounded-xl bg-cyan-500 px-7 py-4 text-sm font-semibold text-slate-950 transition hover:bg-cyan-400"
         >
-          {clinicalPartnerContent.cta.label}
+          {clinicalPartner.cta.label}
         </Link>
       </div>
     </div>
