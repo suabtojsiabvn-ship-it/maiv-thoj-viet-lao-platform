@@ -1,19 +1,24 @@
+"use client";
+
 import {
   Container,
   Section,
   SectionHeading,
 } from "@/components/ui";
 
+import { useBeforeAfter } from "../hooks/useBeforeAfter";
 import { BeforeAfterGrid } from "./BeforeAfterGrid";
 
 export function BeforeAfter() {
+  const { beforeAfter } = useBeforeAfter();
+
   return (
     <Section className="bg-slate-950">
       <Container>
         <SectionHeading
-          badge="Real Patient Results"
-          title="Before & After Transformations"
-          description="Every smile tells a story. Explore real treatment results achieved with personalized care and premium dental materials."
+          badge={beforeAfter.sectionLabel}
+          title={beforeAfter.title}
+          description={beforeAfter.description}
         />
 
         <BeforeAfterGrid />

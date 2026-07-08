@@ -1,36 +1,24 @@
-import type { BeforeAfterCase } from "../types/before-after.types";
+import type { BeforeAfterMeta } from "../types/before-after.types";
 
-export const beforeAfterCases: BeforeAfterCase[] = [
+export const beforeAfterMeta: BeforeAfterMeta[] = [
   {
-    id: "case-1",
-    title: "Smile Makeover",
-    treatment: "Ceramic Crowns",
+    key: "case1",
     before: "/images/before-after/case-1-before.webp",
     after: "/images/before-after/case-1-after.webp",
-    country: "USA",
   },
   {
-    id: "case-2",
-    title: "Dental Implant",
-    treatment: "Implant",
+    key: "case2",
     before: "/images/before-after/case-2-before.webp",
     after: "/images/before-after/case-2-after.webp",
-    country: "Australia",
   },
   {
-    id: "case-3",
-    title: "Porcelain Veneers",
-    treatment: "Veneers",
+    key: "case3",
     before: "/images/before-after/case-3-before.webp",
     after: "/images/before-after/case-3-after.webp",
-    country: "France",
   },
   {
-    id: "case-4",
-    title: "Smile Design",
-    treatment: "Smile Makeover",
+    key: "case4",
     before: "/images/before-after/case-4-before.webp",
     after: "/images/before-after/case-4-after.webp",
-    country: "Hmong",
   },
 ];
