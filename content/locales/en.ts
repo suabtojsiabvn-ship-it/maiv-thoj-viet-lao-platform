@@ -10,15 +10,15 @@ export const enDictionary: LocaleDictionary = {
 
 hero: {
   badge:
-    "Your Trusted Bridge to World-Class Dental Care in Vietnam",
+    "Trusted Dental Concierge for International Patients",
 
   title: {
-    line1: "You don't have to",
-    line2: "travel to Vietnam alone",
+    line1: "Your Smile Journey",
+    line2: "Starts With People You Can Trust",
   },
 
   subtitle:
-    "Maiv Thoj, A Su and Dr. Toan Nguyen will personally guide you from your first conversation through your treatment in Vietnam until you return home with a confident new smile. You are not simply choosing a dental clinic—you are choosing a trusted team that will care for you every step of the way.",
+    "More than a dental clinic, we are a team that personally guides you through every step of your journey. Maiv Thoj helps you make informed decisions, A Su welcomes and supports you in Vietnam, and Dr. Toan Nguyen delivers world-class dental care with over 12 years of clinical experience.",
 
   actions: {
     primary: "Talk with Maiv Thoj",
@@ -27,214 +27,255 @@ hero: {
 
   highlights: {
     consultation: {
-      title: "Personal guidance from Maiv Thoj",
+      title: "Real People. Real Guidance.",
       description:
-        "Discuss your needs and receive a personalized treatment journey before you travel.",
+        "Speak directly with Maiv Thoj or A Su before making any decision. Ask questions, share your concerns and receive honest advice.",
     },
 
     airportPickup: {
-      title: "A Su will welcome you in Vietnam",
+      title: "From Airport to Hotel",
       description:
-        "Airport pickup, interpretation and personal support throughout your stay.",
+        "Private airport pickup, transportation, translation and personal support throughout your stay in Vietnam.",
     },
 
     multilingualSupport: {
-      title: "Multilingual support",
+      title: "Speak Your Language",
       description:
-        "We speak Hmong, Vietnamese, English, Lao and Thai so you always feel comfortable.",
+        "Support available in H'Mong, English, Vietnamese, Lao and Thai so you always feel understood.",
     },
 
     clinicalPartner: {
-      title: "Dr. Toan Nguyen treats you personally",
+      title: "Clinical Excellence",
       description:
-        "Over 12 years of experience in aesthetic dentistry, veneers and dental implants.",
+        "Dr. Toan Nguyen personally plans and performs your treatment using modern digital dentistry and internationally recognized materials.",
     },
   },
 
   stats: {
-    facebookCommunity: "454K Facebook Community",
-    tiktokCommunity: "1.3M TikTok Community",
-    languagesSupported: "5 Supported Languages",
+    facebookCommunity: "454K Facebook Followers",
+    tiktokCommunity: "1.3M TikTok Followers",
+    languagesSupported: "5 Languages Supported",
   },
 },
 
   founder: {
-    sectionLabel: "Founder",
-    title: "A trusted guide for your journey",
-    description:
-      "Our founder helps international patients feel supported before, during and after treatment in Vietnam.",
-    badge: "Founder • Senior Patient Advisor",
-    heading: "Meet the Person Behind Your Journey",
-    intro:
-      "The first step toward a confident smile begins with someone you can truly trust.",
-    story: [
-      "Choosing dental treatment in another country can feel overwhelming. Questions about language, travel, accommodation and finding a trustworthy clinic often stop people from taking the first step.",
-      "That is why Maiv Thoj founded Maiv Thoj Viet Lao. Her role is not simply to recommend a clinic, but to understand every patient's needs, explain treatment options honestly and help each person make informed decisions with confidence.",
-      "Together with A Sử, your dedicated Patient Care Coordinator, and An Nhien Dental, our trusted clinical partner, every patient receives personal support from the first consultation until safely returning home.",
-    ],
-    quote:
-      "Every patient deserves honest guidance, trusted care and a journey that feels safe from beginning to end.",
-    cta: {
-      label: "Start Your Journey",
-    },
-    values: [
-      {
-        title: "Honest Consultation",
-        description:
-          "Clear and transparent advice before you decide to travel.",
-      },
-      {
-        title: "Travel Coordination",
-        description:
-          "Airport pickup, transportation and accommodation support throughout your journey.",
-      },
-      {
-        title: "Personalized Planning",
-        description:
-          "Every treatment plan is tailored to your personal needs and schedule.",
-      },
-      {
-        title: "Compassionate Care",
-        description:
-          "Friendly guidance and continuous support from consultation to recovery.",
-      },
-    ],
+  sectionLabel: "Meet Maiv Thoj",
+
+  title: "The Trusted Bridge Between the H'Mong Community and An Nhien Dental",
+
+  description:
+    "Maiv Thoj is not a dentist. She is the trusted person thousands of H'Mong families already know. Her role is to help you understand your options, answer your questions honestly and connect you with the right dental team in Vietnam.",
+
+  badge: "COMMUNITY BRIDGE",
+
+  heading: "Start With Someone You Already Trust",
+
+  intro:
+    "Traveling abroad for dental treatment is a big decision. Before choosing a clinic, most people simply want someone they can trust. That's where your journey begins.",
+
+  story: [
+    "For years, Maiv Thoj has built genuine trust within the international H'Mong community through openness, authenticity and meaningful relationships.",
+
+    "When someone asks about dental treatment in Vietnam, her first priority is never selling a service. It is understanding your concerns, explaining your options honestly and helping you decide what is truly right for you.",
+
+    "Once you are ready, she personally introduces you to the team at An Nhien Dental, where A Su will take care of your journey in Vietnam and Dr. Toan Nguyen will personally provide your treatment.",
+
+    "From your very first message until you safely return home, you will always know exactly who is taking care of you.",
+  ],
+
+  quote:
+    "Trust is never built through advertising. It is built through people who genuinely care about your journey.",
+
+  cta: {
+    label: "Talk with Maiv Thoj",
   },
+
+  values: [
+    {
+      title: "Trusted by the Community",
+      description:
+        "Known by thousands of H'Mong families around the world.",
+    },
+    {
+      title: "Honest Guidance",
+      description:
+        "Clear recommendations without pressure or unnecessary treatment.",
+    },
+    {
+      title: "Personal Connection",
+      description:
+        "Direct communication before, during and after your journey.",
+    },
+    {
+      title: "A Bridge to Vietnam",
+      description:
+        "Connecting international patients with trusted dental care and local support.",
+    },
+  ],
+},
 
   coordinator: {
-    sectionLabel: "Patient Coordinator",
-    title: "Personal support from arrival to return",
-    description:
-      "Your coordinator supports airport pickup, clinic visits, translation, transport and daily assistance.",
-    badge: "PATIENT CARE COORDINATOR",
-    heading: "Your Personal Coordinator in Vietnam",
-    intro:
-      "From the moment you arrive in Vietnam until your treatment is complete, A Sử personally coordinates every detail so you can travel with confidence.",
-    story: [
-      "Traveling abroad for dental treatment can feel overwhelming. Transportation, accommodation and language barriers often become the biggest concerns.",
-      "A Sử takes care of every practical detail throughout your journey, making sure everything runs smoothly from your arrival to your return home.",
-      "Whether welcoming you at the airport, arranging transportation, assisting with translation or coordinating appointments, his goal is simple: help you focus on your smile while we take care of everything else.",
-    ],
-    quote:
-      "When you arrive in Vietnam, you're not arriving alone.",
-    cta: {
-      label: "Start Your Journey",
-    },
-    services: [
-      {
-        title: "Airport Pickup",
-        description:
-          "Personal airport pickup and warm welcome upon arrival.",
-      },
-      {
-        title: "Private Transportation",
-        description:
-          "Comfortable transportation throughout your treatment journey.",
-      },
-      {
-        title: "Translation Support",
-        description:
-          "Clear communication between patients and the dental team.",
-      },
-      {
-        title: "Daily Coordination",
-        description:
-          "Appointment scheduling and day-to-day support during your stay.",
-      },
-    ],
+  sectionLabel: "Meet A Su",
+
+  title: "Your Personal Companion in Vietnam",
+
+  description:
+    "From the moment you arrive until the day you return home, A Su stays by your side to make every part of your journey simple, comfortable and worry-free.",
+
+  badge: "YOUR PERSONAL COMPANION",
+
+  heading: "You Will Never Feel Alone in Vietnam",
+
+  intro:
+    "Traveling to another country for dental treatment can feel intimidating. Different language, unfamiliar places and uncertainty often create unnecessary stress. A Su is here to change that experience completely.",
+
+  story: [
+    "Before you travel, A Su helps you prepare your itinerary and answers practical questions about your trip to Vietnam.",
+
+    "When you arrive, he personally welcomes you at the airport, arranges transportation and makes sure you settle in comfortably before your appointment.",
+
+    "Throughout your treatment, he helps with communication, transportation, scheduling and any support you may need, allowing you to focus entirely on your health and recovery.",
+
+    "By the time you return home, you won't remember A Su as a driver or coordinator. You'll remember him as the person who made Vietnam feel familiar.",
+  ],
+
+  quote:
+    "Great dental care begins long before you sit in the dental chair.",
+
+  cta: {
+    label: "Talk with A Su",
   },
+
+  services: [
+    {
+      title: "Airport Welcome",
+      description:
+        "Personal pickup and warm welcome from the moment you land in Vietnam.",
+    },
+    {
+      title: "Private Transportation",
+      description:
+        "Comfortable transportation between the airport, hotel and dental clinic.",
+    },
+    {
+      title: "Language Support",
+      description:
+        "Helping patients communicate comfortably throughout their treatment journey.",
+    },
+    {
+      title: "Personal Assistance",
+      description:
+        "Daily support, appointment coordination and practical help whenever you need it.",
+    },
+  ],
+},
 
   clinicalPartner: {
-    sectionLabel: "Clinical Partner",
-    title: "Trusted dental care in Vietnam",
-    description:
-      "Our clinical partner provides examination, diagnosis, treatment planning and dental care.",
-    badge: "CLINICAL PARTNER",
-    heading: "Trusted Clinical Excellence",
-    intro:
-      "Exceptional dental care begins with an experienced clinical team, modern technology and a commitment to personalized treatment.",
-    quote:
-      "Excellence begins with trust and is delivered through precision.",
-    cta: {
-      label: "Meet Our Clinical Partner",
-    },
-    highlights: [
-      {
-        title: "Experienced Dental Team",
-        description:
-          "Dedicated professionals committed to safe and predictable treatment.",
-      },
-      {
-        title: "Modern Digital Technology",
-        description:
-          "Advanced equipment supporting accurate diagnosis and treatment.",
-      },
-      {
-        title: "Personalized Treatment",
-        description:
-          "Every treatment plan is tailored to the patient's needs.",
-      },
-      {
-        title: "International Standards",
-        description:
-          "High standards of safety, hygiene and patient care.",
-      },
-    ],
-    technologies: [
-      {
-        name: "CBCT 3D Imaging",
-        description:
-          "Detailed diagnostics for precise treatment planning.",
-      },
-      {
-        name: "Digital Intraoral Scanner",
-        description:
-          "Comfortable and accurate digital impressions.",
-      },
-      {
-        name: "CAD/CAM Technology",
-        description:
-          "Precision-crafted restorations with digital workflows.",
-      },
-      {
-        name: "Modern Sterilization",
-        description:
-          "Strict infection control following international standards.",
-      },
-    ],
+  sectionLabel: "Meet Dr. Toan Nguyen",
+
+  title: "Clinical Excellence You Can Trust",
+
+  description:
+    "Your treatment is personally planned and performed by Dr. Toan Nguyen, an experienced cosmetic and implant dentist with more than 12 years of clinical practice.",
+
+  badge: "CLINICAL PARTNER",
+
+  heading: "The Dentist Behind Every Smile",
+
+  intro:
+    "Behind every successful smile is more than modern technology. It takes experience, careful planning and a dentist who treats every patient with precision and genuine care.",
+
+  
+
+  quote:
+    "Every smile deserves a treatment plan designed with precision, honesty and long-term care.",
+
+  cta: {
+    label: "Meet Dr. Toan Nguyen",
   },
 
-  treatments: {
-    sectionLabel: "Treatments",
-    title: "Dental treatments for your smile journey",
-    description:
-      "Explore implant, crown, veneer and smile makeover options with trusted clinical support.",
-    items: {
-      implant: {
-        title: "Dental Implants",
-        description:
-          "Restore missing teeth with long-lasting implant solutions.",
-      },
-      crowns: {
-        title: "Porcelain Crowns",
-        description:
-          "Premium ceramic crowns including Cercon, Lava Plus, Nacera and HT Smile.",
-      },
-      veneers: {
-        title: "Porcelain Veneers",
-        description:
-          "Create a natural, confident smile with ultra-thin veneers.",
-      },
-      smileMakeover: {
-        title: "Smile Makeover",
-        description:
-          "A personalized combination of treatments designed just for you.",
-      },
+  highlights: [
+    {
+      title: "12+ Years of Experience",
+      description:
+        "Extensive experience in cosmetic dentistry, porcelain restorations and dental implants.",
     },
-    cta: {
-      learnMore: "Learn More",
+    {
+      title: "Personally Treated by Dr. Toan",
+      description:
+        "Your consultation, planning and treatment are personally handled by Dr. Toan Nguyen.",
+    },
+    {
+      title: "Digital Precision",
+      description:
+        "Modern digital workflows support accurate diagnosis and predictable treatment outcomes.",
+    },
+    {
+      title: "International Patient Care",
+      description:
+        "Working alongside Maiv Thoj and A Su to provide a seamless experience for international patients.",
+    },
+  ],
+
+  technologies: [
+    {
+      name: "CBCT 3D Imaging",
+      description:
+        "High-resolution 3D imaging for accurate diagnosis and implant planning.",
+    },
+    {
+      name: "Digital Intraoral Scanner",
+      description:
+        "Comfortable, impression-free digital scanning with exceptional accuracy.",
+    },
+    {
+      name: "CAD/CAM Digital Workflow",
+      description:
+        "Precision-designed restorations with consistent quality and natural aesthetics.",
+    },
+    {
+      name: "International-Grade Sterilization",
+      description:
+        "Strict infection control protocols to ensure a safe clinical environment.",
+    },
+  ],
+},
+
+  treatments: {
+  sectionLabel: "Treatment Options",
+
+  title: "What Would You Like to Change About Your Smile?",
+
+  description:
+    "Instead of starting with a dental procedure, we begin with your concern: missing teeth, an aging smile, worn teeth, or the confidence to smile freely again.",
+
+  items: {
+    implant: {
+      title: "I Have Missing Teeth or Difficulty Chewing",
+      description:
+        "Dental implants help restore missing teeth, improve chewing comfort and create a strong foundation for long-term oral health.",
+    },
+    crowns: {
+      title: "I Want a Brighter, More Even Smile",
+      description:
+        "Premium ceramic crowns can improve tooth color, shape, alignment and overall smile harmony.",
+    },
+    veneers: {
+      title: "I Want a Natural Smile With Minimal Tooth Reduction",
+      description:
+        "Porcelain veneers are designed to enhance the color and shape of your teeth while preserving as much natural structure as possible.",
+    },
+    smileMakeover: {
+      title: "I Want a Complete Smile Transformation",
+      description:
+        "A smile makeover combines multiple treatment options into one personalized plan designed around your face, goals and dental condition.",
     },
   },
+
+  cta: {
+    learnMore: "See Your Options",
+  },
+},
 
   beforeAfter: {
     sectionLabel: "Before & After",
@@ -270,124 +311,158 @@ hero: {
   },
 
   journey: {
-    sectionLabel: "Patient Journey",
-    title: "A guided journey from consultation to return",
-    description:
-      "We coordinate each step so international patients feel safe, informed and supported.",
-    badge: "YOUR DENTAL JOURNEY",
-    heading: "A Simple Journey,\nFrom Home to Your New Smile",
-    intro:
-      "From your first consultation to your return home, we coordinate every step to make your dental journey simple, comfortable and worry-free.",
-    steps: {
-      consultation: {
-        title: "Free Consultation",
-        description:
-          "Share your dental concerns and receive an initial assessment from our team.",
-      },
-      plan: {
-        title: "Personalized Treatment Plan",
-        description:
-          "Receive a tailored treatment plan with estimated costs and travel recommendations.",
-      },
-      travel: {
-        title: "Travel Preparation",
-        description:
-          "We help you prepare for your trip, including scheduling and travel guidance.",
-      },
-      pickup: {
-        title: "Airport Pickup",
-        description:
-          "Our Patient Coordinator welcomes you at the airport and accompanies you throughout your stay.",
-      },
-      treatment: {
-        title: "Dental Treatment",
-        description:
-          "Receive high-quality care from our trusted clinical partner using modern technology.",
-      },
-      recovery: {
-        title: "Recovery & Follow-up",
-        description:
-          "We continue supporting you during recovery and provide post-treatment guidance.",
-      },
-      return: {
-        title: "Return Home",
-        description:
-          "Travel home with confidence, knowing our team remains available for continued support.",
-      },
+  sectionLabel: "Your Journey",
+
+  title: "From Your First Message to Your Journey Home",
+
+  description:
+    "A clear, fully supported dental journey designed for international patients who want trusted care without having to figure everything out alone.",
+
+  badge: "YOUR GUIDED JOURNEY",
+
+  heading: "Every Step Is Planned Before You Travel",
+
+  intro:
+    "You do not need to search for clinics, arrange transportation or worry about translation on your own. Maiv Thoj, A Su and Dr. Toan Nguyen work together to make your dental journey in Vietnam simple, safe and well supported.",
+
+  steps: {
+    consultation: {
+      title: "Before You Decide",
+      description:
+        "Speak with Maiv Thoj or A Su, share your dental concerns and ask anything you need before making a decision.",
     },
-    cta: {
-      label: "Start Your Journey Today",
+    plan: {
+      title: "Your Plan Is Prepared",
+      description:
+        "Our team helps you understand your treatment options, estimated timeline, expected costs and travel schedule before you come to Vietnam.",
+    },
+    travel: {
+      title: "Before You Travel",
+      description:
+        "A Su helps you prepare your itinerary, arrival time, transportation and important details for a smooth trip.",
+    },
+    pickup: {
+      title: "When You Arrive in Vietnam",
+      description:
+        "A Su welcomes you at the airport, assists with transportation and helps you settle in comfortably.",
+    },
+    treatment: {
+      title: "During Your Treatment",
+      description:
+        "Dr. Toan Nguyen personally examines, explains and performs your treatment based on your actual dental condition.",
+    },
+    recovery: {
+      title: "During Your Stay",
+      description:
+        "A Su continues to support translation, transportation, follow-up appointments and daily needs throughout your stay.",
+    },
+    return: {
+      title: "When You Return Home",
+      description:
+        "You return home with a new smile, renewed confidence and continued support from our team when needed.",
     },
   },
 
+  cta: {
+    label: "Start Planning Your Journey",
+  },
+},
   booking: {
-    sectionLabel: "Booking",
-    title: "Start your consultation",
-    description:
-      "Share your needs and our team will contact you to guide the next steps.",
-    badge: "FREE CONSULTATION",
-    heading: "Start Your Smile Journey Today",
-    intro:
-      "Complete the form below and our team will contact you with a personalized treatment plan and travel guidance.",
-    benefits: {
-      consultation: {
-        title: "Free Consultation",
-        description:
-          "Discuss your dental needs with no obligation.",
-      },
-      plan: {
-        title: "Personalized Treatment Plan",
-        description:
-          "Receive a customized treatment recommendation and estimated costs.",
-      },
-      travel: {
-        title: "Travel Assistance",
-        description:
-          "We help arrange your journey from arrival to departure.",
-      },
-      coordinator: {
-        title: "Dedicated Coordinator",
-        description:
-          "A personal coordinator supports you throughout your dental trip.",
-      },
+  sectionLabel: "Start Your Journey",
+
+  title: "Let's Start With a Conversation",
+
+  description:
+    "You don't have to make a decision today. Tell us about your smile, your concerns and your goals. We'll help you understand your options before you plan your trip to Vietnam.",
+
+  badge: "FREE PERSONAL CONSULTATION",
+
+  heading: "Tell Us About Your Smile",
+
+  intro:
+    "Every smile is different. After receiving your information, Maiv Thoj or A Su will personally contact you to discuss your needs, answer your questions and help you prepare the right treatment journey.",
+
+  benefits: {
+    consultation: {
+      title: "No Pressure",
+      description:
+        "Ask questions, explore your options and decide only when you feel completely confident.",
     },
-    fields: {
-      fullName: "Full Name",
-      fullNamePlaceholder: "Your name",
-      country: "Country",
-      countryPlaceholder: "Your country",
-      preferredLanguage: "Preferred Language",
-      whatsapp: "WhatsApp",
-      whatsappPlaceholder: "+84...",
-      email: "Email",
-      emailPlaceholder: "you@example.com",
-      treatment: "Treatment",
-      selectTreatment: "Select treatment",
-      travelDate: "Preferred Travel Date",
-      message: "Message",
-      messagePlaceholder: "Tell us about your dental needs...",
+
+    plan: {
+      title: "Personalized Recommendations",
+      description:
+        "Every treatment recommendation is based on your dental condition, your goals and your expectations.",
     },
-    treatments: {
-      implant: "Dental Implant",
-      smileMakeover: "Smile Makeover",
-      crowns: "Dental Crowns",
-      veneers: "Veneers",
-      consultation: "General Consultation",
+
+    travel: {
+      title: "Travel Planning Included",
+      description:
+        "We'll help you understand your travel schedule, airport pickup, accommodation and treatment timeline before you book your flight.",
     },
-    languages: {
-      en: "English",
-      vi: "Vietnamese",
-      lo: "Lao",
-      hmn: "H'Mông",
-      th: "Thai",
-    },
-    cta: {
-      submit: "Request Free Consultation",
-      submitting: "Sending...",
-      privacy:
-        "Your personal information is kept private and used only to arrange your consultation.",
+
+    coordinator: {
+      title: "Real People, Real Support",
+      description:
+        "Maiv Thoj, A Su and Dr. Toan Nguyen work together to support you before, during and after your journey.",
     },
   },
+
+  fields: {
+    fullName: "Full Name",
+    fullNamePlaceholder: "Enter your full name",
+
+    country: "Country",
+    countryPlaceholder: "Where are you currently living?",
+
+    preferredLanguage: "Preferred Language",
+
+    whatsapp: "WhatsApp",
+    whatsappPlaceholder: "Your WhatsApp number",
+
+    email: "Email",
+    emailPlaceholder: "Your email address",
+
+    treatment: "What would you like help with?",
+    selectTreatment: "Choose your main concern",
+
+    travelDate: "When are you planning to visit Vietnam?",
+
+    message: "Tell us about your smile",
+
+    messagePlaceholder:
+      "For example: missing teeth, smile improvement, veneers, implants, travel plans or anything you'd like us to know before we contact you.",
+  },
+
+  treatments: {
+    implant: "Missing Teeth / Dental Implants",
+
+    smileMakeover: "Complete Smile Makeover",
+
+    crowns: "Ceramic Crowns",
+
+    veneers: "Porcelain Veneers",
+
+    consultation: "I'm Not Sure Yet — I Need Advice",
+  },
+
+  languages: {
+    en: "English",
+    hmn: "H'Mong",
+    lo: "Lao",
+    th: "Thai",
+    vi: "Vietnamese",
+  },
+
+  cta: {
+    submit: "Talk with Our Team",
+
+    submitting: "Sending Your Request...",
+
+    privacy:
+      "Your information is kept completely private and will only be used by Maiv Thoj, A Su or our care team to contact you regarding your consultation.",
+  },
+},
 
   footer: {
     description:
