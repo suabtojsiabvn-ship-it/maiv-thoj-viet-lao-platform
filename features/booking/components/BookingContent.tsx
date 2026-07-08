@@ -1,17 +1,21 @@
+"use client";
+
 import { SectionHeader } from "@/components/shared";
 
-import { bookingContent } from "../data/booking-content";
+import { useBooking } from "../hooks/useBooking";
 
 import { BookingBenefits } from "./BookingBenefits";
 import { BookingForm } from "./BookingForm";
 
 export function BookingContent() {
+  const { booking } = useBooking();
+
   return (
     <>
       <SectionHeader
-        badge={bookingContent.badge}
-        title={bookingContent.heading}
-        description={bookingContent.intro}
+        badge={booking.badge}
+        title={booking.heading}
+        description={booking.intro}
         align="center"
       />
 

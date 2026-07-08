@@ -1,3 +1,5 @@
+"use client";
+
 import {
   ClipboardList,
   MessageCircle,
@@ -7,7 +9,7 @@ import {
 
 import { FeatureCard } from "@/components/shared";
 
-import { bookingContent } from "../data/booking-content";
+import { useBooking } from "../hooks/useBooking";
 import type { BookingBenefitIcon } from "../types/booking.types";
 
 const iconMap: Record<
@@ -21,9 +23,11 @@ const iconMap: Record<
 };
 
 export function BookingBenefits() {
+  const { booking } = useBooking();
+
   return (
     <div className="grid gap-6">
-      {bookingContent.benefits.map((benefit) => {
+      {booking.benefits.map((benefit) => {
         const Icon = iconMap[benefit.icon];
 
         return (
