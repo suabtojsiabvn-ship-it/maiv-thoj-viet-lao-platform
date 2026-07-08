@@ -18,14 +18,14 @@ export function PatientStoryCard({
       <div className="relative aspect-video overflow-hidden">
         <Image
           src={story.thumbnail}
-          alt={`${story.patient} testimonial`}
+          alt={`${story.patient} real dental journey`}
           fill
           priority={story.featured}
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           className="object-cover transition-transform duration-700 group-hover:scale-105"
         />
 
-        <div className="absolute inset-0 flex items-center justify-center bg-black/30 transition-colors duration-500 group-hover:bg-black/20">
+        <div className="absolute inset-0 flex items-center justify-center bg-black/35 transition-colors duration-500 group-hover:bg-black/20">
           <PlayCircle
             aria-hidden="true"
             size={72}
@@ -33,7 +33,11 @@ export function PatientStoryCard({
           />
         </div>
 
-        <div className="absolute bottom-4 right-4 rounded-full bg-black/80 px-3 py-1 text-sm font-semibold text-white backdrop-blur">
+        <div className="absolute left-4 top-4 rounded-full bg-black/80 px-3 py-1 text-xs font-semibold text-white backdrop-blur">
+          {story.country}
+        </div>
+
+        <div className="absolute bottom-4 right-4 rounded-full bg-cyan-500 px-3 py-1 text-sm font-semibold text-slate-950">
           {story.completedIn}
         </div>
       </div>
@@ -41,35 +45,32 @@ export function PatientStoryCard({
       <div className="p-8">
         <div className="flex flex-wrap items-center gap-2">
           <span className="rounded-full bg-cyan-500/10 px-3 py-1 text-xs font-medium text-cyan-300">
-            {story.country}
-          </span>
-
-          <span className="rounded-full border border-slate-700 px-3 py-1 text-xs font-medium text-slate-300">
             {story.treatment}
           </span>
+
+          {story.language && (
+            <span className="rounded-full border border-emerald-500/30 bg-emerald-500/10 px-3 py-1 text-xs font-medium text-emerald-300">
+              {story.language} Support
+            </span>
+          )}
         </div>
 
         <h3 className="mt-5 text-2xl font-bold text-white">
           {story.patient}
         </h3>
 
-        {story.doctor && (
-          <p className="mt-2 text-sm text-slate-400">
-            Treated by{" "}
-            <span className="font-medium text-cyan-300">
-              {story.doctor}
-            </span>
-          </p>
-        )}
+        <blockquote className="mt-6 border-l-2 border-cyan-500 pl-4 italic leading-8 text-slate-300">
+          “{story.quote}”
+        </blockquote>
 
-        <div className="mt-5 flex flex-wrap gap-2">
-          <span className="rounded-full bg-cyan-500/10 px-3 py-1 text-xs font-medium text-cyan-300">
+        <div className="mt-6 flex flex-wrap gap-2">
+          <span className="rounded-full bg-white/5 px-3 py-1 text-xs font-medium text-slate-300">
             {story.material}
           </span>
 
-          {story.language && (
-            <span className="rounded-full bg-emerald-500/10 px-3 py-1 text-xs font-medium text-emerald-300">
-              {story.language}
+          {story.doctor && (
+            <span className="rounded-full bg-white/5 px-3 py-1 text-xs font-medium text-slate-300">
+              Treated by {story.doctor}
             </span>
           )}
         </div>
@@ -81,18 +82,14 @@ export function PatientStoryCard({
           {"★".repeat(story.rating)}
         </div>
 
-        <blockquote className="mt-6 border-l-2 border-cyan-500 pl-4 italic leading-8 text-slate-300">
-          “{story.quote}”
-        </blockquote>
-
         <Link
           href={story.videoUrl}
-          aria-label={`Watch story of ${story.patient}`}
+          aria-label={`Watch real journey of ${story.patient}`}
           target="_blank"
           rel="noopener noreferrer"
           className="mt-8 inline-flex items-center gap-2 font-semibold text-cyan-400 transition-colors hover:text-cyan-300"
         >
-          Watch Story
+          Watch Real Journey
 
           <ExternalLink
             size={18}

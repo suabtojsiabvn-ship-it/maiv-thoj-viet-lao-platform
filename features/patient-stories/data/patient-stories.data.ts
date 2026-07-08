@@ -4,13 +4,13 @@ export const patientStories: PatientStory[] = [
   {
     id: "story-1",
 
-    patient: "Patient from California",
+    patient: "H'Mong Family • California",
 
     country: "🇺🇸 USA",
 
-    treatment: "Smile Makeover",
+    treatment: "Full Smile Makeover",
 
-    material: "Cercon Crowns",
+    material: "Cercon HT",
 
     completedIn: "5 Days",
 
@@ -24,32 +24,32 @@ export const patientStories: PatientStory[] = [
 
     doctor: "Dr. Toan Nguyen",
 
-    language: "English",
+    language: "H'Mong",
 
     featured: true,
 
-    slug: "smile-makeover-california",
+    slug: "hmong-family-california",
 
     seoTitle:
-      "Smile Makeover for Patient from California",
+      "Smile Makeover Journey | H'Mong Family from California",
 
     seoDescription:
-      "Real smile makeover journey from a patient in California.",
+      "Real smile makeover journey with Maiv Thoj, A Su and Dr. Toan Nguyen.",
 
     quote:
-      "I finally have the confidence to smile again.",
+      "From the first conversation with Maiv Thoj until the day I returned home, I never felt alone. Everything was prepared for me.",
   },
 
   {
     id: "story-2",
 
-    patient: "Patient from Australia",
+    patient: "Patient • Sydney",
 
     country: "🇦🇺 Australia",
 
     treatment: "Dental Implant",
 
-    material: "Straumann Implant",
+    material: "Straumann Roxolid",
 
     completedIn: "6 Days",
 
@@ -67,22 +67,22 @@ export const patientStories: PatientStory[] = [
 
     featured: false,
 
-    slug: "implant-australia",
+    slug: "implant-sydney",
 
     seoTitle:
-      "Dental Implant Journey from Australia",
+      "Dental Implant Journey | Australian Patient",
 
     seoDescription:
-      "Implant treatment experience in Vietnam.",
+      "Complete implant journey in Vietnam with airport pickup and English support.",
 
     quote:
-      "Everything was easier than I expected.",
+      "A Su met me at the airport, explained everything and stayed with me throughout the journey. It felt much easier than I expected.",
   },
 
   {
     id: "story-3",
 
-    patient: "Hmong Patient",
+    patient: "H'Mong Community • USA",
 
     country: "🇺🇸 USA",
 
@@ -102,19 +102,19 @@ export const patientStories: PatientStory[] = [
 
     doctor: "Dr. Toan Nguyen",
 
-    language: "Hmong",
+    language: "H'Mong",
 
     featured: false,
 
-    slug: "hmong-ceramic-crowns",
+    slug: "hmong-lava-plus",
 
     seoTitle:
-      "Ceramic Crowns for Hmong Patient",
+      "Premium Ceramic Crowns | H'Mong Patient",
 
     seoDescription:
-      "Premium ceramic crowns with Hmong support.",
+      "Premium ceramic crown treatment with full H'Mong support in Vietnam.",
 
     quote:
-      "Speaking Hmong made me feel completely at home.",
+      "Being able to speak H'Mong with Maiv Thoj and A Su made me feel comfortable from the very beginning.",
   },
 ];
