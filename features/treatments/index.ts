@@ -1,1 +1,2 @@
-export { Treatments } from "./components/Treatments";
+// features/treatments/index.ts
+export { Treatments } from "./Treatments";

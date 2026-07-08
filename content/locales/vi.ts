@@ -8,201 +8,216 @@ export const viDictionary: LocaleDictionary = {
     secondaryCta: "Tư vấn miễn phí",
   },
 
-  hero: {
-    badge: "Du lịch nha khoa & điều phối y tế đáng tin cậy",
+ hero: {
+  badge:
+    "Cầu nối đáng tin cậy giữa cộng đồng H'Mông và nha khoa chất lượng tại Việt Nam",
 
-    title: {
-      line1: "Người đồng hành tin cậy",
-      line2: "cho hành trình nha khoa tại Việt Nam",
+  title: {
+    line1: "Bạn không cần",
+    line2: "đến Việt Nam một mình",
+  },
+
+  subtitle:
+    "Maiv Thoj, A Sử và Bác sĩ Toàn Nguyễn sẽ đồng hành cùng bạn từ cuộc trò chuyện đầu tiên, trong suốt quá trình điều trị tại Việt Nam cho đến khi bạn trở về với nụ cười mới. Không chỉ là điều trị nha khoa, chúng tôi mang đến cho bạn một hành trình an tâm với đội ngũ thật luôn ở bên bạn.",
+
+  actions: {
+    primary: "Nói chuyện với Maiv Thoj",
+    secondary: "Trao đổi với A Sử",
+  },
+
+  highlights: {
+    consultation: {
+      title: "Maiv Thoj trực tiếp tư vấn",
+      description:
+        "Lắng nghe nhu cầu và giúp bạn chuẩn bị hành trình trước khi đến Việt Nam.",
     },
 
-    subtitle:
-      "Từ lần tư vấn đầu tiên tại Lào cho đến khi bạn trở về an toàn, Maiv Thoj Viet Lao và đội ngũ tin cậy sẽ đồng hành cùng bạn trong từng bước của hành trình nha khoa tại Việt Nam. Chúng tôi hỗ trợ điều phối điều trị, đi lại, lưu trú, đón sân bay và chăm sóc sau điều trị để bạn yên tâm tập trung vào nụ cười của mình.",
-
-    actions: {
-      primary: "Bắt đầu hành trình",
-      secondary: "Tư vấn miễn phí",
+    airportPickup: {
+      title: "A Sử đồng hành tại Việt Nam",
+      description:
+        "Đón sân bay, phiên dịch và hỗ trợ bạn trong suốt thời gian điều trị và du lịch.",
     },
 
-    highlights: {
-      consultation: {
-        title: "Tư vấn cá nhân",
-        description:
-          "Nhận tư vấn trung thực và kế hoạch điều trị phù hợp trước khi bạn di chuyển.",
-      },
-
-      airportPickup: {
-        title: "Đón sân bay",
-        description:
-          "Dịch vụ đón sân bay riêng và hỗ trợ di chuyển trong suốt hành trình điều trị.",
-      },
-
-      multilingualSupport: {
-        title: "Hỗ trợ đa ngôn ngữ",
-        description:
-          "Hỗ trợ thân thiện bằng tiếng Anh, tiếng Việt, tiếng Lào, tiếng H'Mông và tiếng Thái.",
-      },
-
-      clinicalPartner: {
-        title: "Đối tác lâm sàng tin cậy",
-        description:
-          "Dịch vụ nha khoa chất lượng cao từ đối tác lâm sàng giàu kinh nghiệm tại Việt Nam.",
-      },
+    multilingualSupport: {
+      title: "Hỗ trợ đa ngôn ngữ",
+      description:
+        "Giao tiếp bằng H'Mông, Việt, Anh, Lào và Thái để bạn luôn cảm thấy dễ dàng.",
     },
 
-    stats: {
-      facebookCommunity: "Cộng đồng Facebook",
-      tiktokCommunity: "Cộng đồng TikTok",
-      languagesSupported: "Ngôn ngữ hỗ trợ",
+    clinicalPartner: {
+      title: "Bác sĩ Toàn Nguyễn trực tiếp điều trị",
+      description:
+        "Hơn 12 năm kinh nghiệm về răng sứ thẩm mỹ, veneer và cấy ghép implant.",
     },
   },
 
-  founder: {
-    sectionLabel: "Người sáng lập",
-    title: "Người đồng hành đáng tin cậy cho hành trình của bạn",
-    description:
-      "Người sáng lập hỗ trợ khách hàng quốc tế trước, trong và sau quá trình điều trị tại Việt Nam.",
-    badge: "Người sáng lập • Cố vấn khách hàng",
-    heading: "Gặp người đứng sau hành trình của bạn",
-    intro:
-      "Bước đầu tiên để có một nụ cười tự tin bắt đầu từ một người mà bạn có thể thật sự tin tưởng.",
-    story: [
-      "Lựa chọn điều trị nha khoa ở một quốc gia khác có thể khiến nhiều người lo lắng. Những câu hỏi về ngôn ngữ, di chuyển, lưu trú và việc tìm một phòng khám đáng tin cậy thường khiến khách hàng chần chừ trước bước đầu tiên.",
-      "Đó là lý do Maiv Thoj thành lập Maiv Thoj Viet Lao. Vai trò của cô không chỉ là giới thiệu phòng khám, mà còn là lắng nghe nhu cầu của từng khách hàng, giải thích lựa chọn điều trị một cách trung thực và giúp mỗi người đưa ra quyết định tự tin hơn.",
-      "Cùng với A Sử, điều phối viên chăm sóc khách hàng tận tâm, và An Nhien Dental, đối tác lâm sàng tin cậy, mỗi khách hàng đều được hỗ trợ cá nhân từ lần tư vấn đầu tiên cho đến khi trở về nhà an toàn.",
-    ],
-    quote:
-      "Mỗi khách hàng đều xứng đáng được hướng dẫn trung thực, chăm sóc đáng tin cậy và có một hành trình an toàn từ đầu đến cuối.",
-    cta: {
-      label: "Bắt đầu hành trình",
-    },
-    values: [
-      {
-        title: "Tư vấn trung thực",
-        description:
-          "Lời khuyên rõ ràng và minh bạch trước khi bạn quyết định di chuyển.",
-      },
-      {
-        title: "Điều phối chuyến đi",
-        description:
-          "Hỗ trợ đón sân bay, di chuyển và lưu trú trong suốt hành trình.",
-      },
-      {
-        title: "Lập kế hoạch cá nhân",
-        description:
-          "Mỗi kế hoạch điều trị được điều chỉnh theo nhu cầu và lịch trình riêng của bạn.",
-      },
-      {
-        title: "Chăm sóc tận tâm",
-        description:
-          "Đồng hành thân thiện và hỗ trợ liên tục từ tư vấn đến phục hồi.",
-      },
-    ],
+  stats: {
+    facebookCommunity: "454K+ Facebook",
+    tiktokCommunity: "1.3M+ TikTok",
+    languagesSupported: "5 ngôn ngữ hỗ trợ",
+  },
+},
+
+founder: {
+  sectionLabel: "Gặp Maiv Thoj",
+
+  title: "Người kết nối cộng đồng H'Mông với nha khoa chất lượng tại Việt Nam",
+
+  description:
+    "Maiv Thoj không chỉ giới thiệu dịch vụ nha khoa. Cô là cầu nối giúp cộng đồng H'Mông trên khắp thế giới tiếp cận dịch vụ điều trị đáng tin cậy tại Việt Nam.",
+
+  badge:
+    "THE BRIDGE • CẦU NỐI GIỮA CỘNG ĐỒNG H'MÔNG VÀ AN NHIEN DENTAL",
+
+  heading:
+    "Người đầu tiên sẽ lắng nghe và đồng hành cùng bạn",
+
+  intro:
+    "Trước khi bạn quyết định đến Việt Nam, điều quan trọng nhất không phải là chọn một phòng khám. Điều quan trọng là tìm được một người bạn có thể tin tưởng để chia sẻ, lắng nghe và đồng hành cùng mình.",
+
+  story: [
+    "Trong nhiều năm qua, Maiv Thoj đã đồng hành cùng cộng đồng H'Mông tại nhiều quốc gia thông qua âm nhạc và các hoạt động cộng đồng. Chính sự tin tưởng đó đã giúp cô hiểu rõ những khó khăn của nhiều người khi muốn điều trị nha khoa ở nước ngoài.",
+
+    "Nhiều người muốn có một nụ cười đẹp hơn nhưng vẫn còn băn khoăn về ngôn ngữ, việc đi lại, chi phí và không biết nên tin ai. Đó là lý do Maiv Thoj quyết định trở thành cầu nối giữa cộng đồng H'Mông và An Nhien Dental.",
+
+    "Maiv Thoj trực tiếp lắng nghe nhu cầu của từng khách hàng, giải thích quy trình điều trị một cách rõ ràng và trung thực, đồng thời cùng đội ngũ xây dựng kế hoạch phù hợp trước khi khách đến Việt Nam.",
+
+    "Khi khách hàng bắt đầu hành trình, A Sử sẽ tiếp nhận, đón sân bay, hỗ trợ phiên dịch và đồng hành trong suốt thời gian lưu trú. Bác sĩ Toàn Nguyễn sẽ trực tiếp thăm khám và điều trị. Mỗi người đảm nhận một vai trò khác nhau, nhưng tất cả đều hướng đến cùng một mục tiêu: giúp khách hàng cảm thấy an tâm từ cuộc trò chuyện đầu tiên cho đến khi trở về nhà với nụ cười mới.",
+  ],
+
+  quote:
+    "Niềm tin không đến từ những lời hứa. Niềm tin đến từ việc luôn có người thật đồng hành cùng bạn trong suốt hành trình.",
+
+  cta: {
+    label: "Nói chuyện với Maiv Thoj",
   },
 
-  coordinator: {
-    sectionLabel: "Điều phối viên khách hàng",
-    title: "Hỗ trợ cá nhân từ khi đến đến khi trở về",
-    description:
-      "Điều phối viên hỗ trợ đón sân bay, đi khám, phiên dịch, di chuyển và hỗ trợ hằng ngày.",
-    badge: "ĐIỀU PHỐI VIÊN CHĂM SÓC KHÁCH HÀNG",
-    heading: "Người điều phối riêng của bạn tại Việt Nam",
-    intro:
-      "Từ thời điểm bạn đến Việt Nam cho đến khi hoàn tất điều trị, A Sử trực tiếp điều phối từng chi tiết để bạn có thể di chuyển với sự yên tâm.",
-    story: [
-      "Đi điều trị nha khoa ở nước ngoài có thể khiến nhiều người lo lắng. Di chuyển, lưu trú và rào cản ngôn ngữ thường là những điều khách hàng quan tâm nhất.",
-      "A Sử sẽ hỗ trợ các chi tiết thực tế trong suốt hành trình, đảm bảo mọi việc diễn ra thuận lợi từ khi bạn đến cho đến khi trở về nhà.",
-      "Dù là đón bạn tại sân bay, sắp xếp phương tiện, hỗ trợ phiên dịch hay điều phối lịch hẹn, mục tiêu của anh rất đơn giản: giúp bạn tập trung vào nụ cười của mình, còn mọi việc khác đã có chúng tôi lo.",
-    ],
-    quote:
-      "Khi bạn đến Việt Nam, bạn không đến một mình.",
-    cta: {
-      label: "Bắt đầu hành trình",
+  values: [
+    {
+      title: "Lắng nghe",
+      description:
+        "Lắng nghe câu chuyện và mong muốn của từng khách hàng trước khi đưa ra bất kỳ lời khuyên nào.",
     },
-    services: [
-      {
-        title: "Đón sân bay",
-        description:
-          "Đón sân bay trực tiếp và chào đón bạn khi vừa đến.",
-      },
-      {
-        title: "Di chuyển riêng",
-        description:
-          "Phương tiện di chuyển thoải mái trong suốt hành trình điều trị.",
-      },
-      {
-        title: "Hỗ trợ phiên dịch",
-        description:
-          "Giúp khách hàng và đội ngũ nha khoa giao tiếp rõ ràng.",
-      },
-      {
-        title: "Điều phối hằng ngày",
-        description:
-          "Sắp xếp lịch hẹn và hỗ trợ các việc hằng ngày trong thời gian lưu trú.",
-      },
-    ],
-  },
-
-  clinicalPartner: {
-    sectionLabel: "Đối tác lâm sàng",
-    title: "Chăm sóc nha khoa đáng tin cậy tại Việt Nam",
-    description:
-      "Đối tác lâm sàng hỗ trợ thăm khám, chẩn đoán, lập kế hoạch và điều trị nha khoa.",
-    badge: "ĐỐI TÁC LÂM SÀNG",
-    heading: "Chuyên môn lâm sàng đáng tin cậy",
-    intro:
-      "Chăm sóc nha khoa chất lượng bắt đầu từ đội ngũ lâm sàng giàu kinh nghiệm, công nghệ hiện đại và cam kết điều trị cá nhân hóa.",
-    quote:
-      "Sự xuất sắc bắt đầu từ niềm tin và được thực hiện bằng sự chính xác.",
-    cta: {
-      label: "Gặp đối tác lâm sàng",
+    {
+      title: "Trung thực",
+      description:
+        "Chỉ tư vấn những giải pháp thực sự phù hợp, rõ ràng và minh bạch.",
     },
-    highlights: [
-      {
-        title: "Đội ngũ nha khoa giàu kinh nghiệm",
-        description:
-          "Đội ngũ tận tâm, hướng đến điều trị an toàn và có thể dự đoán kết quả.",
-      },
-      {
-        title: "Công nghệ kỹ thuật số hiện đại",
-        description:
-          "Trang thiết bị tiên tiến hỗ trợ chẩn đoán và điều trị chính xác.",
-      },
-      {
-        title: "Điều trị cá nhân hóa",
-        description:
-          "Mỗi kế hoạch điều trị được điều chỉnh theo nhu cầu của từng khách hàng.",
-      },
-      {
-        title: "Tiêu chuẩn quốc tế",
-        description:
-          "Tiêu chuẩn cao về an toàn, vệ sinh và chăm sóc khách hàng.",
-      },
-    ],
-    technologies: [
-      {
-        name: "Chụp CBCT 3D",
-        description:
-          "Chẩn đoán chi tiết để lập kế hoạch điều trị chính xác.",
-      },
-      {
-        name: "Máy quét trong miệng kỹ thuật số",
-        description:
-          "Lấy dấu kỹ thuật số thoải mái và chính xác.",
-      },
-      {
-        name: "Công nghệ CAD/CAM",
-        description:
-          "Phục hình chính xác với quy trình kỹ thuật số.",
-      },
-      {
-        name: "Hệ thống vô trùng hiện đại",
-        description:
-          "Kiểm soát nhiễm khuẩn nghiêm ngặt theo tiêu chuẩn quốc tế.",
-      },
-    ],
-  },
+    {
+      title: "Đồng hành",
+      description:
+        "Không chỉ tư vấn, Maiv Thoj luôn đồng hành cùng khách hàng trước và trong suốt hành trình điều trị.",
+    },
+    {
+      title: "Kết nối",
+      description:
+        "Kết nối khách hàng với A Sử, Bác sĩ Toàn Nguyễn và đội ngũ An Nhien Dental để mọi bước trong hành trình đều liền mạch.",
+    },
+  ],
+},
 
+ coordinator: {
+  sectionLabel: "Gặp A Sử",
+  title: "Người đồng hành cùng bạn tại Việt Nam",
+  description:
+    "A Sử trực tiếp đón sân bay, phiên dịch, sắp xếp di chuyển và đồng hành cùng khách trong suốt hành trình.",
+  badge: "THE COMPANION",
+  heading: "Gặp A Sử",
+  intro:
+    "Khi bạn quyết định đến Việt Nam, bạn sẽ không phải tự xoay xở một mình. A Sử sẽ là người trực tiếp đón, hỗ trợ và đồng hành cùng bạn từ lúc đặt chân xuống sân bay cho đến ngày trở về.",
+  story: [
+    "Đối với nhiều khách hàng quốc tế, điều khiến họ lo lắng nhất không phải là việc điều trị mà là ngôn ngữ, việc đi lại và không biết phải bắt đầu từ đâu.",
+    "A Sử sẽ trực tiếp liên hệ với bạn trước chuyến đi, sắp xếp lịch trình, hỗ trợ phương tiện di chuyển và chuẩn bị mọi thứ để bạn có một hành trình thuận lợi.",
+    "Khi đến Việt Nam, A Sử sẽ đón bạn tại sân bay, hỗ trợ phiên dịch, đưa bạn đến nha khoa, khách sạn và đồng hành cùng bạn trong suốt thời gian điều trị cũng như tham quan nếu bạn lựa chọn gói Dental & Travel.",
+    "Bạn sẽ luôn có một người để hỏi, một người để hỗ trợ và một người thật luôn ở bên cạnh mỗi khi cần.",
+  ],
+  quote:
+    "Bạn không chỉ có một tài xế. Bạn có một người đồng hành luôn sẵn sàng hỗ trợ bạn trong suốt hành trình.",
+  cta: {
+    label: "Trao đổi với A Sử",
+  },
+  services: [
+    {
+      title: "Đón sân bay miễn phí",
+      description:
+        "Đón và đưa bạn an toàn giữa sân bay, khách sạn và nha khoa.",
+    },
+    {
+      title: "Phiên dịch",
+      description:
+        "Hỗ trợ giao tiếp giữa bạn và đội ngũ điều trị bằng H'Mông, Việt và Anh.",
+    },
+    {
+      title: "Đồng hành hằng ngày",
+      description:
+        "Luôn có mặt khi bạn cần hỗ trợ trong suốt thời gian lưu trú tại Việt Nam.",
+    },
+    {
+      title: "Hỗ trợ du lịch",
+      description:
+        "Đưa bạn khám phá các điểm đến nổi tiếng nếu lựa chọn gói kết hợp nha khoa và du lịch.",
+    },
+  ],
+},
+clinicalPartner: {
+  sectionLabel: "Gặp Bác sĩ Toàn Nguyễn",
+  title: "Bác sĩ trực tiếp điều trị cho bạn",
+  description:
+    "Bác sĩ Toàn Nguyễn là đối tác lâm sàng trực tiếp thăm khám, lập kế hoạch và điều trị cho khách hàng.",
+  badge: "CLINICAL PARTNER",
+  heading: "Gặp Bác sĩ Toàn Nguyễn",
+  intro:
+    "Sau khi Maiv Thoj lắng nghe nhu cầu của bạn và A Sử chuẩn bị toàn bộ hành trình, Bác sĩ Toàn Nguyễn sẽ là người trực tiếp giúp bạn lấy lại nụ cười với kế hoạch điều trị phù hợp nhất.",
+  quote:
+    "Một nụ cười đẹp không chỉ đến từ kỹ thuật, mà còn đến từ sự thấu hiểu và trách nhiệm với từng khách hàng.",
+  cta: {
+    label: "Trao đổi với Bác sĩ Toàn",
+  },
+  highlights: [
+    {
+      title: "Hơn 12 năm kinh nghiệm",
+      description:
+        "Chuyên sâu về nha khoa thẩm mỹ cao cấp, veneer và cấy ghép implant.",
+    },
+    {
+      title: "Điều trị trực tiếp",
+      description:
+        "Bác sĩ Toàn Nguyễn trực tiếp thăm khám, lập kế hoạch và theo dõi điều trị.",
+    },
+    {
+      title: "Kế hoạch cá nhân hóa",
+      description:
+        "Mỗi khách hàng đều có một kế hoạch riêng phù hợp với tình trạng thực tế.",
+    },
+    {
+      title: "Kết quả bền vững",
+      description:
+        "Hướng đến nụ cười đẹp, chức năng ăn nhai khỏe mạnh và sự ổn định lâu dài.",
+    },
+  ],
+  technologies: [
+    {
+      name: "CT Cone Beam 3D",
+      description:
+        "Hỗ trợ chẩn đoán và lập kế hoạch điều trị chính xác.",
+    },
+    {
+      name: "Máy quét trong miệng",
+      description:
+        "Lấy dấu kỹ thuật số nhanh, thoải mái và chính xác.",
+    },
+    {
+      name: "Quy trình kỹ thuật số",
+      description:
+        "Tối ưu thiết kế phục hình và trải nghiệm điều trị.",
+    },
+    {
+      name: "Theo dõi sau điều trị",
+      description:
+        "Đồng hành cùng khách hàng ngay cả sau khi hoàn thành điều trị.",
+    },
+  ],
+},
   treatments: {
     sectionLabel: "Dịch vụ điều trị",
     title: "Các lựa chọn nha khoa cho hành trình nụ cười",

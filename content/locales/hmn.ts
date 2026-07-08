@@ -8,54 +8,55 @@ export const hmnDictionary: LocaleDictionary = {
     secondaryCta: "Tham tswv yim dawb",
   },
 
-  hero: {
-    badge: "Kev kho hniav thiab kev pab kho mob uas ntseeg tau",
+ hero: {
+  badge:
+    "Tus choj txuas kev ntseeg siab ntawm zej zog H'Mông thiab kev kho hniav zoo hauv Nyab Laj",
 
-    title: {
-      line1: "Tus pab koj ntseeg tau",
-      line2: "rau kev kho hniav hauv Vietnam",
+  title: {
+    line1: "Koj yuav tsis tas",
+    line2: "tuaj Nyab Laj ib leeg",
+  },
+
+  subtitle:
+    "Maiv Thoj, A Sử thiab Dr. Toàn Nguyễn yuav nrog nraim koj txij hnub koj pib nug txog kev kho hniav, npaj kev taug kev, kho hniav hauv Nyab Laj mus txog hnub koj rov qab tsev nrog ib qho kev luag ntxhi tshiab. Koj tsis yog tuaj nrhiav ib lub tsev kho hniav xwb, koj tab tom nrhiav ib pab neeg uas yuav saib xyuas koj ib yam li tsev neeg.",
+
+  actions: {
+    primary: "Tham nrog Maiv Thoj",
+    secondary: "Tham nrog A Sử",
+  },
+
+  highlights: {
+    consultation: {
+      title: "Maiv Thoj pab koj npaj txhua yam",
+      description:
+        "Maiv Thoj yuav mloog koj qhov teeb meem thiab pab npaj txoj kev kho ua ntej koj tuaj Nyab Laj.",
     },
 
-    subtitle:
-      "Txij thaum koj pib nug tswv yim nyob Laos mus txog thaum koj rov qab tsev nyab xeeb, Maiv Thoj Viet Lao thiab peb pab neeg yuav nrog koj mus txhua kauj ruam hauv koj txoj kev kho hniav hauv Vietnam. Peb pab npaj kev kho, kev mus los, chaw nyob, tos tshav dav hlau thiab kev saib xyuas tom qab kho kom koj muaj siab kaj siab lug rau koj lub luag nyav.",
-
-    actions: {
-      primary: "Pib koj txoj kev",
-      secondary: "Tham tswv yim dawb",
+    airportPickup: {
+      title: "A Sử yuav tos koj tom tshav dav hlau",
+      description:
+        "Txais tos, pab txhais lus thiab nrog koj mus txhua qhov chaw thaum koj nyob Nyab Laj.",
     },
 
-    highlights: {
-      consultation: {
-        title: "Tham tswv yim rau koj tus kheej",
-        description:
-          "Tau txais lus qhia ncaj ncees thiab kev npaj kho ua ntej koj mus.",
-      },
-
-      airportPickup: {
-        title: "Tos tshav dav hlau",
-        description:
-          "Muaj tsheb tos thiab pab koj mus los thaum koj kho hniav.",
-      },
-
-      multilingualSupport: {
-        title: "Pab txhais ntau hom lus",
-        description:
-          "Pab koj nrog lus Askiv, lus Viet, lus Lao, lus Hmoob thiab lus Thai.",
-      },
-
-      clinicalPartner: {
-        title: "Chaw kho hniav ntseeg tau",
-        description:
-          "Kev kho hniav zoo los ntawm peb tus khub kho mob hauv Vietnam.",
-      },
+    multilingualSupport: {
+      title: "Pab tau ntau hom lus",
+      description:
+        "Peb hais lus H'Mông, Nyab Laj, Askiv, Nplog thiab Thaib kom koj ib txwm muaj kev ntseeg siab.",
     },
 
-    stats: {
-      facebookCommunity: "Zej zog Facebook",
-      tiktokCommunity: "Zej zog TikTok",
-      languagesSupported: "Hom lus pab tau",
+    clinicalPartner: {
+      title: "Dr. Toàn Nguyễn kho koj ncaj qha",
+      description:
+        "Muaj tshaj 12 xyoo kev paub txog hniav zoo nkauj, veneer thiab cog implant.",
     },
   },
+
+  stats: {
+    facebookCommunity: "454K Facebook Followers",
+    tiktokCommunity: "1.3M TikTok Followers",
+    languagesSupported: "5 Hom Lus",
+  },
+},
 
   founder: {
     sectionLabel: "Tus tsim",

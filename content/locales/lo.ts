@@ -8,54 +8,55 @@ export const loDictionary: LocaleDictionary = {
     secondaryCta: "ປຶກສາຟຣີ",
   },
 
-  hero: {
-    badge: "ທ່ອງທ່ຽວທັນຕະກຳ ແລະ ບໍລິການປະສານງານທາງການແພດ",
+ hero: {
+  badge:
+    "ຂົວເຊື່ອມຄວາມໄວ້ວາງໃຈສູ່ການດູແລທັນຕະກຳຄຸນນະພາບໃນຫວຽດນາມ",
 
-    title: {
-      line1: "ຜູ້ນຳທາງທີ່ທ່ານໄວ້ວາງໃຈ",
-      line2: "ສູ່ການດູແລທັນຕະກຳໃນຫວຽດນາມ",
+  title: {
+    line1: "ທ່ານບໍ່ຈຳເປັນຕ້ອງ",
+    line2: "ມາຫວຽດນາມຄົນດຽວ",
+  },
+
+  subtitle:
+    "Maiv Thoj, A Sử ແລະ ທ່ານໝໍ Toàn Nguyễn ຈະຊ່ວຍນຳທາງທ່ານຕັ້ງແຕ່ການສົນທະນາຄັ້ງທຳອິດ, ລະຫວ່າງການຮັກສາໃນຫວຽດນາມ ຈົນເຖິງວັນທີ່ທ່ານກັບບ້ານພ້ອມຮອຍຍິ້ມໃໝ່. ທ່ານບໍ່ໄດ້ມາພຽງແຕ່ຫາຄລິນິກ, ແຕ່ມາຫາທີມງານທີ່ຈະດູແລທ່ານຕະຫຼອດການເດີນທາງ.",
+
+  actions: {
+    primary: "ລົມກັບ Maiv Thoj",
+    secondary: "ລົມກັບ A Sử",
+  },
+
+  highlights: {
+    consultation: {
+      title: "Maiv Thoj ຊ່ວຍໃຫ້ຄຳປຶກສາ",
+      description:
+        "ຟັງຄວາມຕ້ອງການຂອງທ່ານ ແລະ ຊ່ວຍກຽມແຜນການຮັກສາກ່ອນເດີນທາງ.",
     },
 
-    subtitle:
-      "ຈາກການປຶກສາຄັ້ງທຳອິດຢູ່ລາວ ຈົນເຖິງການກັບບ້ານຢ່າງປອດໄພ, Maiv Thoj Viet Lao ແລະ ທີມງານທີ່ໄວ້ວາງໃຈໄດ້ຈະຊ່ວຍນຳທາງທ່ານໃນທຸກຂັ້ນຕອນຂອງການດູແລທັນຕະກຳໃນຫວຽດນາມ.",
-
-    actions: {
-      primary: "ເລີ່ມຕົ້ນການເດີນທາງ",
-      secondary: "ປຶກສາຟຣີ",
+    airportPickup: {
+      title: "A Sử ຈະຕ້ອນຮັບທ່ານໃນຫວຽດນາມ",
+      description:
+        "ຮັບທີ່ສະໜາມບິນ, ຊ່ວຍແປພາສາ ແລະ ດູແລທ່ານຕະຫຼອດການພັກ.",
     },
 
-    highlights: {
-      consultation: {
-        title: "ປຶກສາສ່ວນຕົວ",
-        description:
-          "ຮັບຄຳແນະນຳທີ່ຊັດເຈນ ແລະ ແຜນການຮັກສາກ່ອນເດີນທາງ.",
-      },
-
-      airportPickup: {
-        title: "ຮັບທີ່ສະໜາມບິນ",
-        description:
-          "ບໍລິການຮັບສ່ວນຕົວ ແລະ ການເດີນທາງຕະຫຼອດການຮັກສາ.",
-      },
-
-      multilingualSupport: {
-        title: "ຊ່ວຍເຫຼືອຫຼາຍພາສາ",
-        description:
-          "ຊ່ວຍເຫຼືອດ້ວຍພາສາອັງກິດ, ຫວຽດນາມ, ລາວ, ມົ້ງ ແລະ ໄທ.",
-      },
-
-      clinicalPartner: {
-        title: "ຄູ່ຮ່ວມງານທາງຄລິນິກ",
-        description:
-          "ການດູແລທັນຕະກຳຄຸນນະພາບສູງຈາກຄູ່ຮ່ວມງານໃນຫວຽດນາມ.",
-      },
+    multilingualSupport: {
+      title: "ຊ່ວຍເຫຼືອຫຼາຍພາສາ",
+      description:
+        "ພວກເຮົາສາມາດສື່ສານດ້ວຍພາສາມົ້ງ, ຫວຽດນາມ, ອັງກິດ, ລາວ ແລະ ໄທ.",
     },
 
-    stats: {
-      facebookCommunity: "ຊຸມຊົນ Facebook",
-      tiktokCommunity: "ຊຸມຊົນ TikTok",
-      languagesSupported: "ພາສາທີ່ຮອງຮັບ",
+    clinicalPartner: {
+      title: "ທ່ານໝໍ Toàn Nguyễn ເປັນຜູ້ຮັກສາໂດຍກົງ",
+      description:
+        "ມີປະສົບການຫຼາຍກວ່າ 12 ປີ ດ້ານທັນຕະກຳຄວາມງາມ, veneer ແລະ implant.",
     },
   },
+
+  stats: {
+    facebookCommunity: "454K+ Facebook",
+    tiktokCommunity: "1.3M+ TikTok",
+    languagesSupported: "5 ພາສາ",
+  },
+},
 
   founder: {
     sectionLabel: "ຜູ້ກໍ່ຕັ້ງ",

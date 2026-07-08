@@ -1,1 +1,2 @@
-export { BeforeAfter } from "./components/BeforeAfter";
+// features/before-after/index.ts
+export { BeforeAfter } from "./BeforeAfter";

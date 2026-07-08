@@ -1,1 +1,1 @@
-export { FAQ } from "./components/FAQ";
+export { FAQ } from "./FAQ";

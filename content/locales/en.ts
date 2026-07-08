@@ -8,54 +8,55 @@ export const enDictionary: LocaleDictionary = {
     secondaryCta: "Free Consultation",
   },
 
-  hero: {
-    badge: "Trusted Dental Tourism & Medical Concierge",
+hero: {
+  badge:
+    "Your Trusted Bridge to World-Class Dental Care in Vietnam",
 
-    title: {
-      line1: "Your Trusted Guide",
-      line2: "to Dental Care in Vietnam",
+  title: {
+    line1: "You don't have to",
+    line2: "travel to Vietnam alone",
+  },
+
+  subtitle:
+    "Maiv Thoj, A Su and Dr. Toan Nguyen will personally guide you from your first conversation through your treatment in Vietnam until you return home with a confident new smile. You are not simply choosing a dental clinic—you are choosing a trusted team that will care for you every step of the way.",
+
+  actions: {
+    primary: "Talk with Maiv Thoj",
+    secondary: "Talk with A Su",
+  },
+
+  highlights: {
+    consultation: {
+      title: "Personal guidance from Maiv Thoj",
+      description:
+        "Discuss your needs and receive a personalized treatment journey before you travel.",
     },
 
-    subtitle:
-      "From your first consultation in Laos to your safe return home, Maiv Thoj Viet Lao and our trusted team personally guide you through every step of your dental journey in Vietnam. We coordinate your treatment, travel, accommodation, airport pickup, and recovery—so you can focus on your smile with complete confidence.",
-
-    actions: {
-      primary: "Start Your Journey",
-      secondary: "Free Consultation",
+    airportPickup: {
+      title: "A Su will welcome you in Vietnam",
+      description:
+        "Airport pickup, interpretation and personal support throughout your stay.",
     },
 
-    highlights: {
-      consultation: {
-        title: "Personal Consultation",
-        description:
-          "Receive honest advice and a personalized treatment plan before you travel.",
-      },
-
-      airportPickup: {
-        title: "Airport Pickup",
-        description:
-          "Private airport pickup and transportation throughout your treatment journey.",
-      },
-
-      multilingualSupport: {
-        title: "Multilingual Support",
-        description:
-          "Friendly assistance in English, Vietnamese, Lao, Hmong and Thai.",
-      },
-
-      clinicalPartner: {
-        title: "Trusted Clinical Partner",
-        description:
-          "High-quality dental care provided by our experienced clinical partner in Vietnam.",
-      },
+    multilingualSupport: {
+      title: "Multilingual support",
+      description:
+        "We speak Hmong, Vietnamese, English, Lao and Thai so you always feel comfortable.",
     },
 
-    stats: {
-      facebookCommunity: "Facebook Community",
-      tiktokCommunity: "TikTok Community",
-      languagesSupported: "Languages Supported",
+    clinicalPartner: {
+      title: "Dr. Toan Nguyen treats you personally",
+      description:
+        "Over 12 years of experience in aesthetic dentistry, veneers and dental implants.",
     },
   },
+
+  stats: {
+    facebookCommunity: "454K Facebook Community",
+    tiktokCommunity: "1.3M TikTok Community",
+    languagesSupported: "5 Supported Languages",
+  },
+},
 
   founder: {
     sectionLabel: "Founder",

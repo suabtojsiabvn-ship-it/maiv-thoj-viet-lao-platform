@@ -1,1 +1,1 @@
-export { Trust } from "./components/Trust";
+export { Trust } from "./Trust";
