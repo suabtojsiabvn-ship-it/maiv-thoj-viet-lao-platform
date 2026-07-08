@@ -230,6 +230,9 @@ export const enDictionary: LocaleDictionary = {
           "A personalized combination of treatments designed just for you.",
       },
     },
+    cta: {
+      learnMore: "Learn More",
+    },
   },
 
   beforeAfter: {
@@ -237,6 +240,10 @@ export const enDictionary: LocaleDictionary = {
     title: "Real smile transformations",
     description:
       "See examples of dental results supported by our clinical partner.",
+    labels: {
+      before: "Before",
+      after: "After",
+    },
     cases: {
       case1: {
         title: "Smile Makeover",
@@ -343,6 +350,22 @@ export const enDictionary: LocaleDictionary = {
           "A personal coordinator supports you throughout your dental trip.",
       },
     },
+    fields: {
+      fullName: "Full Name",
+      fullNamePlaceholder: "Your name",
+      country: "Country",
+      countryPlaceholder: "Your country",
+      preferredLanguage: "Preferred Language",
+      whatsapp: "WhatsApp",
+      whatsappPlaceholder: "+84...",
+      email: "Email",
+      emailPlaceholder: "you@example.com",
+      treatment: "Treatment",
+      selectTreatment: "Select treatment",
+      travelDate: "Preferred Travel Date",
+      message: "Message",
+      messagePlaceholder: "Tell us about your dental needs...",
+    },
     treatments: {
       implant: "Dental Implant",
       smileMakeover: "Smile Makeover",
@@ -359,6 +382,7 @@ export const enDictionary: LocaleDictionary = {
     },
     cta: {
       submit: "Request Free Consultation",
+      submitting: "Sending...",
       privacy:
         "Your personal information is kept private and used only to arrange your consultation.",
     },

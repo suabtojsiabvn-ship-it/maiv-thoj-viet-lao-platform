@@ -203,63 +203,70 @@ export const loDictionary: LocaleDictionary = {
     ],
   },
 
-  treatments: {
-    sectionLabel: "ການຮັກສາ",
-    title: "ທາງເລືອກທັນຕະກຳສຳລັບຮອຍຍິ້ມຂອງທ່ານ",
-    description:
-      "ສຳຫຼວດ implant, crown, veneer ແລະ smile makeover ພ້ອມການດູແລຈາກທີມງານທີ່ເຊື່ອຖືໄດ້.",
-    items: {
-      implant: {
-        title: "ປູກຟັນ Implant",
-        description:
-          "ຟື້ນຟູຟັນທີ່ສູນເສຍດ້ວຍວິທີ implant ທີ່ທົນທານຍາວນານ.",
-      },
-      crowns: {
-        title: "ຄອບຟັນພອຊເລນ",
-        description:
-          "ຄອບຟັນເຊຣາມິກຄຸນນະພາບສູງ ລວມທັງ Cercon, Lava Plus, Nacera ແລະ HT Smile.",
-      },
-      veneers: {
-        title: "Veneer ພອຊເລນ",
-        description:
-          "ສ້າງຮອຍຍິ້ມທີ່ເປັນທຳມະຊາດ ແລະ ມັ່ນໃຈດ້ວຍ veneer ແຜ່ນບາງ.",
-      },
-      smileMakeover: {
-        title: "ອອກແບບຮອຍຍິ້ມ",
-        description:
-          "ການຜະສົມຜະສານການຮັກສາແບບສ່ວນຕົວທີ່ອອກແບບເພື່ອທ່ານ.",
-      },
+ treatments: {
+  sectionLabel: "ການຮັກສາ",
+  title: "ທາງເລືອກທັນຕະກຳສຳລັບຮອຍຍິ້ມຂອງທ່ານ",
+  description:
+    "ສຳຫຼວດ implant, crown, veneer ແລະ smile makeover ພ້ອມການດູແລຈາກທີມງານທີ່ເຊື່ອຖືໄດ້.",
+  items: {
+    implant: {
+      title: "ປູກຟັນ Implant",
+      description:
+        "ຟື້ນຟູຟັນທີ່ສູນເສຍດ້ວຍວິທີ implant ທີ່ທົນທານຍາວນານ.",
+    },
+    crowns: {
+      title: "ຄອບຟັນພອຊເລນ",
+      description:
+        "ຄອບຟັນເຊຣາມິກຄຸນນະພາບສູງ ລວມທັງ Cercon, Lava Plus, Nacera ແລະ HT Smile.",
+    },
+    veneers: {
+      title: "Veneer ພອຊເລນ",
+      description:
+        "ສ້າງຮອຍຍິ້ມທີ່ເປັນທຳມະຊາດ ແລະ ມັ່ນໃຈດ້ວຍ veneer ແຜ່ນບາງ.",
+    },
+    smileMakeover: {
+      title: "ອອກແບບຮອຍຍິ້ມ",
+      description:
+        "ການຜະສົມຜະສານການຮັກສາແບບສ່ວນຕົວທີ່ອອກແບບເພື່ອທ່ານ.",
     },
   },
+  cta: {
+    learnMore: "ອ່ານເພີ່ມ",
+  },
+},
 
-  beforeAfter: {
-    sectionLabel: "ກ່ອນ & ຫຼັງ",
-    title: "ການປ່ຽນແປງຮອຍຍິ້ມຈິງ",
-    description:
-      "ເບິ່ງຕົວຢ່າງຜົນການຮັກສາທັນຕະກຳຈາກຄູ່ຮ່ວມງານຄລິນິກ.",
-    cases: {
-      case1: {
-        title: "ອອກແບບຮອຍຍິ້ມ",
-        treatment: "ຄອບຟັນເຊຣາມິກ",
-        country: "USA",
-      },
-      case2: {
-        title: "ປູກຟັນ Implant",
-        treatment: "Implant",
-        country: "Australia",
-      },
-      case3: {
-        title: "Veneer ພອຊເລນ",
-        treatment: "Veneers",
-        country: "France",
-      },
-      case4: {
-        title: "ອອກແບບຮອຍຍິ້ມ",
-        treatment: "Smile Makeover",
-        country: "Hmong",
-      },
+ beforeAfter: {
+  sectionLabel: "ກ່ອນ & ຫຼັງ",
+  title: "ການປ່ຽນແປງຮອຍຍິ້ມຈິງ",
+  description:
+    "ເບິ່ງຕົວຢ່າງຜົນການຮັກສາທັນຕະກຳຈາກຄູ່ຮ່ວມງານຄລິນິກ.",
+  labels: {
+    before: "ກ່ອນ",
+    after: "ຫຼັງ",
+  },
+  cases: {
+    case1: {
+      title: "ອອກແບບຮອຍຍິ້ມ",
+      treatment: "ຄອບຟັນເຊຣາມິກ",
+      country: "USA",
+    },
+    case2: {
+      title: "ປູກຟັນ Implant",
+      treatment: "Implant",
+      country: "Australia",
+    },
+    case3: {
+      title: "Veneer ພອຊເລນ",
+      treatment: "Veneers",
+      country: "France",
+    },
+    case4: {
+      title: "ອອກແບບຮອຍຍິ້ມ",
+      treatment: "Smile Makeover",
+      country: "Hmong",
     },
   },
+},
 
   journey: {
     sectionLabel: "ການເດີນທາງຂອງລູກຄ້າ",
@@ -313,56 +320,85 @@ export const loDictionary: LocaleDictionary = {
   },
 
   booking: {
-    sectionLabel: "ຈອງຄິວ",
-    title: "ເລີ່ມຕົ້ນປຶກສາ",
-    description:
-      "ແບ່ງປັນຄວາມຕ້ອງການຂອງທ່ານ ແລະ ທີມງານຂອງເຮົາຈະຕິດຕໍ່ກັບເພື່ອແນະນຳຂັ້ນຕອນຕໍ່ໄປ.",
-    badge: "ປຶກສາຟຣີ",
-    heading: "ເລີ່ມຕົ້ນການເດີນທາງຮອຍຍິ້ມຂອງທ່ານມື້ນີ້",
-    intro:
-      "ກອກແບບຟອມດ້ານລຸ່ມ ແລະ ທີມງານຂອງເຮົາຈະຕິດຕໍ່ກັບພ້ອມແຜນການຮັກສາສ່ວນຕົວ ແລະ ຄຳແນະນຳການເດີນທາງ.",
-    benefits: {
-      consultation: {
-        title: "ປຶກສາຟຣີ",
-        description:
-          "ປຶກສາຄວາມຕ້ອງການດ້ານທັນຕະກຳຂອງທ່ານໂດຍບໍ່ມີຂໍ້ຜູກມັດ.",
-      },
-      plan: {
-        title: "ແຜນການຮັກສາສ່ວນຕົວ",
-        description:
-          "ຮັບຄຳແນະນຳການຮັກສາທີ່ເໝາະສົມ ແລະ ຄ່າໃຊ້ຈ່າຍປະມານ.",
-      },
-      travel: {
-        title: "ຊ່ວຍເຫຼືອການເດີນທາງ",
-        description:
-          "ພວກເຮົາຊ່ວຍຈັດການການເດີນທາງຕັ້ງແຕ່ມາຮອດຈົນກັບໄປ.",
-      },
-      coordinator: {
-        title: "ຜູ້ປະສານງານສ່ວນຕົວ",
-        description:
-          "ມີຜູ້ປະສານງານສ່ວນຕົວຊ່ວຍທ່ານຕະຫຼອດການເດີນທາງທັນຕະກຳ.",
-      },
+  sectionLabel: "ຈອງຄິວ",
+  title: "ເລີ່ມຕົ້ນປຶກສາ",
+  description:
+    "ແບ່ງປັນຄວາມຕ້ອງການຂອງທ່ານ ແລະ ທີມງານຂອງເຮົາຈະຕິດຕໍ່ກັບເພື່ອແນະນຳຂັ້ນຕອນຕໍ່ໄປ.",
+  badge: "ປຶກສາຟຣີ",
+  heading: "ເລີ່ມຕົ້ນການເດີນທາງຮອຍຍິ້ມຂອງທ່ານມື້ນີ້",
+  intro:
+    "ກອກແບບຟອມດ້ານລຸ່ມ ແລະ ທີມງານຂອງເຮົາຈະຕິດຕໍ່ກັບພ້ອມແຜນການຮັກສາສ່ວນຕົວ ແລະ ຄຳແນະນຳການເດີນທາງ.",
+  benefits: {
+    consultation: {
+      title: "ປຶກສາຟຣີ",
+      description:
+        "ປຶກສາຄວາມຕ້ອງການດ້ານທັນຕະກຳຂອງທ່ານໂດຍບໍ່ມີຂໍ້ຜູກມັດ.",
     },
-    treatments: {
-      implant: "ປູກຟັນ Implant",
-      smileMakeover: "ອອກແບບຮອຍຍິ້ມ",
-      crowns: "ຄອບຟັນ",
-      veneers: "Veneer",
-      consultation: "ປຶກສາທົ່ວໄປ",
+    plan: {
+      title: "ແຜນການຮັກສາສ່ວນຕົວ",
+      description:
+        "ຮັບຄຳແນະນຳການຮັກສາທີ່ເໝາະສົມ ແລະ ຄ່າໃຊ້ຈ່າຍປະມານ.",
     },
-    languages: {
-      en: "ພາສາອັງກິດ",
-      vi: "ພາສາຫວຽດນາມ",
-      lo: "ພາສາລາວ",
-      hmn: "ພາສາມົ້ງ",
-      th: "ພາສາໄທ",
+    travel: {
+      title: "ຊ່ວຍເຫຼືອການເດີນທາງ",
+      description:
+        "ພວກເຮົາຊ່ວຍຈັດການການເດີນທາງຕັ້ງແຕ່ມາຮອດຈົນກັບໄປ.",
     },
-    cta: {
-      submit: "ສົ່ງຄຳຂໍປຶກສາຟຣີ",
-      privacy:
-        "ຂໍ້ມູນສ່ວນຕົວຂອງທ່ານຈະຖືກເກັບຮັກສາເປັນຄວາມລັບ ແລະ ໃຊ້ສຳລັບການຈັດການປຶກສາເທົ່ານັ້ນ.",
+    coordinator: {
+      title: "ຜູ້ປະສານງານສ່ວນຕົວ",
+      description:
+        "ມີຜູ້ປະສານງານສ່ວນຕົວຊ່ວຍທ່ານຕະຫຼອດການເດີນທາງທັນຕະກຳ.",
     },
   },
+
+  fields: {
+    fullName: "ຊື່ເຕັມ",
+    fullNamePlaceholder: "ປ້ອນຊື່ຂອງທ່ານ",
+
+    country: "ປະເທດ",
+    countryPlaceholder: "ປະເທດຂອງທ່ານ",
+
+    preferredLanguage: "ພາສາ",
+
+    whatsapp: "WhatsApp",
+    whatsappPlaceholder: "+84...",
+
+    email: "Email",
+    emailPlaceholder: "you@example.com",
+
+    treatment: "ການຮັກສາ",
+    selectTreatment: "ເລືອກການຮັກສາ",
+
+    travelDate: "ວັນທີ່ຕ້ອງການເດີນທາງ",
+
+    message: "ຂໍ້ຄວາມ",
+    messagePlaceholder:
+      "ບອກພວກເຮົາກ່ຽວກັບຄວາມຕ້ອງການດ້ານທັນຕະກຳຂອງທ່ານ...",
+  },
+
+  treatments: {
+    implant: "ປູກຟັນ Implant",
+    smileMakeover: "ອອກແບບຮອຍຍິ້ມ",
+    crowns: "ຄອບຟັນ",
+    veneers: "Veneer",
+    consultation: "ປຶກສາທົ່ວໄປ",
+  },
+
+  languages: {
+    en: "ພາສາອັງກິດ",
+    vi: "ພາສາຫວຽດນາມ",
+    lo: "ພາສາລາວ",
+    hmn: "ພາສາມົ້ງ",
+    th: "ພາສາໄທ",
+  },
+
+  cta: {
+    submit: "ສົ່ງຄຳຂໍປຶກສາຟຣີ",
+    submitting: "ກຳລັງສົ່ງ...",
+    privacy:
+      "ຂໍ້ມູນສ່ວນຕົວຂອງທ່ານຈະຖືກເກັບຮັກສາເປັນຄວາມລັບ ແລະ ໃຊ້ສຳລັບການຈັດການປຶກສາເທົ່ານັ້ນ.",
+  },
+},
 
   footer: {
     description:

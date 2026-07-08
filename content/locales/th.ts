@@ -204,62 +204,69 @@ export const thDictionary: LocaleDictionary = {
   },
 
   treatments: {
-    sectionLabel: "การรักษา",
-    title: "ตัวเลือกทันตกรรมสำหรับรอยยิ้มของคุณ",
-    description:
-      "สำรวจ implant, crown, veneer และ smile makeover พร้อมการดูแลจากทีมที่เชื่อถือได้.",
-    items: {
-      implant: {
-        title: "รากฟันเทียม",
-        description:
-          "ฟื้นฟูฟันที่สูญเสียไปด้วยโซลูชันรากฟันเทียมที่ทนทานยาวนาน.",
-      },
-      crowns: {
-        title: "ครอบฟันพอร์ซเลน",
-        description:
-          "ครอบฟันเซรามิกคุณภาพสูง รวมถึง Cercon, Lava Plus, Nacera และ HT Smile.",
-      },
-      veneers: {
-        title: "วีเนียร์พอร์ซเลน",
-        description:
-          "สร้างรอยยิ้มที่เป็นธรรมชาติและมั่นใจด้วยวีเนียร์แผ่นบาง.",
-      },
-      smileMakeover: {
-        title: "ออกแบบรอยยิ้ม",
-        description:
-          "การผสมผสานการรักษาแบบเฉพาะบุคคลที่ออกแบบเพื่อคุณ.",
-      },
+  sectionLabel: "การรักษา",
+  title: "ตัวเลือกทันตกรรมสำหรับรอยยิ้มของคุณ",
+  description:
+    "สำรวจ implant, crown, veneer และ smile makeover พร้อมการดูแลจากทีมที่เชื่อถือได้.",
+  items: {
+    implant: {
+      title: "รากฟันเทียม",
+      description:
+        "ฟื้นฟูฟันที่สูญเสียไปด้วยโซลูชันรากฟันเทียมที่ทนทานยาวนาน.",
+    },
+    crowns: {
+      title: "ครอบฟันพอร์ซเลน",
+      description:
+        "ครอบฟันเซรามิกคุณภาพสูง รวมถึง Cercon, Lava Plus, Nacera และ HT Smile.",
+    },
+    veneers: {
+      title: "วีเนียร์พอร์ซเลน",
+      description:
+        "สร้างรอยยิ้มที่เป็นธรรมชาติและมั่นใจด้วยวีเนียร์แผ่นบาง.",
+    },
+    smileMakeover: {
+      title: "ออกแบบรอยยิ้ม",
+      description:
+        "การผสมผสานการรักษาแบบเฉพาะบุคคลที่ออกแบบเพื่อคุณ.",
     },
   },
+  cta: {
+    learnMore: "ดูเพิ่มเติม",
+  },
+},
 
-  beforeAfter: {
-    sectionLabel: "ก่อน & หลัง",
-    title: "การเปลี่ยนแปลงรอยยิ้มจริง",
-    description:
-      "ดูตัวอย่างผลลัพธ์ทันตกรรมจากพันธมิตรคลินิกของเรา.",
-    cases: {
-      case1: {
-        title: "ออกแบบรอยยิ้ม",
-        treatment: "ครอบฟันเซรามิก",
-        country: "USA",
-      },
-      case2: {
-        title: "รากฟันเทียม",
-        treatment: "Implant",
-        country: "Australia",
-      },
-      case3: {
-        title: "วีเนียร์พอร์ซเลน",
-        treatment: "Veneers",
-        country: "France",
-      },
-      case4: {
-        title: "ออกแบบรอยยิ้ม",
-        treatment: "Smile Makeover",
-        country: "Hmong",
-      },
+ beforeAfter: {
+  sectionLabel: "ก่อน & หลัง",
+  title: "การเปลี่ยนแปลงรอยยิ้มจริง",
+  description:
+    "ดูตัวอย่างผลลัพธ์ทันตกรรมจากพันธมิตรคลินิกของเรา.",
+  labels: {
+    before: "ก่อน",
+    after: "หลัง",
+  },
+  cases: {
+    case1: {
+      title: "ออกแบบรอยยิ้ม",
+      treatment: "ครอบฟันเซรามิก",
+      country: "USA",
+    },
+    case2: {
+      title: "รากฟันเทียม",
+      treatment: "Implant",
+      country: "Australia",
+    },
+    case3: {
+      title: "วีเนียร์พอร์ซเลน",
+      treatment: "Veneers",
+      country: "France",
+    },
+    case4: {
+      title: "ออกแบบรอยยิ้ม",
+      treatment: "Smile Makeover",
+      country: "Hmong",
     },
   },
+},
 
   journey: {
     sectionLabel: "การเดินทางของผู้ป่วย",
@@ -312,57 +319,86 @@ export const thDictionary: LocaleDictionary = {
     },
   },
 
-  booking: {
-    sectionLabel: "จองคิว",
-    title: "เริ่มต้นการปรึกษา",
-    description:
-      "บอกความต้องการของคุณ แล้วทีมของเราจะติดต่อกลับเพื่อแนะนำขั้นตอนต่อไป.",
-    badge: "ปรึกษาฟรี",
-    heading: "เริ่มต้นการเดินทางสู่รอยยิ้มของคุณวันนี้",
-    intro:
-      "กรอกแบบฟอร์มด้านล่าง แล้วทีมของเราจะติดต่อกลับพร้อมแผนการรักษาเฉพาะบุคคลและคำแนะนำการเดินทาง.",
-    benefits: {
-      consultation: {
-        title: "ปรึกษาฟรี",
-        description:
-          "พูดคุยเกี่ยวกับความต้องการทางทันตกรรมของคุณโดยไม่มีข้อผูกมัด.",
-      },
-      plan: {
-        title: "แผนการรักษาเฉพาะบุคคล",
-        description:
-          "รับคำแนะนำการรักษาที่เหมาะสมและค่าใช้จ่ายโดยประมาณ.",
-      },
-      travel: {
-        title: "ช่วยเหลือการเดินทาง",
-        description:
-          "เราช่วยจัดการการเดินทางของคุณตั้งแต่มาถึงจนเดินทางกลับ.",
-      },
-      coordinator: {
-        title: "ผู้ประสานงานส่วนตัว",
-        description:
-          "มีผู้ประสานงานส่วนตัวดูแลคุณตลอดการเดินทางด้านทันตกรรม.",
-      },
+ booking: {
+  sectionLabel: "จองคิว",
+  title: "เริ่มต้นการปรึกษา",
+  description:
+    "บอกความต้องการของคุณ แล้วทีมของเราจะติดต่อกลับเพื่อแนะนำขั้นตอนต่อไป.",
+  badge: "ปรึกษาฟรี",
+  heading: "เริ่มต้นการเดินทางสู่รอยยิ้มของคุณวันนี้",
+  intro:
+    "กรอกแบบฟอร์มด้านล่าง แล้วทีมของเราจะติดต่อกลับพร้อมแผนการรักษาเฉพาะบุคคลและคำแนะนำการเดินทาง.",
+  benefits: {
+    consultation: {
+      title: "ปรึกษาฟรี",
+      description:
+        "พูดคุยเกี่ยวกับความต้องการทางทันตกรรมของคุณโดยไม่มีข้อผูกมัด.",
     },
-    treatments: {
-      implant: "รากฟันเทียม",
-      smileMakeover: "ออกแบบรอยยิ้ม",
-      crowns: "ครอบฟัน",
-      veneers: "วีเนียร์",
-      consultation: "ปรึกษาทั่วไป",
+    plan: {
+      title: "แผนการรักษาเฉพาะบุคคล",
+      description:
+        "รับคำแนะนำการรักษาที่เหมาะสมและค่าใช้จ่ายโดยประมาณ.",
     },
-    languages: {
-      en: "ภาษาอังกฤษ",
-      vi: "ภาษาเวียดนาม",
-      lo: "ภาษาลาว",
-      hmn: "ภาษาม้ง",
-      th: "ภาษาไทย",
+    travel: {
+      title: "ช่วยเหลือการเดินทาง",
+      description:
+        "เราช่วยจัดการการเดินทางของคุณตั้งแต่มาถึงจนเดินทางกลับ.",
     },
-    cta: {
-      submit: "ส่งคำขอปรึกษาฟรี",
-      privacy:
-        "ข้อมูลส่วนตัวของคุณจะถูกเก็บเป็นความลับและใช้เพื่อจัดการการปรึกษาเท่านั้น.",
+    coordinator: {
+      title: "ผู้ประสานงานส่วนตัว",
+      description:
+        "มีผู้ประสานงานส่วนตัวดูแลคุณตลอดการเดินทางด้านทันตกรรม.",
     },
   },
+
+  fields: {
+    fullName: "ชื่อ-นามสกุล",
+    fullNamePlaceholder: "กรอกชื่อของคุณ",
+
+    country: "ประเทศ",
+    countryPlaceholder: "ประเทศของคุณ",
+
+    preferredLanguage: "ภาษาที่ต้องการ",
+
+    whatsapp: "WhatsApp",
+    whatsappPlaceholder: "+84...",
+
+    email: "อีเมล",
+    emailPlaceholder: "you@example.com",
+
+    treatment: "การรักษา",
+    selectTreatment: "เลือกการรักษา",
+
+    travelDate: "วันที่ต้องการเดินทาง",
+
+    message: "ข้อความ",
+    messagePlaceholder:
+      "บอกเราถึงความต้องการด้านทันตกรรมของคุณ...",
+  },
+
+  treatments: {
+    implant: "รากฟันเทียม",
+    smileMakeover: "ออกแบบรอยยิ้ม",
+    crowns: "ครอบฟัน",
+    veneers: "วีเนียร์",
+    consultation: "ปรึกษาทั่วไป",
+  },
+
+  languages: {
+    en: "ภาษาอังกฤษ",
+    vi: "ภาษาเวียดนาม",
+    lo: "ภาษาลาว",
+    hmn: "ภาษาม้ง",
+    th: "ภาษาไทย",
+  },
+
+  cta: {
+    submit: "ส่งคำขอปรึกษาฟรี",
+    submitting: "กำลังส่ง...",
+    privacy:
+      "ข้อมูลส่วนตัวของคุณจะถูกเก็บเป็นความลับและใช้เพื่อจัดการการปรึกษาเท่านั้น.",
+  },
+},
 
   footer: {
     description:

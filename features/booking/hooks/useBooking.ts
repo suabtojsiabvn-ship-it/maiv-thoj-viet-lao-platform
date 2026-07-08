@@ -40,6 +40,7 @@ export function useBooking() {
     heading: booking.heading,
     intro: booking.intro,
     benefits,
+    fields: booking.fields,
     treatments,
     languages,
     cta: booking.cta,

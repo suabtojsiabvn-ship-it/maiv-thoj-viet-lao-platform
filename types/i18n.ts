@@ -99,12 +99,19 @@ export interface LocaleTreatmentsDictionary {
     veneers: LocaleTextItem;
     smileMakeover: LocaleTextItem;
   };
+  cta: {
+    learnMore: string;
+  };
 }
 
 export interface LocaleBeforeAfterDictionary {
   sectionLabel: string;
   title: string;
   description: string;
+  labels: {
+    before: string;
+    after: string;
+  };
   cases: {
     case1: {
       title: string;
@@ -161,6 +168,29 @@ export interface LocaleBookingDictionary {
     travel: LocaleTextItem;
     coordinator: LocaleTextItem;
   };
+  fields: {
+    fullName: string;
+    fullNamePlaceholder: string;
+
+    country: string;
+    countryPlaceholder: string;
+
+    preferredLanguage: string;
+
+    whatsapp: string;
+    whatsappPlaceholder: string;
+
+    email: string;
+    emailPlaceholder: string;
+
+    treatment: string;
+    selectTreatment: string;
+
+    travelDate: string;
+
+    message: string;
+    messagePlaceholder: string;
+  };
   treatments: {
     implant: string;
     smileMakeover: string;
@@ -177,6 +207,7 @@ export interface LocaleBookingDictionary {
   };
   cta: {
     submit: string;
+    submitting: string;
     privacy: string;
   };
 }

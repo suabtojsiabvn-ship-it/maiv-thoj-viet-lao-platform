@@ -41,15 +41,41 @@ export interface BookingOption {
   value: string;
 }
 
+export interface BookingFields {
+  fullName: string;
+  fullNamePlaceholder: string;
+
+  country: string;
+  countryPlaceholder: string;
+
+  preferredLanguage: string;
+
+  whatsapp: string;
+  whatsappPlaceholder: string;
+
+  email: string;
+  emailPlaceholder: string;
+
+  treatment: string;
+  selectTreatment: string;
+
+  travelDate: string;
+
+  message: string;
+  messagePlaceholder: string;
+}
+
 export interface BookingContentData {
   badge: string;
   heading: string;
   intro: string;
   benefits: BookingBenefit[];
+  fields: BookingFields;
   treatments: BookingOption[];
   languages: BookingOption[];
   cta: {
     submit: string;
+    submitting: string;
     privacy: string;
   };
 }

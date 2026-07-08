@@ -230,13 +230,21 @@ export const viDictionary: LocaleDictionary = {
           "Kết hợp các phương pháp điều trị được cá nhân hóa riêng cho bạn.",
       },
     },
+    cta: {
+      learnMore: "Tìm hiểu thêm",
+    },
   },
+
 
   beforeAfter: {
     sectionLabel: "Trước & Sau",
     title: "Những thay đổi nụ cười thực tế",
     description:
       "Xem các ví dụ kết quả nha khoa được hỗ trợ bởi đối tác lâm sàng của chúng tôi.",
+    labels: {
+      before: "Trước",
+      after: "Sau",
+    },
     cases: {
       case1: {
         title: "Thiết kế nụ cười",
@@ -312,7 +320,7 @@ export const viDictionary: LocaleDictionary = {
     },
   },
 
-  booking: {
+ booking: {
     sectionLabel: "Đặt lịch",
     title: "Bắt đầu tư vấn",
     description:
@@ -343,6 +351,30 @@ export const viDictionary: LocaleDictionary = {
           "Một điều phối viên cá nhân hỗ trợ bạn trong suốt chuyến đi nha khoa.",
       },
     },
+    fields: {
+      fullName: "Họ và tên",
+      fullNamePlaceholder: "Nhập họ và tên",
+
+      country: "Quốc gia",
+      countryPlaceholder: "Quốc gia của bạn",
+
+      preferredLanguage: "Ngôn ngữ ưu tiên",
+
+      whatsapp: "WhatsApp",
+      whatsappPlaceholder: "+84...",
+
+      email: "Email",
+      emailPlaceholder: "you@example.com",
+
+      treatment: "Dịch vụ điều trị",
+      selectTreatment: "Chọn dịch vụ",
+
+      travelDate: "Ngày dự kiến đến",
+
+      message: "Nội dung",
+      messagePlaceholder:
+        "Hãy chia sẻ nhu cầu điều trị nha khoa của bạn...",
+    },
     treatments: {
       implant: "Cấy ghép Implant",
       smileMakeover: "Thiết kế nụ cười",
@@ -359,6 +391,7 @@ export const viDictionary: LocaleDictionary = {
     },
     cta: {
       submit: "Gửi yêu cầu tư vấn miễn phí",
+      submitting: "Đang gửi...",
       privacy:
         "Thông tin cá nhân của bạn được bảo mật và chỉ dùng để sắp xếp tư vấn.",
     },

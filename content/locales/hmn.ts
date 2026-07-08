@@ -204,62 +204,69 @@ export const hmnDictionary: LocaleDictionary = {
   },
 
   treatments: {
-    sectionLabel: "Kev kho",
-    title: "Kev kho hniav rau koj lub luag nyav",
-    description:
-      "Kawm txog implant, hniav sứ, veneer thiab kho kom luag nyav zoo nkauj.",
-    items: {
-      implant: {
-        title: "Cog hniav Implant",
-        description:
-          "Kho qhov hniav ploj nrog txoj kev cog hniav uas ruaj thiab kav ntev.",
-      },
-      crowns: {
-        title: "Hniav sứ zoo nkauj",
-        description:
-          "Cov hniav sứ zoo xws li Cercon, Lava Plus, Nacera thiab HT Smile.",
-      },
-      veneers: {
-        title: "Veneer hniav sứ",
-        description:
-          "Tsim lub luag nyav zoo nkauj thiab ntuj nrog veneer nyias.",
-      },
-      smileMakeover: {
-        title: "Kho kom luag nyav zoo nkauj",
-        description:
-          "Kev sib xyaw ntau txoj kev kho uas npaj raws koj tus kheej.",
-      },
+  sectionLabel: "Kev kho",
+  title: "Kev kho hniav rau koj lub luag nyav",
+  description:
+    "Kawm txog implant, hniav sứ, veneer thiab kho kom luag nyav zoo nkauj.",
+  items: {
+    implant: {
+      title: "Cog hniav Implant",
+      description:
+        "Kho qhov hniav ploj nrog txoj kev cog hniav uas ruaj thiab kav ntev.",
+    },
+    crowns: {
+      title: "Hniav sứ zoo nkauj",
+      description:
+        "Cov hniav sứ zoo xws li Cercon, Lava Plus, Nacera thiab HT Smile.",
+    },
+    veneers: {
+      title: "Veneer hniav sứ",
+      description:
+        "Tsim lub luag nyav zoo nkauj thiab ntuj nrog veneer nyias.",
+    },
+    smileMakeover: {
+      title: "Kho kom luag nyav zoo nkauj",
+      description:
+        "Kev sib xyaw ntau txoj kev kho uas npaj raws koj tus kheej.",
     },
   },
+  cta: {
+    learnMore: "Nyeem ntxiv",
+  },
+},
 
   beforeAfter: {
-    sectionLabel: "Ua ntej & Tom qab",
-    title: "Kev hloov pauv luag nyav tiag",
-    description:
-      "Saib cov piv txwv kev kho hniav los ntawm peb tus khub kho mob.",
-    cases: {
-      case1: {
-        title: "Kho kom luag nyav zoo nkauj",
-        treatment: "Hniav sứ",
-        country: "USA",
-      },
-      case2: {
-        title: "Cog hniav Implant",
-        treatment: "Implant",
-        country: "Australia",
-      },
-      case3: {
-        title: "Veneer hniav sứ",
-        treatment: "Veneer",
-        country: "France",
-      },
-      case4: {
-        title: "Tsim lub luag nyav",
-        treatment: "Smile Makeover",
-        country: "Hmoob",
-      },
+  sectionLabel: "Ua ntej & Tom qab",
+  title: "Kev hloov pauv luag nyav tiag",
+  description:
+    "Saib cov piv txwv kev kho hniav los ntawm peb tus khub kho mob.",
+  labels: {
+    before: "Ua ntej",
+    after: "Tom qab",
+  },
+  cases: {
+    case1: {
+      title: "Kho kom luag nyav zoo nkauj",
+      treatment: "Hniav sứ",
+      country: "USA",
+    },
+    case2: {
+      title: "Cog hniav Implant",
+      treatment: "Implant",
+      country: "Australia",
+    },
+    case3: {
+      title: "Veneer hniav sứ",
+      treatment: "Veneer",
+      country: "France",
+    },
+    case4: {
+      title: "Tsim lub luag nyav",
+      treatment: "Smile Makeover",
+      country: "Hmoob",
     },
   },
+},
 
   journey: {
     sectionLabel: "Txoj kev qhua",
@@ -313,56 +320,85 @@ export const hmnDictionary: LocaleDictionary = {
   },
 
   booking: {
-    sectionLabel: "Teem caij",
-    title: "Pib tham tswv yim",
-    description:
-      "Qhia koj qhov xav tau rau peb thiab peb pab neeg yuav tiv tauj qhia kauj ruam tom ntej.",
-    badge: "THAM TSWV YIM DAWB",
-    heading: "Pib koj txoj kev mus rau lub luag nyav hnub no",
-    intro:
-      "Sau daim ntawv hauv qab no thiab peb pab neeg yuav tiv tauj koj nrog kev npaj kho raws koj tus kheej thiab lus qhia kev mus los.",
-    benefits: {
-      consultation: {
-        title: "Tham tswv yim dawb",
-        description:
-          "Tham txog koj qhov xav tau kho hniav yam tsis tas cog lus.",
-      },
-      plan: {
-        title: "Npaj kev kho raws tus kheej",
-        description:
-          "Tau txais lus qhia kho thiab nqi kwv yees raws koj tus kheej.",
-      },
-      travel: {
-        title: "Pab kev mus los",
-        description:
-          "Peb pab npaj koj txoj kev txij thaum tuaj txog mus txog thaum rov qab.",
-      },
-      coordinator: {
-        title: "Tus saib xyuas qhua",
-        description:
-          "Muaj ib tug saib xyuas pab koj thoob plaws txoj kev kho hniav.",
-      },
+  sectionLabel: "Teem caij",
+  title: "Pib tham tswv yim",
+  description:
+    "Qhia koj qhov xav tau rau peb thiab peb pab neeg yuav tiv tauj qhia kauj ruam tom ntej.",
+  badge: "THAM TSWV YIM DAWB",
+  heading: "Pib koj txoj kev mus rau lub luag nyav hnub no",
+  intro:
+    "Sau daim ntawv hauv qab no thiab peb pab neeg yuav tiv tauj koj nrog kev npaj kho raws koj tus kheej thiab lus qhia kev mus los.",
+  benefits: {
+    consultation: {
+      title: "Tham tswv yim dawb",
+      description:
+        "Tham txog koj qhov xav tau kho hniav yam tsis tas cog lus.",
     },
-    treatments: {
-      implant: "Cog hniav Implant",
-      smileMakeover: "Kho kom luag nyav zoo nkauj",
-      crowns: "Hniav sứ",
-      veneers: "Veneer",
-      consultation: "Tham tswv yim dav dav",
+    plan: {
+      title: "Npaj kev kho raws tus kheej",
+      description:
+        "Tau txais lus qhia kho thiab nqi kwv yees raws koj tus kheej.",
     },
-    languages: {
-      en: "Lus Askiv",
-      vi: "Lus Viet",
-      lo: "Lus Lao",
-      hmn: "Lus Hmoob",
-      th: "Lus Thai",
+    travel: {
+      title: "Pab kev mus los",
+      description:
+        "Peb pab npaj koj txoj kev txij thaum tuaj txog mus txog thaum rov qab.",
     },
-    cta: {
-      submit: "Xa thov tham tswv yim dawb",
-      privacy:
-        "Koj cov ntaub ntawv ntiag tug yuav raug khaws cia thiab siv tsuas yog rau kev npaj tham tswv yim xwb.",
+    coordinator: {
+      title: "Tus saib xyuas qhua",
+      description:
+        "Muaj ib tug saib xyuas pab koj thoob plaws txoj kev kho hniav.",
     },
   },
+
+  fields: {
+    fullName: "Npe thiab xeem",
+    fullNamePlaceholder: "Sau koj npe",
+
+    country: "Lub teb chaws",
+    countryPlaceholder: "Koj lub teb chaws",
+
+    preferredLanguage: "Hom lus",
+
+    whatsapp: "WhatsApp",
+    whatsappPlaceholder: "+84...",
+
+    email: "Email",
+    emailPlaceholder: "you@example.com",
+
+    treatment: "Kev kho",
+    selectTreatment: "Xaiv kev kho",
+
+    travelDate: "Hnub xav tuaj",
+
+    message: "Lus",
+    messagePlaceholder:
+      "Qhia peb txog koj qhov teeb meem hniav...",
+  },
+
+  treatments: {
+    implant: "Cog hniav Implant",
+    smileMakeover: "Kho kom luag nyav zoo nkauj",
+    crowns: "Hniav sứ",
+    veneers: "Veneer",
+    consultation: "Tham tswv yim dav dav",
+  },
+
+  languages: {
+    en: "Lus Askiv",
+    vi: "Lus Viet",
+    lo: "Lus Lao",
+    hmn: "Lus Hmoob",
+    th: "Lus Thai",
+  },
+
+  cta: {
+    submit: "Xa thov tham tswv yim dawb",
+    submitting: "Tab tom xa...",
+    privacy:
+      "Koj cov ntaub ntawv ntiag tug yuav raug khaws cia thiab siv tsuas yog rau kev npaj tham tswv yim xwb.",
+  },
+},
 
   footer: {
     description:

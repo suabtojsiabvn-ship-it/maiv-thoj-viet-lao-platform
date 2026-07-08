@@ -12,6 +12,7 @@ import { BookingUpload } from "./BookingUpload";
 
 export function BookingForm() {
   const { booking } = useBooking();
+  const { fields } = booking;
 
   const [submitted, setSubmitted] = useState(false);
   const [submitError, setSubmitError] = useState<string | null>(null);
@@ -51,13 +52,13 @@ export function BookingForm() {
       <div className="grid gap-5 sm:grid-cols-2">
         <div>
           <label className="text-sm font-medium text-white">
-            Full Name
+            {fields.fullName}
           </label>
 
           <input
             {...register("fullName")}
             className="mt-2 w-full rounded-xl border border-white/10 bg-slate-950 px-4 py-3 text-white outline-none transition focus:border-cyan-400"
-            placeholder="Your name"
+            placeholder={fields.fullNamePlaceholder}
           />
 
           {errors.fullName && (
@@ -69,13 +70,13 @@ export function BookingForm() {
 
         <div>
           <label className="text-sm font-medium text-white">
-            Country
+            {fields.country}
           </label>
 
           <input
             {...register("country")}
             className="mt-2 w-full rounded-xl border border-white/10 bg-slate-950 px-4 py-3 text-white outline-none transition focus:border-cyan-400"
-            placeholder="Your country"
+            placeholder={fields.countryPlaceholder}
           />
 
           {errors.country && (
@@ -87,7 +88,7 @@ export function BookingForm() {
 
         <div>
           <label className="text-sm font-medium text-white">
-            Preferred Language
+            {fields.preferredLanguage}
           </label>
 
           <select
@@ -107,13 +108,13 @@ export function BookingForm() {
 
         <div>
           <label className="text-sm font-medium text-white">
-            WhatsApp
+            {fields.whatsapp}
           </label>
 
           <input
             {...register("whatsapp")}
             className="mt-2 w-full rounded-xl border border-white/10 bg-slate-950 px-4 py-3 text-white outline-none transition focus:border-cyan-400"
-            placeholder="+84..."
+            placeholder={fields.whatsappPlaceholder}
           />
 
           {errors.whatsapp && (
@@ -125,14 +126,14 @@ export function BookingForm() {
 
         <div>
           <label className="text-sm font-medium text-white">
-            Email
+            {fields.email}
           </label>
 
           <input
             {...register("email")}
             type="email"
             className="mt-2 w-full rounded-xl border border-white/10 bg-slate-950 px-4 py-3 text-white outline-none transition focus:border-cyan-400"
-            placeholder="you@example.com"
+            placeholder={fields.emailPlaceholder}
           />
 
           {errors.email && (
@@ -144,14 +145,16 @@ export function BookingForm() {
 
         <div>
           <label className="text-sm font-medium text-white">
-            Treatment
+            {fields.treatment}
           </label>
 
           <select
             {...register("treatment")}
             className="mt-2 w-full rounded-xl border border-white/10 bg-slate-950 px-4 py-3 text-white outline-none transition focus:border-cyan-400"
           >
-            <option value="">Select treatment</option>
+            <option value="">
+              {fields.selectTreatment}
+            </option>
 
             {booking.treatments.map((treatment) => (
               <option
@@ -173,7 +176,7 @@ export function BookingForm() {
 
       <div className="mt-5">
         <label className="text-sm font-medium text-white">
-          Preferred Travel Date
+          {fields.travelDate}
         </label>
 
         <input
@@ -185,14 +188,14 @@ export function BookingForm() {
 
       <div className="mt-5">
         <label className="text-sm font-medium text-white">
-          Message
+          {fields.message}
         </label>
 
         <textarea
           {...register("message")}
           rows={5}
           className="mt-2 w-full resize-none rounded-xl border border-white/10 bg-slate-950 px-4 py-3 text-white outline-none transition focus:border-cyan-400"
-          placeholder="Tell us about your dental needs..."
+          placeholder={fields.messagePlaceholder}
         />
 
         {errors.message && (
@@ -218,7 +221,7 @@ export function BookingForm() {
         {isSubmitting ? (
           <>
             <Loader2 className="mr-2 h-4 w-4 animate-spin" />
-            Sending...
+            {booking.cta.submitting}
           </>
         ) : (
           booking.cta.submit
