@@ -1,4 +1,8 @@
+"use client";
+
 import Image from "next/image";
+
+import { useDictionary } from "@/hooks/useDictionary";
 
 interface FounderImageProps {
   src: string;
@@ -9,6 +13,8 @@ export function FounderImage({
   src,
   alt,
 }: FounderImageProps) {
+  const { hero } = useDictionary();
+
   return (
     <div className="relative mx-auto w-full max-w-md">
       <div className="overflow-hidden rounded-3xl border border-white/10 bg-slate-900 shadow-2xl">
@@ -25,7 +31,7 @@ export function FounderImage({
       <div className="absolute -bottom-6 left-1/2 flex w-[90%] -translate-x-1/2 items-center justify-center rounded-2xl border border-cyan-500/20 bg-slate-900/90 px-6 py-4 backdrop-blur">
         <div className="text-center">
           <p className="text-sm font-medium text-cyan-300">
-            Trusted by
+            {hero.badge}
           </p>
 
           <div className="mt-1 flex items-center justify-center gap-6">
@@ -35,7 +41,7 @@ export function FounderImage({
               </p>
 
               <p className="text-xs text-slate-400">
-                Facebook
+                {hero.stats.facebookCommunity}
               </p>
             </div>
 
@@ -47,7 +53,7 @@ export function FounderImage({
               </p>
 
               <p className="text-xs text-slate-400">
-                TikTok
+                {hero.stats.tiktokCommunity}
               </p>
             </div>
           </div>
