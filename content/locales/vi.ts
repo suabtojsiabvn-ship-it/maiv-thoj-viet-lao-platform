@@ -218,200 +218,201 @@ clinicalPartner: {
     },
   ],
 },
-  treatments: {
-    sectionLabel: "Dịch vụ điều trị",
-    title: "Các lựa chọn nha khoa cho hành trình nụ cười",
-    description:
-      "Tìm hiểu các lựa chọn implant, răng sứ, veneer và thiết kế nụ cười với sự hỗ trợ chuyên môn.",
-    items: {
-      implant: {
-        title: "Cấy ghép Implant",
-        description:
-          "Phục hồi răng mất bằng giải pháp implant bền vững lâu dài.",
-      },
-      crowns: {
-        title: "Răng sứ thẩm mỹ",
-        description:
-          "Các dòng răng sứ cao cấp như Cercon, Lava Plus, Nacera và HT Smile.",
-      },
-      veneers: {
-        title: "Mặt dán sứ Veneer",
-        description:
-          "Tạo nụ cười tự nhiên và tự tin với mặt dán sứ siêu mỏng.",
-      },
-      smileMakeover: {
-        title: "Thiết kế nụ cười",
-        description:
-          "Kết hợp các phương pháp điều trị được cá nhân hóa riêng cho bạn.",
-      },
+ treatments: {
+  sectionLabel: "Dịch vụ điều trị",
+  title: "Bạn muốn thay đổi điều gì ở nụ cười của mình?",
+  description:
+    "Thay vì bắt đầu bằng tên dịch vụ, chúng tôi bắt đầu từ điều bạn đang cần: phục hồi răng mất, cải thiện nụ cười hay có hàm răng tự nhiên và tự tin hơn.",
+  items: {
+    implant: {
+      title: "Tôi bị mất răng hoặc ăn nhai khó",
+      description:
+        "Cấy ghép Implant giúp phục hồi răng mất, cải thiện khả năng ăn nhai và mang lại cảm giác chắc chắn lâu dài.",
     },
-    cta: {
-      learnMore: "Tìm hiểu thêm",
+    crowns: {
+      title: "Tôi muốn làm lại hàm răng đều và sáng hơn",
+      description:
+        "Răng sứ thẩm mỹ phù hợp cho những trường hợp răng xỉn màu, mẻ, lệch nhẹ hoặc cần cải thiện toàn bộ nụ cười.",
+    },
+    veneers: {
+      title: "Tôi muốn nụ cười tự nhiên, ít mài răng",
+      description:
+        "Mặt dán sứ Veneer giúp cải thiện màu sắc và hình dáng răng với hướng điều trị bảo tồn tối đa.",
+    },
+    smileMakeover: {
+      title: "Tôi muốn thay đổi toàn bộ nụ cười",
+      description:
+        "Thiết kế nụ cười kết hợp nhiều giải pháp để tạo nên kế hoạch cá nhân hóa phù hợp với gương mặt, mong muốn và tình trạng răng của bạn.",
     },
   },
+  cta: {
+    learnMore: "Xem giải pháp phù hợp",
+  },
+},
 
 
   beforeAfter: {
-    sectionLabel: "Trước & Sau",
-    title: "Những thay đổi nụ cười thực tế",
-    description:
-      "Xem các ví dụ kết quả nha khoa được hỗ trợ bởi đối tác lâm sàng của chúng tôi.",
-    labels: {
-      before: "Trước",
-      after: "Sau",
-    },
-    cases: {
-      case1: {
-        title: "Thiết kế nụ cười",
-        treatment: "Răng sứ thẩm mỹ",
-        country: "Mỹ",
-      },
-      case2: {
-        title: "Cấy ghép Implant",
-        treatment: "Implant",
-        country: "Úc",
-      },
-      case3: {
-        title: "Mặt dán sứ Veneer",
-        treatment: "Veneer",
-        country: "Pháp",
-      },
-      case4: {
-        title: "Thiết kế nụ cười",
-        treatment: "Smile Makeover",
-        country: "H'Mông",
-      },
-    },
+  sectionLabel: "Kết quả thực tế",
+  title: "Những nụ cười đã thay đổi thật",
+  description:
+    "Mỗi hình ảnh trước và sau không chỉ là kết quả điều trị, mà là một phần trong hành trình thật của khách hàng khi đến Việt Nam.",
+
+  labels: {
+    before: "Trước",
+    after: "Sau",
   },
 
-  journey: {
-    sectionLabel: "Hành trình khách hàng",
-    title: "Hành trình được đồng hành từ tư vấn đến khi trở về",
-    description:
-      "Chúng tôi điều phối từng bước để khách hàng quốc tế cảm thấy an toàn, rõ ràng và được hỗ trợ.",
-    badge: "HÀNH TRÌNH NHA KHOA CỦA BẠN",
-    heading: "Một hành trình đơn giản,\ntừ nhà đến nụ cười mới",
-    intro:
-      "Từ lần tư vấn đầu tiên cho đến khi bạn trở về nhà, chúng tôi điều phối từng bước để hành trình nha khoa của bạn trở nên đơn giản, thoải mái và nhẹ nhàng hơn.",
-    steps: {
-      consultation: {
-        title: "Tư vấn miễn phí",
-        description:
-          "Chia sẻ tình trạng răng miệng và nhận đánh giá ban đầu từ đội ngũ của chúng tôi.",
-      },
-      plan: {
-        title: "Kế hoạch điều trị cá nhân",
-        description:
-          "Nhận kế hoạch điều trị phù hợp cùng chi phí dự kiến và gợi ý di chuyển.",
-      },
-      travel: {
-        title: "Chuẩn bị chuyến đi",
-        description:
-          "Chúng tôi hỗ trợ bạn chuẩn bị lịch trình, thời gian và hướng dẫn di chuyển.",
-      },
-      pickup: {
-        title: "Đón sân bay",
-        description:
-          "Điều phối viên khách hàng đón bạn tại sân bay và đồng hành trong thời gian lưu trú.",
-      },
-      treatment: {
-        title: "Điều trị nha khoa",
-        description:
-          "Nhận chăm sóc nha khoa chất lượng từ đối tác lâm sàng tin cậy với công nghệ hiện đại.",
-      },
-      recovery: {
-        title: "Phục hồi & theo dõi",
-        description:
-          "Chúng tôi tiếp tục hỗ trợ bạn trong giai đoạn phục hồi và hướng dẫn sau điều trị.",
-      },
-      return: {
-        title: "Trở về nhà",
-        description:
-          "Bạn trở về với sự tự tin, trong khi đội ngũ của chúng tôi vẫn sẵn sàng hỗ trợ khi cần.",
-      },
+  cases: {
+    case1: {
+      title: "Từ nụ cười thiếu tự tin đến nụ cười rạng rỡ",
+      treatment: "Răng sứ thẩm mỹ",
+      country: "Khách hàng H'Mông tại Mỹ",
     },
-    cta: {
-      label: "Bắt đầu hành trình hôm nay",
+    case2: {
+      title: "Phục hồi răng mất để ăn nhai chắc chắn hơn",
+      treatment: "Cấy ghép Implant",
+      country: "Khách hàng từ Úc",
+    },
+    case3: {
+      title: "Nụ cười tự nhiên hơn với mặt dán sứ",
+      treatment: "Veneer",
+      country: "Khách hàng từ Pháp",
+    },
+    case4: {
+      title: "Thiết kế lại toàn bộ nụ cười",
+      treatment: "Smile Makeover",
+      country: "Khách hàng H'Mông quốc tế",
     },
   },
+},
 
- booking: {
-    sectionLabel: "Đặt lịch",
-    title: "Bắt đầu tư vấn",
-    description:
-      "Chia sẻ nhu cầu của bạn và đội ngũ của chúng tôi sẽ liên hệ để hướng dẫn các bước tiếp theo.",
-    badge: "TƯ VẤN MIỄN PHÍ",
-    heading: "Bắt đầu hành trình nụ cười hôm nay",
-    intro:
-      "Hoàn thành biểu mẫu bên dưới và đội ngũ của chúng tôi sẽ liên hệ với kế hoạch điều trị cá nhân cùng hướng dẫn di chuyển.",
-    benefits: {
-      consultation: {
-        title: "Tư vấn miễn phí",
-        description:
-          "Trao đổi nhu cầu nha khoa của bạn mà không cần cam kết.",
-      },
-      plan: {
-        title: "Kế hoạch điều trị cá nhân",
-        description:
-          "Nhận đề xuất điều trị phù hợp và chi phí dự kiến.",
-      },
-      travel: {
-        title: "Hỗ trợ di chuyển",
-        description:
-          "Chúng tôi hỗ trợ sắp xếp hành trình từ khi đến đến khi rời đi.",
-      },
-      coordinator: {
-        title: "Điều phối viên riêng",
-        description:
-          "Một điều phối viên cá nhân hỗ trợ bạn trong suốt chuyến đi nha khoa.",
-      },
+journey: {
+  sectionLabel: "Hành trình của bạn",
+  title: "Từ cuộc trò chuyện đầu tiên đến ngày bạn trở về",
+  description:
+    "Một hành trình rõ ràng, có người đồng hành và được chuẩn bị trước để bạn không phải tự lo mọi thứ.",
+  badge: "YOUR GUIDED JOURNEY",
+  heading: "Mọi bước đều có người đồng hành cùng bạn",
+  intro:
+    "Bạn không cần tự tìm phòng khám, tự đặt xe hay tự lo phiên dịch. Maiv Thoj, A Sử và Bác sĩ Toàn Nguyễn sẽ cùng nhau giúp hành trình làm răng tại Việt Nam của bạn trở nên đơn giản và an tâm hơn.",
+  steps: {
+    consultation: {
+      title: "Trước khi bạn quyết định",
+      description:
+        "Bạn nói chuyện với Maiv Thoj hoặc A Sử, chia sẻ tình trạng răng miệng, mong muốn và những điều còn lo lắng.",
     },
-    fields: {
-      fullName: "Họ và tên",
-      fullNamePlaceholder: "Nhập họ và tên",
-
-      country: "Quốc gia",
-      countryPlaceholder: "Quốc gia của bạn",
-
-      preferredLanguage: "Ngôn ngữ ưu tiên",
-
-      whatsapp: "WhatsApp",
-      whatsappPlaceholder: "+84...",
-
-      email: "Email",
-      emailPlaceholder: "you@example.com",
-
-      treatment: "Dịch vụ điều trị",
-      selectTreatment: "Chọn dịch vụ",
-
-      travelDate: "Ngày dự kiến đến",
-
-      message: "Nội dung",
-      messagePlaceholder:
-        "Hãy chia sẻ nhu cầu điều trị nha khoa của bạn...",
+    plan: {
+      title: "Kế hoạch được chuẩn bị trước",
+      description:
+        "Đội ngũ giúp bạn hiểu lựa chọn điều trị, thời gian dự kiến, chi phí tham khảo và lịch trình phù hợp trước khi đến Việt Nam.",
     },
-    treatments: {
-      implant: "Cấy ghép Implant",
-      smileMakeover: "Thiết kế nụ cười",
-      crowns: "Răng sứ thẩm mỹ",
-      veneers: "Veneer",
-      consultation: "Tư vấn tổng quát",
+    travel: {
+      title: "Chuẩn bị chuyến đi",
+      description:
+        "A Sử hỗ trợ sắp xếp lịch trình, thời gian đến Việt Nam, xe đưa đón và các thông tin cần chuẩn bị.",
     },
-    languages: {
-      en: "Tiếng Anh",
-      vi: "Tiếng Việt",
-      lo: "Tiếng Lào",
-      hmn: "Tiếng H'Mông",
-      th: "Tiếng Thái",
+    pickup: {
+      title: "Khi bạn đến Việt Nam",
+      description:
+        "A Sử đón bạn tại sân bay bằng xe riêng, hỗ trợ di chuyển về khách sạn hoặc đến nha khoa theo lịch đã chuẩn bị.",
     },
-    cta: {
-      submit: "Gửi yêu cầu tư vấn miễn phí",
-      submitting: "Đang gửi...",
-      privacy:
-        "Thông tin cá nhân của bạn được bảo mật và chỉ dùng để sắp xếp tư vấn.",
+    treatment: {
+      title: "Trong quá trình điều trị",
+      description:
+        "Bác sĩ Toàn Nguyễn trực tiếp kiểm tra, giải thích kế hoạch và thực hiện điều trị theo tình trạng thực tế của bạn.",
+    },
+    recovery: {
+      title: "Trong thời gian lưu trú",
+      description:
+        "A Sử tiếp tục hỗ trợ phiên dịch, di chuyển, lịch hẹn tái khám và các nhu cầu phát sinh trong hành trình.",
+    },
+    return: {
+      title: "Khi bạn trở về nhà",
+      description:
+        "Bạn trở về với nụ cười mới, sự tự tin mới và đội ngũ vẫn tiếp tục hỗ trợ nếu bạn cần theo dõi sau điều trị.",
     },
   },
+  cta: {
+    label: "Bắt đầu hành trình của bạn",
+  },
+},
 
+booking: {
+  sectionLabel: "Bắt đầu tư vấn",
+  title: "Bắt đầu bằng một cuộc trò chuyện",
+  description:
+    "Bạn chưa cần quyết định ngay. Hãy chia sẻ tình trạng răng miệng và điều bạn đang lo lắng, Maiv Thoj hoặc A Sử sẽ liên hệ để tư vấn bước tiếp theo.",
+  badge: "START A CONVERSATION",
+  heading: "Hãy để chúng tôi hiểu nhu cầu của bạn trước",
+  intro:
+    "Mỗi hành trình làm răng đều khác nhau. Sau khi bạn gửi thông tin, đội ngũ sẽ lắng nghe, tư vấn lựa chọn phù hợp và giúp bạn chuẩn bị kế hoạch trước khi đến Việt Nam.",
+  benefits: {
+    consultation: {
+      title: "Không cần cam kết ngay",
+      description:
+        "Bạn có thể hỏi trước, tìm hiểu trước và chỉ quyết định khi thật sự yên tâm.",
+    },
+    plan: {
+      title: "Được tư vấn theo tình trạng thật",
+      description:
+        "Đội ngũ sẽ dựa trên nhu cầu, hình ảnh và mong muốn của bạn để gợi ý hướng điều trị phù hợp.",
+    },
+    travel: {
+      title: "Hiểu rõ hành trình trước khi đi",
+      description:
+        "Bạn sẽ biết trước lịch trình, người đón, thời gian lưu trú và các bước cần chuẩn bị.",
+    },
+    coordinator: {
+      title: "Có người thật đồng hành",
+      description:
+        "Maiv Thoj, A Sử và đội ngũ An Nhien Dental sẽ hỗ trợ bạn từ lúc bắt đầu đến khi hoàn thành.",
+    },
+  },
+  fields: {
+    fullName: "Họ và tên",
+    fullNamePlaceholder: "Nhập họ và tên",
+
+    country: "Quốc gia",
+    countryPlaceholder: "Bạn đang sống ở quốc gia nào?",
+
+    preferredLanguage: "Ngôn ngữ ưu tiên",
+
+    whatsapp: "WhatsApp",
+    whatsappPlaceholder: "Số WhatsApp của bạn",
+
+    email: "Email",
+    emailPlaceholder: "Email của bạn",
+
+    treatment: "Bạn đang quan tâm điều gì?",
+    selectTreatment: "Chọn nhu cầu của bạn",
+
+    travelDate: "Thời gian dự kiến đến Việt Nam",
+
+    message: "Bạn muốn chia sẻ thêm điều gì?",
+    messagePlaceholder:
+      "Ví dụ: tình trạng răng hiện tại, mong muốn thay đổi, thời gian muốn đi hoặc điều bạn còn lo lắng...",
+  },
+  treatments: {
+    implant: "Tôi bị mất răng / muốn làm Implant",
+    smileMakeover: "Tôi muốn thay đổi nụ cười",
+    crowns: "Tôi muốn làm răng sứ thẩm mỹ",
+    veneers: "Tôi quan tâm đến Veneer",
+    consultation: "Tôi muốn được tư vấn trước",
+  },
+  languages: {
+    en: "Tiếng Anh",
+    vi: "Tiếng Việt",
+    lo: "Tiếng Lào",
+    hmn: "Tiếng H'Mông",
+    th: "Tiếng Thái",
+  },
+  cta: {
+    submit: "Gửi thông tin để được tư vấn",
+    submitting: "Đang gửi...",
+    privacy:
+      "Thông tin của bạn chỉ được dùng để Maiv Thoj, A Sử hoặc đội ngũ tư vấn liên hệ và chuẩn bị kế hoạch phù hợp.",
+  },
+},
   footer: {
     description:
       "Điều phối khách hàng quốc tế cho nha khoa, làm đẹp, chăm sóc sức khỏe và du lịch tại Việt Nam.",
