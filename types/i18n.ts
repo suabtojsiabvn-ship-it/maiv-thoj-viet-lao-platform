@@ -1,6 +1,24 @@
+export const defaultLocale = "en" as const;
+
 export const locales = ["en", "hmn", "vi", "th", "lo"] as const;
 
 export type Locale = (typeof locales)[number];
+
+export const localePriority = {
+  en: 1,
+  hmn: 2,
+  vi: 3,
+  th: 4,
+  lo: 5,
+} as const;
+
+export const localeLabels = {
+  en: "English",
+  hmn: "Hmong",
+  vi: "Tiếng Việt",
+  th: "ไทย",
+  lo: "ລາວ",
+} as const;
 
 export interface LocaleInfo {
   code: Locale;
@@ -51,13 +69,15 @@ export interface LocaleFounderDictionary {
   sectionLabel: string;
   title: string;
   description: string;
-  badge: string;
-  heading: string;
-  intro: string;
+  imageAlt: string;
   story: string[];
   quote: string;
+  stats: {
+    facebook: string;
+    tiktok: string;
+    role: string;
+  };
   cta: LocaleCta;
-  values: LocaleTextItem[];
 }
 
 export interface LocaleCoordinatorDictionary {
@@ -71,6 +91,19 @@ export interface LocaleCoordinatorDictionary {
   quote: string;
   cta: LocaleCta;
   services: LocaleTextItem[];
+}
+export interface LocaleExperiencesDictionary {
+  sectionLabel: string;
+  title: string;
+  description: string;
+  note: string;
+  items: {
+    bacHa: LocaleTextItem;
+    sapa: LocaleTextItem;
+    mocChau: LocaleTextItem;
+    haLong: LocaleTextItem;
+  };
+  cta: LocaleCta;
 }
 
 export interface LocaleClinicalPartnerDictionary {
@@ -270,6 +303,7 @@ export interface LocaleDictionary {
   };
 
   hero: LocaleHeroDictionary;
+  why: LocaleWhyDictionary;
   founder: LocaleFounderDictionary;
   coordinator: LocaleCoordinatorDictionary;
   clinicalPartner: LocaleClinicalPartnerDictionary;
@@ -278,4 +312,16 @@ export interface LocaleDictionary {
   journey: LocaleJourneyDictionary;
   booking: LocaleBookingDictionary;
   footer: LocaleFooterDictionary;
+}
+export interface LocaleWhyDictionary {
+  sectionLabel: string;
+  title: string;
+  description: string;
+  imageAlt: string;
+  cards: {
+    guidance: LocaleTextItem;
+    language: LocaleTextItem;
+    coordination: LocaleTextItem;
+    memories: LocaleTextItem;
+  };
 }

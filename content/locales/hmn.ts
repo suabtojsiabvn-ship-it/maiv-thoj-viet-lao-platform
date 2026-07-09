@@ -54,50 +54,59 @@ export const hmnDictionary: LocaleDictionary = {
     },
   },
 
-  founder: {
-    sectionLabel: "Ntsib Maiv Thoj",
-    title: "Community Advisor rau cov qhua txawv teb chaws",
-    description:
-      "Maiv Thoj yog ib lub suab uas ntau tsev neeg H'Mong thoob ntiaj teb paub thiab ntseeg. Nws pab cov qhua nkag siab lawv txoj kev xaiv thiab pib txoj kev taug nrog kev kaj siab.",
-    badge: "COMMUNITY ADVISOR",
-    heading: "Pib nrog tus neeg uas zej zog twb ntseeg lawm",
-    intro:
-      "Kev mus lwm lub teb chaws kho hniav, kho mob lossis ua kev zoo nkauj yog ib qho kev txiav txim loj. Ua ntej xaiv tus khub kho mob, ntau tus neeg xav tau ib tug neeg uas mloog thiab piav kom meej.",
-    story: [
-      "Maiv Thoj Viet Lao tsim los ntawm kev ntseeg siab hauv zej zog. Rau ntau tsev neeg H'Mong txawv teb chaws, Maiv Thoj yog ib lub npe uas paub thiab ntseeg tau.",
-      "Maiv Thoj txoj hauj lwm tsis yog ua kws kho mob lossis tsev kho mob. Nws txoj hauj lwm yog mloog, piav txoj kev taug, teb lus nug ncaj ncees thiab pab cov qhua nkag siab seb Nyab Laj puas yog qhov haum rau lawv.",
-      "Thaum tus qhua npaj txhij, Maiv Thoj lossis A Sử yuav txuas tus qhua mus rau tus khub uas tsim nyog. Rau kev kho hniav, thawj tus khub kho mob yog An Nhien Dental, nrog Dr. Toan Nguyen ua tus saib xyuas kev kho.",
-      "Maiv Thoj muaj peev xwm nrog cov qhua VIP hauv Nyab Laj yog tias tus qhua thov thiab yog tias sijhawm haum. Rau feem ntau cov qhua, A Sử yog tus saib xyuas txoj kev taug hauv Nyab Laj.",
-    ],
-    quote:
-      "Kev ntseeg siab pib ua ntej kev kho. Nws pib thaum muaj ib tug neeg mloog koj thiab qhia koj ncaj ncees.",
-    cta: {
-      label: "Tham nrog Maiv Thoj",
+        why: {
+  sectionLabel: "Vim li cas thiaj xaiv Maiv Thoj Viet Lao",
+  title: "Vim koj tsim nyog tau txais ntau dua li kev kho hniav xwb.",
+  description:
+    "Txij thawj zaug sib tham mus txog hnub koj rov qab tsev, Maiv Thoj Viet Lao pab kom koj muaj tus neeg piav, tus neeg pab thiab tus neeg nrog saib xyuas koj txoj kev tuaj kho hniav hauv Nyab Laj.",
+  imageAlt:
+    "Ib txoj kev taug tiag nrog Maiv Thoj Viet Lao hauv Nyab Laj",
+  cards: {
+    guidance: {
+      title: "Kev qhia uas ntseeg tau",
+      description:
+        "Koj tsis tas yuav nrhiav kev ib leeg. Maiv Thoj thiab A Sử (Txhim) pab koj nkag siab koj txoj kev xaiv ua ntej koj txiav txim siab.",
     },
-    values: [
-      {
-        title: "Kev ntseeg siab hauv zej zog",
-        description:
-          "Ib lub suab uas ntau tsev neeg H'Mong thoob ntiaj teb paub thiab ntseeg.",
-      },
-      {
-        title: "Kev qhia ncaj ncees",
-        description:
-          "Piav kom meej ua ntej tus qhua txiav txim siab lossis tuaj Nyab Laj.",
-      },
-      {
-        title: "VIP Companion Option",
-        description:
-          "Maiv Thoj tuaj yeem nrog qhua VIP yog tias thov thiab sijhawm haum.",
-      },
-      {
-        title: "Txuas nrog khub ntseeg siab",
-        description:
-          "Txuas cov qhua nrog tus khub kho mob, kho hniav lossis kev zoo nkauj uas haum hauv Nyab Laj.",
-      },
-    ],
+    language: {
+      title: "Pab ntau hom lus",
+      description:
+        "Peb pab ua lus Askiv, Hmoob, Nyab Laj, Thaib thiab Lao kom cov qhua txawv teb chaws nkag siab yooj yim.",
+    },
+    coordination: {
+      title: "Muaj neeg saib xyuas koj",
+      description:
+        "A Sử (Txhim) pab tos tshav dav hlau, teem sijhawm, tsheb, txhais lus thiab pab koj thaum koj nyob hauv Nyab Laj.",
+    },
+    memories: {
+      title: "Kỷ niệm zoo nkauj",
+      description:
+        "Yog koj lub sijhawm kho hniav haum, peb pab thaij duab thiab yees video luv kom koj muaj kev nco zoo txog Nyab Laj.",
+    },
   },
+},
 
+  founder: {
+  sectionLabel: "Ntsib Maiv Thoj",
+  title: "Ib lub suab uas ntseeg tau, txuas cov qhua txawv teb chaws nrog Nyab Laj.",
+  description:
+    "Maiv Thoj Viet Lao Platform tsim los pab kom cov qhua muaj ntaub ntawv meej, muaj neeg pab thiab muaj kev ntseeg siab ua ntej pib txoj kev kho mob hauv Nyab Laj.",
+  imageAlt: "Maiv Thoj, Community Advisor ntawm Maiv Thoj Viet Lao Platform",
+  story: [
+    "Tau ntau xyoo uas Maiv Thoj txuas nrog zej zog Hmoob thoob ntiaj teb, nws nkag siab txog kev txhawj xeeb uas ntau tsev neeg muaj thaum nrhiav kev kho mob txawv teb chaws.",
+    "Nws lub luag hauj lwm yog pab kom cov qhua pib lawv txoj kev nrog kev ntseeg siab, ntaub ntawv meej thiab kev txhawb nqa uas ntseeg tau.",
+    "Ua ke nrog A Sử (Txhim) thiab cov koom tes kho mob uas ntseeg tau hauv Nyab Laj, Maiv Thoj Viet Lao Platform pab hloov txoj kev tuaj kho mob mus ua ib txoj kev muaj neeg nrog saib xyuas thiab muaj nqis.",
+  ],
+  quote:
+    "Txhua tus qhua tsim nyog tau txais kev qhia uas ntseeg tau, kev saib xyuas ncaj ncees, thiab kev ntseeg siab kom luag ntxhi dua.",
+  stats: {
+    facebook: "Zej zog Facebook",
+    tiktok: "Zej zog TikTok",
+    role: "Lub luag hauj lwm uas ntseeg tau",
+  },
+  cta: {
+    label: "Tham nrog Maiv Thoj",
+  },
+},
   coordinator: {
     sectionLabel: "Ntsib A Sử",
     title: "Patient Journey Manager hauv Nyab Laj",

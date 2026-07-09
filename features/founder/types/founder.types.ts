@@ -1,17 +1,21 @@
-export interface FounderValue {
-  title: string;
-  description: string;
+export interface FounderStat {
+  value: string;
+  label: string;
 }
 
-export interface FounderContentData {
-  badge: string;
-  heading: string;
-  intro: string;
+export interface FounderViewModel {
+  sectionLabel: string;
+  title: string;
+  description: string;
   story: string[];
   quote: string;
   cta: {
     label: string;
     href: string;
   };
-  values: FounderValue[];
+  image: {
+    src: string;
+    alt: string;
+  };
+  stats: FounderStat[];
 }

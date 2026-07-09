@@ -1,1 +1,1 @@
-export { Hero } from "./components/Hero";
+export { Hero } from "./components/HeroSection";

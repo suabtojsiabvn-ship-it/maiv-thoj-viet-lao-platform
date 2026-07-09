@@ -53,50 +53,59 @@ export const viDictionary: LocaleDictionary = {
       languagesSupported: "Hỗ trợ 5 ngôn ngữ",
     },
   },
+    why: {
+  sectionLabel: "Vì sao chọn Maiv Thoj Viet Lao",
+  title: "Bởi vì bạn xứng đáng nhận được nhiều hơn một ca điều trị nha khoa.",
+  description:
+    "Từ cuộc trò chuyện đầu tiên cho đến khi bạn trở về nhà, Maiv Thoj Viet Lao giúp bạn cảm thấy được hỗ trợ, được thấu hiểu và có người đồng hành trong từng bước của hành trình làm răng tại Việt Nam.",
+  imageAlt:
+    "Hành trình khách hàng thật cùng Maiv Thoj Viet Lao tại Việt Nam",
+  cards: {
+    guidance: {
+      title: "Định hướng đáng tin cậy",
+      description:
+        "Bạn không cần tự tìm hiểu một mình. Maiv Thoj và A Sử (Txhim) giúp bạn hiểu rõ lựa chọn trước khi đưa ra quyết định.",
+    },
+    language: {
+      title: "Hỗ trợ nhiều ngôn ngữ",
+      description:
+        "Hỗ trợ bằng tiếng Anh, H'Mông, Việt, Thái và Lào để khách hàng quốc tế luôn cảm thấy dễ hiểu và an tâm.",
+    },
+    coordination: {
+      title: "Điều phối cá nhân",
+      description:
+        "A Sử (Txhim) hỗ trợ đón sân bay, đặt lịch, đưa đón, phiên dịch và các nhu cầu thực tế khi bạn ở Việt Nam.",
+    },
+    memories: {
+      title: "Kỷ niệm đẹp",
+      description:
+        "Nếu lịch điều trị phù hợp, chúng tôi giúp bạn lưu lại những bức ảnh và video ngắn ý nghĩa trong hành trình tại Việt Nam.",
+    },
+  },
+},
 
   founder: {
-    sectionLabel: "Gặp Maiv Thoj",
-    title: "Community Advisor cho khách hàng quốc tế",
-    description:
-      "Maiv Thoj là tiếng nói quen thuộc mà nhiều gia đình H'Mông quốc tế đã biết và tin tưởng. Vai trò của cô là giúp khách hàng hiểu lựa chọn của mình và bắt đầu hành trình với sự an tâm.",
-    badge: "COMMUNITY ADVISOR",
-    heading: "Bắt đầu với người mà cộng đồng đã tin tưởng",
-    intro:
-      "Đi đến một quốc gia khác để làm nha khoa, y tế hoặc làm đẹp là một quyết định lớn. Trước khi chọn đối tác, điều nhiều khách hàng cần nhất là một người có thể tin tưởng, biết lắng nghe và giải thích rõ ràng.",
-    story: [
-      "Maiv Thoj Viet Lao được xây dựng từ niềm tin cộng đồng. Với nhiều gia đình H'Mông quốc tế, Maiv Thoj đã là một cái tên quen thuộc và đáng tin cậy.",
-      "Vai trò của Maiv Thoj không phải là bác sĩ hay phòng khám. Vai trò của cô là lắng nghe, giải thích hành trình, trả lời câu hỏi trung thực và giúp khách hàng hiểu liệu Việt Nam có phải lựa chọn phù hợp hay không.",
-      "Khi khách hàng sẵn sàng, Maiv Thoj hoặc A Sử sẽ kết nối khách với đúng đối tác đáng tin cậy. Với điều trị nha khoa, đối tác chuyên môn đầu tiên là An Nhien Dental, do Bác sĩ Toàn Nguyễn phụ trách điều trị.",
-      "Maiv Thoj có thể trực tiếp đồng hành cùng khách VIP tại Việt Nam nếu khách yêu cầu và nếu lịch trình cho phép. Với phần lớn khách hàng, A Sử là người điều phối chính tại Việt Nam.",
-    ],
-    quote:
-      "Niềm tin bắt đầu trước khi điều trị. Nó bắt đầu khi có một người thật sự lắng nghe và hướng dẫn bạn một cách trung thực.",
-    cta: {
-      label: "Nói chuyện với Maiv Thoj",
-    },
-    values: [
-      {
-        title: "Niềm tin cộng đồng",
-        description:
-          "Một tiếng nói quen thuộc và đáng tin cậy với nhiều gia đình H'Mông trên thế giới.",
-      },
-      {
-        title: "Tư vấn trung thực",
-        description:
-          "Giải thích rõ ràng trước khi khách hàng quyết định hoặc lên đường đến Việt Nam.",
-      },
-      {
-        title: "Tùy chọn đồng hành VIP",
-        description:
-          "Maiv Thoj có thể đồng hành trực tiếp với khách VIP theo yêu cầu và tùy lịch trình.",
-      },
-      {
-        title: "Kết nối đối tác uy tín",
-        description:
-          "Kết nối khách hàng với đúng đối tác y tế, nha khoa hoặc làm đẹp tại Việt Nam.",
-      },
-    ],
+  sectionLabel: "Gặp Maiv Thoj",
+  title: "Một tiếng nói đáng tin cậy kết nối khách hàng quốc tế với Việt Nam.",
+  description:
+    "Maiv Thoj Viet Lao Platform được tạo ra để giúp khách hàng cảm thấy được cung cấp thông tin rõ ràng, được hỗ trợ và được kết nối trước khi bắt đầu hành trình chăm sóc sức khỏe tại Việt Nam.",
+  imageAlt: "Maiv Thoj, Community Advisor của Maiv Thoj Viet Lao Platform",
+  story: [
+    "Sau nhiều năm kết nối với cộng đồng H'Mông trên khắp thế giới, Maiv Thoj hiểu những lo lắng của nhiều gia đình khi tìm kiếm dịch vụ y tế đáng tin cậy ở nước ngoài.",
+    "Vai trò của Maiv Thoj là giúp khách hàng bắt đầu hành trình với sự tự tin, thông tin rõ ràng và sự hỗ trợ đáng tin cậy.",
+    "Cùng với A Sử (Txhim) và các đối tác lâm sàng uy tín tại Việt Nam, Maiv Thoj Viet Lao Platform giúp hành trình chăm sóc sức khỏe trở thành một trải nghiệm được đồng hành và có ý nghĩa.",
+  ],
+  quote:
+    "Mỗi khách hàng đều xứng đáng có người đồng hành đáng tin cậy, sự chăm sóc chân thành và sự tự tin để mỉm cười trở lại.",
+  stats: {
+    facebook: "Cộng đồng Facebook",
+    tiktok: "Cộng đồng TikTok",
+    role: "Vai trò tin cậy",
   },
+  cta: {
+    label: "Trao đổi với Maiv Thoj",
+  },
+},
 
   coordinator: {
     sectionLabel: "Gặp A Sử",

@@ -53,50 +53,59 @@ export const enDictionary: LocaleDictionary = {
       languagesSupported: "5 Languages Supported",
     },
   },
+      why: {
+  sectionLabel: "Why Maiv Thoj Viet Lao",
+  title: "Because you deserve more than just dental treatment.",
+  description:
+    "From the first conversation to your return home, Maiv Thoj Viet Lao helps you feel supported, understood and guided through every step of your dental care journey in Vietnam.",
+  imageAlt:
+    "A real patient journey with Maiv Thoj Viet Lao in Vietnam",
+  cards: {
+    guidance: {
+      title: "Trusted Guidance",
+      description:
+        "You do not have to search alone. Maiv Thoj and A Sử (Txhim) help you understand your options before you make a decision.",
+    },
+    language: {
+      title: "Multilingual Support",
+      description:
+        "Support is available in English, Hmong, Vietnamese, Thai and Lao so international patients can feel clearly understood.",
+    },
+    coordination: {
+      title: "Personal Coordination",
+      description:
+        "A Sử (Txhim) supports airport welcome, appointments, transportation, interpretation and practical help in Vietnam.",
+    },
+    memories: {
+      title: "Beautiful Memories",
+      description:
+        "When your treatment schedule allows, we help you capture meaningful photos and short videos from your Vietnam experience.",
+    },
+  },
+},
 
   founder: {
-    sectionLabel: "Meet Maiv Thoj",
-    title: "Community Advisor for International Patients",
-    description:
-      "Maiv Thoj is the trusted voice many H'Mong families already know. Her role is to help patients understand their options and begin the journey with confidence.",
-    badge: "COMMUNITY ADVISOR",
-    heading: "Start With Someone Your Community Already Trusts",
-    intro:
-      "Traveling to another country for dental, medical or beauty care is a big decision. Before choosing a partner, most people first need someone they can trust, someone who listens and explains things clearly.",
-    story: [
-      "Maiv Thoj Viet Lao was built on community trust. For many international H'Mong families, Maiv Thoj is already a familiar and trusted name.",
-      "Her role is not to act as a doctor or clinic. Her role is to listen, explain the journey, answer questions honestly and help patients understand whether Vietnam is the right option for them.",
-      "When a patient is ready, Maiv Thoj or A Su connects the patient with the right trusted partner. For dental treatment, the first clinical partner is An Nhien Dental, led by Dr. Toan Nguyen.",
-      "Maiv Thoj may personally accompany VIP patients in Vietnam upon request and depending on schedule availability. For most patients, A Su is the main journey manager in Vietnam.",
-    ],
-    quote:
-      "Trust begins before treatment. It begins when someone truly listens and guides you honestly.",
-    cta: {
-      label: "Talk with Maiv Thoj",
-    },
-    values: [
-      {
-        title: "Community Trust",
-        description:
-          "A familiar and trusted voice for H'Mong families around the world.",
-      },
-      {
-        title: "Honest Guidance",
-        description:
-          "Clear advice before patients make any decision or travel to Vietnam.",
-      },
-      {
-        title: "VIP Companion Option",
-        description:
-          "Maiv Thoj may personally accompany VIP patients upon request and schedule availability.",
-      },
-      {
-        title: "Connection to Trusted Partners",
-        description:
-          "Connecting patients with the right medical, dental or beauty partner in Vietnam.",
-      },
-    ],
+  sectionLabel: "Meet Maiv Thoj",
+  title: "A trusted voice connecting international patients with Vietnam.",
+  description:
+    "Maiv Thoj Viet Lao Platform was created to help patients feel informed, supported and connected before they begin their healthcare journey in Vietnam.",
+  imageAlt: "Maiv Thoj, Community Advisor of Maiv Thoj Viet Lao Platform",
+  story: [
+    "Through years of connecting with the Hmong community around the world, Maiv Thoj understands the worries many families have when seeking trusted healthcare abroad.",
+    "Her role is to help patients begin their journey with confidence, clear information and trusted support.",
+    "Together with A Sử (Txhim) and trusted clinical partners in Vietnam, Maiv Thoj Viet Lao Platform helps turn healthcare travel into a supported and meaningful journey.",
+  ],
+  quote:
+    "Every patient deserves trusted guidance, honest care, and the confidence to smile again.",
+  stats: {
+    facebook: "Facebook Community",
+    tiktok: "TikTok Community",
+    role: "Trusted Role",
   },
+  cta: {
+    label: "Talk with Maiv Thoj",
+  },
+},
 
   coordinator: {
     sectionLabel: "Meet A Su",

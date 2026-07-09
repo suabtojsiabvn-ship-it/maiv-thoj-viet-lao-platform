@@ -16,26 +16,12 @@ export type JourneyStepKey =
   | "recovery"
   | "return";
 
-export interface JourneyStepMeta {
-  id: JourneyStepKey;
-  icon: JourneyIcon;
-}
-
 export interface JourneyStep {
   id: JourneyStepKey;
+
   title: string;
+
   description: string;
+
   icon: JourneyIcon;
-}
-
-export interface JourneyContentData {
-  badge: string;
-  heading: string;
-  intro: string;
-  steps: JourneyStep[];
-
-  cta: {
-    label: string;
-    href: string;
-  };
 }

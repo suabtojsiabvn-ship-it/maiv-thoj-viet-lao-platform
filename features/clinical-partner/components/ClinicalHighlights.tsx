@@ -5,27 +5,21 @@ import {
   Users,
 } from "lucide-react";
 
-import type { ClinicalHighlight } from "../types/clinical-partner.types";
+import type { LocaleTextItem } from "@/types/i18n";
 
 interface ClinicalHighlightsProps {
-  highlights: ClinicalHighlight[];
+  highlights: LocaleTextItem[];
 }
 
-const iconMap = {
-  users: Users,
-  "monitor-smartphone": MonitorSmartphone,
-  "heart-handshake": HeartHandshake,
-  "shield-check": ShieldCheck,
-};
+const icons = [Users, MonitorSmartphone, HeartHandshake, ShieldCheck];
 
 export function ClinicalHighlights({
   highlights,
 }: ClinicalHighlightsProps) {
   return (
     <div className="mt-12 grid gap-6 sm:grid-cols-2">
-      {highlights.map((highlight) => {
-        const Icon =
-          iconMap[highlight.icon as keyof typeof iconMap] ?? Users;
+      {highlights.map((highlight, index) => {
+        const Icon = icons[index] ?? Users;
 
         return (
           <article
