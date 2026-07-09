@@ -1,2 +1,1 @@
-// features/hero/index.ts
-export { Hero } from "./Hero";
+export { Hero } from "./components/Hero";

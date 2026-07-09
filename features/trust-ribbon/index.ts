@@ -1,0 +1,1 @@
+export { TrustRibbon } from "./components/TrustRibbon";

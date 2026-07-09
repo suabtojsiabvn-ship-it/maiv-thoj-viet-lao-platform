@@ -3,496 +3,420 @@ import type { LocaleDictionary } from "@/types/i18n";
 export const enDictionary: LocaleDictionary = {
   common: {
     brandName: "Maiv Thoj Viet Lao",
-    tagline: "Your Trusted Health & Beauty Journey in Vietnam",
+    tagline: "International Medical & Beauty Concierge in Vietnam",
     primaryCta: "Start Your Journey",
-    secondaryCta: "Free Consultation",
+    secondaryCta: "Get Free Consultation",
   },
 
-hero: {
-  badge:
-    "Trusted Dental Concierge for International Patients",
+  hero: {
+    badge: "Maiv Thoj Viet Lao • International Medical & Beauty Concierge",
 
-  title: {
-    line1: "Your Smile Journey",
-    line2: "Starts With People You Can Trust",
-  },
-
-  subtitle:
-    "More than a dental clinic, we are a team that personally guides you through every step of your journey. Maiv Thoj helps you make informed decisions, A Su welcomes and supports you in Vietnam, and Dr. Toan Nguyen delivers world-class dental care with over 12 years of clinical experience.",
-
-  actions: {
-    primary: "Talk with Maiv Thoj",
-    secondary: "Talk with A Su",
-  },
-
-  highlights: {
-    consultation: {
-      title: "Real People. Real Guidance.",
-      description:
-        "Speak directly with Maiv Thoj or A Su before making any decision. Ask questions, share your concerns and receive honest advice.",
+    title: {
+      line1: "Your Trusted Journey",
+      line2: "to Care in Vietnam",
     },
 
-    airportPickup: {
-      title: "From Airport to Hotel",
-      description:
-        "Private airport pickup, transportation, translation and personal support throughout your stay in Vietnam.",
+    subtitle:
+      "Maiv Thoj Viet Lao helps international patients access trusted dental, medical and beauty services in Vietnam through a safe, supported and well-coordinated journey. Maiv Thoj supports the first conversation, A Su manages your journey in Vietnam, and trusted partners such as An Nhien Dental provide professional care.",
+
+    actions: {
+      primary: "Talk with Maiv Thoj",
+      secondary: "Talk with A Su",
     },
 
-    multilingualSupport: {
-      title: "Speak Your Language",
-      description:
-        "Support available in H'Mong, English, Vietnamese, Lao and Thai so you always feel understood.",
+    highlights: {
+      consultation: {
+        title: "Trusted First Conversation",
+        description:
+          "Speak with Maiv Thoj or A Su before making any decision and understand your options clearly.",
+      },
+      airportPickup: {
+        title: "A Su Supports You in Vietnam",
+        description:
+          "Airport pickup, transportation, interpretation and practical support throughout your stay.",
+      },
+      multilingualSupport: {
+        title: "5 Languages Supported",
+        description:
+          "Support in H'Mong, English, Vietnamese, Lao and Thai so international patients feel understood.",
+      },
+      clinicalPartner: {
+        title: "Trusted Clinical Partners",
+        description:
+          "Dental treatment is provided by An Nhien Dental, with Dr. Toan Nguyen as lead dentist.",
+      },
     },
 
-    clinicalPartner: {
-      title: "Clinical Excellence",
-      description:
-        "Dr. Toan Nguyen personally plans and performs your treatment using modern digital dentistry and internationally recognized materials.",
+    stats: {
+      facebookCommunity: "454K+ Facebook Community",
+      tiktokCommunity: "1.3M+ TikTok Followers",
+      languagesSupported: "5 Languages Supported",
     },
   },
-
-  stats: {
-    facebookCommunity: "454K Facebook Followers",
-    tiktokCommunity: "1.3M TikTok Followers",
-    languagesSupported: "5 Languages Supported",
-  },
-},
 
   founder: {
-  sectionLabel: "Meet Maiv Thoj",
-
-  title: "The Trusted Bridge Between the H'Mong Community and An Nhien Dental",
-
-  description:
-    "Maiv Thoj is not a dentist. She is the trusted person thousands of H'Mong families already know. Her role is to help you understand your options, answer your questions honestly and connect you with the right dental team in Vietnam.",
-
-  badge: "COMMUNITY BRIDGE",
-
-  heading: "Start With Someone You Already Trust",
-
-  intro:
-    "Traveling abroad for dental treatment is a big decision. Before choosing a clinic, most people simply want someone they can trust. That's where your journey begins.",
-
-  story: [
-    "For years, Maiv Thoj has built genuine trust within the international H'Mong community through openness, authenticity and meaningful relationships.",
-
-    "When someone asks about dental treatment in Vietnam, her first priority is never selling a service. It is understanding your concerns, explaining your options honestly and helping you decide what is truly right for you.",
-
-    "Once you are ready, she personally introduces you to the team at An Nhien Dental, where A Su will take care of your journey in Vietnam and Dr. Toan Nguyen will personally provide your treatment.",
-
-    "From your very first message until you safely return home, you will always know exactly who is taking care of you.",
-  ],
-
-  quote:
-    "Trust is never built through advertising. It is built through people who genuinely care about your journey.",
-
-  cta: {
-    label: "Talk with Maiv Thoj",
+    sectionLabel: "Meet Maiv Thoj",
+    title: "Community Advisor for International Patients",
+    description:
+      "Maiv Thoj is the trusted voice many H'Mong families already know. Her role is to help patients understand their options and begin the journey with confidence.",
+    badge: "COMMUNITY ADVISOR",
+    heading: "Start With Someone Your Community Already Trusts",
+    intro:
+      "Traveling to another country for dental, medical or beauty care is a big decision. Before choosing a partner, most people first need someone they can trust, someone who listens and explains things clearly.",
+    story: [
+      "Maiv Thoj Viet Lao was built on community trust. For many international H'Mong families, Maiv Thoj is already a familiar and trusted name.",
+      "Her role is not to act as a doctor or clinic. Her role is to listen, explain the journey, answer questions honestly and help patients understand whether Vietnam is the right option for them.",
+      "When a patient is ready, Maiv Thoj or A Su connects the patient with the right trusted partner. For dental treatment, the first clinical partner is An Nhien Dental, led by Dr. Toan Nguyen.",
+      "Maiv Thoj may personally accompany VIP patients in Vietnam upon request and depending on schedule availability. For most patients, A Su is the main journey manager in Vietnam.",
+    ],
+    quote:
+      "Trust begins before treatment. It begins when someone truly listens and guides you honestly.",
+    cta: {
+      label: "Talk with Maiv Thoj",
+    },
+    values: [
+      {
+        title: "Community Trust",
+        description:
+          "A familiar and trusted voice for H'Mong families around the world.",
+      },
+      {
+        title: "Honest Guidance",
+        description:
+          "Clear advice before patients make any decision or travel to Vietnam.",
+      },
+      {
+        title: "VIP Companion Option",
+        description:
+          "Maiv Thoj may personally accompany VIP patients upon request and schedule availability.",
+      },
+      {
+        title: "Connection to Trusted Partners",
+        description:
+          "Connecting patients with the right medical, dental or beauty partner in Vietnam.",
+      },
+    ],
   },
-
-  values: [
-    {
-      title: "Trusted by the Community",
-      description:
-        "Known by thousands of H'Mong families around the world.",
-    },
-    {
-      title: "Honest Guidance",
-      description:
-        "Clear recommendations without pressure or unnecessary treatment.",
-    },
-    {
-      title: "Personal Connection",
-      description:
-        "Direct communication before, during and after your journey.",
-    },
-    {
-      title: "A Bridge to Vietnam",
-      description:
-        "Connecting international patients with trusted dental care and local support.",
-    },
-  ],
-},
 
   coordinator: {
-  sectionLabel: "Meet A Su",
-
-  title: "Your Personal Companion in Vietnam",
-
-  description:
-    "From the moment you arrive until the day you return home, A Su stays by your side to make every part of your journey simple, comfortable and worry-free.",
-
-  badge: "YOUR PERSONAL COMPANION",
-
-  heading: "You Will Never Feel Alone in Vietnam",
-
-  intro:
-    "Traveling to another country for dental treatment can feel intimidating. Different language, unfamiliar places and uncertainty often create unnecessary stress. A Su is here to change that experience completely.",
-
-  story: [
-    "Before you travel, A Su helps you prepare your itinerary and answers practical questions about your trip to Vietnam.",
-
-    "When you arrive, he personally welcomes you at the airport, arranges transportation and makes sure you settle in comfortably before your appointment.",
-
-    "Throughout your treatment, he helps with communication, transportation, scheduling and any support you may need, allowing you to focus entirely on your health and recovery.",
-
-    "By the time you return home, you won't remember A Su as a driver or coordinator. You'll remember him as the person who made Vietnam feel familiar.",
-  ],
-
-  quote:
-    "Great dental care begins long before you sit in the dental chair.",
-
-  cta: {
-    label: "Talk with A Su",
+    sectionLabel: "Meet A Su",
+    title: "Your Patient Journey Manager in Vietnam",
+    description:
+      "A Su is the main person supporting patients in Vietnam, from planning and airport pickup to interpretation, transport and daily support.",
+    badge: "PATIENT JOURNEY MANAGER",
+    heading: "You Will Not Have to Manage Vietnam Alone",
+    intro:
+      "Once your journey begins, A Su becomes your main point of support in Vietnam. He helps turn a complicated overseas trip into a clear, supported and comfortable experience.",
+    story: [
+      "Many international patients worry about language, transportation, clinic visits and what will happen after they arrive in Vietnam.",
+      "A Su helps prepare the journey before travel, coordinates schedules, supports communication and makes sure patients know what to expect.",
+      "When you arrive in Vietnam, A Su welcomes you, helps with transportation, assists with interpretation and stays available throughout the journey.",
+      "He is not simply a driver or staff member. A Su is the person who helps patients feel safe, understood and supported while they are away from home.",
+    ],
+    quote:
+      "A safe journey is not only about where you go. It is about who is beside you when you arrive.",
+    cta: {
+      label: "Talk with A Su",
+    },
+    services: [
+      {
+        title: "Journey Planning",
+        description:
+          "Support with schedule, travel timing, clinic appointments and preparation before arrival.",
+      },
+      {
+        title: "Airport Pickup",
+        description:
+          "Personal airport welcome and private transportation in Vietnam.",
+      },
+      {
+        title: "Interpretation Support",
+        description:
+          "Helping patients communicate clearly with clinical partners and local teams.",
+      },
+      {
+        title: "Daily Patient Support",
+        description:
+          "Practical assistance during treatment, recovery, follow-up and travel days.",
+      },
+    ],
   },
-
-  services: [
-    {
-      title: "Airport Welcome",
-      description:
-        "Personal pickup and warm welcome from the moment you land in Vietnam.",
-    },
-    {
-      title: "Private Transportation",
-      description:
-        "Comfortable transportation between the airport, hotel and dental clinic.",
-    },
-    {
-      title: "Language Support",
-      description:
-        "Helping patients communicate comfortably throughout their treatment journey.",
-    },
-    {
-      title: "Personal Assistance",
-      description:
-        "Daily support, appointment coordination and practical help whenever you need it.",
-    },
-  ],
-},
 
   clinicalPartner: {
-  sectionLabel: "Meet Dr. Toan Nguyen",
-
-  title: "Clinical Excellence You Can Trust",
-
-  description:
-    "Your treatment is personally planned and performed by Dr. Toan Nguyen, an experienced cosmetic and implant dentist with more than 12 years of clinical practice.",
-
-  badge: "CLINICAL PARTNER",
-
-  heading: "The Dentist Behind Every Smile",
-
-  intro:
-    "Behind every successful smile is more than modern technology. It takes experience, careful planning and a dentist who treats every patient with precision and genuine care.",
-
-  
-
-  quote:
-    "Every smile deserves a treatment plan designed with precision, honesty and long-term care.",
-
-  cta: {
-    label: "Meet Dr. Toan Nguyen",
+    sectionLabel: "Trusted Clinical Partner",
+    title: "Dental Care Provided by An Nhien Dental",
+    description:
+      "An Nhien Dental is the first trusted clinical partner of Maiv Thoj Viet Lao for dental treatment in Vietnam. Dr. Toan Nguyen is the lead dentist responsible for treatment planning and care.",
+    badge: "TRUSTED CLINICAL PARTNER",
+    heading: "An Nhien Dental & Dr. Toan Nguyen",
+    intro:
+      "Maiv Thoj Viet Lao guides and supports the patient journey. When it comes to dental treatment, An Nhien Dental provides the clinical care, with Dr. Toan Nguyen directly responsible for examination, planning and treatment.",
+    quote:
+      "The journey begins with people you trust, and treatment is handled by the right clinical partner.",
+    cta: {
+      label: "Plan My Journey",
+    },
+    highlights: [
+      {
+        title: "Trusted Dental Partner",
+        description:
+          "An Nhien Dental is the dental treatment partner of Maiv Thoj Viet Lao in Vietnam.",
+      },
+      {
+        title: "Lead Dentist: Dr. Toan Nguyen",
+        description:
+          "Dr. Toan Nguyen directly handles examination, treatment planning and dental care.",
+      },
+      {
+        title: "12+ Years of Experience",
+        description:
+          "Experience in cosmetic dentistry, porcelain restorations, veneers and dental implants.",
+      },
+      {
+        title: "Clear Role Separation",
+        description:
+          "Maiv Thoj Viet Lao manages the journey; An Nhien Dental focuses on clinical treatment.",
+      },
+    ],
+    technologies: [
+      {
+        name: "CBCT 3D Imaging",
+        description:
+          "High-resolution imaging for diagnosis and implant planning.",
+      },
+      {
+        name: "Digital Intraoral Scanner",
+        description:
+          "Comfortable digital scanning with accurate treatment data.",
+      },
+      {
+        name: "CAD/CAM Digital Workflow",
+        description:
+          "Digital restoration design and workflow for precise results.",
+      },
+      {
+        name: "Clinical Safety Protocols",
+        description:
+          "Sterilization and safety protocols designed for professional clinical care.",
+      },
+    ],
   },
-
-  highlights: [
-    {
-      title: "12+ Years of Experience",
-      description:
-        "Extensive experience in cosmetic dentistry, porcelain restorations and dental implants.",
-    },
-    {
-      title: "Personally Treated by Dr. Toan",
-      description:
-        "Your consultation, planning and treatment are personally handled by Dr. Toan Nguyen.",
-    },
-    {
-      title: "Digital Precision",
-      description:
-        "Modern digital workflows support accurate diagnosis and predictable treatment outcomes.",
-    },
-    {
-      title: "International Patient Care",
-      description:
-        "Working alongside Maiv Thoj and A Su to provide a seamless experience for international patients.",
-    },
-  ],
-
-  technologies: [
-    {
-      name: "CBCT 3D Imaging",
-      description:
-        "High-resolution 3D imaging for accurate diagnosis and implant planning.",
-    },
-    {
-      name: "Digital Intraoral Scanner",
-      description:
-        "Comfortable, impression-free digital scanning with exceptional accuracy.",
-    },
-    {
-      name: "CAD/CAM Digital Workflow",
-      description:
-        "Precision-designed restorations with consistent quality and natural aesthetics.",
-    },
-    {
-      name: "International-Grade Sterilization",
-      description:
-        "Strict infection control protocols to ensure a safe clinical environment.",
-    },
-  ],
-},
 
   treatments: {
-  sectionLabel: "Treatment Options",
-
-  title: "What Would You Like to Change About Your Smile?",
-
-  description:
-    "Instead of starting with a dental procedure, we begin with your concern: missing teeth, an aging smile, worn teeth, or the confidence to smile freely again.",
-
-  items: {
-    implant: {
-      title: "I Have Missing Teeth or Difficulty Chewing",
-      description:
-        "Dental implants help restore missing teeth, improve chewing comfort and create a strong foundation for long-term oral health.",
+    sectionLabel: "Dental Services",
+    title: "Dental Treatment Is the First Service We Support",
+    description:
+      "Maiv Thoj Viet Lao is built as a medical and beauty concierge platform. Dental care is the first service we support through our trusted clinical partner An Nhien Dental.",
+    items: {
+      implant: {
+        title: "Missing Teeth / Dental Implants",
+        description:
+          "Dental implants help restore missing teeth, improve chewing function and support long-term oral health.",
+      },
+      crowns: {
+        title: "Ceramic Crowns",
+        description:
+          "Premium ceramic crowns can improve tooth color, shape, alignment and overall smile harmony.",
+      },
+      veneers: {
+        title: "Porcelain Veneers",
+        description:
+          "Veneers enhance the color and shape of teeth while preserving as much natural structure as possible.",
+      },
+      smileMakeover: {
+        title: "Complete Smile Makeover",
+        description:
+          "A personalized plan combining suitable dental treatments based on your smile goals and oral condition.",
+      },
     },
-    crowns: {
-      title: "I Want a Brighter, More Even Smile",
-      description:
-        "Premium ceramic crowns can improve tooth color, shape, alignment and overall smile harmony.",
-    },
-    veneers: {
-      title: "I Want a Natural Smile With Minimal Tooth Reduction",
-      description:
-        "Porcelain veneers are designed to enhance the color and shape of your teeth while preserving as much natural structure as possible.",
-    },
-    smileMakeover: {
-      title: "I Want a Complete Smile Transformation",
-      description:
-        "A smile makeover combines multiple treatment options into one personalized plan designed around your face, goals and dental condition.",
+    cta: {
+      learnMore: "See Dental Options",
     },
   },
-
-  cta: {
-    learnMore: "See Your Options",
-  },
-},
 
   beforeAfter: {
-    sectionLabel: "Before & After",
-    title: "Real smile transformations",
+    sectionLabel: "Real Results",
+    title: "Real Smile Transformations",
     description:
-      "See examples of dental results supported by our clinical partner.",
+      "Before and after results show the clinical work performed by our dental partner as part of each patient journey.",
     labels: {
       before: "Before",
       after: "After",
     },
     cases: {
       case1: {
-        title: "Smile Makeover",
+        title: "From hesitation to a confident smile",
         treatment: "Ceramic Crowns",
-        country: "USA",
+        country: "H'Mong patient from the USA",
       },
       case2: {
-        title: "Dental Implant",
-        treatment: "Implant",
-        country: "Australia",
+        title: "Restoring missing teeth for better chewing",
+        treatment: "Dental Implants",
+        country: "Patient from Australia",
       },
       case3: {
-        title: "Porcelain Veneers",
-        treatment: "Veneers",
-        country: "France",
+        title: "Natural smile enhancement",
+        treatment: "Porcelain Veneers",
+        country: "Patient from France",
       },
       case4: {
-        title: "Smile Design",
+        title: "Complete smile transformation",
         treatment: "Smile Makeover",
-        country: "Hmong",
+        country: "International H'Mong patient",
       },
     },
   },
 
   journey: {
-  sectionLabel: "Your Journey",
-
-  title: "From Your First Message to Your Journey Home",
-
-  description:
-    "A clear, fully supported dental journey designed for international patients who want trusted care without having to figure everything out alone.",
-
-  badge: "YOUR GUIDED JOURNEY",
-
-  heading: "Every Step Is Planned Before You Travel",
-
-  intro:
-    "You do not need to search for clinics, arrange transportation or worry about translation on your own. Maiv Thoj, A Su and Dr. Toan Nguyen work together to make your dental journey in Vietnam simple, safe and well supported.",
-
-  steps: {
-    consultation: {
-      title: "Before You Decide",
-      description:
-        "Speak with Maiv Thoj or A Su, share your dental concerns and ask anything you need before making a decision.",
+    sectionLabel: "Your Journey",
+    title: "From the First Conversation to Aftercare",
+    description:
+      "A clear journey designed for international patients who want trusted care in Vietnam without having to manage everything alone.",
+    badge: "GUIDED PATIENT JOURNEY",
+    heading: "Every Step Is Coordinated Before You Travel",
+    intro:
+      "Maiv Thoj Viet Lao helps you understand the journey, A Su supports you in Vietnam, and trusted partners provide professional care based on the service you choose.",
+    steps: {
+      consultation: {
+        title: "First Conversation",
+        description:
+          "Talk with Maiv Thoj or A Su, share your needs and ask questions before making any decision.",
+      },
+      plan: {
+        title: "Journey Planning",
+        description:
+          "The team helps you understand timing, expected steps, travel needs and the right partner for your service.",
+      },
+      travel: {
+        title: "Before You Travel",
+        description:
+          "A Su helps prepare your itinerary, arrival time, transportation and important details.",
+      },
+      pickup: {
+        title: "Arrival in Vietnam",
+        description:
+          "A Su welcomes you at the airport, supports transportation and helps you settle in.",
+      },
+      treatment: {
+        title: "Partner Visit & Treatment",
+        description:
+          "You visit the trusted partner. For dental care, An Nhien Dental and Dr. Toan Nguyen handle clinical treatment.",
+      },
+      recovery: {
+        title: "Support During Your Stay",
+        description:
+          "A Su continues to support transportation, interpretation, follow-up and practical needs.",
+      },
+      return: {
+        title: "Aftercare",
+        description:
+          "You return home with continued support from the team when follow-up guidance is needed.",
+      },
     },
-    plan: {
-      title: "Your Plan Is Prepared",
-      description:
-        "Our team helps you understand your treatment options, estimated timeline, expected costs and travel schedule before you come to Vietnam.",
-    },
-    travel: {
-      title: "Before You Travel",
-      description:
-        "A Su helps you prepare your itinerary, arrival time, transportation and important details for a smooth trip.",
-    },
-    pickup: {
-      title: "When You Arrive in Vietnam",
-      description:
-        "A Su welcomes you at the airport, assists with transportation and helps you settle in comfortably.",
-    },
-    treatment: {
-      title: "During Your Treatment",
-      description:
-        "Dr. Toan Nguyen personally examines, explains and performs your treatment based on your actual dental condition.",
-    },
-    recovery: {
-      title: "During Your Stay",
-      description:
-        "A Su continues to support translation, transportation, follow-up appointments and daily needs throughout your stay.",
-    },
-    return: {
-      title: "When You Return Home",
-      description:
-        "You return home with a new smile, renewed confidence and continued support from our team when needed.",
+    cta: {
+      label: "Plan My Journey",
     },
   },
 
-  cta: {
-    label: "Start Planning Your Journey",
-  },
-},
   booking: {
-  sectionLabel: "Start Your Journey",
-
-  title: "Let's Start With a Conversation",
-
-  description:
-    "You don't have to make a decision today. Tell us about your smile, your concerns and your goals. We'll help you understand your options before you plan your trip to Vietnam.",
-
-  badge: "FREE PERSONAL CONSULTATION",
-
-  heading: "Tell Us About Your Smile",
-
-  intro:
-    "Every smile is different. After receiving your information, Maiv Thoj or A Su will personally contact you to discuss your needs, answer your questions and help you prepare the right treatment journey.",
-
-  benefits: {
-    consultation: {
-      title: "No Pressure",
-      description:
-        "Ask questions, explore your options and decide only when you feel completely confident.",
+    sectionLabel: "Start Your Journey",
+    title: "Start With a Conversation",
+    description:
+      "You do not need to decide today. Share your needs and Maiv Thoj or A Su will help you understand the next step.",
+    badge: "FREE CONSULTATION",
+    heading: "Tell Us What You Need Help With",
+    intro:
+      "After receiving your information, Maiv Thoj or A Su will contact you to understand your goals, answer questions and help plan the right journey in Vietnam.",
+    benefits: {
+      consultation: {
+        title: "No Pressure",
+        description:
+          "Ask first, understand first and decide only when you feel ready.",
+      },
+      plan: {
+        title: "Journey-Based Guidance",
+        description:
+          "We help you understand treatment, travel, partner visit and support before you come.",
+      },
+      travel: {
+        title: "Support in Vietnam",
+        description:
+          "A Su helps coordinate arrival, transportation, interpretation and daily support.",
+      },
+      coordinator: {
+        title: "Right Partner Connection",
+        description:
+          "Maiv Thoj Viet Lao connects you with the right trusted partner for the service you need.",
+      },
     },
-
-    plan: {
-      title: "Personalized Recommendations",
-      description:
-        "Every treatment recommendation is based on your dental condition, your goals and your expectations.",
+    fields: {
+      fullName: "Full Name",
+      fullNamePlaceholder: "Enter your full name",
+      country: "Country",
+      countryPlaceholder: "Where are you currently living?",
+      preferredLanguage: "Preferred Language",
+      whatsapp: "WhatsApp",
+      whatsappPlaceholder: "Your WhatsApp number",
+      email: "Email",
+      emailPlaceholder: "Your email address",
+      treatment: "What would you like help with?",
+      selectTreatment: "Choose your main need",
+      travelDate: "When are you planning to visit Vietnam?",
+      message: "Tell us more",
+      messagePlaceholder:
+        "For example: dental treatment, smile improvement, implants, beauty service, travel plans or anything you would like us to know.",
     },
-
-    travel: {
-      title: "Travel Planning Included",
-      description:
-        "We'll help you understand your travel schedule, airport pickup, accommodation and treatment timeline before you book your flight.",
+    treatments: {
+      implant: "Missing Teeth / Dental Implants",
+      smileMakeover: "Complete Smile Makeover",
+      crowns: "Ceramic Crowns",
+      veneers: "Porcelain Veneers",
+      consultation: "I'm Not Sure Yet — I Need Advice",
     },
-
-    coordinator: {
-      title: "Real People, Real Support",
-      description:
-        "Maiv Thoj, A Su and Dr. Toan Nguyen work together to support you before, during and after your journey.",
+    languages: {
+      en: "English",
+      hmn: "H'Mong",
+      lo: "Lao",
+      th: "Thai",
+      vi: "Vietnamese",
+    },
+    cta: {
+      submit: "Start My Journey",
+      submitting: "Sending Your Request...",
+      privacy:
+        "Your information is kept private and will only be used by Maiv Thoj, A Su or the care team to support your consultation and journey planning.",
     },
   },
-
-  fields: {
-    fullName: "Full Name",
-    fullNamePlaceholder: "Enter your full name",
-
-    country: "Country",
-    countryPlaceholder: "Where are you currently living?",
-
-    preferredLanguage: "Preferred Language",
-
-    whatsapp: "WhatsApp",
-    whatsappPlaceholder: "Your WhatsApp number",
-
-    email: "Email",
-    emailPlaceholder: "Your email address",
-
-    treatment: "What would you like help with?",
-    selectTreatment: "Choose your main concern",
-
-    travelDate: "When are you planning to visit Vietnam?",
-
-    message: "Tell us about your smile",
-
-    messagePlaceholder:
-      "For example: missing teeth, smile improvement, veneers, implants, travel plans or anything you'd like us to know before we contact you.",
-  },
-
-  treatments: {
-    implant: "Missing Teeth / Dental Implants",
-
-    smileMakeover: "Complete Smile Makeover",
-
-    crowns: "Ceramic Crowns",
-
-    veneers: "Porcelain Veneers",
-
-    consultation: "I'm Not Sure Yet — I Need Advice",
-  },
-
-  languages: {
-    en: "English",
-    hmn: "H'Mong",
-    lo: "Lao",
-    th: "Thai",
-    vi: "Vietnamese",
-  },
-
-  cta: {
-    submit: "Talk with Our Team",
-
-    submitting: "Sending Your Request...",
-
-    privacy:
-      "Your information is kept completely private and will only be used by Maiv Thoj, A Su or our care team to contact you regarding your consultation.",
-  },
-},
 
   footer: {
     description:
-      "International patient concierge for dental, beauty, healthcare and travel services in Vietnam.",
+      "Maiv Thoj Viet Lao is an international medical and beauty concierge platform helping patients access trusted services in Vietnam.",
     sections: {
       treatments: {
-        title: "Treatments",
+        title: "Services",
         links: {
           implants: "Dental Implants",
           smileMakeover: "Smile Makeover",
           veneers: "Porcelain Veneers",
-          crowns: "Dental Crowns",
+          crowns: "Ceramic Crowns",
         },
       },
       travel: {
-        title: "Travel",
+        title: "Journey Support",
         links: {
           airportPickup: "Airport Pickup",
-          hotels: "Hotels",
-          travelGuide: "Travel Guide",
+          hotels: "Travel Planning",
+          travelGuide: "Patient Journey",
           faq: "FAQ",
         },
       },
       company: {
-        title: "Company",
+        title: "Platform",
         links: {
-          about: "About Us",
-          doctors: "Doctors",
-          patientStories: "Patient Stories",
-          contact: "Contact",
+          about: "Maiv Thoj Viet Lao",
+          doctors: "Clinical Partners",
+          patientStories: "Real Journeys",
+          contact: "Contact Team",
         },
       },
       resources: {
