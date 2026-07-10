@@ -21,6 +21,12 @@ export const seo = {
   ],
 
   ogImage: "/images/og-image.webp",
+
+  siteUrl: "https://maivthojvietlao.com",
+
+  twitter: {
+    card: "summary_large_image" as const,
+  },
 };
 
 export type SeoConfig = typeof seo;
