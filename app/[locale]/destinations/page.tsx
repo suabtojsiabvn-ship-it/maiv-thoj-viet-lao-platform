@@ -1,12 +1,12 @@
 import { notFound } from "next/navigation";
 
-import { getTravelGuidesByLocale } from "@/content/travel-guide";
+import { getDestinationsByLocale } from "@/content/destinations";
 import { buildMetadata } from "@/content/seo";
-import { TravelGuideGrid } from "@/features/travel-guide/components";
+import { DestinationGrid } from "@/features/destinations/components/DestinationGrid";
 import { isSupportedLocale } from "@/lib/i18n-routing";
 import type { Locale } from "@/types/i18n";
 
-interface TravelGuideListingPageProps {
+interface DestinationListingPageProps {
   params: Promise<{
     locale: string;
   }>;
@@ -14,7 +14,7 @@ interface TravelGuideListingPageProps {
 
 export async function generateMetadata({
   params,
-}: TravelGuideListingPageProps) {
+}: DestinationListingPageProps) {
   const { locale } = await params;
 
   if (!isSupportedLocale(locale)) {
@@ -22,44 +22,43 @@ export async function generateMetadata({
   }
 
   return buildMetadata({
-    title: "Travel Guide | Maiv Thoj Viet Lao Platform",
+    title: "Destinations | Maiv Thoj Viet Lao Platform",
     description:
-      "Practical guidance for international patients preparing for dental treatment, travel support, hotel stay, transportation and aftercare in Vietnam.",
-    canonical: `/${locale}/travel-guide`,
+      "Explore selected destinations in Vietnam that can become part of your patient journey with Maiv Thoj Viet Lao Platform.",
+    canonical: `/${locale}/destinations`,
   });
 }
 
-export default async function TravelGuideListingPage({
+export default async function DestinationListingPage({
   params,
-}: TravelGuideListingPageProps) {
+}: DestinationListingPageProps) {
   const { locale } = await params;
 
   if (!isSupportedLocale(locale)) {
     notFound();
   }
 
-  const guides = getTravelGuidesByLocale(locale as Locale);
+  const destinations = getDestinationsByLocale(locale as Locale);
 
   return (
     <main className="min-h-screen bg-slate-950 text-white">
       <section className="px-6 py-24">
         <div className="mx-auto max-w-6xl">
           <p className="text-sm font-semibold uppercase tracking-[0.25em] text-cyan-300">
-            Travel Guide
+            Destinations
           </p>
 
           <h1 className="mt-4 max-w-4xl text-4xl font-bold tracking-tight text-white md:text-6xl">
-            Practical guidance for your treatment journey in Vietnam.
+            Travel experiences that support your treatment journey.
           </h1>
 
           <p className="mt-6 max-w-3xl text-lg leading-8 text-slate-300">
-            Explore helpful guidance for airport arrival, hotel stay, local
-            transportation, travel preparation, food, culture and aftercare
-            support during your patient journey with Maiv Thoj Viet Lao
-            Platform.
+            Explore selected destinations in Vietnam that can become part of a
+            calm, meaningful and well-supported patient journey with Maiv Thoj
+            Viet Lao Platform.
           </p>
 
-          <TravelGuideGrid guides={guides} />
+          <DestinationGrid destinations={destinations} />
         </div>
       </section>
     </main>
