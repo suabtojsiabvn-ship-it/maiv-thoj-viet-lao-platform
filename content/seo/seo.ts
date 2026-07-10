@@ -1,18 +1,26 @@
 import { brand } from "@/content/branding";
 
 export const seo = {
-  title: `${brand.name} | Health, Beauty & Dental Concierge in Vietnam`,
+  title: `${brand.name} | International Dental & Patient Journey Support in Vietnam`,
 
-  description: brand.description,
+  description:
+    "Maiv Thoj Viet Lao Platform helps international patients, especially the global Hmong community, feel supported throughout their dental treatment journey in Vietnam — from consultation and travel planning to airport pickup, clinic visits, aftercare and returning home.",
 
   keywords: [
-    "Dental Tourism Vietnam",
+    "Maiv Thoj Viet Lao Platform",
+    "International Dental Care Vietnam",
+    "Dental Treatment Vietnam",
     "Hmong Dental Travel",
-    "Plastic Surgery Vietnam",
-    "Medical Concierge Vietnam",
-    "Maiv Thoj Viet Lao",
-    "Health and Beauty Vietnam",
+    "International Hmong Patients",
+    "Patient Journey Support",
+    "Dental Concierge Vietnam",
+    "Airport Pickup Dental Vietnam",
+    "Dental Tourism Vietnam",
+    "An Nhien Dental",
+    "Dr Toan Nguyen",
   ],
 
   ogImage: "/images/og-image.webp",
 };
+
+export type SeoConfig = typeof seo;
