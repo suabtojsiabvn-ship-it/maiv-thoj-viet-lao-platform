@@ -5,6 +5,7 @@ import { Booking } from "@/features/booking";
 import { ClinicalPartner } from "@/features/clinical-partner";
 import { Coordinator } from "@/features/coordinator";
 import { Destinations } from "@/features/destinations";
+import { FAQ } from "@/features/faq";
 import { FloatingContact } from "@/features/floating-contact";
 import { Footer } from "@/features/footer";
 import { Founder } from "@/features/founder";
@@ -58,6 +59,8 @@ export default async function HomePage({ params }: HomePageProps) {
       <Destinations locale={locale as Locale} />
 
       <Booking />
+
+      <FAQ />
 
       <Footer />
 
