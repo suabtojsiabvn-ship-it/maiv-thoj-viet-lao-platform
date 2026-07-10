@@ -19,7 +19,7 @@ export const seo = {
     "An Nhien Dental",
     "Dr Toan Nguyen",
   ],
-
+siteName: "Maiv Thoj Viet Lao Platform",
   ogImage: "/images/og-image.webp",
 
   siteUrl: "https://maivthojvietlao.com",
