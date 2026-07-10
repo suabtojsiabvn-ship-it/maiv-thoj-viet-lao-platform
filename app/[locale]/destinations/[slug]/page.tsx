@@ -1,113 +1,73 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 
-import { ContentBody } from "@/components/content/ContentBody";
-import { ContentGallery } from "@/components/content/ContentGallery";
-import { ContentHero } from "@/components/content/ContentHero";
-import { ContentMeta } from "@/components/content/ContentMeta";
-import { ContentTags } from "@/components/content/ContentTags";
-import {
-  getDestinationBySlug,
-  getDestinationSlugs,
-} from "@/content/destinations";
+import { DestinationGrid } from "@/features/destinations/components/DestinationGrid";
+import { getDestinationsByLocale } from "@/content/destinations";
+import { isSupportedLocale } from "@/lib/i18n-routing";
 import type { Locale } from "@/types/i18n";
 
-interface DestinationDetailPageProps {
+interface DestinationListingPageProps {
   params: Promise<{
     locale: string;
-    slug: string;
   }>;
-}
-
-export function generateStaticParams() {
-  return getDestinationSlugs();
 }
 
 export async function generateMetadata({
   params,
-}: DestinationDetailPageProps): Promise<Metadata> {
-  const { locale, slug } = await params;
-  const destination = getDestinationBySlug(locale as Locale, slug);
+}: DestinationListingPageProps): Promise<Metadata> {
+  const { locale } = await params;
 
-  if (!destination) {
+  if (!isSupportedLocale(locale)) {
     return {};
   }
 
   return {
-    title: destination.seo.title,
-    description: destination.seo.description,
+    title: "Destinations | Maiv Thoj Viet Lao Platform",
+    description:
+      "Explore selected destinations in Vietnam that can become part of your patient journey with Maiv Thoj Viet Lao Platform.",
     alternates: {
-      canonical:
-        destination.seo.canonical ??
-        `/${destination.locale}/destinations/${destination.slug}`,
+      canonical: `/${locale}/destinations`,
     },
     openGraph: {
-      title: destination.seo.title,
-      description: destination.seo.description,
-      images: [
-        {
-          url: destination.seo.image ?? destination.media.coverImage,
-          alt: destination.title,
-        },
-      ],
+      title: "Destinations | Maiv Thoj Viet Lao Platform",
+      description:
+        "Explore selected destinations in Vietnam that can become part of your patient journey with Maiv Thoj Viet Lao Platform.",
     },
   };
 }
 
-export default async function DestinationDetailPage({
+export default async function DestinationListingPage({
   params,
-}: DestinationDetailPageProps) {
-  const { locale, slug } = await params;
-  const destination = getDestinationBySlug(locale as Locale, slug);
+}: DestinationListingPageProps) {
+  const { locale } = await params;
 
-  if (!destination) {
+  if (!isSupportedLocale(locale)) {
     notFound();
   }
 
-  const metaItems = [
-    {
-      label: "Country",
-      value: destination.location.country,
-    },
-    {
-      label: "Province",
-      value: destination.location.province,
-    },
-    {
-      label: "District",
-      value: destination.location.district ?? "Regional destination",
-    },
-    {
-      label: "Duration",
-      value: destination.recommendedDuration ?? "Flexible journey",
-    },
-  ];
-
-  const body = [
-    destination.summary,
-    ...destination.highlights.map(
-      (highlight) => `${highlight.title}: ${highlight.description}`,
-    ),
-  ];
+  const destinations = getDestinationsByLocale(locale as Locale);
 
   return (
-    <main className="min-h-screen bg-slate-950">
-      <ContentHero
-        title={destination.title}
-        summary={destination.summary}
-        coverImage={destination.media.coverImage}
-      />
+    <main className="min-h-screen bg-slate-950 text-white">
+      <section className="px-6 py-24">
+        <div className="mx-auto max-w-6xl">
+          <p className="text-sm font-semibold uppercase tracking-[0.25em] text-cyan-300">
+            Destinations
+          </p>
 
-      <ContentMeta items={metaItems} />
+          <h1 className="mt-4 max-w-4xl text-4xl font-bold tracking-tight text-white md:text-6xl">
+            Travel experiences that support your treatment journey.
+          </h1>
 
-      <ContentBody paragraphs={body} />
+          <p className="mt-6 max-w-3xl text-lg leading-8 text-slate-300">
+            Explore selected destinations in Vietnam that can become part of a
+            calm, meaningful and well-supported patient journey with Maiv Thoj
+            Viet Lao Platform.
+          </p>
 
-      <ContentGallery
-        images={destination.media.gallery}
-        title={`${destination.title} Gallery`}
-      />
-
-      <ContentTags tags={destination.tags} />
+          <DestinationGrid destinations={destinations} />
+        </div>
+      </section>
     </main>
   );
 }
