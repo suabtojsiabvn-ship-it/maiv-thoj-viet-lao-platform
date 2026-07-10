@@ -5,3 +5,4 @@ export * from "./people";
 export * from "./site";
 export * from "./story";
 export * from "./treatment";
+export * from "./content";

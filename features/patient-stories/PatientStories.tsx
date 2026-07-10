@@ -1,1 +1,1 @@
-export { PatientStories } from "./components/PatientStories";
+export { PatientStoriesSection as PatientStories } from "./components/PatientStoriesSection";

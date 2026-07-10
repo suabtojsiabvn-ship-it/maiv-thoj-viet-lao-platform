@@ -13,7 +13,7 @@ import { Journey } from "@/features/journey";
 import { Treatments } from "@/features/treatments";
 import { TrustRibbon } from "@/features/trust-ribbon";
 import { isSupportedLocale } from "@/lib/i18n-routing";
-
+import { PatientStories } from "@/features/patient-stories";
 
 interface HomePageProps {
   params: Promise<{
@@ -43,7 +43,7 @@ export default async function HomePage({ params }: HomePageProps) {
 <Treatments />
 
 <BeforeAfter />
-
+<PatientStories />
 <Journey />
 <Booking />
 

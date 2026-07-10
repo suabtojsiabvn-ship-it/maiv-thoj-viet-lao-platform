@@ -8,11 +8,17 @@ import type { PatientStory } from "../types/patient-story.types";
 
 interface PatientStoryCardProps {
   story: PatientStory;
+  labels: {
+    languageSupport: string;
+    treatedBy: string;
+    watchJourney: string;
+  };
 }
 
 export function PatientStoryCard({
   story,
-}: PatientStoryCardProps) {
+  labels,
+}: PatientStoryCardProps)  {
   return (
     <GlassCard className="group overflow-hidden p-0 transition-all duration-500 hover:-translate-y-2 hover:border-cyan-400/40 hover:shadow-2xl hover:shadow-cyan-500/10">
       <div className="relative aspect-video overflow-hidden">
@@ -48,11 +54,7 @@ export function PatientStoryCard({
             {story.treatment}
           </span>
 
-          {story.language && (
-            <span className="rounded-full border border-emerald-500/30 bg-emerald-500/10 px-3 py-1 text-xs font-medium text-emerald-300">
-              {story.language} Support
-            </span>
-          )}
+          {story.language} {labels.languageSupport}
         </div>
 
         <h3 className="mt-5 text-2xl font-bold text-white">
@@ -70,7 +72,7 @@ export function PatientStoryCard({
 
           {story.doctor && (
             <span className="rounded-full bg-white/5 px-3 py-1 text-xs font-medium text-slate-300">
-              Treated by {story.doctor}
+             {labels.treatedBy} {story.doctor}
             </span>
           )}
         </div>
@@ -83,19 +85,19 @@ export function PatientStoryCard({
         </div>
 
         <Link
-          href={story.videoUrl}
-          aria-label={`Watch real journey of ${story.patient}`}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="mt-8 inline-flex items-center gap-2 font-semibold text-cyan-400 transition-colors hover:text-cyan-300"
-        >
-          Watch Real Journey
+  href={story.videoUrl}
+  aria-label={`${labels.watchJourney} of ${story.patient}`}
+  target="_blank"
+  rel="noopener noreferrer"
+  className="mt-8 inline-flex items-center gap-2 font-semibold text-cyan-400 transition-colors hover:text-cyan-300"
+>
+  {labels.watchJourney}
 
-          <ExternalLink
-            size={18}
-            aria-hidden="true"
-          />
-        </Link>
+  <ExternalLink
+    size={18}
+    aria-hidden="true"
+  />
+</Link>
       </div>
     </GlassCard>
   );
