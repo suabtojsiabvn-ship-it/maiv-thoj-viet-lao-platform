@@ -2,57 +2,57 @@ import type { LocaleDictionary } from "@/types/i18n";
 
 export const enDictionary: LocaleDictionary = {
   common: {
-    brandName: "Maiv Thoj Viet Lao",
-    tagline: "International Medical & Beauty Concierge in Vietnam",
-    primaryCta: "Start Your Journey",
-    secondaryCta: "Get Free Consultation",
+  brandName: "Maiv Thoj Viet Lao",
+  tagline: "International Patient Journey Support in Vietnam",
+  primaryCta: "Start With a Conversation",
+  secondaryCta: "Ask Our Team First",
+},
+
+hero: {
+  badge: "International Patient Journey Support in Vietnam",
+
+  title: {
+    line1: "Dental care in Vietnam,",
+    line2: "with someone beside you.",
   },
 
-  hero: {
-    badge: "Maiv Thoj Viet Lao • International Medical & Beauty Concierge",
+  subtitle:
+    "Traveling abroad for dental treatment can feel like a big decision. Maiv Thoj Viet Lao helps international patients, especially the global Hmong community, feel supported from the first message to the day they return home.",
 
-    title: {
-      line1: "Your Trusted Journey",
-      line2: "to Care in Vietnam",
+  actions: {
+    primary: "Start With a Conversation",
+    secondary: "Talk With A Su",
+  },
+
+  highlights: {
+    consultation: {
+      title: "Ask First, Decide Later",
+      description:
+        "You can talk with our team, share your concerns and understand your options before making any decision.",
     },
-
-    subtitle:
-      "Maiv Thoj Viet Lao helps international patients access trusted dental, medical and beauty services in Vietnam through a safe, supported and well-coordinated journey. Maiv Thoj supports the first conversation, A Su manages your journey in Vietnam, and trusted partners such as An Nhien Dental provide professional care.",
-
-    actions: {
-      primary: "Talk with Maiv Thoj",
-      secondary: "Talk with A Su",
+    airportPickup: {
+      title: "Welcomed in Vietnam",
+      description:
+        "When you arrive, our team helps with airport pickup, transportation and practical support during your stay.",
     },
-
-    highlights: {
-      consultation: {
-        title: "Trusted First Conversation",
-        description:
-          "Speak with Maiv Thoj or A Su before making any decision and understand your options clearly.",
-      },
-      airportPickup: {
-        title: "A Su Supports You in Vietnam",
-        description:
-          "Airport pickup, transportation, interpretation and practical support throughout your stay.",
-      },
-      multilingualSupport: {
-        title: "5 Languages Supported",
-        description:
-          "Support in H'Mong, English, Vietnamese, Lao and Thai so international patients feel understood.",
-      },
-      clinicalPartner: {
-        title: "Trusted Clinical Partners",
-        description:
-          "Dental treatment is provided by An Nhien Dental, with Dr. Toan Nguyen as lead dentist.",
-      },
+    multilingualSupport: {
+      title: "You Can Speak Comfortably",
+      description:
+        "Support is available in English, International Hmong, Vietnamese, Lao and Thai so communication feels easier.",
     },
-
-    stats: {
-      facebookCommunity: "454K+ Facebook Community",
-      tiktokCommunity: "1.3M+ TikTok Followers",
-      languagesSupported: "5 Languages Supported",
+    clinicalPartner: {
+      title: "Trusted Clinical Care",
+      description:
+        "Dental treatment is provided by trusted clinical partners such as An Nhien Dental, led by Dr. Toan Nguyen.",
     },
   },
+
+  stats: {
+    facebookCommunity: "454K+ Facebook Community",
+    tiktokCommunity: "1.3M+ TikTok Followers",
+    languagesSupported: "5 Languages Supported",
+  },
+},
       why: {
   sectionLabel: "Why Maiv Thoj Viet Lao",
   title: "Because you deserve more than just dental treatment.",
