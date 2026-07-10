@@ -12,6 +12,7 @@ import { Hero } from "@/features/hero";
 import { Journey } from "@/features/journey";
 import { PatientStories } from "@/features/patient-stories";
 import { Treatments } from "@/features/treatments";
+import { TravelGuide } from "@/features/travel-guide";
 import { TrustRibbon } from "@/features/trust-ribbon";
 import { Why } from "@/features/why";
 import { isSupportedLocale } from "@/lib/i18n-routing";
@@ -50,9 +51,11 @@ export default async function HomePage({ params }: HomePageProps) {
 
       <PatientStories />
 
-      <Destinations locale={locale as Locale} />
-
       <Journey />
+
+      <TravelGuide locale={locale as Locale} />
+
+      <Destinations locale={locale as Locale} />
 
       <Booking />
 
