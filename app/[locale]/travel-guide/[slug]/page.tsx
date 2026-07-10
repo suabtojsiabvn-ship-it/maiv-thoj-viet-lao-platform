@@ -1,60 +1,74 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 
-import { getTravelGuideBySlug, getTravelGuideSlugs } from "@/content/travel-guide";
-import { TravelGuideArticle } from "@/features/travel-guide";
+import { getTravelGuidesByLocale } from "@/content/travel-guide";
+import { TravelGuideGrid } from "@/features/travel-guide/components";
+import { isSupportedLocale } from "@/lib/i18n-routing";
 import type { Locale } from "@/types/i18n";
 
-interface TravelGuideDetailPageProps {
+interface TravelGuideListingPageProps {
   params: Promise<{
     locale: string;
-    slug: string;
   }>;
-}
-
-export function generateStaticParams() {
-  return getTravelGuideSlugs();
 }
 
 export async function generateMetadata({
   params,
-}: TravelGuideDetailPageProps): Promise<Metadata> {
-  const { locale, slug } = await params;
-  const guide = getTravelGuideBySlug(locale as Locale, slug);
+}: TravelGuideListingPageProps): Promise<Metadata> {
+  const { locale } = await params;
 
-  if (!guide) {
+  if (!isSupportedLocale(locale)) {
     return {};
   }
 
   return {
-    title: guide.seo.title,
-    description: guide.seo.description,
+    title: "Travel Guide | Maiv Thoj Viet Lao Platform",
+    description:
+      "Practical guidance for international patients preparing for dental treatment, travel support, hotel stay, transportation and aftercare in Vietnam.",
     alternates: {
-      canonical:
-        guide.seo.canonical ?? `/${guide.locale}/travel-guide/${guide.slug}`,
+      canonical: `/${locale}/travel-guide`,
     },
     openGraph: {
-      title: guide.seo.title,
-      description: guide.seo.description,
-      images: [
-        {
-          url: guide.seo.image ?? guide.media.coverImage,
-          alt: guide.title,
-        },
-      ],
+      title: "Travel Guide | Maiv Thoj Viet Lao Platform",
+      description:
+        "Practical guidance for international patients preparing for dental treatment, travel support, hotel stay, transportation and aftercare in Vietnam.",
     },
   };
 }
 
-export default async function TravelGuideDetailPage({
+export default async function TravelGuideListingPage({
   params,
-}: TravelGuideDetailPageProps) {
-  const { locale, slug } = await params;
-  const guide = getTravelGuideBySlug(locale as Locale, slug);
+}: TravelGuideListingPageProps) {
+  const { locale } = await params;
 
-  if (!guide) {
+  if (!isSupportedLocale(locale)) {
     notFound();
   }
 
-  return <TravelGuideArticle guide={guide} />;
+  const guides = getTravelGuidesByLocale(locale as Locale);
+
+  return (
+    <main className="min-h-screen bg-slate-950 text-white">
+      <section className="px-6 py-24">
+        <div className="mx-auto max-w-6xl">
+          <p className="text-sm font-semibold uppercase tracking-[0.25em] text-cyan-300">
+            Travel Guide
+          </p>
+
+          <h1 className="mt-4 max-w-4xl text-4xl font-bold tracking-tight text-white md:text-6xl">
+            Practical guidance for your treatment journey in Vietnam.
+          </h1>
+
+          <p className="mt-6 max-w-3xl text-lg leading-8 text-slate-300">
+            Explore helpful guidance for airport arrival, hotel stay, local
+            transportation, travel preparation, food, culture and aftercare
+            support during your patient journey with Maiv Thoj Viet Lao
+            Platform.
+          </p>
+
+          <TravelGuideGrid guides={guides} />
+        </div>
+      </section>
+    </main>
+  );
 }
