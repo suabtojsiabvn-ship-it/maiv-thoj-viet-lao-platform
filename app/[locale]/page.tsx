@@ -3,17 +3,19 @@ import { notFound } from "next/navigation";
 import { BeforeAfter } from "@/features/before-after";
 import { Booking } from "@/features/booking";
 import { ClinicalPartner } from "@/features/clinical-partner";
+import { Coordinator } from "@/features/coordinator";
+import { Destinations } from "@/features/destinations";
 import { FloatingContact } from "@/features/floating-contact";
 import { Footer } from "@/features/footer";
-import { Hero } from "@/features/hero";
-import { Why } from "@/features/why";
 import { Founder } from "@/features/founder";
-import { Coordinator  } from "@/features/coordinator";
+import { Hero } from "@/features/hero";
 import { Journey } from "@/features/journey";
+import { PatientStories } from "@/features/patient-stories";
 import { Treatments } from "@/features/treatments";
 import { TrustRibbon } from "@/features/trust-ribbon";
+import { Why } from "@/features/why";
 import { isSupportedLocale } from "@/lib/i18n-routing";
-import { PatientStories } from "@/features/patient-stories";
+import type { Locale } from "@/types/i18n";
 
 interface HomePageProps {
   params: Promise<{
@@ -30,26 +32,33 @@ export default async function HomePage({ params }: HomePageProps) {
 
   return (
     <main className="overflow-x-hidden bg-slate-950 text-white">
- <Hero />
-<Why />
-<TrustRibbon />
+      <Hero />
 
-<Founder />
+      <Why />
 
-<Coordinator  />
+      <TrustRibbon />
 
-<ClinicalPartner />
+      <Founder />
 
-<Treatments />
+      <Coordinator />
 
-<BeforeAfter />
-<PatientStories />
-<Journey />
-<Booking />
+      <ClinicalPartner />
 
-<Footer />
+      <Treatments />
 
-<FloatingContact />
+      <BeforeAfter />
+
+      <PatientStories />
+
+      <Destinations locale={locale as Locale} />
+
+      <Journey />
+
+      <Booking />
+
+      <Footer />
+
+      <FloatingContact />
     </main>
   );
 }
