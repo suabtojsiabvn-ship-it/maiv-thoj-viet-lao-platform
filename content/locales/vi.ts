@@ -3,47 +3,47 @@ import type { LocaleDictionary } from "@/types/i18n";
 export const viDictionary: LocaleDictionary = {
   common: {
     brandName: "Maiv Thoj Viet Lao",
-    tagline: "Điều phối hành trình y tế và làm đẹp tại Việt Nam",
-    primaryCta: "Bắt đầu hành trình",
-    secondaryCta: "Tư vấn miễn phí",
+    tagline: "Đồng hành cùng khách hàng quốc tế trên hành trình làm răng tại Việt Nam",
+    primaryCta: "Bắt đầu bằng một cuộc trò chuyện",
+    secondaryCta: "Hỏi đội ngũ trước",
   },
 
   hero: {
-    badge: "Maiv Thoj Viet Lao • Điều phối y tế & làm đẹp quốc tế",
+    badge: "Đồng hành cùng khách hàng quốc tế tại Việt Nam",
 
     title: {
-      line1: "Hành trình đáng tin cậy",
-      line2: "đến Việt Nam",
+      line1: "Làm răng tại Việt Nam,",
+      line2: "có người đồng hành cùng bạn.",
     },
 
     subtitle:
-      "Maiv Thoj Viet Lao giúp khách hàng quốc tế tiếp cận các dịch vụ nha khoa, y tế và làm đẹp uy tín tại Việt Nam thông qua một hành trình an toàn, rõ ràng và có người đồng hành. Maiv Thoj hỗ trợ cuộc trò chuyện đầu tiên, A Sử điều phối hành trình tại Việt Nam, còn các đối tác đáng tin cậy như An Nhien Dental phụ trách chuyên môn điều trị.",
+      "Sang một quốc gia khác để làm răng là một quyết định lớn. Maiv Thoj Viet Lao giúp khách hàng quốc tế, đặc biệt là cộng đồng H'Mông toàn cầu, cảm thấy an tâm từ cuộc trò chuyện đầu tiên cho đến ngày trở về nhà.",
 
     actions: {
-      primary: "Nói chuyện với Maiv Thoj",
+      primary: "Bắt đầu bằng một cuộc trò chuyện",
       secondary: "Trao đổi với A Sử",
     },
 
     highlights: {
       consultation: {
-        title: "Cuộc trò chuyện đáng tin cậy",
+        title: "Hỏi trước, quyết định sau",
         description:
-          "Trao đổi với Maiv Thoj hoặc A Sử trước khi quyết định để hiểu rõ lựa chọn phù hợp.",
+          "Bạn có thể trao đổi với đội ngũ, chia sẻ điều mình lo lắng và hiểu rõ các lựa chọn trước khi đưa ra quyết định.",
       },
       airportPickup: {
-        title: "A Sử hỗ trợ tại Việt Nam",
+        title: "Có người đón bạn tại Việt Nam",
         description:
-          "Đón sân bay, đưa đón, phiên dịch và hỗ trợ thực tế trong suốt thời gian lưu trú.",
+          "Khi bạn đến nơi, đội ngũ sẽ hỗ trợ đón sân bay, đưa đón và đồng hành cùng bạn trong suốt thời gian ở Việt Nam.",
       },
       multilingualSupport: {
-        title: "Hỗ trợ 5 ngôn ngữ",
+        title: "Giao tiếp bằng ngôn ngữ bạn thấy thoải mái",
         description:
-          "Hỗ trợ H'Mông, Anh, Việt, Lào và Thái để khách hàng quốc tế luôn cảm thấy dễ hiểu.",
+          "Hỗ trợ tiếng Anh, H'Mông quốc tế, Việt, Lào và Thái để việc trao đổi trở nên dễ hiểu và gần gũi hơn.",
       },
       clinicalPartner: {
-        title: "Đối tác chuyên môn đáng tin cậy",
+        title: "Chăm sóc nha khoa đáng tin cậy",
         description:
-          "Điều trị nha khoa được thực hiện tại An Nhien Dental, với Bác sĩ Toàn Nguyễn phụ trách chính.",
+          "Việc làm răng được thực hiện bởi các đối tác nha khoa đáng tin cậy như An Nhien Dental, dưới sự phụ trách chuyên môn của Dr. Toan Nguyen.",
       },
     },
 
@@ -53,391 +53,553 @@ export const viDictionary: LocaleDictionary = {
       languagesSupported: "Hỗ trợ 5 ngôn ngữ",
     },
   },
-    why: {
-  sectionLabel: "Vì sao chọn Maiv Thoj Viet Lao",
-  title: "Bởi vì bạn xứng đáng nhận được nhiều hơn một ca điều trị nha khoa.",
-  description:
-    "Từ cuộc trò chuyện đầu tiên cho đến khi bạn trở về nhà, Maiv Thoj Viet Lao giúp bạn cảm thấy được hỗ trợ, được thấu hiểu và có người đồng hành trong từng bước của hành trình làm răng tại Việt Nam.",
-  imageAlt:
-    "Hành trình khách hàng thật cùng Maiv Thoj Viet Lao tại Việt Nam",
-  cards: {
-    guidance: {
-      title: "Định hướng đáng tin cậy",
-      description:
-        "Bạn không cần tự tìm hiểu một mình. Maiv Thoj và A Sử (Txhim) giúp bạn hiểu rõ lựa chọn trước khi đưa ra quyết định.",
-    },
-    language: {
-      title: "Hỗ trợ nhiều ngôn ngữ",
-      description:
-        "Hỗ trợ bằng tiếng Anh, H'Mông, Việt, Thái và Lào để khách hàng quốc tế luôn cảm thấy dễ hiểu và an tâm.",
-    },
-    coordination: {
-      title: "Điều phối cá nhân",
-      description:
-        "A Sử (Txhim) hỗ trợ đón sân bay, đặt lịch, đưa đón, phiên dịch và các nhu cầu thực tế khi bạn ở Việt Nam.",
-    },
-    memories: {
-      title: "Kỷ niệm đẹp",
-      description:
-        "Nếu lịch điều trị phù hợp, chúng tôi giúp bạn lưu lại những bức ảnh và video ngắn ý nghĩa trong hành trình tại Việt Nam.",
+
+  why: {
+    sectionLabel: "Vì sao chọn Maiv Thoj Viet Lao",
+
+    title:
+      "Bởi vì cảm giác được đồng hành cũng quan trọng như kết quả làm răng.",
+
+    description:
+      "Lựa chọn sang Việt Nam để làm răng không chỉ là chuyện điều trị. Đó là một hành trình cần sự rõ ràng, tin tưởng và có người thật sự ở bên hỗ trợ bạn trong từng bước.",
+
+    imageAlt:
+      "Hành trình làm răng tại Việt Nam được Maiv Thoj Viet Lao đồng hành",
+
+    cards: {
+      guidance: {
+        title: "Một hành trình bắt đầu từ sự tin tưởng",
+        description:
+          "Trước khi bạn quyết định, đội ngũ sẽ lắng nghe, trả lời câu hỏi và giúp bạn hiểu rõ điều gì phù hợp với mình.",
+      },
+
+      language: {
+        title: "Nói bằng ngôn ngữ bạn thấy thoải mái",
+        description:
+          "Dù bạn dùng tiếng Anh, H'Mông quốc tế, Việt, Thái hay Lào, chúng tôi sẽ cố gắng để mọi cuộc trao đổi rõ ràng và dễ hiểu hơn.",
+      },
+
+      coordination: {
+        title: "Hỗ trợ không chỉ ở phòng khám",
+        description:
+          "Từ lúc đến sân bay, di chuyển, lịch hẹn, phiên dịch cho đến những việc nhỏ trong thời gian ở Việt Nam, bạn luôn có người hỗ trợ.",
+      },
+
+      care: {
+        title: "Không chỉ là một chuyến đi làm răng",
+        description:
+          "Khi lịch trình cho phép, chúng tôi mong thời gian của bạn tại Việt Nam không chỉ là điều trị, mà còn là một hành trình có ý nghĩa để nhớ về.",
+      },
     },
   },
-},
 
   founder: {
-  sectionLabel: "Gặp Maiv Thoj",
-  title: "Một tiếng nói đáng tin cậy kết nối khách hàng quốc tế với Việt Nam.",
-  description:
-    "Maiv Thoj Viet Lao Platform được tạo ra để giúp khách hàng cảm thấy được cung cấp thông tin rõ ràng, được hỗ trợ và được kết nối trước khi bắt đầu hành trình chăm sóc sức khỏe tại Việt Nam.",
-  imageAlt: "Maiv Thoj, Community Advisor của Maiv Thoj Viet Lao Platform",
-  story: [
-    "Sau nhiều năm kết nối với cộng đồng H'Mông trên khắp thế giới, Maiv Thoj hiểu những lo lắng của nhiều gia đình khi tìm kiếm dịch vụ y tế đáng tin cậy ở nước ngoài.",
-    "Vai trò của Maiv Thoj là giúp khách hàng bắt đầu hành trình với sự tự tin, thông tin rõ ràng và sự hỗ trợ đáng tin cậy.",
-    "Cùng với A Sử (Txhim) và các đối tác lâm sàng uy tín tại Việt Nam, Maiv Thoj Viet Lao Platform giúp hành trình chăm sóc sức khỏe trở thành một trải nghiệm được đồng hành và có ý nghĩa.",
-  ],
-  quote:
-    "Mỗi khách hàng đều xứng đáng có người đồng hành đáng tin cậy, sự chăm sóc chân thành và sự tự tin để mỉm cười trở lại.",
-  stats: {
-    facebook: "Cộng đồng Facebook",
-    tiktok: "Cộng đồng TikTok",
-    role: "Vai trò tin cậy",
+    sectionLabel: "Gặp Maiv Thoj",
+
+    title:
+      "Giúp các gia đình quốc tế cảm thấy an tâm hơn khi nghĩ đến Việt Nam.",
+
+    description:
+      "Với nhiều gia đình, sang một quốc gia khác để chăm sóc nụ cười là một bước đi lớn. Maiv Thoj giúp bước đầu tiên ấy trở nên dễ dàng hơn bằng sự tin tưởng, thông tin rõ ràng và kết nối đúng người hỗ trợ.",
+
+    imageAlt:
+      "Maiv Thoj, Community Ambassador của Maiv Thoj Viet Lao Platform",
+
+    story: [
+      "Trong nhiều năm, Maiv Thoj đã gắn bó với cộng đồng H'Mông trên khắp thế giới qua âm nhạc, câu chuyện và đời sống thường ngày. Sự tin tưởng đó trở thành nền tảng để xây dựng Maiv Thoj Viet Lao Platform.",
+      "Hôm nay, Maiv Thoj giúp khách hàng quốc tế bắt đầu hành trình làm răng tại Việt Nam với nhiều sự an tâm hơn. Vai trò của cô là lắng nghe, trả lời câu hỏi và giúp gia đình hiểu rõ hành trình trước khi quyết định.",
+      "Việc làm răng được thực hiện bởi các đối tác nha khoa đáng tin cậy như An Nhien Dental. Vai trò của Maiv Thoj là khác biệt: giúp khách hàng cảm thấy được lắng nghe, được chào đón và được đồng hành trong suốt hành trình.",
+    ],
+
+    quote:
+      "Điều quan trọng nhất trong một hành trình là biết rằng đã có người thật sự quan tâm đến bạn trước cả khi bạn đặt chân đến nơi.",
+
+    stats: {
+      facebook: "Cộng đồng Facebook",
+      tiktok: "Cộng đồng TikTok",
+      role: "Community Ambassador",
+    },
+
+    cta: {
+      label: "Bắt đầu tư vấn",
+    },
   },
-  cta: {
-    label: "Trao đổi với Maiv Thoj",
-  },
-},
 
   coordinator: {
     sectionLabel: "Gặp A Sử",
-    title: "Patient Journey Manager tại Việt Nam",
+
+    title:
+      "Người đồng hành cùng bạn trong suốt thời gian ở Việt Nam.",
+
     description:
-      "A Sử là người hỗ trợ chính tại Việt Nam, từ lên kế hoạch, đón sân bay, phiên dịch, đưa đón đến hỗ trợ hằng ngày.",
+      "Khi bạn quyết định sang Việt Nam làm răng, A Sử là người hỗ trợ chính trong hành trình của bạn — từ chuẩn bị trước chuyến đi, đón sân bay, hỗ trợ giao tiếp, đưa đón cho đến ngày bạn trở về nhà.",
+
     badge: "PATIENT JOURNEY MANAGER",
-    heading: "Bạn không phải tự xoay xở khi đến Việt Nam",
+
+    heading: "Bạn không cần tự xoay xở một mình",
+
     intro:
-      "Khi hành trình bắt đầu, A Sử là đầu mối hỗ trợ chính tại Việt Nam. A Sử giúp một chuyến đi xa trở nên rõ ràng, có tổ chức và an tâm hơn.",
+      "Sang một quốc gia khác để làm răng có thể khiến nhiều người lo lắng. Ngôn ngữ khác, nơi ở mới và nhiều chi tiết nhỏ dễ làm bạn thấy áp lực. A Sử ở đây để giúp hành trình đó rõ ràng, nhẹ nhàng và an tâm hơn.",
+
     story: [
-      "Nhiều khách hàng quốc tế lo lắng về ngôn ngữ, đi lại, lịch hẹn với đối tác và không biết chuyện gì sẽ diễn ra sau khi đến Việt Nam.",
-      "A Sử giúp chuẩn bị hành trình trước chuyến đi, điều phối lịch trình, hỗ trợ giao tiếp và giúp khách biết rõ điều gì sẽ xảy ra.",
-      "Khi bạn đến Việt Nam, A Sử sẽ đón bạn, hỗ trợ di chuyển, phiên dịch và luôn sẵn sàng trong suốt hành trình.",
-      "A Sử không chỉ là tài xế hay nhân viên hỗ trợ. A Sử là người giúp khách hàng cảm thấy an toàn, được thấu hiểu và có người đồng hành khi xa nhà.",
+      "Trước chuyến đi, A Sử giúp bạn chuẩn bị lịch trình, trả lời các câu hỏi thực tế và nắm rõ những điều cần biết trước khi đến Việt Nam.",
+      "Khi bạn hạ cánh, A Sử hoặc đội ngũ sẽ đón bạn tại sân bay, hỗ trợ di chuyển và giúp bạn ổn định nơi ở để bắt đầu hành trình thoải mái hơn.",
+      "Trong thời gian ở Việt Nam, A Sử hỗ trợ giao tiếp, lịch hẹn, đưa đón và những nhu cầu thực tế trong quá trình làm răng.",
+      "Vai trò của A Sử không phải là bác sĩ hay người điều trị. A Sử là người giúp bạn cảm thấy được hiểu, được hỗ trợ và có người để liên hệ bất cứ khi nào cần.",
     ],
+
     quote:
-      "Một hành trình an toàn không chỉ là bạn đi đâu, mà là ai ở bên cạnh bạn khi bạn đến nơi.",
+      "Đôi khi sự an tâm lớn nhất đến từ việc biết rằng luôn có người ở đó khi bạn cần giúp đỡ.",
+
     cta: {
       label: "Trao đổi với A Sử",
     },
+
+    imageCard: {
+  role: "Quản lý hành trình khách hàng quốc tế",
+  description:
+    "Hỗ trợ bạn giao tiếp, điều phối lịch trình và an tâm hơn trong suốt hành trình làm răng tại Việt Nam.",
+},
     services: [
       {
         title: "Lên kế hoạch hành trình",
         description:
-          "Hỗ trợ lịch trình, thời gian đi, lịch hẹn với đối tác và chuẩn bị trước khi đến Việt Nam.",
+          "Hỗ trợ chuẩn bị lịch trình, thời gian đến Việt Nam, lịch hẹn và những điều quan trọng trước chuyến đi.",
       },
       {
-        title: "Đón sân bay",
+        title: "Đón tại sân bay",
         description:
-          "Đón khách tại sân bay và hỗ trợ di chuyển bằng xe riêng tại Việt Nam.",
+          "Đón bạn khi đến Việt Nam và hỗ trợ di chuyển để hành trình bắt đầu thuận lợi hơn.",
       },
       {
-        title: "Hỗ trợ phiên dịch",
+        title: "Hỗ trợ giao tiếp",
         description:
-          "Giúp khách hàng giao tiếp rõ ràng với đối tác chuyên môn và đội ngũ địa phương.",
+          "Giúp bạn trao đổi rõ ràng hơn với đối tác nha khoa và đội ngũ liên quan khi cần.",
       },
       {
-        title: "Hỗ trợ hằng ngày",
+        title: "Đồng hành trong suốt thời gian lưu trú",
         description:
-          "Hỗ trợ thực tế trong quá trình điều trị, hồi phục, tái khám và di chuyển.",
+          "Từ di chuyển, câu hỏi thực tế đến lịch hẹn theo dõi, bạn luôn có người để liên hệ khi cần hỗ trợ.",
       },
     ],
   },
 
   clinicalPartner: {
-    sectionLabel: "Đối tác chuyên môn đáng tin cậy",
-    title: "Điều trị nha khoa bởi An Nhien Dental",
+    sectionLabel: "Đối tác nha khoa đáng tin cậy",
+
+    title:
+      "Chăm sóc nha khoa chuyên môn bởi đội ngũ bạn có thể tin tưởng.",
+
     description:
-      "An Nhien Dental là đối tác chuyên môn đầu tiên của Maiv Thoj Viet Lao trong lĩnh vực nha khoa tại Việt Nam. Bác sĩ Toàn Nguyễn là bác sĩ phụ trách chính về thăm khám, lập kế hoạch và điều trị.",
+      "Maiv Thoj Viet Lao đồng hành trong hành trình của bạn. Khi đến bước thăm khám và làm răng, các đối tác nha khoa đáng tin cậy như An Nhien Dental sẽ phụ trách chuyên môn với đội ngũ có kinh nghiệm.",
+
     badge: "TRUSTED CLINICAL PARTNER",
-    heading: "An Nhien Dental & Bác sĩ Toàn Nguyễn",
+
+    heading: "Nơi sự tin tưởng gặp chăm sóc nha khoa chuyên môn",
+
     intro:
-      "Maiv Thoj Viet Lao điều phối và hỗ trợ hành trình khách hàng. Khi đến bước điều trị nha khoa, An Nhien Dental phụ trách chuyên môn, với Bác sĩ Toàn Nguyễn trực tiếp thăm khám, lập kế hoạch và điều trị.",
+      "Mỗi người trong hành trình của bạn có một vai trò riêng. Maiv Thoj giúp bạn bắt đầu bằng sự tin tưởng. A Sử đồng hành cùng bạn tại Việt Nam. Việc làm răng được thực hiện bởi đội ngũ nha khoa tại An Nhien Dental, dưới sự phụ trách của Dr. Toan Nguyen.",
+
     quote:
-      "Hành trình bắt đầu từ những người bạn tin tưởng, còn điều trị được thực hiện bởi đúng đối tác chuyên môn.",
+      "Mỗi nụ cười đều bắt đầu từ sự lắng nghe, thăm khám kỹ lưỡng và một kế hoạch điều trị phù hợp với từng người.",
+
     cta: {
-      label: "Lên kế hoạch hành trình",
+      label: "Khám phá lựa chọn làm răng",
     },
+
     highlights: [
-      {
-        title: "Đối tác nha khoa đáng tin cậy",
-        description:
-          "An Nhien Dental là đối tác điều trị nha khoa của Maiv Thoj Viet Lao tại Việt Nam.",
-      },
-      {
-        title: "Bác sĩ phụ trách: Toàn Nguyễn",
-        description:
-          "Bác sĩ Toàn Nguyễn trực tiếp thăm khám, lập kế hoạch và điều trị nha khoa.",
-      },
-      {
-        title: "Hơn 12 năm kinh nghiệm",
-        description:
-          "Kinh nghiệm trong nha khoa thẩm mỹ, phục hình sứ, veneer và cấy ghép implant.",
-      },
-      {
-        title: "Phân vai rõ ràng",
-        description:
-          "Maiv Thoj Viet Lao điều phối hành trình; An Nhien Dental tập trung vào điều trị chuyên môn.",
-      },
-    ],
+  {
+    title: "Kế hoạch điều trị cá nhân hóa",
+    description:
+      "Mỗi kế hoạch điều trị được xây dựng sau khi bác sĩ thăm khám kỹ lưỡng, dựa trên tình trạng răng miệng, nhu cầu và thời gian của bạn.",
+  },
+  {
+    title: "Đội ngũ nha khoa giàu kinh nghiệm",
+    description:
+      "Bạn được chăm sóc bởi đội ngũ nha khoa giàu kinh nghiệm, luôn đặt chất lượng, sự an toàn và hiệu quả điều trị lên hàng đầu.",
+  },
+  {
+    title: "Phụ trách chuyên môn",
+    description:
+      "BS. Toàn Nguyễn phụ trách thăm khám, lập kế hoạch điều trị và giám sát chất lượng chuyên môn trong suốt quá trình điều trị.",
+  },
+  {
+    title: "Nha khoa kỹ thuật số hiện đại",
+    description:
+      "Công nghệ nha khoa kỹ thuật số hỗ trợ chẩn đoán chính xác hơn, lập kế hoạch hiệu quả hơn và mang lại trải nghiệm điều trị thoải mái hơn.",
+  },
+],
+
+    technology: {
+  title: "Công nghệ nha khoa hiện đại",
+},  
+        imageCard: {
+  badge: "Đối tác nha khoa đáng tin cậy",
+  description:
+    "Đội ngũ nha khoa giàu kinh nghiệm, kế hoạch điều trị cá nhân hóa và nha khoa kỹ thuật số hiện đại.",
+},
+
     technologies: [
       {
-        name: "CT Cone Beam 3D",
+        name: "CBCT 3D Imaging",
         description:
-          "Hình ảnh 3D hỗ trợ chẩn đoán và lập kế hoạch implant chính xác.",
+          "Hình ảnh 3D hỗ trợ thăm khám và lên kế hoạch làm răng rõ ràng hơn.",
       },
       {
-        name: "Máy quét trong miệng",
+        name: "Digital Intraoral Scanner",
         description:
-          "Lấy dấu kỹ thuật số thoải mái với dữ liệu điều trị chính xác.",
+          "Quét kỹ thuật số trong miệng giúp trải nghiệm lấy dấu thoải mái hơn trong nhiều trường hợp.",
       },
       {
-        name: "Quy trình CAD/CAM kỹ thuật số",
+        name: "CAD/CAM Workflow",
         description:
-          "Thiết kế và phục hình kỹ thuật số nhằm hỗ trợ kết quả chính xác.",
+          "Thiết kế và phục hình kỹ thuật số hỗ trợ độ chính xác và sự đồng nhất trong quá trình làm răng.",
       },
       {
-        name: "Quy trình an toàn lâm sàng",
+        name: "International Clinical Standards",
         description:
-          "Quy trình vô trùng và an toàn được thiết kế cho chăm sóc chuyên môn.",
+          "Quy trình vô trùng, an toàn và chăm sóc chuyên môn được xây dựng để hỗ trợ kết quả điều trị chất lượng.",
       },
     ],
   },
 
   treatments: {
-    sectionLabel: "Dịch vụ nha khoa",
-    title: "Nha khoa là dịch vụ đầu tiên chúng tôi hỗ trợ",
+    sectionLabel: "Chúng tôi có thể giúp bạn điều gì",
+
+    title:
+      "Mỗi nụ cười có một câu chuyện riêng. Mỗi khách hàng cần một kế hoạch phù hợp.",
+
     description:
-      "Maiv Thoj Viet Lao được xây dựng như một nền tảng điều phối y tế và làm đẹp quốc tế. Nha khoa là dịch vụ đầu tiên được hỗ trợ thông qua đối tác chuyên môn An Nhien Dental.",
+      "Không có một giải pháp làm răng nào phù hợp cho tất cả mọi người. Vai trò của chúng tôi là giúp bạn hiểu các lựa chọn và kết nối bạn với đội ngũ nha khoa đáng tin cậy để tìm ra hướng phù hợp với tình trạng răng và mong muốn của bạn.",
+
     items: {
       implant: {
-        title: "Mất răng / Cấy ghép Implant",
+        title: "Thay thế răng đã mất",
         description:
-          "Implant giúp phục hồi răng mất, cải thiện ăn nhai và hỗ trợ sức khỏe răng miệng lâu dài.",
+          "Nếu bạn mất một hoặc nhiều răng, implant có thể giúp cải thiện ăn nhai, sự tự tin và sinh hoạt hằng ngày. Kế hoạch làm răng luôn cần dựa trên tình trạng răng miệng thực tế của bạn.",
       },
+
       crowns: {
-        title: "Răng sứ thẩm mỹ",
+        title: "Bảo vệ và phục hồi răng yếu",
         description:
-          "Răng sứ cao cấp có thể cải thiện màu sắc, hình dáng, độ đều và sự hài hòa của nụ cười.",
+          "Răng sứ có thể giúp bảo vệ răng đã yếu, đồng thời cải thiện màu sắc, hình dáng và chức năng theo hướng tự nhiên hơn.",
       },
+
       veneers: {
-        title: "Mặt dán sứ Veneer",
+        title: "Cải thiện nụ cười",
         description:
-          "Veneer cải thiện màu sắc và hình dáng răng trong khi bảo tồn tối đa mô răng tự nhiên.",
+          "Mặt dán sứ veneer có thể giúp cải thiện màu sắc, hình dáng và sự hài hòa của nụ cười, đồng thời bảo tồn mô răng tự nhiên khi phù hợp.",
       },
+
       smileMakeover: {
-        title: "Thiết kế lại nụ cười",
+        title: "Thiết kế nụ cười dành riêng cho bạn",
         description:
-          "Kế hoạch cá nhân hóa kết hợp các giải pháp phù hợp với mục tiêu nụ cười và tình trạng răng miệng của bạn.",
+          "Có người chỉ cần một giải pháp, có người cần kết hợp nhiều phương án. Smile makeover được lên kế hoạch dựa trên mong muốn, tình trạng răng và sự bền vững lâu dài.",
       },
     },
+
     cta: {
-      learnMore: "Xem lựa chọn nha khoa",
+      learnMore: "Khám phá các lựa chọn",
     },
   },
 
   beforeAfter: {
-    sectionLabel: "Kết quả thực tế",
-    title: "Những nụ cười đã thay đổi thật",
+    sectionLabel: "Hành trình nụ cười thật",
+
+    title:
+      "Mỗi nụ cười đều có một câu chuyện. Mỗi hành trình đều rất riêng.",
+
     description:
-      "Hình ảnh trước và sau thể hiện kết quả chuyên môn từ đối tác nha khoa trong từng hành trình khách hàng.",
+      "Đằng sau mỗi hình ảnh trước và sau là một người đã tin tưởng trao cho chúng tôi một quyết định quan trọng. Những câu chuyện này phản ánh hành trình làm răng thật, được Maiv Thoj Viet Lao đồng hành và được thực hiện bởi các đối tác nha khoa đáng tin cậy.",
+
     labels: {
       before: "Trước",
       after: "Sau",
     },
+
     cases: {
       case1: {
-        title: "Từ e ngại đến nụ cười tự tin",
+        title: "Tự tin mỉm cười trở lại",
         treatment: "Răng sứ thẩm mỹ",
-        country: "Khách hàng H'Mông tại Mỹ",
+        country: "Khách hàng H'Mông đang sống tại Mỹ",
       },
+
       case2: {
-        title: "Phục hồi răng mất để ăn nhai tốt hơn",
+        title: "Ăn nhai thoải mái hơn sau khi phục hồi răng mất",
         treatment: "Cấy ghép Implant",
         country: "Khách hàng từ Úc",
       },
+
       case3: {
-        title: "Cải thiện nụ cười tự nhiên",
+        title: "Nụ cười sáng hơn nhưng vẫn tự nhiên",
         treatment: "Mặt dán sứ Veneer",
         country: "Khách hàng từ Pháp",
       },
+
       case4: {
-        title: "Thay đổi toàn bộ nụ cười",
-        treatment: "Smile Makeover",
+        title: "Một nụ cười được thiết kế quanh mong muốn cá nhân",
+        treatment: "Thiết kế nụ cười toàn diện",
         country: "Khách hàng H'Mông quốc tế",
       },
     },
   },
+   journey: {
+  sectionLabel: "Hành trình của bạn",
 
-  journey: {
-    sectionLabel: "Hành trình của bạn",
-    title: "Từ cuộc trò chuyện đầu tiên đến chăm sóc sau điều trị",
-    description:
-      "Một hành trình rõ ràng dành cho khách hàng quốc tế muốn tiếp cận dịch vụ uy tín tại Việt Nam mà không phải tự lo mọi thứ.",
-    badge: "GUIDED PATIENT JOURNEY",
-    heading: "Mọi bước được điều phối trước khi bạn đến Việt Nam",
-    intro:
-      "Maiv Thoj Viet Lao giúp bạn hiểu hành trình, A Sử hỗ trợ bạn tại Việt Nam, còn các đối tác đáng tin cậy phụ trách chuyên môn dựa trên dịch vụ bạn lựa chọn.",
-    steps: {
-      consultation: {
-        title: "Cuộc trò chuyện đầu tiên",
-        description:
-          "Trao đổi với Maiv Thoj hoặc A Sử, chia sẻ nhu cầu và đặt câu hỏi trước khi quyết định.",
-      },
-      plan: {
-        title: "Lên kế hoạch hành trình",
-        description:
-          "Đội ngũ giúp bạn hiểu thời gian, các bước dự kiến, nhu cầu di chuyển và đối tác phù hợp.",
-      },
-      travel: {
-        title: "Trước khi bạn đi",
-        description:
-          "A Sử hỗ trợ chuẩn bị lịch trình, thời gian đến, phương tiện di chuyển và các thông tin quan trọng.",
-      },
-      pickup: {
-        title: "Đến Việt Nam",
-        description:
-          "A Sử đón bạn tại sân bay, hỗ trợ di chuyển và giúp bạn ổn định lịch trình.",
-      },
-      treatment: {
-        title: "Gặp đối tác & điều trị",
-        description:
-          "Bạn gặp đối tác đáng tin cậy. Với nha khoa, An Nhien Dental và Bác sĩ Toàn Nguyễn phụ trách điều trị chuyên môn.",
-      },
-      recovery: {
-        title: "Hỗ trợ trong thời gian lưu trú",
-        description:
-          "A Sử tiếp tục hỗ trợ di chuyển, phiên dịch, tái khám và các nhu cầu thực tế.",
-      },
-      return: {
-        title: "Chăm sóc sau điều trị",
-        description:
-          "Bạn trở về nhà với sự hỗ trợ tiếp tục từ đội ngũ khi cần hướng dẫn theo dõi.",
-      },
+  badge: "PATIENT JOURNEY",
+
+  title:
+    "Một hành trình rõ ràng, an tâm và luôn có người đồng hành.",
+
+  description:
+    "Mỗi khách hàng đều có lịch trình khác nhau, nhưng mục tiêu của chúng tôi luôn giống nhau: giúp bạn cảm thấy yên tâm từ khi hạ cánh tại Việt Nam cho đến khi trở về nhà với nụ cười mới.",
+
+  heading:
+    "Từ cuộc trò chuyện đầu tiên đến ngày bạn an tâm trở về nhà.",
+
+  intro:
+    "Hành trình của bạn bắt đầu từ trước khi đặt chân đến Việt Nam. Mọi bước đều được giải thích rõ ràng, sắp xếp phù hợp với kế hoạch làm răng và có người đồng hành khi bạn cần.",
+  steps: [
+    {
+      id: "arrival",
+      icon: "plane-takeoff",
+
+      title: "Ngày 1 • Đến Việt Nam",
+
+      description:
+        "A Sử trực tiếp đón bạn tại sân bay Nội Bài bằng xe của đội ngũ. Nếu chuyến bay đến sớm, bạn sẽ được đưa đến An Nhien Dental để thăm khám, chụp CT, tư vấn và lên kế hoạch điều trị. Nếu chuyến bay đến muộn, chúng tôi sẽ đưa bạn về khách sạn nghỉ ngơi và bắt đầu hành trình vào sáng hôm sau.",
     },
-    cta: {
-      label: "Lên kế hoạch hành trình",
+
+    {
+      id: "consultation",
+      icon: "stethoscope",
+
+      title: "Khám và lập kế hoạch điều trị",
+
+      description:
+        "Bác sĩ tiến hành khám, chụp CT, đánh giá tình trạng răng miệng và tư vấn phương án phù hợp. Nếu đúng kế hoạch điều trị, việc mài răng hoặc chuẩn bị cho phục hình sẽ được thực hiện ngay trong ngày.",
     },
+
+    {
+      id: "recovery",
+      icon: "heart-pulse",
+
+      title: "Ngày 2 • Nghỉ ngơi hoặc khám phá Hà Nội",
+
+      description:
+        "Sau điều trị, bạn có thời gian nghỉ ngơi để cơ thể thích nghi. Nếu sức khỏe và lịch trình phù hợp, A Sử sẽ đồng hành cùng bạn khám phá Hà Nội, thưởng thức ẩm thực địa phương, cà phê và lưu giữ những khoảnh khắc đẹp bằng ảnh và video.",
+    },
+
+    {
+      id: "smile",
+      icon: "clipboard-list",
+
+      title: "Ngày 3 • Hoàn thiện nụ cười",
+
+      description:
+        "Bạn quay lại nha khoa để lắp răng hoàn thiện, điều chỉnh khớp cắn và kiểm tra lần cuối trước khi hoàn tất điều trị. Đội ngũ sẽ chụp ảnh và quay video lưu giữ hành trình nếu bạn đồng ý.",
+    },
+
+    {
+      id: "departure",
+      icon: "car",
+
+      title: "Ngày 4 • Kiểm tra cuối và tiễn sân bay",
+
+      description:
+        "Bác sĩ kiểm tra kết quả sau điều trị, hướng dẫn chăm sóc tại nhà và giải đáp các câu hỏi còn lại. Sau đó A Sử đưa bạn ra sân bay bằng xe của đội ngũ để trở về nhà với nụ cười mới và những kỷ niệm đẹp tại Việt Nam.",
+    },
+  ],
+
+  cta: {
+    label: "Bắt đầu hành trình của bạn",
   },
+},
+trust: {
+  badge: "CHÀO ĐÓN BỆNH NHÂN QUỐC TẾ",
+
+  heading: "Chào đón khách hàng quốc tế đến Việt Nam",
+
+  description:
+    "Dù bạn đến từ Hoa Kỳ, Pháp, Úc, Lào, Thái Lan hay bất kỳ quốc gia nào khác, đội ngũ của chúng tôi luôn sẵn sàng đồng hành cùng bạn bằng nhiều ngôn ngữ trong suốt hành trình chăm sóc nụ cười tại Việt Nam.",
+
+  personalizedCare:
+    "Mỗi kế hoạch điều trị đều được cá nhân hóa dựa trên tình trạng răng miệng, lịch trình và nhu cầu riêng của bạn.",
+
+  countries: [
+    { code: "🇺🇸", name: "Hoa Kỳ" },
+    { code: "🇫🇷", name: "Pháp" },
+    { code: "🇦🇺", name: "Úc" },
+    { code: "🇱🇦", name: "Lào" },
+    { code: "🇹🇭", name: "Thái Lan" },
+    { code: "🇻🇳", name: "Việt Nam" },
+  ],
+
+  material: {
+    title: "Vật liệu nha khoa cao cấp",
+
+    description:
+      "Hệ thống sứ cao cấp từ Đức, Thụy Sĩ và Hoa Kỳ được lựa chọn dựa trên kế hoạch điều trị và nhu cầu lâm sàng của từng khách hàng.",
+
+    items: [
+      "Hệ thống sứ cao cấp",
+      "Lựa chọn vật liệu phù hợp",
+      "Ưu tiên tính phù hợp lâm sàng",
+    ],
+  },
+},
 
   booking: {
-    sectionLabel: "Bắt đầu hành trình",
+    sectionLabel: "Hãy trò chuyện cùng chúng tôi",
+
+    title:
+      "Mỗi hành trình bắt đầu bằng một cuộc trò chuyện đơn giản.",
+
+    description:
+      "Bạn không cần biết chính xác mình cần làm gì trước khi liên hệ. Hãy kể một chút về tình trạng, mong muốn hoặc điều bạn đang lo lắng, chúng tôi sẽ cùng bạn tìm bước tiếp theo phù hợp.",
+
+    badge: "BẮT ĐẦU TƯ VẤN",
+
+    heading: "Hãy cùng lên kế hoạch cho hành trình điều trị của bạn",
+
+    intro:
+  "Hãy chia sẻ tình trạng răng miệng và dự định của bạn. Đội ngũ sẽ xem xét thông tin, tư vấn và chuẩn bị kế hoạch điều trị phù hợp trước khi bạn đưa ra quyết định.",
+
+    benefits: {
+  consultation: {
     title: "Bắt đầu bằng một cuộc trò chuyện",
     description:
-      "Bạn chưa cần quyết định ngay hôm nay. Hãy chia sẻ nhu cầu của bạn, Maiv Thoj hoặc A Sử sẽ giúp bạn hiểu bước tiếp theo.",
-    badge: "TƯ VẤN MIỄN PHÍ",
-    heading: "Hãy cho chúng tôi biết bạn cần hỗ trợ điều gì",
-    intro:
-      "Sau khi nhận thông tin, Maiv Thoj hoặc A Sử sẽ liên hệ để hiểu mục tiêu của bạn, trả lời câu hỏi và hỗ trợ lên kế hoạch hành trình phù hợp tại Việt Nam.",
-    benefits: {
-      consultation: {
-        title: "Không áp lực",
-        description:
-          "Hỏi trước, hiểu trước và chỉ quyết định khi bạn thật sự sẵn sàng.",
-      },
-      plan: {
-        title: "Tư vấn theo hành trình",
-        description:
-          "Chúng tôi giúp bạn hiểu điều trị, di chuyển, gặp đối tác và hỗ trợ trước khi đến Việt Nam.",
-      },
-      travel: {
-        title: "Hỗ trợ tại Việt Nam",
-        description:
-          "A Sử hỗ trợ điều phối khi đến sân bay, đưa đón, phiên dịch và hỗ trợ hằng ngày.",
-      },
-      coordinator: {
-        title: "Kết nối đúng đối tác",
-        description:
-          "Maiv Thoj Viet Lao kết nối bạn với đối tác đáng tin cậy phù hợp với dịch vụ bạn cần.",
-      },
-    },
+      "Bạn chưa cần đưa ra quyết định ngay. Hãy chia sẻ tình trạng của mình, đặt câu hỏi và tìm hiểu các lựa chọn trước.",
+  },
+
+  plan: {
+    title: "Kế hoạch điều trị cá nhân hóa",
+    description:
+      "Đội ngũ sẽ xem xét tình trạng răng miệng, nhu cầu và thời gian của bạn để tư vấn hướng điều trị phù hợp.",
+  },
+
+  travel: {
+    title: "Hỗ trợ hành trình",
+    description:
+      "Nếu bạn quyết định sang Việt Nam, chúng tôi sẽ hỗ trợ điều phối để bạn biết trước từng bước của hành trình.",
+  },
+
+  coordinator: {
+    title: "Đội ngũ đồng hành",
+    description:
+      "Bạn sẽ được kết nối với người đồng hành và đối tác nha khoa phù hợp để hỗ trợ xuyên suốt hành trình.",
+  },
+},
+
+
     fields: {
       fullName: "Họ và tên",
-      fullNamePlaceholder: "Nhập họ và tên",
-      country: "Quốc gia",
-      countryPlaceholder: "Bạn đang sống ở quốc gia nào?",
-      preferredLanguage: "Ngôn ngữ ưu tiên",
+      fullNamePlaceholder: "Chúng tôi nên gọi bạn là gì?",
+
+      country: "Bạn đang sống ở đâu?",
+      countryPlaceholder: "Quốc gia hoặc khu vực",
+
+      preferredLanguage: "Ngôn ngữ bạn muốn sử dụng",
+
       whatsapp: "WhatsApp",
       whatsappPlaceholder: "Số WhatsApp của bạn",
+
       email: "Email",
       emailPlaceholder: "Email của bạn",
-      treatment: "Bạn muốn được hỗ trợ điều gì?",
-      selectTreatment: "Chọn nhu cầu chính",
-      travelDate: "Khi nào bạn dự định đến Việt Nam?",
-      message: "Chia sẻ thêm",
+
+      treatment: "Chúng tôi có thể giúp bạn điều gì?",
+
+      selectTreatment:
+        "Chọn lựa chọn gần nhất với tình trạng của bạn",
+
+      travelDate:
+        "Khi nào bạn đang nghĩ đến việc đến Việt Nam?",
+
+      message: "Kể cho chúng tôi nghe thêm",
+
       messagePlaceholder:
-        "Ví dụ: làm răng, cải thiện nụ cười, implant, dịch vụ làm đẹp, kế hoạch đi Việt Nam hoặc điều bạn muốn chúng tôi biết.",
+        "Bạn có thể chia sẻ điều mình lo lắng, mong muốn cải thiện nụ cười, tình trạng răng trước đây, kế hoạch đến Việt Nam hoặc bất kỳ câu hỏi nào bạn đang có.",
     },
+
+
+    
     treatments: {
-      implant: "Mất răng / Cấy ghép Implant",
-      smileMakeover: "Thiết kế lại nụ cười",
+      implant: "Thay thế răng đã mất",
+
+      smileMakeover: "Thiết kế nụ cười toàn diện",
+
       crowns: "Răng sứ thẩm mỹ",
+
       veneers: "Mặt dán sứ Veneer",
-      consultation: "Tôi chưa chắc — cần được tư vấn",
+
+      consultation:
+        "Tôi chưa chắc — tôi muốn được tư vấn trước",
     },
+
     languages: {
       en: "Tiếng Anh",
-      hmn: "Tiếng H'Mông",
+      hmn: "H'Mông quốc tế",
       lo: "Tiếng Lào",
       th: "Tiếng Thái",
       vi: "Tiếng Việt",
     },
+
     cta: {
-      submit: "Bắt đầu hành trình của tôi",
+      submit: "Bắt đầu Tư vấn",
+
       submitting: "Đang gửi thông tin...",
+
       privacy:
-        "Thông tin của bạn được bảo mật và chỉ dùng để Maiv Thoj, A Sử hoặc đội ngũ chăm sóc liên hệ tư vấn và hỗ trợ lên kế hoạch hành trình.",
+        "Thông tin của bạn được giữ riêng tư và chỉ được dùng để đội ngũ hỗ trợ trả lời câu hỏi, tư vấn và giúp bạn lên kế hoạch hành trình làm răng.",
     },
   },
 
   footer: {
     description:
-      "Maiv Thoj Viet Lao là nền tảng điều phối y tế và làm đẹp quốc tế, giúp khách hàng tiếp cận các dịch vụ đáng tin cậy tại Việt Nam.",
+      "Maiv Thoj Viet Lao đồng hành cùng khách hàng H'Mông và khách hàng quốc tế trên hành trình làm răng tại Việt Nam — từ tư vấn ban đầu, đón sân bay, hỗ trợ di chuyển cho đến khi trở về nhà.",
+
     sections: {
       treatments: {
-        title: "Dịch vụ",
+        title: "Làm răng",
         links: {
-          implants: "Cấy ghép Implant",
+          implants: "Thay thế răng đã mất",
           smileMakeover: "Thiết kế nụ cười",
           veneers: "Mặt dán sứ Veneer",
           crowns: "Răng sứ thẩm mỹ",
         },
       },
+
       travel: {
         title: "Hỗ trợ hành trình",
         links: {
-          airportPickup: "Đón sân bay",
-          hotels: "Lên kế hoạch đi lại",
-          travelGuide: "Hành trình khách hàng",
+          airportPickup: "Đón tại sân bay",
+          hotels: "Lên kế hoạch đến Việt Nam",
+          travelGuide: "Hướng dẫn hành trình làm răng",
           faq: "Câu hỏi thường gặp",
         },
       },
+
       company: {
         title: "Nền tảng",
         links: {
           about: "Maiv Thoj Viet Lao",
-          doctors: "Đối tác chuyên môn",
-          patientStories: "Hành trình thực tế",
+          doctors: "Đối tác nha khoa",
+          patientStories: "Hành trình thật",
           contact: "Liên hệ đội ngũ",
         },
       },
+
       resources: {
         title: "Tài nguyên",
         links: {
           blog: "Blog",
           privacy: "Chính sách bảo mật",
-          terms: "Điều khoản dịch vụ",
+          terms: "Điều khoản sử dụng",
           sitemap: "Sơ đồ trang",
         },
       },
     },
+
     contact: {
       addressLabel: "Địa chỉ",
       phoneLabel: "Điện thoại",

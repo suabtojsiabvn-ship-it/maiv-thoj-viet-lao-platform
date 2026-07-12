@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 
 import { isSupportedLocale } from "@/lib/i18n-routing";
+import { organizationSchema } from "@/content/seo";
 import { LocaleProvider } from "@/providers/LocaleProvider";
 import { locales } from "@/types/i18n";
 import type { Locale } from "@/types/i18n";
@@ -29,8 +30,17 @@ export default async function LocaleLayout({
   }
 
   return (
-    <LocaleProvider locale={locale as Locale}>
-      {children}
-    </LocaleProvider>
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(organizationSchema),
+        }}
+      />
+
+      <LocaleProvider locale={locale as Locale}>
+        {children}
+      </LocaleProvider>
+    </>
   );
 }

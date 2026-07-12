@@ -15,9 +15,6 @@ export function ClinicalPartnerImage({
 }: ClinicalPartnerImageProps) {
   const { clinicalPartner } = useClinicalPartner();
 
-  const featuredTechnology =
-    clinicalPartner.technologies[0];
-
   return (
     <div className="relative mx-auto w-full max-w-2xl">
       <div className="overflow-hidden rounded-3xl border border-white/10 bg-slate-900 shadow-2xl">
@@ -32,12 +29,16 @@ export function ClinicalPartnerImage({
       </div>
 
       <div className="absolute -bottom-6 left-1/2 w-[92%] -translate-x-1/2 rounded-2xl border border-cyan-500/20 bg-slate-900/90 p-6 backdrop-blur">
-        <h3 className="text-lg font-semibold text-white">
-          {featuredTechnology.name}
+        <p className="text-sm font-semibold uppercase tracking-[0.18em] text-cyan-300">
+          {clinicalPartner.imageCard.badge}
+        </p>
+
+        <h3 className="mt-3 text-2xl font-bold text-white">
+          An Nhien Dental
         </h3>
 
-        <p className="mt-2 text-sm leading-6 text-slate-300">
-          {featuredTechnology.description}
+        <p className="mt-3 text-sm leading-6 text-slate-300">
+          {clinicalPartner.imageCard.description}
         </p>
       </div>
     </div>

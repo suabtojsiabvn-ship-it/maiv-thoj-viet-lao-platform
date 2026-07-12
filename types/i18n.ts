@@ -84,26 +84,23 @@ export interface LocaleCoordinatorDictionary {
   sectionLabel: string;
   title: string;
   description: string;
+
   badge: string;
   heading: string;
   intro: string;
+
   story: string[];
+
   quote: string;
+
   cta: LocaleCta;
-  services: LocaleTextItem[];
-}
-export interface LocaleExperiencesDictionary {
-  sectionLabel: string;
-  title: string;
-  description: string;
-  note: string;
-  items: {
-    bacHa: LocaleTextItem;
-    sapa: LocaleTextItem;
-    mocChau: LocaleTextItem;
-    haLong: LocaleTextItem;
+
+  imageCard: {
+    role: string;
+    description: string;
   };
-  cta: LocaleCta;
+
+  services: LocaleTextItem[];
 }
 
 export interface LocaleClinicalPartnerDictionary {
@@ -116,6 +113,13 @@ export interface LocaleClinicalPartnerDictionary {
   quote: string;
   cta: LocaleCta;
   highlights: LocaleTextItem[];
+  technology: {
+  title: string;
+};
+imageCard: {
+  badge: string;
+  description: string;
+};
   technologies: Array<{
     name: string;
     description: string;
@@ -169,6 +173,22 @@ export interface LocaleBeforeAfterDictionary {
   };
 }
 
+export type LocaleJourneyIcon =
+  | "message-circle"
+  | "clipboard-list"
+  | "plane-takeoff"
+  | "car"
+  | "stethoscope"
+  | "heart-pulse"
+  | "house";
+
+export interface LocaleJourneyStep {
+  id: string;
+  icon: LocaleJourneyIcon;
+  title: string;
+  description: string;
+}
+
 export interface LocaleJourneyDictionary {
   sectionLabel: string;
   title: string;
@@ -176,16 +196,32 @@ export interface LocaleJourneyDictionary {
   badge: string;
   heading: string;
   intro: string;
-  steps: {
-    consultation: LocaleTextItem;
-    plan: LocaleTextItem;
-    travel: LocaleTextItem;
-    pickup: LocaleTextItem;
-    treatment: LocaleTextItem;
-    recovery: LocaleTextItem;
-    return: LocaleTextItem;
-  };
+  steps: LocaleJourneyStep[];
   cta: LocaleCta;
+}
+export interface LocaleTrustMaterialDictionary {
+  title: string;
+
+  description: string;
+
+  items: string[];
+}
+
+export interface LocaleTrustDictionary {
+  badge: string;
+
+  heading: string;
+
+  description: string;
+
+  personalizedCare: string;
+
+  countries: Array<{
+    code: string;
+    name: string;
+  }>;
+
+  material: LocaleTrustMaterialDictionary;
 }
 
 export interface LocaleBookingDictionary {
@@ -310,6 +346,7 @@ export interface LocaleDictionary {
   treatments: LocaleTreatmentsDictionary;
   beforeAfter: LocaleBeforeAfterDictionary;
   journey: LocaleJourneyDictionary;
+  trust: LocaleTrustDictionary;
   booking: LocaleBookingDictionary;
   footer: LocaleFooterDictionary;
 }
@@ -322,6 +359,6 @@ export interface LocaleWhyDictionary {
     guidance: LocaleTextItem;
     language: LocaleTextItem;
     coordination: LocaleTextItem;
-    memories: LocaleTextItem;
+    care: LocaleTextItem;
   };
 }

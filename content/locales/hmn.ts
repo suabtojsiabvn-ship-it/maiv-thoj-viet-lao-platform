@@ -3,447 +3,590 @@ import type { LocaleDictionary } from "@/types/i18n";
 export const hmnDictionary: LocaleDictionary = {
   common: {
     brandName: "Maiv Thoj Viet Lao",
-    tagline: "Kev pab npaj kev kho mob thiab kev zoo nkauj hauv Nyab Laj",
-    primaryCta: "Pib koj txoj kev taug",
-    secondaryCta: "Tham tswv yim dawb",
+    tagline: "Kev pab neeg mob thoob ntiaj teb txoj kev taug hauv Nyab Laj",
+    primaryCta: "Cia Peb Pib Sib Tham",
+    secondaryCta: "Nug Peb Pab Neeg Ua Ntej",
   },
 
   hero: {
-    badge: "Maiv Thoj Viet Lao • International Medical & Beauty Concierge",
+    badge: "Kev pab neeg mob thoob ntiaj teb hauv Nyab Laj",
 
     title: {
-      line1: "Koj txoj kev taug",
-      line2: "mus kho hauv Nyab Laj",
-    },
+  line1: "Koj txoj kev kho hniav",
+  line2: "pib nrog ib tug neeg uas koj ntseeg tau.",
+},
 
     subtitle:
-      "Maiv Thoj Viet Lao pab cov neeg txawv teb chaws nrhiav kev kho hniav, kho mob thiab kev zoo nkauj uas ntseeg tau hauv Nyab Laj. Maiv Thoj pab tham thawj zaug, A Sử saib xyuas koj txoj kev taug hauv Nyab Laj, thiab cov khub ntseeg siab xws li An Nhien Dental saib xyuas kev kho mob.",
+  "Kev mus kho hniav rau lwm lub teb chaws yog ib qho kev txiav txim siab loj. Peb pab cov neeg tuaj txawv teb chaws, tshwj xeeb cov Hmoob nyob thoob qab ntuj, kom muaj kev tso siab txij thawj zaug sib tham mus txog hnub lawv rov qab mus tsev.",
 
     actions: {
-      primary: "Tham nrog Maiv Thoj",
-      secondary: "Tham nrog A Sử",
-    },
+  primary: "Pib Koj Txoj Kev Taug",
+  secondary: "Tham Nrog A Sử ( xwm tsawb)",
+},
 
     highlights: {
       consultation: {
-        title: "Pib ntawm kev ntseeg siab",
+        title: "Nug Ua Ntej, Mam Txiav Txim",
         description:
-          "Tham nrog Maiv Thoj lossis A Sử ua ntej koj txiav txim siab kom koj nkag siab koj txoj kev xaiv.",
+          "Koj tuaj yeem tham nrog peb pab neeg, qhia koj tej kev txhawj xeeb thiab nkag siab koj cov kev xaiv ua ntej yuav txiav txim siab.",
       },
       airportPickup: {
-        title: "A Sử pab koj hauv Nyab Laj",
+        title: "Muaj Neeg Tos Txais Hauv Nyab Laj",
         description:
-          "Tos tshav dav hlau, tsheb, txhais lus thiab pab koj thaum koj nyob hauv Nyab Laj.",
+          "Thaum koj tuaj txog, peb pab neeg yuav tos txais tom tshav dav hlau, pab kev thauj mus los thiab nrog koj nyob hauv Nyab Laj txog hnub koj rov qab mus tsev.",
       },
       multilingualSupport: {
-        title: "Pab tau 5 hom lus",
+        title: "Koj Hais Tau Yam Lus Koj Xis",
         description:
-          "Pab ua lus H'Mong, Askiv, Viet, Lao thiab Thai kom cov qhua nkag siab yooj yim.",
+          "Peb pab tau lus Askiv, Hmoob thoob ntiaj teb, Nyab Laj, Nplog thiab Thaib kom kev sib txuas lus yooj yim dua.",
       },
       clinicalPartner: {
-        title: "Cov khub kho mob ntseeg siab",
+        title: "Kev Kho Hniav Uas Ntseeg Siab",
         description:
-          "Kev kho hniav yog ua los ntawm An Nhien Dental, nrog Dr. Toan Nguyen ua tus kws kho hniav tseem ceeb.",
+          "Kev kho hniav yog ua los ntawm peb cov khub kho Hniav uas ntseeg siab xws li An Nhien Dental, nrog Dr. Toan Nguyen ua tus coj kev kho.",
       },
     },
 
     stats: {
-      facebookCommunity: "454K+ Facebook Community",
-      tiktokCommunity: "1.3M+ TikTok Followers",
-      languagesSupported: "5 Hom Lus",
+      facebookCommunity: "454K+ Zej Zog Hauv Facebook",
+      tiktokCommunity: "1.3M+ Tus Caum Hauv TikTok",
+      languagesSupported: "Pab Tau 5 Yam Lus",
     },
   },
 
-        why: {
-  sectionLabel: "Vim li cas thiaj xaiv Maiv Thoj Viet Lao",
-  title: "Vim koj tsim nyog tau txais ntau dua li kev kho hniav xwb.",
+  why: {
+  sectionLabel: "VIM LI CAS COV TSEV NEEG THIAJ NTSEEG SIAB",
+
+  title:
+  "Kev muaj ib tug neeg nrog koj tseem ceeb ib yam li qhov luag nyav uas koj xav tau.",
+
   description:
-    "Txij thawj zaug sib tham mus txog hnub koj rov qab tsev, Maiv Thoj Viet Lao pab kom koj muaj tus neeg piav, tus neeg pab thiab tus neeg nrog saib xyuas koj txoj kev tuaj kho hniav hauv Nyab Laj.",
+  "Kev tuaj kho hniav txawv teb chaws yog ib qho kev txiav txim siab loj. Peb xav kom koj txoj kev taug no muaj kev meej pem, muaj neeg nrog nraim thiab muaj kev npaj kom haum rau koj txij thawj zaug sib tham mus txog hnub koj rov qab mus tsev nrog koj txoj kev luag ntxhi tshiab.",
+
   imageAlt:
-    "Ib txoj kev taug tiag nrog Maiv Thoj Viet Lao hauv Nyab Laj",
+    "Ib txoj kev taug kho hniav hauv Nyab Laj uas Maiv Thoj Viet Lao pab saib xyuas",
+
   cards: {
     guidance: {
-      title: "Kev qhia uas ntseeg tau",
+      title: "Kev Npaj Kho Hniav Raws Li Koj Tus Kheej",
       description:
-        "Koj tsis tas yuav nrhiav kev ib leeg. Maiv Thoj thiab A Sử (Txhim) pab koj nkag siab koj txoj kev xaiv ua ntej koj txiav txim siab.",
+        "Ua ntej pib kho hniav, kws kho hniav yuav tshuaj xyuas koj cov hniav kom ntxaws thiab npaj ib txoj kev kho uas haum rau koj tus mob, koj lub sijhawm thiab yam koj xav tau.",
     },
+
     language: {
-      title: "Pab ntau hom lus",
+      title: "Hais Yam Lus Uas Koj Hnov Xis",
       description:
-        "Peb pab ua lus Askiv, Hmoob, Nyab Laj, Thaib thiab Lao kom cov qhua txawv teb chaws nkag siab yooj yim.",
+        "Txawm koj hais lus Askiv, Hmoob thoob ntiaj teb, Nyab Laj, Thaib lossis Nplog, peb yuav pab kom kev sib tham meej thiab yooj yim rau koj.",
     },
+
     coordination: {
-      title: "Muaj neeg saib xyuas koj",
+      title: "Kev Pab Uas Dhau Ntawm Chav Kho hniav",
       description:
-        "A Sử (Txhim) pab tos tshav dav hlau, teem sijhawm, tsheb, txhais lus thiab pab koj thaum koj nyob hauv Nyab Laj.",
+        "Txij thaum koj tuaj txog tshav dav hlau, kev thauj mus los, caij ntsib kws kho hniav, kev pab sib txuas lus thiab tej yam me me txhua hnub, peb yuav pab koj thaum koj nyob hauv Nyab Laj.",
     },
-    memories: {
-      title: "Kỷ niệm zoo nkauj",
+
+    care: {
+      title: "Tsis Yog Kev Tuaj Kho hniav Xwb",
       description:
-        "Yog koj lub sijhawm kho hniav haum, peb pab thaij duab thiab yees video luv kom koj muaj kev nco zoo txog Nyab Laj.",
+        "Yog koj lub sijhawm tso cai, peb vam tias koj lub sijhawm hauv Nyab Laj yuav tsis yog tsuas yog kev kho xwb, tab sis yog ib txoj kev taug muaj nqis thiab muaj kev nco zoo coj rov qab mus tsev.",
     },
   },
 },
 
   founder: {
-  sectionLabel: "Ntsib Maiv Thoj",
-  title: "Ib lub suab uas ntseeg tau, txuas cov qhua txawv teb chaws nrog Nyab Laj.",
-  description:
-    "Maiv Thoj Viet Lao Platform tsim los pab kom cov qhua muaj ntaub ntawv meej, muaj neeg pab thiab muaj kev ntseeg siab ua ntej pib txoj kev kho mob hauv Nyab Laj.",
-  imageAlt: "Maiv Thoj, Community Advisor ntawm Maiv Thoj Viet Lao Platform",
-  story: [
-    "Tau ntau xyoo uas Maiv Thoj txuas nrog zej zog Hmoob thoob ntiaj teb, nws nkag siab txog kev txhawj xeeb uas ntau tsev neeg muaj thaum nrhiav kev kho mob txawv teb chaws.",
-    "Nws lub luag hauj lwm yog pab kom cov qhua pib lawv txoj kev nrog kev ntseeg siab, ntaub ntawv meej thiab kev txhawb nqa uas ntseeg tau.",
-    "Ua ke nrog A Sử (Txhim) thiab cov koom tes kho mob uas ntseeg tau hauv Nyab Laj, Maiv Thoj Viet Lao Platform pab hloov txoj kev tuaj kho mob mus ua ib txoj kev muaj neeg nrog saib xyuas thiab muaj nqis.",
-  ],
-  quote:
-    "Txhua tus qhua tsim nyog tau txais kev qhia uas ntseeg tau, kev saib xyuas ncaj ncees, thiab kev ntseeg siab kom luag ntxhi dua.",
-  stats: {
-    facebook: "Zej zog Facebook",
-    tiktok: "Zej zog TikTok",
-    role: "Lub luag hauj lwm uas ntseeg tau",
-  },
-  cta: {
-    label: "Tham nrog Maiv Thoj",
-  },
-},
-  coordinator: {
-    sectionLabel: "Ntsib A Sử",
-    title: "Patient Journey Manager hauv Nyab Laj",
+    sectionLabel: "Ntsib Maiv Thoj",
+    title:
+  "Pab kom cov tsev neeg Hmoob thiab cov neeg txawv teb chaws muaj kev tso siab ua ntej tuaj Nyab Laj.",
     description:
-      "A Sử yog tus pab tseem ceeb hauv Nyab Laj, txij kev npaj, tos tshav dav hlau, txhais lus, tsheb mus txog kev pab txhua hnub.",
-    badge: "PATIENT JOURNEY MANAGER",
-    heading: "Koj tsis tas yuav daws txhua yam ib leeg hauv Nyab Laj",
-    intro:
-      "Thaum koj txoj kev taug pib, A Sử yog tus pab tseem ceeb hauv Nyab Laj. Nws pab kom ib txoj kev mus deb dhau los ua ib txoj kev meej, npaj zoo thiab kaj siab.",
+  "Rau ntau tsev neeg, kev taug kev mus lwm lub teb chaws kho hniav yog ib qho kev txiav txim siab loj. Maiv Thoj pab kom thawj kauj ruam ntawd yooj yim dua los ntawm kev ntseeg siab, kev qhia ncaj ncees, thiab kev saib xyuas zoo.",
+    imageAlt:
+      "Maiv Thoj, Community Advisor ntawm Maiv Thoj Viet Lao Platform",
     story: [
-      "Ntau tus qhua txawv teb chaws txhawj txog lus, kev mus los, sijhawm ntsib khub kho mob thiab tsis paub yuav muaj dab tsi thaum tuaj txog Nyab Laj.",
-      "A Sử pab npaj txoj kev taug ua ntej koj tuaj, saib xyuas sijhawm, pab kev sib txuas lus thiab pab tus qhua paub ua ntej tias yuav muaj dab tsi tshwm sim.",
-      "Thaum koj tuaj txog Nyab Laj, A Sử yuav tos koj, pab koj mus los, txhais lus thiab nyob ze pab koj thoob plaws txoj kev taug.",
-      "A Sử tsis yog tsuas yog tus tsav tsheb lossis neeg ua hauj lwm xwb. Nws yog tus neeg pab kom qhua muaj kev nyab xeeb, nkag siab thiab muaj neeg nrog thaum nyob deb tsev.",
+      "Tau ntau xyoo uas Maiv Thoj txuas nrog zej zog Hmoob thoob ntiaj teb, nws nkag siab txog kev txhawj xeeb uas ntau tsev neeg muaj thaum nrhiav kev kho Hniav txawv teb chaws.",
+      "Nws lub luag hauj lwm yog pab kom cov qhua pib lawv txoj kev nrog kev ntseeg siab, ntaub ntawv meej thiab kev txhawb nqa uas ntseeg tau.",
+      "Ua ke nrog A Sử (Txhim) thiab cov koom tes kho Hniav uas ntseeg tau hauv Nyab Laj, Maiv Thoj Viet Lao Platform pab hloov txoj kev tuaj kho Hniav mus ua ib txoj kev muaj neeg nrog saib xyuas thiab muaj nqis.",
     ],
     quote:
-      "Ib txoj kev taug nyab xeeb tsis yog tsuas yog koj mus qhov twg xwb, tab sis yog leej twg nyob nrog koj thaum koj tuaj txog.",
-    cta: {
-      label: "Tham nrog A Sử",
+  "Txhua txoj kev taug zoo pib thaum koj paub tias twb muaj ib tug neeg tos pab koj lawm.",
+    stats: {
+      facebook: "Zej zog Facebook",
+      tiktok: "Zej zog TikTok",
+      role: "Lub luag hauj lwm uas ntseeg tau",
     },
-    services: [
-      {
-        title: "Npaj txoj kev taug",
-        description:
-          "Pab npaj sijhawm, hnub tuaj, caij ntsib khub kho mob thiab yam yuav tsum npaj ua ntej tuaj Nyab Laj.",
-      },
-      {
-        title: "Tos tshav dav hlau",
-        description:
-          "Tos tus qhua tom tshav dav hlau thiab pab tsheb ntiag tug hauv Nyab Laj.",
-      },
-      {
-        title: "Pab txhais lus",
-        description:
-          "Pab cov qhua sib txuas lus meej nrog cov khub kho mob thiab pab neeg hauv zos.",
-      },
-      {
-        title: "Pab txhua hnub",
-        description:
-          "Pab thaum kho, so kom rov zoo, rov qab mus kuaj thiab kev mus los.",
-      },
-    ],
+    cta: {
+      label: "Tham nrog Maiv Thoj",
+    },
   },
 
-  clinicalPartner: {
-    sectionLabel: "Tus khub kho mob ntseeg siab",
-    title: "Kev kho hniav los ntawm An Nhien Dental",
-    description:
-      "An Nhien Dental yog thawj tus khub kho hniav ntawm Maiv Thoj Viet Lao hauv Nyab Laj. Dr. Toan Nguyen yog tus kws kho hniav tseem ceeb uas saib xyuas kev kuaj, npaj thiab kho.",
-    badge: "TRUSTED CLINICAL PARTNER",
-    heading: "An Nhien Dental & Dr. Toan Nguyen",
-    intro:
-      "Maiv Thoj Viet Lao saib xyuas thiab pab txoj kev taug ntawm tus qhua. Thaum txog kev kho hniav, An Nhien Dental saib xyuas kev kho mob, nrog Dr. Toan Nguyen kuaj, npaj thiab kho ncaj qha.",
-    quote:
-      "Txoj kev taug pib ntawm cov neeg koj ntseeg, thiab kev kho yog ua los ntawm tus khub kho mob uas tsim nyog.",
-    cta: {
-      label: "Npaj kuv txoj kev taug",
+        coordinator: {
+  sectionLabel: "Ntsib A Sử",
+
+  title:
+  "Tus uas yuav nrog koj nyob txhua kauj ruam thaum koj nyob Nyab Laj.",
+
+  description:
+    "Thaum koj txiav txim siab tuaj kho hniav hauv Nyab Laj, A Sử yog tus uas yuav nrog koj sib txuas lus, pab npaj txhua yam thiab nyob nrog koj txij hnub koj tuaj txog mus txog hnub koj rov qab mus tsev.",
+
+  badge: "PATIENT JOURNEY MANAGER",
+
+  heading:
+  "Koj tsis tas yuav ua txhua yam ib leeg.",
+
+  intro:
+  "Kev mus kho hniav txawv teb chaws tej zaum yuav ua rau koj ntxhov siab. Lus txawv, teb chaws tshiab thiab ntau yam me me yuav ua rau nyuaj. A Sử yuav pab kom txhua kauj ruam yooj yim dua thiab ua rau koj muaj kev kaj siab.",
+
+  story: [
+    "Ua ntej koj tawm kev, A Sử pab teb lus nug, npaj sijhawm, piav txhua kauj ruam thiab pab koj npaj koj txoj kev tuaj kho hniav kom meej.",
+    "Thaum koj tuaj txog Nyab Laj, A Sử yuav tos txais koj dawb ntawm tshav dav hlau thiab nrog koj mus txog chaw so kom koj tsis tas txhawj txog kev mus los.",
+    "Thaum koj nyob hauv Nyab Laj, A Sử pab kev sib txuas lus, teem sijhawm nrog tus khub kho hniav, pab kev thauj mus los thiab nyob ze yog koj xav tau kev pab.",
+    "Txawm hnub koj rov qab mus tsev los, peb tseem pab npaj kev mus tshav dav hlau thiab saib xyuas kom koj txoj kev taug xaus zoo ib yam li thaum pib.",
+  ],
+
+  quote:
+  "Qee zaum qhov ua rau yus kaj siab tshaj yog paub tias muaj ib tug neeg nyob ntawd thaum yus xav tau kev pab.",
+
+  cta: {
+    label: "Sib Tham Nrog A Sử",
+  },
+
+ imageCard: {
+  role: "Tus Saib Xyuas Neeg Txawv Teb Chaws Txoj Kev Taug",
+  description:
+    "Pab koj sib txuas lus, npaj sijhawm thiab taug koj txoj kev kho hniav hauv Nyab Laj nrog kev tso siab.",
+},
+
+  services: [
+    {
+      title: "Npaj Koj Txoj Kev Tuaj Kho Hniav",
+      description:
+        "Pab npaj hnub tuaj, sijhawm, ntaub ntawv thiab txhua yam uas koj yuav tsum paub ua ntej tawm kev.",
     },
-    highlights: [
-      {
-        title: "Tus khub kho hniav ntseeg siab",
-        description:
-          "An Nhien Dental yog tus khub kho hniav ntawm Maiv Thoj Viet Lao hauv Nyab Laj.",
-      },
-      {
-        title: "Lead Dentist: Dr. Toan Nguyen",
-        description:
-          "Dr. Toan Nguyen kuaj, npaj thiab kho hniav ncaj qha.",
-      },
-      {
-        title: "Tshaj 12 xyoo kev paub",
-        description:
-          "Kev paub txog hniav zoo nkauj, hniav porcelain, veneer thiab cog implant.",
-      },
-      {
-        title: "Faib luag hauj lwm meej",
-        description:
-          "Maiv Thoj Viet Lao saib xyuas txoj kev taug; An Nhien Dental saib xyuas kev kho hniav.",
-      },
+    {
+      title: "Tos Txais Dawb Ntawm Tshav Dav Hlau",
+      description:
+        "Peb pab neeg tos txais koj thaum tuaj txog thiab saib xyuas kev thauj mus los dawb thaum koj nyob hauv Nyab Laj.",
+    },
+    {
+      title: "Kev Sib Txuas Lus Yooj Yim",
+      description:
+        "Pab koj sib txuas lus nrog tus khub kho hniav kom koj nkag siab txhua kauj ruam thiab muaj kev tso siab.",
+    },
+    {
+      title: "Nrog Koj Txog Hnub Rov Qab",
+      description:
+        "Peb pab neeg tseem nrog saib xyuas thiab pab koj mus txog tshav dav hlau thaum koj npaj rov qab mus tsev.",
+    },
+  ],
+},
+
+   clinicalPartner: {
+  sectionLabel: "Tus Khub Kho Hniav Uas Ntseeg Siab",
+
+  title:
+  "Kev kho hniav los ntawm pab kws kho hniav uas koj ntseeg tau.",
+
+  description:
+    "Maiv Thoj Viet Lao pab koj txoj kev tuaj kho hniav. Thaum txog kev kuaj thiab kho, tus khub kho hniav uas ntseeg siab xws li An Nhien Dental yuav saib xyuas koj los ntawm pab kws kho hniav muaj kev paub.",
+
+  badge: "TUS KHUB KHO HNIAV UAS NTSEEG SIAB",
+
+  heading:
+  "Kev ntseeg siab thiab kev kho hniav zoo sib ntsib ntawm no.",
+
+  intro:
+  "Txhua tus muaj nws txoj haujlwm. Maiv Thoj pab koj pib nrog kev ntseeg siab. A Sử nrog koj nyob thaum koj nyob Nyab Laj. Hos kev kho hniav yog ua los ntawm pab kws kho hniav ntawm An Nhien Dental nyob rau hauv kev saib xyuas ntawm Dr. Toan Nguyen.",
+
+  quote:
+  "Txhua txoj kev luag ntxhi pib los ntawm kev mloog, kev tshuaj xyuas kom zoo thiab txoj kev kho uas haum rau txhua tus neeg.",
+
+  cta: {
+    label: "Saib Koj Cov Kev Xaiv Kho Hniav",
+  },
+
+  highlights: [
+  {
+    title: "Kev Npaj Kho Hniav Raws Li Koj Tus Kheej",
+    description:
+      "Ua ntej pib kho hniav, kws kho hniav yuav tshuaj xyuas kom ntxaws thiab npaj txoj kev kho kom haum rau koj tus mob, koj lub hom phiaj thiab koj lub sijhawm.",
+  },
+  {
+    title: "Pab Neeg Kho Hniav Muaj Kev Paub",
+    description:
+      "Koj yuav tau txais kev kho los ntawm pab neeg kho hniav uas muaj kev paub, mob siab rau kev nyab xeeb thiab kev saib xyuas ntev.",
+  },
+  {
+    title: "Kev Coj Ua Haujlwm Kho Hniav",
+    description:
+      "Dr. Toan Nguyen saib xyuas kev kuaj mob, kev npaj kho hniav thiab kev tswj xyuas qhov zoo ntawm kev kho tag nrho.",
+  },
+  {
+    title: "Technology Kho Hniav Niaj Hnub",
+    description:
+      "Technology digital pab txhawb kev kuaj mob kom raug dua, npaj kho kom meej dua thiab ua rau kev kho xis nyob dua.",
+  },
+],
+technology: {
+  title: "Technology Kho Hniav Niaj Hnub",
+},
+imageCard: {
+  badge: "Tus Khub Kho Hniav Uas Ntseeg Siab Tau",
+  description:
+    "Pab neeg kho hniav muaj kev paub, npaj kho raws tus neeg mob thiab siv technology niaj hnub.",
+},
+
+  technologies: [
+    {
+      name: "CBCT 3D Imaging",
+      description:
+        "Duab 3D pab kom kev kuaj thiab kev npaj kho hniav meej dua.",
+    },
+    {
+      name: "Digital Intraoral Scanner",
+      description:
+        "Kev scan digital hauv qhov ncauj pab kom xis dua thiab tsis tas siv cov khoom luam hniav qub hauv ntau rooj plaub.",
+    },
+    {
+      name: "CAD/CAM Workflow",
+      description:
+        "Kev tsim thiab ua hniav digital pab kom kev kho muaj kev raug thiab sib xws dua.",
+    },
+    {
+      name: "International Clinical Standards",
+      description:
+        "Kev tu huv, kev nyab xeeb thiab txheej txheem kho hniav raug npaj kom pab txhawb kev kho kom zoo.",
+    },
+  ],
+},
+
+  treatments: {
+  sectionLabel: "Peb Pab Tau Koj Li Cas",
+
+ title:
+  "Txhua tus luag nyav txawv. Txhua txoj kev kho hniav kuj yuav tsum haum tus neeg ntawd.",
+
+  description:
+  "Tsis muaj ib txoj kev kho hniav twg haum txhua tus. Peb pab kom koj nkag siab txhua txoj kev xaiv thiab txuas koj nrog pab kws kho hniav uas tsim nyog tshaj rau koj.",
+
+  items: {
+    implant: {
+      title: "Hloov Hniav Ploj",
+      description:
+        "Yog koj poob ib tug hniav lossis ntau tug hniav lawm, implant tej zaum yuav pab kom koj zom mov yooj yim dua, muaj kev tso siab dua thiab siv tau zoo hauv lub neej txhua hnub. Txoj kev kho yuav tsum raug npaj raws koj qhov hniav tiag.",
+    },
+
+    crowns: {
+      title: "Tiv Thaiv Thiab Kho Hniav Puas",
+      description:
+        "Hniav ceramic crown pab tiv thaiv cov hniav uas tsis khov lawm thiab pab kom hniav zoo nkauj, zoo li ntuj thiab siv tau zoo dua.",
+    },
+
+    veneers: {
+      title: "Kho Kom Lub Luag Ntxhi Zoo Dua",
+      description:
+        "Porcelain veneer pab kho xim, daim duab thiab kev sib luag ntawm lub luag ntxhi, thaum tseem khaws hniav ntuj ntau li tsim nyog.",
+    },
+
+    smileMakeover: {
+      title: "Tsim Lub Luag Ntxhi Raws Koj Tus Kheej",
+      description:
+        "Qee tus neeg tsuas xav tau ib txoj kev kho xwb, hos qee tus yuav tsum muaj ntau txoj kev kho sib xyaw. Smile makeover yuav raug npaj raws koj lub hom phiaj, koj qhov hniav thiab kev siv tau ntev.",
+    },
+  },
+
+  cta: {
+    learnMore: "Saib Koj Cov Kev Xaiv",
+  },
+},
+
+ beforeAfter: {
+  sectionLabel: "Cov Luag Ntxhi Tiag",
+
+  title:
+    "Txhua lub luag ntxhi qhia ib zaj dab neeg tshiab.",
+
+  description:
+    "Cov duab ua ntej thiab tom qab tsis yog tsuas qhia qhov hloov ntawm cov hniav xwb. Lawv qhia txog kev tso siab, kev zoo siab thiab ib txoj kev tuaj kho hniav uas muaj neeg nrog saib xyuas txhua kauj ruam.",
+
+  labels: {
+    before: "Ua Ntej",
+    after: "Tom Qab",
+  },
+
+  cases: {
+    case1: {
+      title: "Rov Muaj Kev Tso Siab Luag Ntxhi",
+      treatment: "Hniav Ceramic",
+      country: "Neeg tuaj kho hniav nyob USA",
+    },
+
+    case2: {
+      title: "Hloov Hniav Ploj Kom Rov Siv Tau Zoo",
+      treatment: "Dental Implant",
+      country: "Neeg tuaj kho hniav nyob Australia",
+    },
+
+    case3: {
+      title: "Lub Luag Ntxhi Zoo Li Ntuj Dua",
+      treatment: "Porcelain Veneers",
+      country: "Neeg tuaj kho hniav nyob France",
+    },
+
+    case4: {
+      title: "Tsim Dua Tag Nrho Lub Luag Ntxhi",
+      treatment: "Smile Makeover",
+      country: "Neeg Hmoob thoob ntiaj teb",
+    },
+  },
+},
+
+  journey: {
+  sectionLabel: "Koj Txoj Kev Tuaj Kho Hniav",
+
+  title:
+  "Koj tsis tas npaj txhua yam ib leeg.",
+
+  description:
+  "Kev tuaj kho hniav hauv lwm lub teb chaws yuav zoo li nyuaj thaum xub thawj. Peb npaj txhua kauj ruam kom meej, teb txhua lo lus nug, thiab nrog koj mus txog thaum koj rov qab tsev.",
+
+  badge: "PATIENT JOURNEY",
+
+  heading:
+  "Pib ntawm thawj lo lus sib tham mus txog hnub koj rov qab tsev.",
+
+  intro:
+  "Koj txoj kev taug pib ua ntej koj tuaj txog Nyab Laj. Nws pib ntawm kev sib tham, loj hlob los ntawm kev ntseeg siab, thiab txuas ntxiv nrog kev saib xyuas tiag tiag.",
+
+  steps: [
+  {
+    id: "arrival",
+    icon: "plane-takeoff",
+    title: "Hnub 1 • Tuaj Txog Nyab Laj",
+    description:
+      "A Sử yuav tos txais koj ntawm tshav dav hlau Nội Bài siv peb lub tsheb. Yog koj tuaj ntxov ces peb yuav coj koj mus Kho Hniav tam sim. Yog tuaj tsaus lawm ces peb yuav coj koj mus tsev so kom so, tag kis mam pib koj txoj kev kho hniav.",
+  },
+  {
+    id: "consultation",
+    icon: "stethoscope",
+    title: "Kuaj Thiab Npaj Kev Kho",
+    description:
+      "Kws kho hniav yuav kuaj, thaij CT, piav qhia thiab npaj txoj kev kho kom haum koj. Yog tsim nyog ces yuav pib npaj lossis kho hniav tib hnub ntawd.",
+  },
+  {
+    id: "recovery",
+    icon: "heart-pulse",
+    title: "Hnub 2 • So Los Yog Mus Ncig Hà Nội",
+    description:
+      "Tom qab kho hniav koj muaj sijhawm so. Yog koj lub sijhawm tso cai, A Sử yuav coj koj mus ncig Hà Nội, haus kas fes, noj mov thiab thaij duab, yees duab cia ua kev nco.",
+  },
+  {
+    id: "smile",
+    icon: "clipboard-list",
+    title: "Hnub 3 • Luag Ntxhi Tshiab",
+    description:
+      "Rov qab mus Kho Hniav los lắp hniav tiav, kho kom haum thiab xyuas qhov luag ntxhi. Yog koj pom zoo peb yuav thaij duab thiab yees duab cia ua kev nco.",
+  },
+  {
+    id: "departure",
+    icon: "car",
+    title: "Hnub 4 • Kuaj Zaum Kawg Thiab Rov Qab",
+    description:
+      "Tom qab kuaj zaum kawg thiab qhia kev saib xyuas, A Sử yuav coj koj rov mus tshav dav hlau kom koj rov qab tsev nrog ib txoj kev luag ntxhi tshiab thiab ntau txoj kev nco zoo.",
+  },
+],
+
+  cta: {
+    label: "Pib Kev Sib Tham",
+  },
+},
+trust: {
+  badge: "TXAIS TOS COV QHUAJ LOS NTAWM NTIAJ TEB",
+
+  heading: "Zoo siab txais tos cov neeg tuaj kho hniav hauv Nyab Laj",
+
+  description:
+    "Txawm koj tuaj ntawm Asmeskas, Fabkis, Australia, Nplog, Thaib teb lossis lwm lub teb chaws, peb pab neeg yeej npaj txhij los pab koj nrog ntau hom lus thiab kev saib xyuas raws li koj tus kheej txoj kev npaj kho hniav.",
+
+  personalizedCare:
+    "Txhua txoj kev kho hniav raug npaj raws li koj qhov teeb meem hniav, sijhawm taug kev thiab koj tus kheej qhov kev xav tau.",
+
+  countries: [
+    { code: "🇺🇸", name: "USA" },
+    { code: "🇫🇷", name: "France" },
+    { code: "🇦🇺", name: "Australia" },
+    { code: "🇱🇦", name: "Laos" },
+    { code: "🇹🇭", name: "Thailand" },
+    { code: "🇻🇳", name: "Vietnam" },
+  ],
+
+  material: {
+    title: "Cov khoom siv kho hniav zoo tshaj",
+
+    description:
+      "Peb xaiv cov ceramic zoo los ntawm Lub Tebchaws Yelemees, Switzerland thiab Asmeskas raws li koj daim phiaj xwm kho hniav.",
+
+    items: [
+      "Premium ceramic systems",
+      "Xaiv raws li tus neeg mob",
+      "Clinical suitability comes first",
     ],
-    technologies: [
-      {
-        name: "CBCT 3D Imaging",
-        description:
-          "Duab 3D pab kuaj thiab npaj implant kom meej dua.",
-      },
-      {
-        name: "Digital Intraoral Scanner",
-        description:
-          "Kev scan digital hauv qhov ncauj kom xis thiab muaj ntaub ntawv raug.",
-      },
-      {
-        name: "CAD/CAM Digital Workflow",
-        description:
-          "Kev tsim thiab kho hniav digital pab kom tau txiaj ntsig raug dua.",
-      },
-      {
-        name: "Clinical Safety Protocols",
-        description:
-          "Txheej txheem huv thiab nyab xeeb rau kev kho mob.",
-      },
-    ],
+  },
+},
+
+  booking: {
+  sectionLabel: "Cia Peb Sib Tham",
+
+  title:
+  "Txhua txoj kev taug pib ntawm ib lo lus sib tham.",
+
+  description:
+  "Koj tsis tas paub txhua yam ua ntej hu rau peb. Cia li qhia peb txog koj cov hniav, yam koj txhawj xeeb, lossis koj txoj kev npaj tuaj Nyab Laj. Peb mam pab qhia kauj ruam tom ntej kom haum koj.",
+
+  badge: "KEV SAB LAJ DAWB",
+
+  heading:
+  "Peb xav mloog koj ua ntej mam qhia kev xaiv.",
+
+  intro:
+    "Qee tus twb paub tias xav kho hniav li cas lawm. Qee tus tsuas paub tias xav muaj lub luag ntxhi zoo dua xwb. Txawm koj nyob qhov twg los, peb yuav nrog koj pib thawj kauj ruam.",
+
+  benefits: {
+    consultation: {
+      title: "Tsis Muaj Kev Yuam",
+      description:
+        "Koj nug ua ntej tau. Peb zoo siab teb koj cov lus nug ua ntej koj txiav txim siab.",
+    },
+
+    plan: {
+      title: "Npaj Raws Koj Tus Kheej",
+      description:
+        "Peb pab koj nkag siab kev kho hniav, kev tuaj Nyab Laj thiab yam yuav muaj ua ntej koj tawm kev.",
+    },
+
+    travel: {
+      title: "Muaj Neeg Nrog Koj Txhua Kauj Ruam",
+      description:
+        "Kev tos tshav dav hlau dawb, kev thauj mus los, kev sib txuas lus thiab kev saib xyuas yog ib feem ntawm peb txoj kev pab.",
+    },
+
+    coordinator: {
+      title: "Txuas Koj Nrog Tus Khub Zoo Tshaj",
+      description:
+        "Peb mam txuas koj nrog tus khub kho hniav uas haum tshaj rau yam koj xav tau.",
+    },
+  },
+
+  fields: {
+    fullName: "Koj Lub Npe",
+    fullNamePlaceholder: "Peb yuav hu koj li cas?",
+
+    country: "Koj Nyob Qhov Twg?",
+    countryPlaceholder: "Lub teb chaws lossis cheeb tsam",
+
+    preferredLanguage: "Yam Lus Koj Xav Siv",
+
+    whatsapp: "WhatsApp",
+    whatsappPlaceholder: "Koj tus WhatsApp number",
+
+    email: "Email",
+    emailPlaceholder: "Koj email",
+
+    treatment: "Peb Pab Tau Koj Li Cas?",
+
+    selectTreatment:
+      "Xaiv qhov uas ze tshaj rau koj qhov teeb meem",
+
+    travelDate:
+      "Thaum twg koj tab tom xav tuaj Nyab Laj?",
+
+    message: "Qhia Peb Koj Zaj Dab Neeg",
+
+    messagePlaceholder:
+      "Qhia yam koj xav kom peb paub. Piv txwv li: koj qhov kev txhawj xeeb, yam koj xav kho kom zoo dua, kev kho hniav yav dhau los, hnub koj xav tuaj Nyab Laj lossis lus nug uas koj muaj.",
   },
 
   treatments: {
-    sectionLabel: "Kev kho hniav",
-    title: "Kev kho hniav yog thawj qhov kev pab peb txhawb",
-    description:
-      "Maiv Thoj Viet Lao yog ib platform pab npaj kev kho mob thiab kev zoo nkauj rau cov qhua txawv teb chaws. Kev kho hniav yog thawj qhov kev pab uas peb txhawb los ntawm An Nhien Dental.",
-    items: {
-      implant: {
-        title: "Hniav ploj / Cog Implant",
-        description:
-          "Implant pab hloov hniav ploj, pab zom mov zoo dua thiab pab kev noj qab haus huv hauv qhov ncauj ntev.",
-      },
-      crowns: {
-        title: "Hniav porcelain",
-        description:
-          "Hniav porcelain zoo pab hloov xim, zoo li cas, kom sib luag thiab pab lub luag nyav zoo dua.",
-      },
-      veneers: {
-        title: "Porcelain Veneers",
-        description:
-          "Veneer pab kom xim thiab daim hniav zoo dua thaum tseem khaws hniav ntuj ntau tshaj tau.",
-      },
-      smileMakeover: {
-        title: "Kho tag nrho lub luag nyav",
-        description:
-          "Kev npaj raws tus kheej uas sib xyaw ntau txoj kev kho raws koj lub hom phiaj thiab koj qhov hniav tiag.",
-      },
-    },
-    cta: {
-      learnMore: "Saib kev xaiv kho hniav",
-    },
+    implant: "Hloov Hniav Ploj",
+
+    smileMakeover: "Kho Tag Nrho Lub Luag Ntxhi",
+
+    crowns: "Hniav Ceramic",
+
+    veneers: "Porcelain Veneers",
+
+    consultation:
+      "Kuv Tseem Tsis Paub — Kuv Xav Tau Lus Qhia",
   },
 
-  beforeAfter: {
-    sectionLabel: "Txiaj ntsig tiag",
-    title: "Cov luag nyav hloov pauv tiag",
-    description:
-      "Duab ua ntej thiab tom qab qhia cov txiaj ntsig los ntawm peb tus khub kho hniav hauv txhua txoj kev taug.",
-    labels: {
-      before: "Ua ntej",
-      after: "Tom qab",
-    },
-    cases: {
-      case1: {
-        title: "Los ntawm kev txaj muag mus rau kev luag nyav ntseeg siab",
-        treatment: "Hniav porcelain",
-        country: "Qhua H'Mong hauv USA",
-      },
-      case2: {
-        title: "Kho hniav ploj kom zom mov zoo dua",
-        treatment: "Dental Implants",
-        country: "Qhua los ntawm Australia",
-      },
-      case3: {
-        title: "Kho lub luag nyav kom ntuj dua",
-        treatment: "Porcelain Veneers",
-        country: "Qhua los ntawm France",
-      },
-      case4: {
-        title: "Hloov tag nrho lub luag nyav",
-        treatment: "Smile Makeover",
-        country: "Qhua H'Mong txawv teb chaws",
-      },
-    },
+  languages: {
+    en: "Lus Askiv",
+    hmn: "Hmoob Thoob Ntiaj Teb",
+    lo: "Lus Nplog",
+    th: "Lus Thaib",
+    vi: "Lus Nyab Laj",
   },
 
-  journey: {
-    sectionLabel: "Koj txoj kev taug",
-    title: "Txij thawj zaug tham mus txog kev saib xyuas tom qab",
-    description:
-      "Ib txoj kev taug meej rau cov qhua txawv teb chaws uas xav tau kev pab ntseeg siab hauv Nyab Laj yam tsis tas daws txhua yam ib leeg.",
-    badge: "GUIDED PATIENT JOURNEY",
-    heading: "Txhua kauj ruam raug npaj ua ntej koj tuaj",
-    intro:
-      "Maiv Thoj Viet Lao pab koj nkag siab txoj kev taug, A Sử pab koj hauv Nyab Laj, thiab cov khub ntseeg siab saib xyuas kev kho raws qhov kev pab uas koj xaiv.",
-    steps: {
-      consultation: {
-        title: "Tham thawj zaug",
-        description:
-          "Tham nrog Maiv Thoj lossis A Sử, qhia koj qhov xav tau thiab nug lus ua ntej txiav txim siab.",
-      },
-      plan: {
-        title: "Npaj txoj kev taug",
-        description:
-          "Pab neeg pab koj nkag siab sijhawm, kauj ruam, kev mus los thiab tus khub uas haum rau koj.",
-      },
-      travel: {
-        title: "Ua ntej koj mus",
-        description:
-          "A Sử pab npaj koj lub sijhawm, sijhawm tuaj txog, tsheb thiab cov ntaub ntawv tseem ceeb.",
-      },
-      pickup: {
-        title: "Tuaj txog Nyab Laj",
-        description:
-          "A Sử tos koj tom tshav dav hlau, pab koj mus los thiab pab koj kho kom xis nyob.",
-      },
-      treatment: {
-        title: "Ntsib khub & kho",
-        description:
-          "Koj ntsib tus khub ntseeg siab. Rau kev kho hniav, An Nhien Dental thiab Dr. Toan Nguyen saib xyuas kev kho.",
-      },
-      recovery: {
-        title: "Pab thaum nyob hauv Nyab Laj",
-        description:
-          "A Sử tseem pab tsheb, txhais lus, rov qab kuaj thiab cov kev pab uas koj xav tau.",
-      },
-      return: {
-        title: "Saib xyuas tom qab",
-        description:
-          "Koj rov qab tsev nrog kev pab ntxiv ntawm pab neeg yog tias koj xav tau lus qhia tom qab.",
-      },
-    },
-    cta: {
-      label: "Npaj kuv txoj kev taug",
-    },
-  },
+  cta: {
+    submit: "Cia Peb Pib Sib Tham",
 
-  booking: {
-    sectionLabel: "Pib koj txoj kev taug",
-    title: "Pib nrog ib zaj lus tham",
-    description:
-      "Koj tsis tas txiav txim siab hnub no. Qhia koj qhov xav tau, Maiv Thoj lossis A Sử yuav pab koj nkag siab kauj ruam tom ntej.",
-    badge: "THAM TSWV YIM DAWB",
-    heading: "Qhia peb yam koj xav tau kev pab",
-    intro:
-      "Thaum peb tau txais koj cov ntaub ntawv, Maiv Thoj lossis A Sử yuav hu rov qab los nkag siab koj lub hom phiaj, teb koj cov lus nug thiab pab npaj txoj kev taug hauv Nyab Laj.",
-    benefits: {
-      consultation: {
-        title: "Tsis muaj kev yuam",
-        description:
-          "Nug ua ntej, nkag siab ua ntej thiab txiav txim siab thaum koj npaj txhij xwb.",
-      },
-      plan: {
-        title: "Kev qhia raws txoj kev taug",
-        description:
-          "Peb pab koj nkag siab kev kho, kev mus los, kev ntsib khub thiab kev pab ua ntej koj tuaj.",
-      },
-      travel: {
-        title: "Kev pab hauv Nyab Laj",
-        description:
-          "A Sử pab thaum tuaj txog, tsheb, txhais lus thiab kev pab txhua hnub.",
-      },
-      coordinator: {
-        title: "Txuas nrog tus khub tsim nyog",
-        description:
-          "Maiv Thoj Viet Lao txuas koj nrog tus khub ntseeg siab uas haum qhov kev pab koj xav tau.",
-      },
-    },
-    fields: {
-      fullName: "Npe thiab xeem",
-      fullNamePlaceholder: "Sau koj npe thiab xeem",
-      country: "Lub teb chaws",
-      countryPlaceholder: "Koj nyob lub teb chaws twg?",
-      preferredLanguage: "Hom lus koj xav siv",
-      whatsapp: "WhatsApp",
-      whatsappPlaceholder: "Koj tus WhatsApp number",
-      email: "Email",
-      emailPlaceholder: "Koj email",
-      treatment: "Koj xav tau kev pab dab tsi?",
-      selectTreatment: "Xaiv qhov koj xav tau tshaj",
-      travelDate: "Thaum twg koj xav tuaj Nyab Laj?",
-      message: "Qhia ntxiv",
-      messagePlaceholder:
-        "Piv txwv: kho hniav, kho luag nyav, implant, kev zoo nkauj, phiaj xwm tuaj Nyab Laj lossis yam koj xav qhia peb.",
-    },
-    treatments: {
-      implant: "Hniav ploj / Dental Implants",
-      smileMakeover: "Kho tag nrho lub luag nyav",
-      crowns: "Hniav porcelain",
-      veneers: "Porcelain Veneers",
-      consultation: "Kuv tseem tsis paub — kuv xav tau lus qhia",
-    },
-    languages: {
-      en: "Lus Askiv",
-      hmn: "Lus H'Mong",
-      lo: "Lus Lao",
-      th: "Lus Thai",
-      vi: "Lus Viet",
-    },
-    cta: {
-      submit: "Pib kuv txoj kev taug",
-      submitting: "Tab tom xa koj cov ntaub ntawv...",
-      privacy:
-        "Koj cov ntaub ntawv yuav raug khaws cia ntiag tug thiab tsuas yog siv kom Maiv Thoj, A Sử lossis pab neeg saib xyuas hu rov qab los pab tswv yim thiab npaj koj txoj kev taug.",
-    },
+    submitting: "Tab Tom Xa Koj Cov Lus...",
+
+    privacy:
+  "Peb yuav khaws koj cov ntaub ntawv kom muaj kev nyab xeeb thiab siv los teb koj cov lus nug, qhia tswv yim, thiab pab koj npaj txoj kev tuaj kho hniav hauv Nyab Laj xwb.",
   },
+},
 
   footer: {
-    description:
-      "Maiv Thoj Viet Lao yog platform pab npaj kev kho mob thiab kev zoo nkauj rau cov qhua txawv teb chaws kom mus cuag cov kev pab ntseeg siab hauv Nyab Laj.",
-    sections: {
-      treatments: {
-        title: "Kev pab",
-        links: {
-          implants: "Dental Implants",
-          smileMakeover: "Smile Makeover",
-          veneers: "Porcelain Veneers",
-          crowns: "Hniav porcelain",
-        },
-      },
-      travel: {
-        title: "Kev pab txoj kev taug",
-        links: {
-          airportPickup: "Tos tshav dav hlau",
-          hotels: "Npaj kev mus los",
-          travelGuide: "Patient Journey",
-          faq: "FAQ",
-        },
-      },
-      company: {
-        title: "Platform",
-        links: {
-          about: "Maiv Thoj Viet Lao",
-          doctors: "Cov khub kho mob",
-          patientStories: "Cov kev taug tiag",
-          contact: "Tiv tauj pab neeg",
-        },
-      },
-      resources: {
-        title: "Ntaub ntawv pab",
-        links: {
-          blog: "Blog",
-          privacy: "Kev ceev ntiag tug",
-          terms: "Cov cai siv",
-          sitemap: "Daim qhia site",
-        },
+  description:
+  "Maiv Thoj Viet Lao pab cov tsev neeg Hmoob thiab cov neeg tuaj txawv teb chaws txij thawj lo lus sib tham, kev npaj kev taug kev, kev txais tom tshav dav hlau, kev koom tes nrog pab kws kho hniav, mus txog thaum lawv rov qab mus tsev.",
+
+  sections: {
+    treatments: {
+      title: "Kev Kho Hniav",
+      links: {
+        implants: "Hloov Hniav Ploj",
+        smileMakeover: "Kho Lub Luag Ntxhi",
+        veneers: "Porcelain Veneers",
+        crowns: "Hniav Ceramic",
       },
     },
-    contact: {
-      addressLabel: "Chaw nyob",
-      phoneLabel: "Xov tooj",
-      emailLabel: "Email",
-      hoursLabel: "Sijhawm",
-      languagesLabel: "Hom lus",
+
+    travel: {
+      title: "Kev Pab Txoj Kev Taug",
+      links: {
+        airportPickup: "Tos Txais Tom Tshav Dav Hlau",
+        hotels: "Npaj Kev Tuaj Nyab Laj",
+        travelGuide: "Kev Qhia Txoj Kev Tuaj Kho Hniav",
+        faq: "Lus Nug Uas Nquag Nug",
+      },
+    },
+
+    company: {
+      title: "Platform",
+      links: {
+        about: "Maiv Thoj Viet Lao",
+        doctors: "Tus Khub Kho Hniav",
+        patientStories: "Cov Kev Taug Tiag",
+        contact: "Tiv Tauj Peb Pab Neeg",
+      },
+    },
+
+    resources: {
+      title: "Ntaub Ntawv Pab",
+      links: {
+        blog: "Blog",
+        privacy: "Kev Ceev Ntaub Ntawv",
+        terms: "Cov Cai Siv",
+        sitemap: "Sitemap",
+      },
     },
   },
+
+  contact: {
+    addressLabel: "Chaw Nyob",
+    phoneLabel: "Xov Tooj",
+    emailLabel: "Email",
+    hoursLabel: "Sijhawm",
+    languagesLabel: "Hom Lus",
+  },
+},
 };

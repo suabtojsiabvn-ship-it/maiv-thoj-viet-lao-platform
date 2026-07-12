@@ -7,17 +7,8 @@ export type JourneyIcon =
   | "heart-pulse"
   | "house";
 
-export type JourneyStepKey =
-  | "consultation"
-  | "plan"
-  | "travel"
-  | "pickup"
-  | "treatment"
-  | "recovery"
-  | "return";
-
 export interface JourneyStep {
-  id: JourneyStepKey;
+  id: string;
 
   title: string;
 

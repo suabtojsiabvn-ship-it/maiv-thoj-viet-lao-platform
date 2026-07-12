@@ -1,7 +1,7 @@
 import type { LucideIcon } from "lucide-react";
 
 export interface WhyCardConfig {
-  key: "guidance" | "language" | "coordination" | "memories";
+  key: "guidance" | "language" | "coordination" | "care";
   icon: LucideIcon;
 }
 

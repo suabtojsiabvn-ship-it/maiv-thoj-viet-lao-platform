@@ -1,3 +1,4 @@
+import { useClinicalPartner } from "../hooks/useClinicalPartner";
 import type { ClinicalTechnology } from "../types/clinical-partner.types";
 
 interface ClinicalTechnologyProps {
@@ -7,10 +8,12 @@ interface ClinicalTechnologyProps {
 export function ClinicalTechnology({
   technologies,
 }: ClinicalTechnologyProps) {
+  const { clinicalPartner } = useClinicalPartner();
+
   return (
     <div className="mt-12 rounded-3xl border border-white/10 bg-slate-900/50 p-8">
       <h3 className="text-2xl font-semibold text-white">
-        Modern Clinical Technology
+        {clinicalPartner.technology.title}
       </h3>
 
       <div className="mt-8 space-y-6">

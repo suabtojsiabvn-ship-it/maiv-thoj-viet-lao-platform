@@ -1,5 +1,15 @@
+export type CoordinatorServiceId =
+  | "airport"
+  | "transport"
+  | "language"
+  | "coordination"
+  | "memories";
+
 export interface CoordinatorService {
+  id: CoordinatorServiceId;
+
   title: string;
+
   description: string;
 }
 
@@ -17,6 +27,12 @@ export interface CoordinatorContentData {
   cta: {
     label: string;
     href: string;
+  };
+
+  companion: {
+    title: string;
+
+    description: string;
   };
 
   services: CoordinatorService[];
