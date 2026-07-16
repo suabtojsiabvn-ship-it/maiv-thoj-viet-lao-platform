@@ -9,7 +9,7 @@ import {
   viDictionary,
 } from "@/content/locales";
 
-export const defaultLocale: Locale = "en";
+export const defaultLocale: Locale = "hmn";
 
 export const localeInfo: Record<Locale, LocaleInfo> = {
   en: {
