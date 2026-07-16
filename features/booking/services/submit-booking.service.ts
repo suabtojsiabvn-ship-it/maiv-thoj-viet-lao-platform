@@ -1,6 +1,19 @@
 import type { BookingFormValues } from "../schema/booking.schema";
 
-export async function submitBooking(data: BookingFormValues) {
+interface SubmitBookingSuccessResponse {
+  success: true;
+  message: string;
+  emailId: string;
+}
+
+interface SubmitBookingErrorResponse {
+  success: false;
+  message?: string;
+}
+
+export async function submitBooking(
+  data: BookingFormValues,
+): Promise<SubmitBookingSuccessResponse> {
   const response = await fetch("/api/booking", {
     method: "POST",
     headers: {
@@ -9,10 +22,23 @@ export async function submitBooking(data: BookingFormValues) {
     body: JSON.stringify(data),
   });
 
-  const result = await response.json();
+  let result:
+    | SubmitBookingSuccessResponse
+    | SubmitBookingErrorResponse;
 
-  if (!response.ok) {
-    throw new Error(result?.message ?? "Failed to submit booking.");
+  try {
+    result = await response.json();
+  } catch {
+    throw new Error(
+      "The server returned an invalid response. Please try again.",
+    );
+  }
+
+  if (!response.ok || !result.success) {
+    throw new Error(
+      result.message ||
+        "Failed to submit the booking request.",
+    );
   }
 
   return result;
