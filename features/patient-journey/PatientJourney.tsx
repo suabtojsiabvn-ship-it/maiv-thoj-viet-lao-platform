@@ -1,16 +1,34 @@
+"use client";
+
 import {
   Container,
   Section,
   SectionHeading,
 } from "@/components/ui";
 import {
-  getPatientJourneyTimeline,
+  getPatientJourneyTimelineMeta,
 } from "@/content/journey";
+import { useDictionary } from "@/hooks/useDictionary";
 
 import { TimelineItem } from "./components/TimelineItem";
 
 export function PatientJourney() {
-  const steps = getPatientJourneyTimeline();
+  const { patientJourney } = useDictionary();
+  const stepsMeta = getPatientJourneyTimelineMeta();
+
+  const steps = stepsMeta.map((step) => {
+    const content =
+      patientJourney.steps[step.dictionaryKey];
+
+    return {
+      ...step,
+      stageLabel: content.stage,
+      title: content.title,
+      description: content.description,
+      estimatedDuration:
+        content.estimatedDuration,
+    };
+  });
 
   return (
     <Section
@@ -20,9 +38,9 @@ export function PatientJourney() {
     >
       <Container size="lg">
         <SectionHeading
-          badge="Your Journey"
-          title="From Your First Conversation to Returning Home"
-          description="Understand how the Maiv Thoj Viet Lao team supports your consultation, travel, treatment coordination, recovery and follow-up journey in Vietnam."
+          badge={patientJourney.badge}
+          title={patientJourney.title}
+          description={patientJourney.description}
           maxWidth="lg"
         />
 
@@ -31,7 +49,13 @@ export function PatientJourney() {
             <TimelineItem
               key={step.id}
               step={step}
-              isLast={index === steps.length - 1}
+              optionalLabel={
+                patientJourney.optional
+              }
+              timingLabel={patientJourney.timing}
+              isLast={
+                index === steps.length - 1
+              }
             />
           ))}
         </ol>

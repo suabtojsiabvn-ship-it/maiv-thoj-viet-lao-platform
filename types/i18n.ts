@@ -341,6 +341,37 @@ export interface LocaleFooterDictionary {
   };
 }
 
+export type LocalePatientJourneyStepKey =
+  | "initialContact"
+  | "initialConsultation"
+  | "preliminaryPlanning"
+  | "travelToVietnam"
+  | "airportArrival"
+  | "clinicalAssessment"
+  | "treatmentProcess"
+  | "recovery"
+  | "optionalTravel"
+  | "finalReview"
+  | "internationalAftercare";
+
+export interface LocalePatientJourneyStepText {
+  stage: string;
+  title: string;
+  description: string;
+  estimatedDuration: string;
+}
+
+export interface LocalePatientJourneyDictionary {
+  badge: string;
+  title: string;
+  description: string;
+  optional: string;
+  timing: string;
+  steps: Record<
+    LocalePatientJourneyStepKey,
+    LocalePatientJourneyStepText
+  >;
+}
 export interface LocaleDictionary {
   common: {
     brandName: string;
@@ -358,6 +389,7 @@ export interface LocaleDictionary {
   treatments: LocaleTreatmentsDictionary;
   beforeAfter: LocaleBeforeAfterDictionary;
   journey: LocaleJourneyDictionary;
+  patientJourney: LocalePatientJourneyDictionary;
   trust: LocaleTrustDictionary;
   booking: LocaleBookingDictionary;
   footer: LocaleFooterDictionary;

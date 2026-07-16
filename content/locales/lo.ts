@@ -561,7 +561,117 @@ trust: {
       "ຂໍ້ມູນຂອງທ່ານຈະຖືກເກັບເປັນສ່ວນຕົວ ແລະ ໃຊ້ເພື່ອໃຫ້ທີມງານຕອບຄຳຖາມ ໃຫ້ຄຳແນະນຳ ແລະ ຊ່ວຍວາງແຜນການເດີນທາງມາເຮັດແຂ້ວຂອງທ່ານເທົ່ານັ້ນ.",
   },
 },
+patientJourney: {
+  badge: "Your Journey",
 
+  title:
+    "From Your First Conversation to Returning Home",
+
+  description:
+    "Understand how the Maiv Thoj Viet Lao team supports your consultation, travel, treatment coordination, recovery and follow-up journey in Vietnam.",
+
+  optional: "Optional",
+
+  timing: "Timing",
+
+  steps: {
+    initialContact: {
+      stage: "Discovery",
+      title: "Contact Our International Support Team",
+      description:
+        "Share your dental concerns, preferred language, available photographs or records, and your expected travel period with the Maiv Thoj Viet Lao team.",
+      estimatedDuration: "Before treatment planning",
+    },
+
+    initialConsultation: {
+      stage: "Consultation",
+      title: "Initial Consultation",
+      description:
+        "The team reviews your information, answers initial questions and helps coordinate communication with the clinical partner. A final diagnosis cannot be confirmed until an appropriate clinical examination is completed.",
+      estimatedDuration: "Online before travel",
+    },
+
+    preliminaryPlanning: {
+      stage: "Planning",
+      title:
+        "Preliminary Treatment and Travel Planning",
+      description:
+        "Based on the information available, the team helps prepare a preliminary journey plan covering expected appointments, travel dates, airport arrival and accommodation needs.",
+      estimatedDuration: "Before booking travel",
+    },
+
+    travelToVietnam: {
+      stage: "Travel",
+      title: "Travel to Vietnam",
+      description:
+        "Before departure, confirm your flight details, passport requirements, accommodation and contact information so the support team can prepare for your arrival.",
+      estimatedDuration: "Travel day",
+    },
+
+    airportArrival: {
+      stage: "Arrival",
+      title:
+        "Airport Pickup and Arrival Support",
+      description:
+        "A Sử (Txhim), Patient Journey Manager, or an assigned team member coordinates the meeting point and supports your transfer from the airport according to the confirmed journey plan.",
+      estimatedDuration: "Arrival day",
+    },
+
+    clinicalAssessment: {
+      stage: "Treatment",
+      title:
+        "Clinical Examination and Final Treatment Plan",
+      description:
+        "The clinical partner examines your oral health, reviews diagnostic imaging when required and explains the final recommended treatment plan, schedule and material options before treatment begins.",
+      estimatedDuration:
+        "First clinical appointment",
+    },
+
+    treatmentProcess: {
+      stage: "Treatment",
+      title:
+        "Treatment and Journey Coordination",
+      description:
+        "Treatment is completed according to the approved clinical plan. The Patient Journey Manager helps coordinate transportation, communication and the daily schedule throughout the treatment period.",
+      estimatedDuration:
+        "Depends on the treatment plan",
+    },
+
+    recovery: {
+      stage: "Recovery",
+      title: "Rest and Recovery",
+      description:
+        "Follow the clinical aftercare instructions and allow appropriate time for rest. The team remains available to support communication and schedule adjustments during your stay.",
+      estimatedDuration:
+        "According to clinical advice",
+    },
+
+    optionalTravel: {
+      stage: "Experience",
+      title: "Optional Vietnam Experience",
+      description:
+        "When your treatment schedule and clinical condition allow, the team may help coordinate a suitable travel experience before your return journey.",
+      estimatedDuration: "Based on available time",
+    },
+
+    finalReview: {
+      stage: "Departure",
+      title:
+        "Final Review and Airport Drop-off",
+      description:
+        "Before departure, the clinical team reviews the treatment result and provides aftercare guidance. Airport drop-off is then coordinated according to the confirmed flight schedule.",
+      estimatedDuration: "Final day",
+    },
+
+    internationalAftercare: {
+      stage: "Aftercare",
+      title: "Follow-up After Returning Home",
+      description:
+        "After returning home, keep your treatment records and follow the recommended maintenance plan. The support team can help coordinate follow-up communication when necessary.",
+      estimatedDuration: "Ongoing",
+    },
+  },
+},
   footer: {
   description:
     "Maiv Thoj Viet Lao ດູແລລູກຄ້າມົ້ງ ແລະ ລູກຄ້າຕ່າງປະເທດ ໃນການເດີນທາງມາເຮັດແຂ້ວທີ່ຫວຽດນາມ ຕັ້ງແຕ່ການປຶກສາເບື້ອງຕົ້ນ ການຮັບທີ່ສະໜາມບິນ ການເດີນທາງ ໄປຈົນຮອດມື້ທີ່ກັບບ້ານ.",

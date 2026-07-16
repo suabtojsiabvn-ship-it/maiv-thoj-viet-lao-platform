@@ -545,6 +545,117 @@ trust: {
   },
 },
 
+patientJourney: {
+  badge: "Koj Txoj Kev Taug",
+
+  title:
+    "Txij Thawj Zaug Sib Tham Mus Txog Hnub Koj Rov Qab Mus Tsev",
+
+  description:
+    "Saib seb Maiv Thoj Viet Lao pab koj li cas hauv kev sib tham, kev npaj kev, kev kho hniav, kev so thiab kev saib xyuas tom qab koj rov qab mus tsev.",
+
+  optional: "Yog Koj Xav Mus",
+
+  timing: "Lub Sijhawm",
+
+  steps: {
+    initialContact: {
+      stage: "Pib Sib Txuas Lus",
+      title: "Tiv Tauj Peb Pab Neeg Txhawb Cov Qhua Thoob Ntiaj Teb",
+      description:
+        "Qhia peb txog koj cov teeb meem hniav, hom lus uas koj xav siv, cov duab lossis ntaub ntawv uas koj muaj, thiab lub sijhawm uas koj xav tuaj rau Nyab Laj.",
+      estimatedDuration:
+        "Ua ntej pib npaj kev kho hniav",
+    },
+
+    initialConsultation: {
+      stage: "Kev Sib Tham",
+      title: "Kev Sib Tham Thawj Zaug",
+      description:
+        "Peb pab neeg yuav saib koj cov ntaub ntawv, teb koj cov lus nug thawj zaug thiab pab txuas lus nrog tus khub kho hniav. Tsuas yog tom qab kws kho hniav tshuaj xyuas tiag tiag mam lees paub tau qhov kev kuaj mob kawg.",
+      estimatedDuration:
+        "Sib tham online ua ntej tuaj",
+    },
+
+    preliminaryPlanning: {
+      stage: "Kev Npaj",
+      title: "Npaj Kev Kho Hniav thiab Txoj Kev Tuaj Ua Ntej",
+      description:
+        "Raws li cov ntaub ntawv uas muaj, peb pab npaj thawj txoj kev taug uas suav nrog sijhawm teem, hnub tuaj, kev txais tom tshav dav hlau thiab chaw nyob.",
+      estimatedDuration:
+        "Ua ntej yuav daim pib mus ncig",
+    },
+
+    travelToVietnam: {
+      stage: "Kev Taug Kev",
+      title: "Taug Kev Tuaj Rau Nyab Laj",
+      description:
+        "Ua ntej tawm kev, xyuas kom meej koj daim pib dav hlau, ntawv hla teb chaws, chaw nyob thiab cov ntaub ntawv tiv tauj kom peb pab neeg npaj tos txais koj.",
+      estimatedDuration: "Hnub taug kev",
+    },
+
+    airportArrival: {
+      stage: "Tuaj Txog",
+      title: "Tos Txais Tom Tshav Dav Hlau thiab Pab Thaum Tuaj Txog",
+      description:
+        "A Sử (Txhim), tus saib xyuas qhua txoj kev taug, lossis ib tug hauv peb pab neeg yuav qhia qhov chaw sib ntsib thiab pab coj koj tawm ntawm tshav dav hlau raws li txoj kev taug uas tau pom zoo.",
+      estimatedDuration: "Hnub tuaj txog",
+    },
+
+    clinicalAssessment: {
+      stage: "Kev Kho Hniav",
+      title: "Tshuaj Xyuas thiab Tsim Txoj Kev Kho Hniav Kawg",
+      description:
+        "Tus khub kho hniav yuav tshuaj xyuas koj lub qhov ncauj, saib cov duab kuaj thaum tsim nyog thiab piav txoj kev kho, sijhawm thiab hom khoom siv ua ntej pib kho.",
+      estimatedDuration:
+        "Thawj zaug mus ntsib kws kho hniav",
+    },
+
+    treatmentProcess: {
+      stage: "Kev Kho Hniav",
+      title: "Kev Kho Hniav thiab Kev Saib Xyuas Txoj Kev Taug",
+      description:
+        "Kev kho yuav ua raws li txoj kev kho uas koj tau pom zoo. Tus Patient Journey Manager yuav pab saib xyuas kev mus los, kev sib txuas lus thiab sijhawm txhua hnub thaum kho.",
+      estimatedDuration:
+        "Nyob ntawm txoj kev kho hniav",
+    },
+
+    recovery: {
+      stage: "Kev So Kom Zoo",
+      title: "So thiab Rov Zoo",
+      description:
+        "Ua raws li kws kho hniav cov lus qhia thiab cia sijhawm kom txaus rau kev so. Peb pab neeg tseem yuav pab kev sib txuas lus thiab hloov sijhawm thaum koj nyob hauv Nyab Laj.",
+      estimatedDuration:
+        "Raws li kws kho hniav qhia",
+    },
+
+    optionalTravel: {
+      stage: "Kev Mus Ncig",
+      title: "Mus Ncig Saib Nyab Laj Yog Lub Sijhawm Tso Cai",
+      description:
+        "Yog txoj kev kho thiab koj tus mob tso cai, peb pab neeg tuaj yeem pab npaj ib qho chaw mus ncig uas haum ua ntej koj rov qab mus tsev.",
+      estimatedDuration:
+        "Raws li lub sijhawm uas tshuav",
+    },
+
+    finalReview: {
+      stage: "Npaj Rov Qab",
+      title: "Tshuaj Xyuas Zaum Kawg thiab Xa Mus Tshav Dav Hlau",
+      description:
+        "Ua ntej koj rov qab, pab kws kho hniav yuav tshuaj xyuas qhov kev kho thiab qhia kev saib xyuas. Tom qab ntawd peb yuav npaj xa koj mus tshav dav hlau raws koj lub sijhawm dav hlau.",
+      estimatedDuration: "Hnub kawg",
+    },
+
+    internationalAftercare: {
+      stage: "Kev Saib Xyuas Tom Qab",
+      title: "Kev Saib Xyuas Tom Qab Koj Rov Mus Tsev",
+      description:
+        "Thaum rov mus tsev lawm, khaws koj cov ntaub ntawv kho hniav thiab ua raws li txoj kev saib xyuas uas kws kho hniav qhia. Peb pab neeg tseem tuaj yeem pab txuas lus thaum tsim nyog.",
+      estimatedDuration: "Txuas ntxiv mus",
+    },
+  },
+},
+
   footer: {
   description:
   "Maiv Thoj Viet Lao pab cov tsev neeg Hmoob thiab cov neeg tuaj txawv teb chaws txij thawj lo lus sib tham, kev npaj kev taug kev, kev txais tom tshav dav hlau, kev koom tes nrog pab kws kho hniav, mus txog thaum lawv rov qab mus tsev.",

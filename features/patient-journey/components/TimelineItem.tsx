@@ -1,13 +1,19 @@
-import type { PatientJourneyStep } from "@/content/journey";
+import type {
+  PatientJourneyStep,
+} from "@/content/journey";
 
 interface TimelineItemProps {
   step: PatientJourneyStep;
   isLast: boolean;
+  optionalLabel: string;
+  timingLabel: string;
 }
 
 export function TimelineItem({
   step,
   isLast,
+  optionalLabel,
+  timingLabel,
 }: TimelineItemProps) {
   return (
     <li className="relative grid gap-5 md:grid-cols-[4rem_1fr]">
@@ -27,12 +33,12 @@ export function TimelineItem({
       <article className="mb-10 rounded-3xl border border-white/10 bg-slate-900/40 p-6 md:mb-12 md:p-8">
         <div className="flex flex-wrap items-center gap-3">
           <span className="text-xs font-semibold uppercase tracking-[0.2em] text-cyan-300">
-            {step.stage}
+            {step.stageLabel}
           </span>
 
           {step.optional && (
             <span className="rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs font-medium text-slate-300">
-              Optional
+              {optionalLabel}
             </span>
           )}
         </div>
@@ -48,7 +54,7 @@ export function TimelineItem({
         {step.estimatedDuration && (
           <p className="mt-5 text-sm text-slate-400">
             <span className="font-semibold text-slate-200">
-              Timing:
+              {timingLabel}:
             </span>{" "}
             {step.estimatedDuration}
           </p>
