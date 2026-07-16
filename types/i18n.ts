@@ -27,6 +27,17 @@ export interface LocaleInfo {
   direction: "ltr" | "rtl";
 }
 
+export type LocaleNavigationItemKey =
+  | "home"
+  | "treatments"
+  | "journey"
+  | "about"
+  | "contact";
+
+export interface LocaleNavigationDictionary {
+  items: Record<LocaleNavigationItemKey, string>;
+}
+
 export interface LocaleCta {
   label: string;
 }
@@ -338,6 +349,7 @@ export interface LocaleDictionary {
     secondaryCta: string;
   };
 
+  navigation: LocaleNavigationDictionary;
   hero: LocaleHeroDictionary;
   why: LocaleWhyDictionary;
   founder: LocaleFounderDictionary;

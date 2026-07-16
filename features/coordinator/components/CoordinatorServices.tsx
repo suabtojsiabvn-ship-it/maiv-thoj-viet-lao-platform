@@ -1,7 +1,8 @@
 import {
   CalendarDays,
-  Car,
+  Camera,
   Languages,
+  MapPinned,
   Plane,
 } from "lucide-react";
 
@@ -15,10 +16,11 @@ interface CoordinatorServicesProps {
 }
 
 const icons = [
-  Plane,
-  Car,
-  Languages,
   CalendarDays,
+  Plane,
+  Languages,
+  MapPinned,
+  Camera,
 ];
 
 export function CoordinatorServices({
@@ -27,15 +29,18 @@ export function CoordinatorServices({
   return (
     <div className="mt-10 grid gap-5 sm:grid-cols-2">
       {services.map((service, index) => {
-        const Icon = icons[index] ?? Plane;
+        const Icon = icons[index] ?? CalendarDays;
 
         return (
-          <div
+          <article
             key={service.title}
             className="group rounded-3xl border border-white/10 bg-white/5 p-5 transition-all duration-300 hover:border-cyan-400/40 hover:bg-cyan-500/5"
           >
             <div className="flex items-start gap-4">
-              <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-cyan-500/10 text-cyan-300">
+              <div
+                aria-hidden="true"
+                className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-cyan-500/10 text-cyan-300"
+              >
                 <Icon className="h-6 w-6" />
               </div>
 
@@ -49,7 +54,7 @@ export function CoordinatorServices({
                 </p>
               </div>
             </div>
-          </div>
+          </article>
         );
       })}
     </div>

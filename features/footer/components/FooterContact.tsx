@@ -1,10 +1,11 @@
 import { site } from "@/content/site";
 
-function getPhoneHref(number: string) {
-  return `tel:${number.replace(/\s+/g, "")}`;
-}
-
 export function FooterContact() {
+  const phones = [
+    site.contact.phone.vietnam,
+    site.contact.phone.laos,
+  ];
+
   return (
     <div>
       <h3 className="text-sm font-semibold uppercase tracking-widest text-white">
@@ -12,36 +13,35 @@ export function FooterContact() {
       </h3>
 
       <ul className="mt-5 space-y-3">
-        {site.contact.phones.map((phone) => (
-          <li key={phone.number}>
+        {phones.map((phone) => (
+          <li key={phone.href}>
             <a
-              href={getPhoneHref(phone.number)}
+              href={phone.href}
               className="text-sm text-slate-400 transition hover:text-cyan-300"
             >
-              {phone.label}: {phone.number}
+              {phone.label}: {phone.value}
             </a>
           </li>
         ))}
 
-        {site.contact.email && (
-          <li>
-            <a
-              href={`mailto:${site.contact.email}`}
-              className="text-sm text-slate-400 transition hover:text-cyan-300"
-            >
-              {site.contact.email}
-            </a>
-          </li>
-        )}
+        <li>
+          <a
+            href={site.contact.email.href}
+            className="text-sm text-slate-400 transition hover:text-cyan-300"
+          >
+            {site.contact.email.value}
+          </a>
+        </li>
 
         <li>
           <a
-            href={`https://wa.me/${site.contact.whatsapp.replace("+", "")}`}
+            href={site.contact.whatsapp.href}
             target="_blank"
             rel="noreferrer"
             className="text-sm text-slate-400 transition hover:text-cyan-300"
           >
-            WhatsApp: {site.contact.whatsapp}
+            {site.contact.whatsapp.label}:{" "}
+            {site.contact.whatsapp.value}
           </a>
         </li>
       </ul>

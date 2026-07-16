@@ -1,10 +1,8 @@
 import type { Metadata } from "next";
 import { Inter, Playfair_Display } from "next/font/google";
 
-import {
-  defaultMetadata,
-  organizationJsonLd,
-} from "@/lib/metadata";
+import { homepageSchema } from "@/content/seo";
+import { defaultMetadata } from "@/lib/metadata";
 
 import "./globals.css";
 
@@ -37,7 +35,7 @@ export default function RootLayout({
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
-            __html: JSON.stringify(organizationJsonLd),
+            __html: JSON.stringify(homepageSchema),
           }}
         />
       </body>

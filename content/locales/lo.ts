@@ -11,6 +11,16 @@ common: {
 
   secondaryCta: "ສອບຖາມທີມງານຂອງພວກເຮົາ",
 },
+  navigation: {
+    items: {
+      home: "ໜ້າຫຼັກ",
+      treatments: "ການເຮັດແຂ້ວ",
+      journey: "ການເດີນທາງ",
+      about: "ກ່ຽວກັບພວກເຮົາ",
+      contact: "ຕິດຕໍ່",
+    },
+  },
+
 
  hero: {
   badge:

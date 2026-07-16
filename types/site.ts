@@ -1,4 +1,9 @@
-export type Locale = "en" | "vi" | "lo" | "hmn" | "th";
+export type Locale =
+  | "en"
+  | "hmn"
+  | "vi"
+  | "th"
+  | "lo";
 
 export interface Branding {
   name: string;
@@ -6,76 +11,73 @@ export interface Branding {
   businessLocation: string;
 }
 
-export interface PhoneNumber {
+export interface ContactChannel {
   label: string;
-  number: string;
+  value: string;
+  href: string;
 }
 
 export interface Contact {
-  email: string;
+  phone: {
+    vietnam: ContactChannel;
+    laos: ContactChannel;
+  };
 
-  phones: PhoneNumber[];
+  whatsapp: ContactChannel;
 
-  whatsapp: string;
+  email: ContactChannel;
 }
 
 export interface Localization {
   defaultLanguage: Locale;
-
-  supportedLanguages: Locale[];
+  supportedLanguages: readonly Locale[];
 }
 
+export type NavigationItemKey =
+  | "home"
+  | "treatments"
+  | "journey"
+  | "about"
+  | "contact";
+
 export interface NavigationItem {
-  label: string;
+  key: NavigationItemKey;
   href: string;
 }
 
 export interface Navigation {
-  main: NavigationItem[];
+  main: readonly NavigationItem[];
 }
 
 export interface CTA {
   primary: string;
-
   secondary: string;
 }
 
 export interface SocialLink {
   label: string;
-
   url: string;
 }
 
 export interface SocialLinks {
   facebook: SocialLink;
-
   tiktok: SocialLink;
-
   youtube: SocialLink;
 }
 
 export interface SEO {
   title: string;
-
   description: string;
-
-  keywords: string[];
-
+  keywords: readonly string[];
   ogImage: string;
 }
 
 export interface SiteConfig {
   branding: Branding;
-
   localization: Localization;
-
   contact: Contact;
-
   socials: SocialLinks;
-
   navigation: Navigation;
-
   cta: CTA;
-
   seo: SEO;
 }

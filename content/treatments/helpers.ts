@@ -1,13 +1,19 @@
 import type { Locale } from "@/types/i18n";
 
+import { crownsTreatments } from "./crowns";
 import { implantTreatments } from "./implants";
+import { smileMakeoverTreatments } from "./smile-makeover";
 import type {
   TreatmentContent,
   TreatmentSlug,
 } from "./types";
+import { veneersTreatments } from "./veneers";
 
 export const treatments: TreatmentContent[] = [
   ...implantTreatments,
+  ...veneersTreatments,
+  ...crownsTreatments,
+  ...smileMakeoverTreatments,
 ];
 
 export function getAllTreatments(): TreatmentContent[] {

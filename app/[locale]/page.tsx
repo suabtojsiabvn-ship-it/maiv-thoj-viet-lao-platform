@@ -9,6 +9,7 @@ import { Coordinator } from "@/features/coordinator";
 import { Founder } from "@/features/founder";
 import { Hero } from "@/features/hero";
 import { Journey } from "@/features/journey";
+import { PatientJourney } from "@/features/patient-journey";
 import { Treatments } from "@/features/treatments";
 import { Trust } from "@/features/trust";
 import { Why } from "@/features/why";
@@ -48,14 +49,25 @@ export default async function HomePage({
   return (
     <main className="min-h-screen bg-slate-950 text-white">
       <Hero />
+
       <Trust />
+
       <Why />
+
       <Founder />
+
       <Coordinator />
+
       <ClinicalPartner />
+
+      <PatientJourney />
+
       <Treatments />
+
       <BeforeAfter />
+
       <Journey />
+
       <Booking />
     </main>
   );

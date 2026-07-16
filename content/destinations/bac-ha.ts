@@ -8,7 +8,7 @@ export const bacHaDestination: DestinationContent = {
   summary:
     "Bắc Hà là điểm đến vùng cao mộc mạc của Lào Cai, nổi tiếng với chợ phiên, văn hóa dân tộc, cảnh quan núi đồi và nhịp sống bản làng bình dị.",
   location: {
-    country: "Vietnam",
+    country: "Việt Nam",
     province: "Lào Cai",
     district: "Bắc Hà",
   },
@@ -29,8 +29,8 @@ export const bacHaDestination: DestinationContent = {
         "Các món ăn đặc trưng vùng núi mang hương vị gần gũi và chân thật.",
     },
   ],
-  bestFor: ["Culture", "Local market", "Highland life", "Photography"],
-  recommendedDuration: "1–2 days",
+  bestFor: ["Văn hóa", "Chợ phiên", "Đời sống vùng cao", "Chụp ảnh"],
+  recommendedDuration: "2–3 ngày",
   seo: {
     title: "Bắc Hà Travel Destination | Maiv Thoj Viet Lao",
     description:
@@ -41,9 +41,9 @@ export const bacHaDestination: DestinationContent = {
   media: {
     coverImage: "/images/destinations/bac-ha-cover.jpg",
     gallery: [
-      "/images/destinations/bac-ha-1.jpg",
-      "/images/destinations/bac-ha-2.jpg",
-      "/images/destinations/bac-ha-3.jpg",
+      "/images/destinations/bac-ha-1.webp",
+      "/images/destinations/bac-ha-2.webp",
+      "/images/destinations/bac-ha-3.webp",
     ],
   },
   createdAt: "2026-07-10",

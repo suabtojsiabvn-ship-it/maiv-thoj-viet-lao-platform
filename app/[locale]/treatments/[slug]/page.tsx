@@ -1,10 +1,18 @@
+import type { Metadata } from "next";
+import Script from "next/script";
 import { notFound } from "next/navigation";
 
+import {
+  buildMetadata,
+  createBreadcrumbSchema,
+  createFaqSchema,
+  createTreatmentSchema,
+  seo,
+} from "@/content/seo";
 import {
   getTreatmentBySlug,
   getTreatmentStaticParams,
 } from "@/content/treatments";
-import { buildMetadata } from "@/content/seo";
 import { TreatmentDetail } from "@/features/treatment-detail";
 import { isSupportedLocale } from "@/lib/i18n-routing";
 import type { Locale } from "@/types/i18n";
@@ -22,7 +30,7 @@ export function generateStaticParams() {
 
 export async function generateMetadata({
   params,
-}: TreatmentDetailPageProps) {
+}: TreatmentDetailPageProps): Promise<Metadata> {
   const { locale, slug } = await params;
 
   if (!isSupportedLocale(locale)) {
@@ -69,5 +77,85 @@ export default async function TreatmentDetailPage({
     notFound();
   }
 
-  return <TreatmentDetail treatment={treatment} />;
+  const canonicalPath =
+    treatment.seo.canonical ??
+    `/${locale}/treatments/${slug}`;
+
+  const treatmentUrl = new URL(
+    canonicalPath,
+    seo.siteUrl,
+  ).toString();
+
+  const treatmentsUrl = new URL(
+    `/${locale}/treatments`,
+    seo.siteUrl,
+  ).toString();
+
+  const homeUrl = new URL(
+    `/${locale}`,
+    seo.siteUrl,
+  ).toString();
+
+  const treatmentSchema = createTreatmentSchema(
+    treatment.title,
+    treatment.seo.description,
+    treatmentUrl,
+  );
+
+  const breadcrumbSchema =
+    createBreadcrumbSchema([
+      {
+        name: "Home",
+        url: homeUrl,
+      },
+      {
+        name: "Treatments",
+        url: treatmentsUrl,
+      },
+      {
+        name: treatment.title,
+        url: treatmentUrl,
+      },
+    ]);
+
+  const faqSchema = createFaqSchema(
+    treatment.faq.items.map((item) => ({
+      question: item.question,
+      answer: item.answer,
+    })),
+  );
+
+  return (
+    <>
+      <Script
+        id={`treatment-schema-${treatment.slug}`}
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(
+            treatmentSchema,
+          ),
+        }}
+      />
+
+      <Script
+        id={`treatment-breadcrumb-schema-${treatment.slug}`}
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(
+            breadcrumbSchema,
+          ),
+        }}
+      />
+
+      <Script
+        id={`treatment-faq-schema-${treatment.slug}`}
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(faqSchema),
+        }}
+      />
+
+      <TreatmentDetail treatment={treatment} />
+    </>
+  );
 }

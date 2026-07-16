@@ -8,6 +8,16 @@ export const thDictionary: LocaleDictionary = {
     primaryCta: "เริ่มต้นด้วยการพูดคุย",
     secondaryCta: "ถามทีมของเราก่อน",
   },
+  navigation: {
+    items: {
+      home: "หน้าหลัก",
+      treatments: "การทำฟัน",
+      journey: "เส้นทางการดูแล",
+      about: "เกี่ยวกับเรา",
+      contact: "ติดต่อ",
+    },
+  },
+
 
   hero: {
     badge: "การดูแลการเดินทางทำฟันในเวียดนามสำหรับลูกค้าต่างชาติ",
@@ -588,7 +598,6 @@ imageCard: {
         },
       },
     },
-
     contact: {
       addressLabel: "ที่อยู่",
       phoneLabel: "โทรศัพท์",

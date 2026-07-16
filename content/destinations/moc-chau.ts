@@ -8,7 +8,7 @@ export const mocChauDestination: DestinationContent = {
   summary:
     "Mộc Châu là điểm đến cao nguyên xanh mát với đồi chè, khí hậu dễ chịu, cảnh quan thơ mộng và nhiều trải nghiệm nghỉ dưỡng nhẹ nhàng.",
   location: {
-    country: "Vietnam",
+    country: "Việt Nam",
     province: "Sơn La",
     district: "Mộc Châu",
   },
@@ -21,7 +21,7 @@ export const mocChauDestination: DestinationContent = {
     {
       title: "Cảnh quan nhẹ nhàng",
       description:
-        "Phù hợp với hành trình nghỉ dưỡng, chụp ảnh và thư giãn sau điều trị.",
+        "có thể phù hợp cho hành trình nghỉ dưỡng nhẹ nhàng sau điều trị, tùy theo tình trạng hồi phục và hướng dẫn của bác sĩ.",
     },
     {
       title: "Trải nghiệm địa phương",
@@ -29,8 +29,8 @@ export const mocChauDestination: DestinationContent = {
         "Các điểm tham quan thiên nhiên và văn hóa giúp chuyến đi thêm trọn vẹn.",
     },
   ],
-  bestFor: ["Relaxation", "Nature", "Photography", "Short trip"],
-  recommendedDuration: "2–3 days",
+  bestFor: ["Văn hóa", "Chợ phiên", "Đời sống vùng cao", "Chụp ảnh"],
+  recommendedDuration: "2–3 ngày",
   seo: {
     title: "Mộc Châu Travel Destination | Maiv Thoj Viet Lao",
     description:
@@ -41,9 +41,9 @@ export const mocChauDestination: DestinationContent = {
   media: {
     coverImage: "/images/destinations/moc-chau-cover.jpg",
     gallery: [
-      "/images/destinations/moc-chau-1.jpg",
-      "/images/destinations/moc-chau-2.jpg",
-      "/images/destinations/moc-chau-3.jpg",
+      "/images/destinations/moc-chau-1.webp",
+      "/images/destinations/moc-chau-2.JPG",
+      "/images/destinations/moc-chau-3.JPG",
     ],
   },
   createdAt: "2026-07-10",

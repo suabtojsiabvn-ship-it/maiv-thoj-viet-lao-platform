@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import Script from "next/script";
 
 import { ContentBody } from "@/components/content/ContentBody";
 import { ContentGallery } from "@/components/content/ContentGallery";
@@ -7,8 +8,14 @@ import { ContentHero } from "@/components/content/ContentHero";
 import { ContentMeta } from "@/components/content/ContentMeta";
 import { ContentTags } from "@/components/content/ContentTags";
 import {
+  buildMetadata,
+  createArticleSchema,
+  createBreadcrumbSchema,
+  seo,
+} from "@/content/seo";
+import {
   getPatientStoryBySlug,
-  patientStories,
+  getPatientStoryStaticParams,
 } from "@/content/stories";
 
 interface StoryDetailPageProps {
@@ -19,49 +26,45 @@ interface StoryDetailPageProps {
 }
 
 export function generateStaticParams() {
-  return patientStories
-    .filter((story) => story.published)
-    .map((story) => ({
-      locale: story.locale,
-      slug: story.slug,
-    }));
+  return getPatientStoryStaticParams();
 }
 
 export async function generateMetadata({
   params,
 }: StoryDetailPageProps): Promise<Metadata> {
   const { locale, slug } = await params;
-  const story = getPatientStoryBySlug(locale, slug);
+
+  const story = getPatientStoryBySlug(
+    locale,
+    slug,
+  );
 
   if (!story) {
     return {};
   }
 
-  return {
+  return buildMetadata({
     title: story.seo.title,
     description: story.seo.description,
-    alternates: {
-      canonical:
-        story.seo.canonical ?? `/${story.locale}/stories/${story.slug}`,
-    },
-    openGraph: {
-      title: story.seo.title,
-      description: story.seo.description,
-      images: [
-        {
-          url: story.seo.image ?? story.media.coverImage,
-          alt: story.title,
-        },
-      ],
-    },
-  };
+    canonical:
+      story.seo.canonical ??
+      `/${story.locale}/stories/${story.slug}`,
+    image:
+      story.seo.image ??
+      story.media.coverImage,
+    locale: story.locale,
+  });
 }
 
 export default async function StoryDetailPage({
   params,
 }: StoryDetailPageProps) {
   const { locale, slug } = await params;
-  const story = getPatientStoryBySlug(locale, slug);
+
+  const story = getPatientStoryBySlug(
+    locale,
+    slug,
+  );
 
   if (!story) {
     notFound();
@@ -78,7 +81,9 @@ export default async function StoryDetailPage({
     },
     {
       label: "Language",
-      value: story.patient.language ?? "International",
+      value:
+        story.patient.language ??
+        "International",
     },
     {
       label: "Treatment",
@@ -86,38 +91,112 @@ export default async function StoryDetailPage({
     },
     {
       label: "Material",
-      value: story.treatment.material ?? "Personalized plan",
+      value:
+        story.treatment.material ??
+        "Personalized plan",
     },
     {
       label: "Doctor",
-      value: story.treatment.doctor ?? "Clinical team",
+      value:
+        story.treatment.doctor ??
+        "Clinical team",
     },
     {
       label: "Duration",
-      value: story.treatment.duration ?? "By treatment plan",
+      value:
+        story.treatment.duration ??
+        "By treatment plan",
     },
   ];
 
-  const body = story.testimonial.body ?? [story.testimonial.quote];
+  const body =
+    story.testimonial.body ?? [
+      story.testimonial.quote,
+    ];
+
+  const storyUrl = new URL(
+    story.seo.canonical ??
+      `/${story.locale}/stories/${story.slug}`,
+    seo.siteUrl,
+  ).toString();
+
+  const storiesUrl = new URL(
+    `/${story.locale}/stories`,
+    seo.siteUrl,
+  ).toString();
+
+  const homeUrl = new URL(
+    `/${story.locale}`,
+    seo.siteUrl,
+  ).toString();
+
+  const articleSchema = createArticleSchema({
+    headline: story.title,
+    description: story.seo.description,
+    url: storyUrl,
+    image:
+      story.seo.image ??
+      story.media.coverImage,
+  });
+
+  const breadcrumbSchema =
+    createBreadcrumbSchema([
+      {
+        name: "Home",
+        url: homeUrl,
+      },
+      {
+        name: "Patient Stories",
+        url: storiesUrl,
+      },
+      {
+        name: story.title,
+        url: storyUrl,
+      },
+    ]);
 
   return (
-    <main className="min-h-screen bg-slate-950">
-      <ContentHero
-        title={story.title}
-        summary={story.summary}
-        coverImage={story.media.coverImage}
+    <>
+      <Script
+        id={`story-article-${story.slug}`}
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(
+            articleSchema,
+          ),
+        }}
       />
 
-      <ContentMeta items={metaItems} />
-
-      <ContentBody paragraphs={body} />
-
-      <ContentGallery
-        images={story.media.gallery}
-        title={`${story.title} Gallery`}
+      <Script
+        id={`story-breadcrumb-${story.slug}`}
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(
+            breadcrumbSchema,
+          ),
+        }}
       />
 
-      <ContentTags tags={story.tags} />
-    </main>
+      <main className="min-h-screen bg-slate-950">
+        <ContentHero
+          title={story.title}
+          summary={story.summary}
+          coverImage={
+            story.media.coverImage
+          }
+        />
+
+        <ContentMeta items={metaItems} />
+
+        <ContentBody paragraphs={body} />
+
+        <ContentGallery
+          images={story.media.gallery}
+          title={`${story.title} Gallery`}
+        />
+
+        <ContentTags tags={story.tags} />
+      </main>
+    </>
   );
 }

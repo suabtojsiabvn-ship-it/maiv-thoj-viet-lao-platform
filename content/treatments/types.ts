@@ -30,10 +30,32 @@ export interface TreatmentFaqItem {
   answer: string;
 }
 
-export interface TreatmentCta {
+export interface TreatmentAction {
   label: string;
   href: string;
+}
+
+export type TreatmentContactType =
+  | "whatsapp"
+  | "phone"
+  | "email";
+
+export interface TreatmentContact {
+  type: TreatmentContactType;
+  label: string;
+  value: string;
+  href: string;
+}
+
+export interface TreatmentConversion {
+  heading: string;
   description: string;
+
+  primaryAction: TreatmentAction;
+  secondaryAction?: TreatmentAction;
+
+  trustItems: readonly string[];
+  contacts: readonly TreatmentContact[];
 }
 
 export interface TreatmentContent {
@@ -45,49 +67,49 @@ export interface TreatmentContent {
   summary: string;
 
   hero: {
-  badge: string;
-  title: string;
-  description: string;
-  facts: readonly string[];
-};
+    badge: string;
+    title: string;
+    description: string;
+    facts: readonly string[];
+  };
 
   overview: {
     heading: string;
-    description: string[];
+    description: readonly string[];
   };
 
   benefits: {
     heading: string;
     description: string;
-    items: TreatmentTextItem[];
+    items: readonly TreatmentTextItem[];
   };
 
   candidates: {
     heading: string;
     description: string;
-    items: string[];
+    items: readonly string[];
   };
 
   procedure: {
     heading: string;
     description: string;
-    steps: TreatmentTextItem[];
+    steps: readonly TreatmentTextItem[];
   };
 
   materials: {
     heading: string;
     description: string;
-    items: TreatmentTextItem[];
+    items: readonly TreatmentTextItem[];
   };
 
   faq: {
     heading: string;
-    items: TreatmentFaqItem[];
+    items: readonly TreatmentFaqItem[];
   };
 
-  cta: TreatmentCta;
+  conversion: TreatmentConversion;
 
-  relatedTreatments: TreatmentSlug[];
+  relatedTreatments: readonly TreatmentSlug[];
 
   media: TreatmentMedia;
   seo: TreatmentSeo;

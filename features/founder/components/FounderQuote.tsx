@@ -9,3 +9,4 @@ export function FounderQuote({ quote }: FounderQuoteProps) {
     </blockquote>
   );
 }
+<cite>Maiv Thoj</cite>                                                                                                          

@@ -16,7 +16,7 @@ export const haLongDestination: DestinationContent = {
     {
       title: "Vịnh biển biểu tượng",
       description:
-        "Cảnh quan biển đảo đặc trưng, phù hợp cho hành trình nghỉ dưỡng sau điều trị.",
+        "Cảnh quan biển đảo đặc trưng, có thể phù hợp cho hành trình nghỉ dưỡng nhẹ nhàng sau điều trị, tùy theo tình trạng hồi phục và hướng dẫn của bác sĩ.",
     },
     {
       title: "Du thuyền và nghỉ dưỡng",
@@ -41,9 +41,9 @@ export const haLongDestination: DestinationContent = {
   media: {
     coverImage: "/images/destinations/ha-long-cover.jpg",
     gallery: [
-      "/images/destinations/ha-long-1.jpg",
-      "/images/destinations/ha-long-2.jpg",
-      "/images/destinations/ha-long-3.jpg",
+      "/images/destinations/ha-long-1.JPG",
+      "/images/destinations/ha-long-2.JPG",
+      "/images/destinations/ha-long-3.webp",
     ],
   },
   createdAt: "2026-07-10",

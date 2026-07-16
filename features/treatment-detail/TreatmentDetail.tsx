@@ -1,18 +1,15 @@
-import type { TreatmentContent } from "@/content/treatments";
+import type { TreatmentContent as TreatmentContentType } from "@/content/treatments";
+import { TreatmentJourney } from "@/features/treatment-journey";
 
 import {
   Hero,
   HeroHeader,
   HeroMedia,
 } from "./components/Hero";
-import { Overview } from "./components/Overview";
-
-import { Benefits } from "./components/Benefits";
-import { Candidates } from "./components/Candidates";
-import { Procedure } from "./components/Procedure";
+import { TreatmentContent } from "./TreatmentContent";
 
 interface TreatmentDetailProps {
-  treatment: TreatmentContent;
+  treatment: TreatmentContentType;
 }
 
 export function TreatmentDetail({
@@ -29,17 +26,12 @@ export function TreatmentDetail({
         />
       </Hero>
 
-      <Overview overview={treatment.overview} />
-        <Benefits
-        benefits={treatment.benefits}
-      />
-      <Candidates
-           candidates={treatment.candidates}
-          />
-          <Procedure
-            procedure={treatment.procedure}
-      />
+      <TreatmentContent treatment={treatment} />
 
+      <TreatmentJourney
+        locale={treatment.locale}
+        treatmentSlug={treatment.slug}
+      />
     </>
   );
 }

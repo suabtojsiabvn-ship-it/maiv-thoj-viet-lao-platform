@@ -1,3 +1,5 @@
+import type { Metadata } from "next";
+import Script from "next/script";
 import { notFound } from "next/navigation";
 
 import { ContentBody } from "@/components/content/ContentBody";
@@ -9,7 +11,12 @@ import {
   getDestinationBySlug,
   getDestinationSlugs,
 } from "@/content/destinations";
-import { buildMetadata } from "@/content/seo";
+import {
+  buildMetadata,
+  createArticleSchema,
+  createBreadcrumbSchema,
+  seo,
+} from "@/content/seo";
 import type { Locale } from "@/types/i18n";
 
 interface DestinationDetailPageProps {
@@ -25,9 +32,13 @@ export function generateStaticParams() {
 
 export async function generateMetadata({
   params,
-}: DestinationDetailPageProps) {
+}: DestinationDetailPageProps): Promise<Metadata> {
   const { locale, slug } = await params;
-  const destination = getDestinationBySlug(locale as Locale, slug);
+
+  const destination = getDestinationBySlug(
+    locale as Locale,
+    slug,
+  );
 
   if (!destination) {
     return {};
@@ -39,7 +50,10 @@ export async function generateMetadata({
     canonical:
       destination.seo.canonical ??
       `/${destination.locale}/destinations/${destination.slug}`,
-    image: destination.seo.image ?? destination.media.coverImage,
+    image:
+      destination.seo.image ??
+      destination.media.coverImage,
+    locale: destination.locale,
   });
 }
 
@@ -47,7 +61,11 @@ export default async function DestinationDetailPage({
   params,
 }: DestinationDetailPageProps) {
   const { locale, slug } = await params;
-  const destination = getDestinationBySlug(locale as Locale, slug);
+
+  const destination = getDestinationBySlug(
+    locale as Locale,
+    slug,
+  );
 
   if (!destination) {
     notFound();
@@ -64,39 +82,111 @@ export default async function DestinationDetailPage({
     },
     {
       label: "District",
-      value: destination.location.district ?? "Regional destination",
+      value:
+        destination.location.district ??
+        "Regional destination",
     },
     {
       label: "Duration",
-      value: destination.recommendedDuration ?? "Flexible journey",
+      value:
+        destination.recommendedDuration ??
+        "Flexible journey",
     },
   ];
 
   const body = [
     destination.summary,
     ...destination.highlights.map(
-      (highlight) => `${highlight.title}: ${highlight.description}`,
+      (highlight) =>
+        `${highlight.title}: ${highlight.description}`,
     ),
   ];
 
+  const destinationUrl = new URL(
+    destination.seo.canonical ??
+      `/${destination.locale}/destinations/${destination.slug}`,
+    seo.siteUrl,
+  ).toString();
+
+  const destinationsUrl = new URL(
+    `/${destination.locale}/destinations`,
+    seo.siteUrl,
+  ).toString();
+
+  const homeUrl = new URL(
+    `/${destination.locale}`,
+    seo.siteUrl,
+  ).toString();
+
+  const articleSchema =
+    createArticleSchema({
+      headline: destination.title,
+      description:
+        destination.seo.description,
+      url: destinationUrl,
+      image:
+        destination.seo.image ??
+        destination.media.coverImage,
+    });
+
+  const breadcrumbSchema =
+    createBreadcrumbSchema([
+      {
+        name: "Home",
+        url: homeUrl,
+      },
+      {
+        name: "Destinations",
+        url: destinationsUrl,
+      },
+      {
+        name: destination.title,
+        url: destinationUrl,
+      },
+    ]);
+
   return (
-    <main className="min-h-screen bg-slate-950">
-      <ContentHero
-        title={destination.title}
-        summary={destination.summary}
-        coverImage={destination.media.coverImage}
+    <>
+      <Script
+        id={`destination-article-${destination.slug}`}
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(
+            articleSchema,
+          ),
+        }}
       />
 
-      <ContentMeta items={metaItems} />
-
-      <ContentBody paragraphs={body} />
-
-      <ContentGallery
-        images={destination.media.gallery}
-        title={`${destination.title} Gallery`}
+      <Script
+        id={`destination-breadcrumb-${destination.slug}`}
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(
+            breadcrumbSchema,
+          ),
+        }}
       />
 
-      <ContentTags tags={destination.tags} />
-    </main>
+      <main className="min-h-screen bg-slate-950">
+        <ContentHero
+          title={destination.title}
+          summary={destination.summary}
+          coverImage={
+            destination.media.coverImage
+          }
+        />
+
+        <ContentMeta items={metaItems} />
+
+        <ContentBody paragraphs={body} />
+
+        <ContentGallery
+          images={destination.media.gallery}
+          title={`${destination.title} Gallery`}
+        />
+
+        <ContentTags tags={destination.tags} />
+      </main>
+    </>
   );
 }

@@ -1,24 +1,21 @@
+export type NavigationItemKey =
+  | "home"
+  | "treatments"
+  | "journey"
+  | "about"
+  | "contact";
+
+export interface NavigationItem {
+  key: NavigationItemKey;
+  href: string;
+}
+
 export const navigation = {
   main: [
-    {
-      label: "Home",
-      href: "/",
-    },
-    {
-      label: "Treatments",
-      href: "/treatments",
-    },
-    {
-      label: "Journey",
-      href: "/journey",
-    },
-    {
-      label: "About",
-      href: "/about",
-    },
-    {
-      label: "Contact",
-      href: "/contact",
-    },
-  ],
-};
+    { key: "home", href: "/" },
+    { key: "treatments", href: "/treatments" },
+    { key: "journey", href: "/journey" },
+    { key: "about", href: "/about" },
+    { key: "contact", href: "/contact" },
+  ] satisfies readonly NavigationItem[],
+} as const;

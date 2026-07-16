@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 
-import { brand } from "@/content/branding";
 import { urls } from "@/content/config";
 import { site } from "@/content/site";
 
@@ -28,7 +27,7 @@ export const defaultMetadata: Metadata = {
 
   description: site.seo.description,
 
-  keywords: site.seo.keywords,
+  keywords: [...site.seo.keywords],
 
   applicationName: site.branding.name,
 
@@ -47,6 +46,7 @@ export const defaultMetadata: Metadata = {
   robots: {
     index: true,
     follow: true,
+
     googleBot: {
       index: true,
       follow: true,
@@ -63,6 +63,7 @@ export const defaultMetadata: Metadata = {
     title: site.seo.title,
     description: site.seo.description,
     siteName: site.branding.name,
+
     images: [
       {
         url: site.seo.ogImage,
@@ -84,16 +85,4 @@ export const defaultMetadata: Metadata = {
     icon: "/favicon.ico",
     apple: "/apple-touch-icon.png",
   },
-};
-
-export const organizationJsonLd = {
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  name: brand.name,
-  alternateName: brand.shortName,
-  url: baseUrl,
-  description: brand.description,
-  email: brand.email,
-  areaServed: "International",
-  serviceType: brand.positioning,
 };

@@ -7,6 +7,16 @@ export const viDictionary: LocaleDictionary = {
     primaryCta: "Bắt đầu bằng một cuộc trò chuyện",
     secondaryCta: "Hỏi đội ngũ trước",
   },
+  navigation: {
+    items: {
+      home: "Trang chủ",
+      treatments: "Điều trị",
+      journey: "Hành trình",
+      about: "Giới thiệu",
+      contact: "Liên hệ",
+    },
+  },
+
 
   hero: {
     badge: "Đồng hành cùng khách hàng quốc tế tại Việt Nam",

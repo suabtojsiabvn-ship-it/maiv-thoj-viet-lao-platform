@@ -8,7 +8,7 @@ export const sapaDestination: DestinationContent = {
   summary:
     "Sa Pa là điểm đến vùng cao nổi tiếng với ruộng bậc thang, khí hậu mát lành, bản làng dân tộc và khung cảnh núi non hùng vĩ.",
   location: {
-    country: "Vietnam",
+    country: "Việt Nam",
     province: "Lào Cai",
     district: "Sa Pa",
   },
@@ -26,11 +26,11 @@ export const sapaDestination: DestinationContent = {
     {
       title: "Khí hậu mát lành",
       description:
-        "Thời tiết dễ chịu, phù hợp để nghỉ dưỡng và kết hợp hành trình chăm sóc sức khỏe.",
+        "Thời tiết dễ chịu,có thể phù hợp cho hành trình nghỉ dưỡng nhẹ nhàng sau điều trị, tùy theo tình trạng hồi phục và hướng dẫn của bác sĩ.",
     },
   ],
-  bestFor: ["Nature", "Culture", "Mountain retreat", "Photography"],
-  recommendedDuration: "2–3 days",
+  bestFor: ["Văn hóa", "Chợ phiên", "Đời sống vùng cao", "Chụp ảnh"],
+  recommendedDuration: "2–3 ngày",
   seo: {
     title: "Sa Pa Travel Destination | Maiv Thoj Viet Lao",
     description:
@@ -41,9 +41,9 @@ export const sapaDestination: DestinationContent = {
   media: {
     coverImage: "/images/destinations/sapa-cover.jpg",
     gallery: [
-      "/images/destinations/sapa-1.jpg",
-      "/images/destinations/sapa-2.jpg",
-      "/images/destinations/sapa-3.jpg",
+      "/images/destinations/sapa-1.JPG",
+      "/images/destinations/sapa-2.webp",
+      "/images/destinations/sapa-3.JPG",
     ],
   },
   createdAt: "2026-07-10",

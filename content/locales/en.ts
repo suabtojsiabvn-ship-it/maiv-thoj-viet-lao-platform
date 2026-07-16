@@ -7,6 +7,17 @@ export const enDictionary: LocaleDictionary = {
   primaryCta: "Start With a Conversation",
   secondaryCta: "Ask Our Team First",
 },
+  navigation: {
+    items: {
+      home: "Home",
+      treatments: "Treatments",
+      journey: "Journey",
+      about: "About",
+      contact: "Contact",
+    },
+  },
+
+
 
 hero: {
   badge: "International Patient Journey Support in Vietnam",
@@ -119,7 +130,7 @@ hero: {
   sectionLabel: "INTERNATIONAL PATIENT JOURNEY MANAGER",
 
   title:
-  "The person who stays by your side throughout your journey in Vietnam.",
+    "The person who stays by your side throughout your journey in Vietnam.",
 
   description:
     "Personal support, clear communication and thoughtful coordination—so you can focus on your treatment with confidence.",
@@ -127,48 +138,53 @@ hero: {
   badge: "PATIENT JOURNEY MANAGER",
 
   heading:
-  "You don't have to figure everything out alone.",
+    "You don't have to figure everything out alone.",
 
   intro:
-  "Travelling to another country for dental treatment can feel uncertain.Having someone to communicate with, coordinate your appointments and support you throughout the journey can make the experience much more comfortable and reassuring.",
+    "Travelling to another country for dental treatment can feel uncertain. Having someone to communicate with, coordinate your appointments and support you throughout the journey can make the experience more comfortable and reassuring.",
 
   story: [
-    "His role is not simply arranging transportation or appointments. He helps make your dental journey easier to understand, better organized and more comfortable from your arrival until you return home..",
+    "His role is not simply arranging transportation or appointments. He helps make your dental journey easier to understand, better organized and more comfortable from your arrival until you return home.",
   ],
 
   quote:
-  "You should never feel alone when travelling abroad for dental treatment.",
+    "You should never feel alone when travelling abroad for dental treatment.",
 
   cta: {
-    label: "Talk With A Su",
+    label: "Talk With A Sử",
   },
 
-imageCard: {
-  role: "International Patient Journey Manager",
-  description:
-    "Helping you communicate, coordinate and travel with confidence throughout your dental journey in Vietnam.",
-},
+  imageCard: {
+    role: "International Patient Journey Manager",
+    description:
+      "Helping you communicate, coordinate and travel with confidence throughout your dental journey in Vietnam.",
+  },
 
   services: [
     {
-      title: "Arrival Assistance",
+      title: "Pre-Arrival Planning",
       description:
         "Helping you prepare your travel schedule, appointments and important details before you leave home.",
     },
     {
-      title: "Journey Coordination",
+      title: "Airport Welcome",
       description:
-        "Meeting you when you arrive and making sure your journey in Vietnam starts comfortably.",
+        "Meeting you when you arrive and helping your journey in Vietnam begin comfortably.",
     },
     {
       title: "Multilingual Communication",
       description:
-        "Helping patients communicate more confidently with trusted clinical partners whenever needed.",
+        "Helping you communicate clearly and confidently with trusted clinical partners whenever needed.",
     },
     {
-      title: "Treatment Planning Support",
+      title: "Journey Coordination",
       description:
-        "From transportation and practical questions to follow-up visits, you'll always know someone is there to help.",
+        "Coordinating transportation, appointments, practical support and follow-up visits throughout your stay.",
+    },
+    {
+      title: "Journey Memories",
+      description:
+        "Complimentary photos and videos can be created during your journey with your permission.",
     },
   ],
 },
@@ -578,4 +594,5 @@ trust: {
       languagesLabel: "Languages",
     },
   },
+
 };

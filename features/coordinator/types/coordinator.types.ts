@@ -4,6 +4,7 @@ export type CoordinatorServiceId =
   | "language"
   | "coordination"
   | "memories";
+  
 
 export interface CoordinatorService {
   id: CoordinatorServiceId;

@@ -1,15 +1,15 @@
 import type { MetadataRoute } from "next";
 
-import { siteConfig } from "@/config/site";
+import { brand } from "@/content/branding";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: siteConfig.name,
-    short_name: siteConfig.shortName,
-    description: siteConfig.description,
+    name: brand.name,
+    short_name: brand.shortName,
+    description: brand.description,
     start_url: "/",
     display: "standalone",
-    background_color: "#ffffff",
+    background_color: "#020617",
     theme_color: "#0f172a",
     icons: [
       {

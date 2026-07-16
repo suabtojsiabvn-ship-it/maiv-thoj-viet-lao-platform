@@ -47,7 +47,7 @@ export function CoordinatorContent() {
 
       <div className="mt-10">
         <Link
-          href="/booking"
+          href="#booking"
           className="inline-flex items-center justify-center rounded-xl bg-cyan-500 px-7 py-4 text-sm font-semibold text-slate-950 transition hover:bg-cyan-400"
         >
           {coordinator.cta.label}

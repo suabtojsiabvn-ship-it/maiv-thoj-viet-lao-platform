@@ -7,6 +7,16 @@ export const hmnDictionary: LocaleDictionary = {
     primaryCta: "Cia Peb Pib Sib Tham",
     secondaryCta: "Nug Peb Pab Neeg Ua Ntej",
   },
+  navigation: {
+    items: {
+      home: "Tsev",
+      treatments: "Kho Hniav",
+      journey: "Txoj Kev Taug",
+      about: "Hais Txog Peb",
+      contact: "Tiv Tauj Peb",
+    },
+  },
+
 
   hero: {
     badge: "Kev pab neeg mob thoob ntiaj teb hauv Nyab Laj",
@@ -109,12 +119,12 @@ export const hmnDictionary: LocaleDictionary = {
     quote:
   "Txhua txoj kev taug zoo pib thaum koj paub tias twb muaj ib tug neeg tos pab koj lawm.",
     stats: {
-      facebook: "Zej zog Facebook",
-      tiktok: "Zej zog TikTok",
+      facebook: "fanpage Facebook",
+      tiktok: "Maiv Thoj TikTok",
       role: "Lub luag hauj lwm uas ntseeg tau",
     },
     cta: {
-      label: "Tham nrog Maiv Thoj",
+      label: "Pib Tham nrog Maiv Thoj",
     },
   },
 
@@ -480,7 +490,7 @@ trust: {
     fullNamePlaceholder: "Peb yuav hu koj li cas?",
 
     country: "Koj Nyob Qhov Twg?",
-    countryPlaceholder: "Lub teb chaws lossis cheeb tsam",
+    countryPlaceholder: "Lub teb chaws",
 
     preferredLanguage: "Yam Lus Koj Xav Siv",
 
@@ -509,7 +519,7 @@ trust: {
 
     smileMakeover: "Kho Tag Nrho Lub Luag Ntxhi",
 
-    crowns: "Hniav Ceramic",
+    crowns: "Hniav Ceramic, Hniav Looj",
 
     veneers: "Porcelain Veneers",
 
@@ -518,8 +528,8 @@ trust: {
   },
 
   languages: {
-    en: "Lus Askiv",
     hmn: "Hmoob Thoob Ntiaj Teb",
+    en: "Lus Askiv",
     lo: "Lus Nplog",
     th: "Lus Thaib",
     vi: "Lus Nyab Laj",

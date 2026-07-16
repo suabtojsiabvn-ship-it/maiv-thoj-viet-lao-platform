@@ -4,10 +4,10 @@ export const people = {
 
     name: "Maiv Thoj",
 
-    role: "Community Advisor",
+    role: "Community Advisor / International Advisor",
 
     description:
-      "Helping international patients feel informed, confident and supported throughout their healthcare journey in Vietnam.",
+      "Helping the global Hmong community and international patients confidently begin their healthcare journey in Vietnam through trusted guidance and multilingual support.",
 
     avatar: "maiv-profile",
 
@@ -17,40 +17,39 @@ export const people = {
       "Every patient deserves trusted guidance, honest care, and the confidence to smile again.",
   },
 
- coordinator: {
-  id: "a-su",
+  coordinator: {
+    id: "a-su",
 
-  name: "A Sử (Txhim)",
+    name: "A Sử (Txhim)",
 
-  role: "International Patient Coordinator",
+    role: "International Patient Journey Manager",
 
-  description:
-    "Supporting international patients before, during and after treatment with multilingual communication and personalized coordination.",
+    description:
+      "Supporting international patients before, during and after treatment with multilingual communication and personalized coordination.",
 
-  quote:
-    "Every journey becomes easier when someone truly understands your language, your culture and your concerns.",
+    quote:
+      "Every journey becomes easier when someone truly understands your language, your culture and your concerns.",
 
-  avatar: "asu-profile",
+    avatar: "asu-profile",
 
-  heroImage: "hero-asu",
+    heroImage: "hero-asu",
 
-  languages: [
-    "English",
-    "Hmong",
-    "Vietnamese",
-    "Thai",
-    "Lao",
-  ],
+    languages: [
+      "English",
+      "Hmong",
+      "Vietnamese",
+      "Thai",
+      "Lao",
+    ],
 
-  services: [
-    "Online Consultation",
-    "Treatment Planning",
-    "Travel Coordination",
-    "Airport Pickup",
-    "Hotel Arrangement",
-    "Patient Support",
-  ],
-},
+    services: [
+      "Pre-Arrival Planning",
+      "Airport Welcome",
+      "Multilingual Communication",
+      "Journey Coordination",
+      "Journey Memories",
+    ],
+  },
 
   clinicalDirector: {
     id: "doctor-toan",
