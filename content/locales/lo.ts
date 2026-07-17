@@ -719,11 +719,23 @@ patientJourney: {
   },
 
   contact: {
+    title: "ຕິດຕໍ່",
+vietnamPhoneLabel: "ເບີໂທຫວຽດນາມ",
+laosPhoneLabel: "ເບີໂທລາວ",
+whatsappLabel: "WhatsApp",
     addressLabel: "ທີ່ຢູ່",
     phoneLabel: "ໂທລະສັບ",
     emailLabel: "Email",
     hoursLabel: "ເວລາ",
     languagesLabel: "ພາສາ",
   },
+  socialTitle: "ຕິດຕາມພວກເຮົາ",
+
+bottom: {
+  rightsReserved:
+    "ສະຫງວນລິຂະສິດ.",
+  builtFor:
+    "ດູແລການເດີນທາງມາເຮັດແຂ້ວໃນຫວຽດນາມສຳລັບລູກຄ້າຕ່າງປະເທດ.",
+},
 },
 };

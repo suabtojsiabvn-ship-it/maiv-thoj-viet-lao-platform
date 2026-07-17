@@ -1,14 +1,19 @@
+"use client";
+
 import { site } from "@/content/site";
+import { useDictionary } from "@/hooks/useDictionary";
 
 export function FooterSocial() {
+  const dictionary = useDictionary();
+
   const socials = Object.values(site.socials).filter(
-    (social) => social.url
+    (social) => social.url,
   );
 
   return (
     <div>
       <h3 className="text-sm font-semibold uppercase tracking-widest text-white">
-        Follow Us
+        {dictionary.footer.socialTitle}
       </h3>
 
       <ul className="mt-5 space-y-3">

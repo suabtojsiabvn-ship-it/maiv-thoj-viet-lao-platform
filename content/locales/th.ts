@@ -709,11 +709,23 @@ patientJourney: {
       },
     },
     contact: {
+      title: "ติดต่อ",
+        vietnamPhoneLabel: "สายด่วนเวียดนาม",
+        laosPhoneLabel: "สายด่วนลาว",
+      whatsappLabel: "WhatsApp",
       addressLabel: "ที่อยู่",
       phoneLabel: "โทรศัพท์",
       emailLabel: "อีเมล",
       hoursLabel: "เวลา",
       languagesLabel: "ภาษา",
     },
+    socialTitle: "ติดตามเรา",
+
+bottom: {
+  rightsReserved:
+    "สงวนลิขสิทธิ์.",
+  builtFor:
+    "ดูแลการเดินทางมาทำฟันในเวียดนามสำหรับลูกค้าต่างชาติ.",
+},
   },
 };

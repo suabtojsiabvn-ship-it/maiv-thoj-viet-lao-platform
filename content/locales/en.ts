@@ -699,12 +699,24 @@ patientJourney: {
       },
     },
     contact: {
+      title: "Contact",
       addressLabel: "Address",
       phoneLabel: "Phone",
-      emailLabel: "Email",
+      vietnamPhoneLabel: "Vietnam Hotline",
+      laosPhoneLabel: "Laos Hotline",
+      emailLabel:"email",
+      whatsappLabel: "WhatsApp",
       hoursLabel: "Hours",
       languagesLabel: "Languages",
+
     },
+    socialTitle: "Follow Us",
+
+bottom: {
+  rightsReserved: "All rights reserved.",
+  builtFor:
+    "Supporting international patient journeys in Vietnam.",
+},
   },
 
 };

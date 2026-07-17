@@ -294,6 +294,7 @@ export interface LocaleBookingDictionary {
 
 export interface LocaleFooterDictionary {
   description: string;
+
   sections: {
     treatments: {
       title: string;
@@ -304,6 +305,7 @@ export interface LocaleFooterDictionary {
         crowns: string;
       };
     };
+
     travel: {
       title: string;
       links: {
@@ -313,6 +315,7 @@ export interface LocaleFooterDictionary {
         faq: string;
       };
     };
+
     company: {
       title: string;
       links: {
@@ -322,6 +325,7 @@ export interface LocaleFooterDictionary {
         contact: string;
       };
     };
+
     resources: {
       title: string;
       links: {
@@ -332,12 +336,24 @@ export interface LocaleFooterDictionary {
       };
     };
   };
+
   contact: {
+    title: string;
     addressLabel: string;
     phoneLabel: string;
+    vietnamPhoneLabel: string;
+    laosPhoneLabel: string;
     emailLabel: string;
+    whatsappLabel: string;
     hoursLabel: string;
     languagesLabel: string;
+  };
+
+  socialTitle: string;
+
+  bottom: {
+    rightsReserved: string;
+    builtFor: string;
   };
 }
 

@@ -703,11 +703,24 @@ patientJourney: {
   },
 
   contact: {
-    addressLabel: "Chaw Nyob",
-    phoneLabel: "Xov Tooj",
-    emailLabel: "Email",
-    hoursLabel: "Sijhawm",
-    languagesLabel: "Hom Lus",
-  },
+  title: "Tiv Tauj Peb",
+  addressLabel: "Chaw Nyob",
+  phoneLabel: "Xov Tooj",
+  vietnamPhoneLabel: "Xov Tooj Hauv Nyab Laj",
+  laosPhoneLabel: "Xov Tooj Hauv Nplog",
+  emailLabel: "Email",
+  whatsappLabel: "WhatsApp",
+  hoursLabel: "Sijhawm Ua Hauj Lwm",
+  languagesLabel: "Hom Lus",
+},
+
+socialTitle: "Caum Peb",
+
+bottom: {
+  rightsReserved:
+    "Peb khaws txhua txoj cai tseg.",
+  builtFor:
+    "Tsim los pab cov qhua txawv teb chaws txoj kev tuaj kho hniav hauv Nyab Laj.",
+},
 },
 };

@@ -1,15 +1,18 @@
-const services = [
-  "Dental Tourism",
-  "Medical Concierge",
-  "Plastic Surgery",
-  "Airport Pickup",
-];
+"use client";
+
+import { useDictionary } from "@/hooks/useDictionary";
 
 export function FooterServices() {
+  const dictionary = useDictionary();
+
+  const services = Object.values(
+    dictionary.footer.sections.treatments.links,
+  );
+
   return (
     <div>
       <h3 className="text-sm font-semibold uppercase tracking-widest text-white">
-        Services
+        {dictionary.footer.sections.treatments.title}
       </h3>
 
       <ul className="mt-5 space-y-3">

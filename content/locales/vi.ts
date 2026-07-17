@@ -721,11 +721,24 @@ patientJourney: {
     },
 
     contact: {
-      addressLabel: "Địa chỉ",
-      phoneLabel: "Điện thoại",
-      emailLabel: "Email",
-      hoursLabel: "Thời gian",
-      languagesLabel: "Ngôn ngữ",
-    },
+  title: "Liên hệ",
+  addressLabel: "Địa chỉ",
+  phoneLabel: "Điện thoại",
+  vietnamPhoneLabel: "Hotline Việt Nam",
+  laosPhoneLabel: "Hotline Lào",
+  emailLabel: "Email",
+  whatsappLabel: "WhatsApp",
+  hoursLabel: "Giờ làm việc",
+  languagesLabel: "Ngôn ngữ",
+},
+
+socialTitle: "Theo dõi chúng tôi",
+
+bottom: {
+  rightsReserved:
+    "Đã đăng ký bản quyền.",
+  builtFor:
+    "Đồng hành cùng khách hàng quốc tế trên hành trình làm răng tại Việt Nam.",
+},
   },
 };
