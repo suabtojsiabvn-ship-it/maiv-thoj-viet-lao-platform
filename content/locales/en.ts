@@ -428,6 +428,20 @@ trust: {
     { code: "🇻🇳", name: "Vietnam" },
   ],
 
+  transparency: {
+  title: "Our Transparency Promise",
+
+  description:
+    "Clear communication and dependable support throughout your dental journey in Vietnam.",
+
+  items: [
+    "Personalized treatment planning",
+    "Clear quotation before treatment",
+    "No hidden treatment costs",
+    "Airport pickup and drop-off support",
+    "Multilingual journey assistance",
+  ],
+},
   material: {
     title: "Trusted Dental Materials",
 
@@ -440,6 +454,32 @@ trust: {
       "Clinical suitability comes first",
     ],
   },
+  community: {
+  title: "Trusted by the International Hmong Community",
+
+  description:
+    "A growing community built through real patient stories, multilingual support and trusted recommendations.",
+
+  stats: [
+    {
+      value: "454K+",
+      label: "Facebook Community",
+    },
+    {
+      value: "1.3M+",
+      label: "TikTok Followers",
+    },
+    {
+      value: "5",
+      label: "Supported Languages",
+    },
+    {
+      value: "International",
+      label: "Patient Journey Support",
+    },
+  ],
+},
+  
 },
 
    booking: {

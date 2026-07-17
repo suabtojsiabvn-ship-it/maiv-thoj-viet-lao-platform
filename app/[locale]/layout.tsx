@@ -1,5 +1,7 @@
 import { notFound } from "next/navigation";
 
+import { Header } from "@/components/layout";
+import { Footer } from "@/features/footer";
 import { isSupportedLocale } from "@/lib/i18n-routing";
 import { LocaleProvider } from "@/providers/LocaleProvider";
 import { locales } from "@/types/i18n";
@@ -30,7 +32,13 @@ export default async function LocaleLayout({
 
   return (
     <LocaleProvider locale={locale as Locale}>
-      {children}
+      <div className="flex min-h-screen flex-col bg-slate-950 text-white">
+        <Header />
+
+        <div className="flex-1">{children}</div>
+
+        <Footer />
+      </div>
     </LocaleProvider>
   );
 }

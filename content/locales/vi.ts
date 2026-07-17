@@ -444,7 +444,20 @@ trust: {
     { code: "🇹🇭", name: "Thái Lan" },
     { code: "🇻🇳", name: "Việt Nam" },
   ],
+transparency: {
+  title: "Cam kết minh bạch",
 
+  description:
+    "Thông tin rõ ràng và hỗ trợ đáng tin cậy trong suốt hành trình chăm sóc răng miệng của bạn tại Việt Nam.",
+
+  items: [
+    "Kế hoạch điều trị được cá nhân hóa",
+    "Báo giá rõ ràng trước điều trị",
+    "Không có chi phí điều trị ẩn",
+    "Hỗ trợ đón và tiễn sân bay",
+    "Đồng hành và hỗ trợ đa ngôn ngữ",
+  ],
+},
   material: {
     title: "Vật liệu nha khoa cao cấp",
 
@@ -457,6 +470,31 @@ trust: {
       "Ưu tiên tính phù hợp lâm sàng",
     ],
   },
+  community: {
+  title: "Được cộng đồng H'Mông quốc tế tin tưởng",
+
+  description:
+    "Một cộng đồng được xây dựng từ những hành trình khách hàng thực tế, sự đồng hành đa ngôn ngữ và niềm tin lâu dài.",
+
+  stats: [
+    {
+      value: "454K+",
+      label: "Cộng đồng Facebook",
+    },
+    {
+      value: "1.3M+",
+      label: "Người theo dõi TikTok",
+    },
+    {
+      value: "5",
+      label: "Ngôn ngữ hỗ trợ",
+    },
+    {
+      value: "Quốc tế",
+      label: "Đồng hành khách hàng",
+    },
+  ],
+},
 },
 
   booking: {

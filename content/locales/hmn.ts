@@ -427,7 +427,20 @@ trust: {
     { code: "🇹🇭", name: "Thailand" },
     { code: "🇻🇳", name: "Vietnam" },
   ],
+transparency: {
+  title: "Peb txoj kev cog lus kom meej",
 
+  description:
+    "Peb muab cov ntaub ntawv meej thiab txhawb nqa koj thoob plaws txoj kev tuaj kho hniav hauv Nyab Laj.",
+
+  items: [
+    "Npaj kev kho hniav raws li koj tus kheej",
+    "Qhia tus nqi meej ua ntej kho",
+    "Tsis muaj nqi zais ntxiv",
+    "Muaj kev pab tos thiab xa tshav dav hlau",
+    "Muaj kev pab txhais lus thoob plaws txoj kev",
+  ],
+},
   material: {
     title: "Cov khoom siv kho hniav zoo tshaj",
 
@@ -440,6 +453,31 @@ trust: {
       "Clinical suitability comes first",
     ],
   },
+  community: {
+  title: "Cov neeg Hmoob thoob ntiaj teb ntseeg siab",
+
+  description:
+    "Peb txoj kev ntseeg siab tsim los ntawm cov neeg mob tiag, kev pab ntau hom lus thiab kev qhia ib leeg rau ib leeg.",
+
+  stats: [
+    {
+      value: "454K+",
+      label: "Facebook Community",
+    },
+    {
+      value: "1.3M+",
+      label: "TikTok Followers",
+    },
+    {
+      value: "5",
+      label: "Languages",
+    },
+    {
+      value: "International",
+      label: "Patient Support",
+    },
+  ],
+},
 },
 
   booking: {

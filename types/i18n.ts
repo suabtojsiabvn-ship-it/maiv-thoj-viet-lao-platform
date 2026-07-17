@@ -220,19 +220,35 @@ export interface LocaleTrustMaterialDictionary {
 
 export interface LocaleTrustDictionary {
   badge: string;
-
   heading: string;
-
   description: string;
-
   personalizedCare: string;
 
-  countries: Array<{
+  countries: {
     code: string;
     name: string;
-  }>;
+  }[];
 
-  material: LocaleTrustMaterialDictionary;
+  transparency: {
+    title: string;
+    description: string;
+    items: string[];
+  };
+
+  material: {
+    title: string;
+    description: string;
+    items: string[];
+  };
+
+  community: {
+    title: string;
+    description: string;
+    stats: {
+      value: string;
+      label: string;
+    }[];
+  };
 }
 
 export interface LocaleBookingDictionary {
