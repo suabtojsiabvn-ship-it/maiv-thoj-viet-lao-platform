@@ -1,10 +1,14 @@
 "use client";
 
-import { useDictionary } from "@/hooks/useDictionary";
+import {
+  useCurrentLocale,
+  useDictionary,
+} from "@/hooks/useDictionary";
 
 import type { JourneyStep } from "../types/journey.types";
 
 export function useJourney() {
+  const locale = useCurrentLocale();
   const { journey } = useDictionary();
 
   const steps: JourneyStep[] = journey.steps;
@@ -17,7 +21,7 @@ export function useJourney() {
       steps,
       cta: {
         label: journey.cta.label,
-        href: "/booking",
+        href: `/${locale}/booking`,
       },
     },
   };
