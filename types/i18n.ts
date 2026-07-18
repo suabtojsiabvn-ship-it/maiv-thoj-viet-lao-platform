@@ -1,6 +1,12 @@
 export const defaultLocale = "en" as const;
 
-export const locales = ["en", "hmn", "vi", "th", "lo"] as const;
+export const locales = [
+  "en",
+  "hmn",
+  "vi",
+  "th",
+  "lo",
+] as const;
 
 export type Locale = (typeof locales)[number];
 
@@ -83,11 +89,13 @@ export interface LocaleFounderDictionary {
   imageAlt: string;
   story: string[];
   quote: string;
+
   stats: {
     facebook: string;
     tiktok: string;
     role: string;
   };
+
   cta: LocaleCta;
 }
 
@@ -118,19 +126,25 @@ export interface LocaleClinicalPartnerDictionary {
   sectionLabel: string;
   title: string;
   description: string;
+
   badge: string;
   heading: string;
   intro: string;
   quote: string;
+
   cta: LocaleCta;
+
   highlights: LocaleTextItem[];
+
   technology: {
-  title: string;
-};
-imageCard: {
-  badge: string;
-  description: string;
-};
+    title: string;
+  };
+
+  imageCard: {
+    badge: string;
+    description: string;
+  };
+
   technologies: Array<{
     name: string;
     description: string;
@@ -141,12 +155,14 @@ export interface LocaleTreatmentsDictionary {
   sectionLabel: string;
   title: string;
   description: string;
+
   items: {
     implant: LocaleTextItem;
     crowns: LocaleTextItem;
     veneers: LocaleTextItem;
     smileMakeover: LocaleTextItem;
   };
+
   cta: {
     learnMore: string;
   };
@@ -156,26 +172,31 @@ export interface LocaleBeforeAfterDictionary {
   sectionLabel: string;
   title: string;
   description: string;
+
   labels: {
     before: string;
     after: string;
   };
+
   cases: {
     case1: {
       title: string;
       treatment: string;
       country: string;
     };
+
     case2: {
       title: string;
       treatment: string;
       country: string;
     };
+
     case3: {
       title: string;
       treatment: string;
       country: string;
     };
+
     case4: {
       title: string;
       treatment: string;
@@ -204,17 +225,19 @@ export interface LocaleJourneyDictionary {
   sectionLabel: string;
   title: string;
   description: string;
+
   badge: string;
   heading: string;
   intro: string;
+
   steps: LocaleJourneyStep[];
+
   cta: LocaleCta;
 }
+
 export interface LocaleTrustMaterialDictionary {
   title: string;
-
   description: string;
-
   items: string[];
 }
 
@@ -224,10 +247,10 @@ export interface LocaleTrustDictionary {
   description: string;
   personalizedCare: string;
 
-  countries: {
+  countries: Array<{
     code: string;
     name: string;
-  }[];
+  }>;
 
   transparency: {
     title: string;
@@ -235,19 +258,16 @@ export interface LocaleTrustDictionary {
     items: string[];
   };
 
-  material: {
-    title: string;
-    description: string;
-    items: string[];
-  };
+  material: LocaleTrustMaterialDictionary;
 
   community: {
     title: string;
     description: string;
-    stats: {
+
+    stats: Array<{
       value: string;
       label: string;
-    }[];
+    }>;
   };
 }
 
@@ -255,15 +275,18 @@ export interface LocaleBookingDictionary {
   sectionLabel: string;
   title: string;
   description: string;
+
   badge: string;
   heading: string;
   intro: string;
+
   benefits: {
     consultation: LocaleTextItem;
     plan: LocaleTextItem;
     travel: LocaleTextItem;
     coordinator: LocaleTextItem;
   };
+
   fields: {
     fullName: string;
     fullNamePlaceholder: string;
@@ -287,6 +310,7 @@ export interface LocaleBookingDictionary {
     message: string;
     messagePlaceholder: string;
   };
+
   treatments: {
     implant: string;
     smileMakeover: string;
@@ -294,6 +318,7 @@ export interface LocaleBookingDictionary {
     veneers: string;
     consultation: string;
   };
+
   languages: {
     en: string;
     vi: string;
@@ -301,6 +326,7 @@ export interface LocaleBookingDictionary {
     hmn: string;
     th: string;
   };
+
   cta: {
     submit: string;
     submitting: string;
@@ -314,6 +340,7 @@ export interface LocaleFooterDictionary {
   sections: {
     treatments: {
       title: string;
+
       links: {
         implants: string;
         smileMakeover: string;
@@ -324,6 +351,7 @@ export interface LocaleFooterDictionary {
 
     travel: {
       title: string;
+
       links: {
         airportPickup: string;
         hotels: string;
@@ -334,6 +362,7 @@ export interface LocaleFooterDictionary {
 
     company: {
       title: string;
+
       links: {
         about: string;
         doctors: string;
@@ -344,6 +373,7 @@ export interface LocaleFooterDictionary {
 
     resources: {
       title: string;
+
       links: {
         blog: string;
         privacy: string;
@@ -399,11 +429,148 @@ export interface LocalePatientJourneyDictionary {
   description: string;
   optional: string;
   timing: string;
+
   steps: Record<
     LocalePatientJourneyStepKey,
     LocalePatientJourneyStepText
   >;
 }
+
+export interface LocaleWhyDictionary {
+  sectionLabel: string;
+  title: string;
+  description: string;
+  imageAlt: string;
+
+  cards: {
+    guidance: LocaleTextItem;
+    language: LocaleTextItem;
+    coordination: LocaleTextItem;
+    care: LocaleTextItem;
+  };
+}
+
+/**
+ * Shared SEO text for an individual localized route.
+ */
+export interface LocalePageSeoDictionary {
+  title: string;
+  description: string;
+}
+
+/**
+ * Localized text used by /[locale]/contact.
+ *
+ * Contact values such as phone numbers, WhatsApp URLs and email addresses
+ * remain in content/contact. Only user-facing text belongs here.
+ */
+export interface LocaleContactPageDictionary {
+  seo: LocalePageSeoDictionary;
+
+  badge: string;
+  heading: string;
+  description: string;
+
+  channels: {
+    whatsapp: {
+      description: string;
+    };
+
+    email: {
+      description: string;
+    };
+
+    vietnamPhone: {
+      description: string;
+    };
+
+    laosPhone: {
+      description: string;
+    };
+  };
+
+  cta: {
+    heading: string;
+    description: string;
+    label: string;
+  };
+}
+
+/**
+ * Localized route-specific text used by /[locale]/journey.
+ *
+ * The timeline itself continues to use LocaleJourneyDictionary so that
+ * the homepage section and standalone page share the same journey data.
+ */
+export interface LocaleJourneyPageDictionary {
+  seo: LocalePageSeoDictionary;
+
+  trustMessage: {
+    heading: string;
+    description: string;
+  };
+}
+
+/**
+ * Localized listing-page text used by /[locale]/treatments.
+ *
+ * Individual treatment details continue to live in the treatment content
+ * layer. This interface covers the route heading, description and SEO.
+ */
+export interface LocaleTreatmentsPageDictionary {
+  seo: LocalePageSeoDictionary;
+
+  badge: string;
+  heading: string;
+  description: string;
+
+  emptyState: {
+    heading: string;
+    description: string;
+  };
+}
+
+/**
+ * Localized listing-page text used by /[locale]/travel-guide.
+ */
+export interface LocaleTravelGuidePageDictionary {
+  seo: LocalePageSeoDictionary;
+
+  badge: string;
+  heading: string;
+  description: string;
+
+  emptyState: {
+    heading: string;
+    description: string;
+  };
+}
+
+/**
+ * Localized text used by /[locale]/about.
+ *
+ * Founder, coordinator and clinical-partner content continues to come
+ * from their existing shared dictionaries.
+ */
+export interface LocaleAboutPageDictionary {
+  seo: LocalePageSeoDictionary;
+
+  badge: string;
+  heading: string;
+  description: string;
+}
+
+/**
+ * Route-level text that must not be hardcoded inside page.tsx files.
+ */
+export interface LocalePagesDictionary {
+  contact: LocaleContactPageDictionary;
+  journey: LocaleJourneyPageDictionary;
+  treatments: LocaleTreatmentsPageDictionary;
+  travelGuide: LocaleTravelGuidePageDictionary;
+  about: LocaleAboutPageDictionary;
+}
+
 export interface LocaleDictionary {
   common: {
     brandName: string;
@@ -425,16 +592,12 @@ export interface LocaleDictionary {
   trust: LocaleTrustDictionary;
   booking: LocaleBookingDictionary;
   footer: LocaleFooterDictionary;
-}
-export interface LocaleWhyDictionary {
-  sectionLabel: string;
-  title: string;
-  description: string;
-  imageAlt: string;
-  cards: {
-    guidance: LocaleTextItem;
-    language: LocaleTextItem;
-    coordination: LocaleTextItem;
-    care: LocaleTextItem;
-  };
+
+  /**
+   * Optional only during the dictionary migration.
+   *
+   * It will become required after en, hmn, vi, th and lo dictionaries
+   * have all received their route-level page content.
+   */
+  pages?: LocalePagesDictionary;
 }
