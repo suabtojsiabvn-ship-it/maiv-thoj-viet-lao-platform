@@ -697,6 +697,140 @@ patientJourney: {
   },
 },
 
+pages: {
+  contact: {
+    seo: {
+      title: "Contact Our Patient Journey Team",
+      description:
+        "Talk with Maiv Thoj Viet Lao by WhatsApp, email or phone for dental consultation, travel planning and international patient journey support in Vietnam.",
+    },
+
+    badge: "CONTACT",
+
+    heading: "Talk with our patient journey team",
+
+    description:
+      "Whether you're still exploring your options or already planning your trip, we're here to answer your questions and help you understand the next step with confidence.",
+
+    channels: {
+      whatsapp: {
+        description:
+          "Chat directly with our team for consultation, treatment questions and travel planning.",
+      },
+
+      email: {
+        description:
+          "Send us your dental photos, questions or travel information and we'll get back to you.",
+      },
+
+      vietnamPhone: {
+        description:
+          "Call our Vietnam support number during business hours.",
+      },
+
+      laosPhone: {
+        description:
+          "Call our Laos support number if that is more convenient for you.",
+      },
+    },
+
+    cta: {
+      heading: "Let's start with a conversation",
+
+      description:
+        "Every smile journey begins with understanding your needs first. We are happy to answer your questions before you make any decision.",
+
+      label: "Talk With Our Team",
+    },
+  },
+
+  about: {
+    seo: {
+      title: "About Maiv Thoj Viet Lao",
+      description:
+        "Learn about Maiv Thoj Viet Lao, our mission, our team and how we support international patients travelling to Vietnam.",
+    },
+
+    badge: "ABOUT",
+
+    heading: "People who support your journey",
+
+    description:
+      "Our role is to help international patients feel informed, supported and welcomed before, during and after their dental journey.",
+  },
+
+  journey: {
+    seo: {
+      title: "Patient Journey",
+      description:
+        "See what happens before, during and after your dental treatment journey in Vietnam.",
+    },
+
+    trustMessage: {
+      heading: "Every journey is different",
+
+      description:
+        "Your treatment plan and travel schedule are personalized according to your oral health, available time and clinical recommendations.",
+    },
+  },
+
+  treatments: {
+    seo: {
+        title: "Dental Treatments",
+        description:
+            "Explore implant dentistry, crowns, veneers and smile makeover treatments available through our trusted clinical partners.",
+    },
+
+    badge: "TREATMENTS",
+
+    heading: "Treatment options designed around your needs",
+
+    description:
+        "Learn more about each treatment and discuss which option is appropriate for your situation.",
+
+    schema: {
+        collectionName: "Dental Treatments",
+        breadcrumbHome: "Home",
+        breadcrumbCurrent: "Treatments",
+    },
+
+    emptyState: {
+        heading: "More treatments are coming",
+
+        description:
+            "Additional treatment information will be added soon.",
+    },
+},
+
+  travelGuide: {
+    seo: {
+      title: "Vietnam Travel Guide",
+      description:
+        "Helpful travel information for international patients visiting Vietnam for dental treatment.",
+    },
+
+    badge: "TRAVEL GUIDE",
+
+    heading: "Travel with confidence",
+
+    description:
+      "Useful travel information to help make your visit to Vietnam easier and more comfortable.",
+
+
+       schema: {
+        collectionName: "Travel Guide",
+        breadcrumbHome: "Home",
+        breadcrumbCurrent: "Travel Guide",
+    },
+    emptyState: {
+      heading: "More travel guides are coming",
+
+      description:
+        "Additional destination and travel articles will be published soon.",
+    },
+  },
+},
+
   footer: {
     description:
   "Maiv Thoj Viet Lao supports Hmong families and international patients throughout their dental journey to Vietnam—from the first conversation and travel planning to airport pickup, treatment coordination, and ongoing support after returning home.",

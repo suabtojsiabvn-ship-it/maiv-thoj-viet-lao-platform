@@ -12,6 +12,7 @@ import {
   Section,
 } from "@/components/ui";
 import { contactInfo } from "@/content/contact";
+import { getDictionary } from "@/content/locales";
 import { buildMetadata } from "@/content/seo";
 import { isSupportedLocale } from "@/lib/i18n-routing";
 
@@ -30,10 +31,12 @@ export async function generateMetadata({
     return {};
   }
 
+  const dictionary = await getDictionary(locale);
+  const contact = dictionary.pages.contact;
+
   return buildMetadata({
-    title: "Contact Our Patient Journey Team",
-    description:
-      "Contact Maiv Thoj Viet Lao by WhatsApp, phone or email for dental consultation, journey planning and international patient support in Vietnam.",
+    title: contact.seo.title,
+    description: contact.seo.description,
     canonical: `/${locale}/contact`,
     locale,
   });
@@ -48,6 +51,9 @@ export default async function ContactPage({
     notFound();
   }
 
+  const dictionary = await getDictionary(locale);
+  const contact = dictionary.pages.contact;
+
   return (
     <main className="min-h-screen bg-slate-950 text-white">
       <Section spacing="xl">
@@ -55,17 +61,15 @@ export default async function ContactPage({
           <div className="mx-auto max-w-5xl">
             <div className="text-center">
               <span className="inline-flex rounded-full border border-cyan-500/20 bg-cyan-500/10 px-4 py-1 text-sm font-semibold uppercase tracking-[0.2em] text-cyan-300">
-                Contact
+                {contact.badge}
               </span>
 
               <h1 className="mt-6 text-4xl font-bold tracking-tight text-white md:text-5xl">
-                Talk with our patient journey team
+                {contact.heading}
               </h1>
 
               <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-slate-300">
-                Ask questions, share your dental concerns or begin planning
-                your journey to Vietnam. Our team will help you understand the
-                next step before you make a decision.
+                {contact.description}
               </p>
             </div>
 
@@ -87,8 +91,7 @@ export default async function ContactPage({
                 </h2>
 
                 <p className="mt-4 leading-7 text-slate-400">
-                  Chat directly with our team for consultation and journey
-                  support.
+                  {contact.channels.whatsapp.description}
                 </p>
               </Link>
 
@@ -107,8 +110,7 @@ export default async function ContactPage({
                 </h2>
 
                 <p className="mt-4 leading-7 text-slate-400">
-                  Send your questions, travel details or dental information by
-                  email.
+                  {contact.channels.email.description}
                 </p>
               </Link>
 
@@ -127,7 +129,7 @@ export default async function ContactPage({
                 </h2>
 
                 <p className="mt-4 leading-7 text-slate-400">
-                  Call our Vietnam support number.
+                  {contact.channels.vietnamPhone.description}
                 </p>
               </Link>
 
@@ -146,26 +148,25 @@ export default async function ContactPage({
                 </h2>
 
                 <p className="mt-4 leading-7 text-slate-400">
-                  Call our Laos support number.
+                  {contact.channels.laosPhone.description}
                 </p>
               </Link>
             </div>
 
             <div className="mt-12 rounded-3xl border border-white/10 bg-white/5 p-8 text-center">
               <h2 className="text-2xl font-bold text-white">
-                Ready to share your dental needs?
+                {contact.cta.heading}
               </h2>
 
               <p className="mx-auto mt-4 max-w-2xl leading-7 text-slate-300">
-                Complete the consultation form so our team can understand your
-                case, preferred language and expected travel date.
+                {contact.cta.description}
               </p>
 
               <Link
                 href={`/${locale}/booking`}
                 className="mt-8 inline-flex items-center justify-center rounded-xl bg-cyan-500 px-7 py-4 text-sm font-semibold text-slate-950 transition hover:bg-cyan-400"
               >
-                Book a Free Consultation
+                {contact.cta.label}
               </Link>
             </div>
           </div>

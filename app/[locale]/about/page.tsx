@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 
+import { getDictionary } from "@/content/locales";
 import { buildMetadata } from "@/content/seo";
 import { ClinicalPartner } from "@/features/clinical-partner";
 import { Coordinator } from "@/features/coordinator";
@@ -22,10 +23,12 @@ export async function generateMetadata({
     return {};
   }
 
+  const dictionary = await getDictionary(locale);
+  const about = dictionary.pages.about;
+
   return buildMetadata({
-    title: "About Maiv Thoj Viet Lao",
-    description:
-      "Meet Maiv Thoj, A Sử (Txhim), and the trusted clinical partner supporting international dental patients throughout their journey in Vietnam.",
+    title: about.seo.title,
+    description: about.seo.description,
     canonical: `/${locale}/about`,
     locale,
   });
@@ -39,6 +42,11 @@ export default async function AboutPage({
   if (!isSupportedLocale(locale)) {
     notFound();
   }
+
+  // Load dictionary to ensure this page uses the locale data.
+  // The page-level heading/description can be consumed by child
+  // components in a later sprint if they are migrated.
+  await getDictionary(locale);
 
   return (
     <main className="min-h-screen bg-slate-950 text-white">

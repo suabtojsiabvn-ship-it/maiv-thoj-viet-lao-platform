@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Script from "next/script";
 import { notFound } from "next/navigation";
 
+import { getDictionary } from "@/content/locales";
 import {
   buildMetadata,
   createBreadcrumbSchema,
@@ -28,10 +29,12 @@ export async function generateMetadata({
     return {};
   }
 
+  const dictionary = await getDictionary(locale);
+  const pageDictionary = dictionary.pages.travelGuide;
+
   return buildMetadata({
-    title: "Travel Guide | Maiv Thoj Viet Lao Platform",
-    description:
-      "Practical guidance for international patients preparing for dental treatment, travel support, hotel stay, transportation and aftercare in Vietnam.",
+    title: pageDictionary.seo.title,
+    description: pageDictionary.seo.description,
     canonical: `/${locale}/travel-guide`,
     locale,
   });
@@ -46,9 +49,9 @@ export default async function TravelGuideListingPage({
     notFound();
   }
 
-  const guides = getTravelGuidesByLocale(
-    locale as Locale,
-  );
+  const dictionary = await getDictionary(locale);
+  const pageDictionary = dictionary.pages.travelGuide;
+  const guides = getTravelGuidesByLocale(locale as Locale);
 
   const pageUrl = new URL(
     `/${locale}/travel-guide`,
@@ -60,25 +63,22 @@ export default async function TravelGuideListingPage({
     seo.siteUrl,
   ).toString();
 
-  const collectionSchema =
-    createCollectionPageSchema({
-      name: "Travel Guide",
-      description:
-        "Practical guidance for international patients preparing for dental treatment, travel support, hotel stay, transportation and aftercare in Vietnam.",
-      url: pageUrl,
-    });
+  const collectionSchema = createCollectionPageSchema({
+    name: pageDictionary.schema.collectionName,
+    description: pageDictionary.seo.description,
+    url: pageUrl,
+  });
 
-  const breadcrumbSchema =
-    createBreadcrumbSchema([
-      {
-        name: "Home",
-        url: homeUrl,
-      },
-      {
-        name: "Travel Guide",
-        url: pageUrl,
-      },
-    ]);
+  const breadcrumbSchema = createBreadcrumbSchema([
+    {
+      name: pageDictionary.schema.breadcrumbHome,
+      url: homeUrl,
+    },
+    {
+      name: pageDictionary.schema.breadcrumbCurrent,
+      url: pageUrl,
+    },
+  ]);
 
   return (
     <>
@@ -86,9 +86,7 @@ export default async function TravelGuideListingPage({
         id={`travel-guide-collection-schema-${locale}`}
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify(
-            collectionSchema,
-          ),
+          __html: JSON.stringify(collectionSchema),
         }}
       />
 
@@ -96,9 +94,7 @@ export default async function TravelGuideListingPage({
         id={`travel-guide-breadcrumb-schema-${locale}`}
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify(
-            breadcrumbSchema,
-          ),
+          __html: JSON.stringify(breadcrumbSchema),
         }}
       />
 
@@ -106,18 +102,15 @@ export default async function TravelGuideListingPage({
         <section className="px-6 py-24">
           <div className="mx-auto max-w-6xl">
             <p className="text-sm font-semibold uppercase tracking-[0.25em] text-cyan-300">
-              Travel Guide
+              {pageDictionary.badge}
             </p>
 
             <h1 className="mt-4 max-w-4xl text-4xl font-bold tracking-tight text-white md:text-6xl">
-              Practical guidance for your treatment journey in Vietnam.
+              {pageDictionary.heading}
             </h1>
 
             <p className="mt-6 max-w-3xl text-lg leading-8 text-slate-300">
-              Explore helpful guidance for airport arrival, hotel stay,
-              local transportation, travel preparation, food, culture
-              and aftercare support during your patient journey with
-              Maiv Thoj Viet Lao Platform.
+              {pageDictionary.description}
             </p>
 
             <TravelGuideGrid guides={guides} />

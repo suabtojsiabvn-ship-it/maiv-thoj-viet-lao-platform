@@ -694,6 +694,140 @@ patientJourney: {
   },
 },
 
+pages: {
+  contact: {
+    seo: {
+      title: "Tiv Tauj Peb Pab Neeg",
+      description:
+        "Tham nrog Maiv Thoj Viet Lao los ntawm WhatsApp, email lossis xov tooj kom tau kev pab txog kev kho hniav thiab kev npaj kev tuaj Nyab Laj.",
+    },
+
+    badge: "TIV TAUJ",
+
+    heading: "Tham nrog peb pab neeg",
+
+    description:
+      "Txawm koj tseem tab tom xav txog kev tuaj kho hniav lossis twb npaj yuav tuaj lawm, peb zoo siab teb txhua lo lus nug thiab pab koj nkag siab txhua kauj ruam ua ntej koj txiav txim siab.",
+
+    channels: {
+      whatsapp: {
+        description:
+          "Tham ncaj qha nrog peb pab neeg txog kev kho hniav, kev npaj sijhawm thiab kev tuaj txawv teb chaws.",
+      },
+
+      email: {
+        description:
+          "Xa koj daim duab hniav, lus nug lossis ntaub ntawv kev taug kev tuaj rau peb.",
+      },
+
+      vietnamPhone: {
+        description:
+          "Hu rau peb tus xov tooj hauv Nyab Laj thaum lub sijhawm ua haujlwm.",
+      },
+
+      laosPhone: {
+        description:
+          "Yog yooj yim dua rau koj, hu tau peb tus xov tooj hauv Nplog.",
+      },
+    },
+
+    cta: {
+      heading: "Cia peb pib nrog kev sib tham",
+
+      description:
+        "Txhua txoj kev kho hniav pib nrog kev nkag siab txog yam koj xav tau. Peb zoo siab teb koj cov lus nug ua ntej koj txiav txim siab.",
+
+      label: "Tham Nrog Peb Pab Neeg",
+    },
+  },
+
+  about: {
+    seo: {
+      title: "Hais Txog Maiv Thoj Viet Lao",
+      description:
+        "Paub ntxiv txog Maiv Thoj Viet Lao, peb lub hom phiaj thiab pab neeg uas pab cov neeg tuaj kho hniav hauv Nyab Laj.",
+    },
+
+    badge: "HAIS TXOG PEB",
+
+    heading: "Cov neeg uas nrog koj txhua kauj ruam",
+
+    description:
+      "Peb lub luag haujlwm yog pab kom cov neeg tuaj txawv teb chaws muaj kev ntseeg siab ua ntej, thaum thiab tom qab lawv txoj kev kho hniav.",
+  },
+
+  journey: {
+    seo: {
+      title: "Txoj Kev Kho Hniav",
+      description:
+        "Saib txhua kauj ruam ua ntej, thaum thiab tom qab koj txoj kev kho hniav hauv Nyab Laj.",
+    },
+
+    trustMessage: {
+      heading: "Txhua tus muaj nws txoj kev taug",
+
+      description:
+        "Txoj kev kho hniav thiab sijhawm taug kev yuav npaj raws li koj tus mob, koj lub sijhawm thiab kws kho hniav cov lus pom zoo.",
+    },
+  },
+
+  treatments: {
+    seo: {
+        title: "Kev Kho Hniav",
+        description:
+            "Tshawb xyuas kev cog hniav, hniav yas, veneer thiab smile makeover nrog peb cov kws kho hniav uas ntseeg tau.",
+    },
+
+    badge: "KEV KHO HNIAV",
+
+    heading: "Xaiv txoj kev kho uas phim koj tshaj",
+
+    description:
+        "Kawm paub txhua hom kev kho hniav thiab tham nrog peb kom nrhiav tau txoj kev kho uas haum rau koj.",
+
+    schema: {
+        collectionName: "Kev Kho Hniav",
+        breadcrumbHome: "Tsev",
+        breadcrumbCurrent: "Kev Kho Hniav",
+    },
+
+    emptyState: {
+        heading: "Yuav muaj kev kho ntxiv sai sai",
+
+        description:
+            "Peb tab tom npaj ntxiv lwm yam kev kho hniav kom koj xaiv tau ntau dua.",
+    },
+},
+
+  travelGuide: {
+    seo: {
+      title: "Phau Ntawv Qhia Kev Mus Nyab Laj",
+
+      description:
+        "Cov ntaub ntawv pab cov neeg tuaj txawv teb chaws npaj lawv txoj kev tuaj kho hniav hauv Nyab Laj.",
+    },
+
+    badge: "KEV MUS NCIG",
+
+    heading: "Mus txawv teb chaws nrog kev ntseeg siab",
+
+    description:
+      "Cov lus qhia pab kom koj txoj kev tuaj Nyab Laj yooj yim dua thiab kaj siab dua.",
+      
+      schema: {
+      collectionName: "Travel Guide",
+      breadcrumbHome: "Tsev",
+      breadcrumbCurrent: "Travel Guide",
+    },
+    emptyState: {
+      heading: "Peb tseem yuav ntxiv cov lus qhia",
+
+      description:
+        "Cov ntawv qhia tshiab yuav raug ntxiv sai sai.",
+    },
+  },
+},
+
   footer: {
   description:
   "Maiv Thoj Viet Lao pab cov tsev neeg Hmoob thiab cov neeg tuaj txawv teb chaws txij thawj lo lus sib tham, kev npaj kev taug kev, kev txais tom tshav dav hlau, kev koom tes nrog pab kws kho hniav, mus txog thaum lawv rov qab mus tsev.",

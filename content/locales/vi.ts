@@ -712,6 +712,140 @@ patientJourney: {
     },
   },
 },
+pages: {
+  contact: {
+    seo: {
+      title: "Liên hệ đội ngũ đồng hành",
+      description:
+        "Liên hệ Maiv Thoj Viet Lao qua WhatsApp, email hoặc điện thoại để được tư vấn nha khoa, lên kế hoạch hành trình và hỗ trợ khách hàng quốc tế tại Việt Nam.",
+    },
+
+    badge: "LIÊN HỆ",
+
+    heading: "Trao đổi cùng đội ngũ đồng hành",
+
+    description:
+      "Dù bạn mới tìm hiểu hay đã sẵn sàng lên kế hoạch sang Việt Nam làm răng, chúng tôi luôn sẵn sàng lắng nghe, giải đáp và giúp bạn hiểu rõ từng bước trước khi quyết định.",
+
+    channels: {
+      whatsapp: {
+        description:
+          "Trao đổi trực tiếp với đội ngũ về tình trạng răng, kế hoạch điều trị và hành trình.",
+      },
+
+      email: {
+        description:
+          "Gửi hình ảnh răng, câu hỏi hoặc thông tin chuyến đi để chúng tôi hỗ trợ bạn.",
+      },
+
+      vietnamPhone: {
+        description:
+          "Gọi đến số hỗ trợ tại Việt Nam trong giờ làm việc.",
+      },
+
+      laosPhone: {
+        description:
+          "Nếu thuận tiện hơn, bạn cũng có thể liên hệ qua số điện thoại tại Lào.",
+      },
+    },
+
+    cta: {
+      heading: "Hãy bắt đầu bằng một cuộc trò chuyện",
+
+      description:
+        "Mỗi hành trình làm răng đều bắt đầu từ việc lắng nghe nhu cầu của bạn. Chúng tôi sẵn sàng tư vấn trước khi bạn đưa ra quyết định.",
+
+      label: "Trao đổi với đội ngũ",
+    },
+  },
+
+  about: {
+    seo: {
+      title: "Giới thiệu Maiv Thoj Viet Lao",
+      description:
+        "Tìm hiểu về Maiv Thoj Viet Lao, đội ngũ đồng hành và sứ mệnh hỗ trợ khách hàng quốc tế đến Việt Nam làm răng.",
+    },
+
+    badge: "GIỚI THIỆU",
+
+    heading: "Những người đồng hành cùng hành trình của bạn",
+
+    description:
+      "Chúng tôi giúp khách hàng quốc tế cảm thấy yên tâm trước, trong và sau hành trình làm răng tại Việt Nam.",
+  },
+
+  journey: {
+    seo: {
+      title: "Hành trình khách hàng",
+      description:
+        "Khám phá từng bước trong hành trình làm răng tại Việt Nam.",
+    },
+
+    trustMessage: {
+      heading: "Mỗi khách hàng là một hành trình riêng",
+
+      description:
+        "Kế hoạch điều trị và lịch trình sẽ được cá nhân hóa dựa trên tình trạng răng, thời gian và chỉ định chuyên môn.",
+    },
+  },
+
+  treatments: {
+    seo: {
+        title: "Điều Trị Nha Khoa",
+        description:
+            "Khám phá các dịch vụ Implant, răng sứ, veneer và thiết kế nụ cười tại đối tác nha khoa uy tín của chúng tôi.",
+    },
+
+    badge: "ĐIỀU TRỊ",
+
+    heading: "Giải pháp điều trị phù hợp với từng nụ cười",
+
+    description:
+        "Tìm hiểu từng phương pháp điều trị và trao đổi với đội ngũ của chúng tôi để lựa chọn giải pháp phù hợp nhất.",
+
+    schema: {
+        collectionName: "Điều Trị Nha Khoa",
+        breadcrumbHome: "Trang Chủ",
+        breadcrumbCurrent: "Điều Trị",
+    },
+
+    emptyState: {
+        heading: "Sắp có thêm nhiều dịch vụ",
+
+        description:
+            "Thông tin về nhiều phương pháp điều trị khác sẽ sớm được cập nhật.",
+    },
+},
+
+  travelGuide: {
+    seo: {
+      title: "Cẩm nang du lịch Việt Nam",
+      description:
+        "Thông tin hữu ích dành cho khách hàng quốc tế đến Việt Nam làm răng.",
+    },
+
+    badge: "CẨM NANG",
+
+    heading: "Tự tin hơn trước chuyến đi",
+
+    description:
+      "Những thông tin cần thiết giúp chuyến đi đến Việt Nam trở nên dễ dàng và thuận tiện hơn.",
+
+    schema: {
+      collectionName: "Cẩm nang du lịch Việt Nam",
+      breadcrumbHome: "Trang chủ",
+      breadcrumbCurrent: "Cẩm nang du lịch",
+    },
+
+    emptyState: {
+      heading: "Sắp có thêm bài viết",
+
+      description:
+        "Chúng tôi sẽ bổ sung thêm nhiều hướng dẫn và điểm đến hữu ích.",
+    },
+  },
+},
+
   footer: {
     description:
       "Maiv Thoj Viet Lao đồng hành cùng khách hàng H'Mông và khách hàng quốc tế trên hành trình làm răng tại Việt Nam — từ tư vấn ban đầu, đón sân bay, hỗ trợ di chuyển cho đến khi trở về nhà.",

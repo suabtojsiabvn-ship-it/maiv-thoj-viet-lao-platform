@@ -524,6 +524,12 @@ export interface LocaleTreatmentsPageDictionary {
   heading: string;
   description: string;
 
+  schema: {
+    collectionName: string;
+    breadcrumbHome: string;
+    breadcrumbCurrent: string;
+  };
+
   emptyState: {
     heading: string;
     description: string;
@@ -539,6 +545,12 @@ export interface LocaleTravelGuidePageDictionary {
   badge: string;
   heading: string;
   description: string;
+
+  schema: {
+    collectionName: string;
+    breadcrumbHome: string;
+    breadcrumbCurrent: string;
+  };
 
   emptyState: {
     heading: string;
@@ -599,5 +611,5 @@ export interface LocaleDictionary {
    * It will become required after en, hmn, vi, th and lo dictionaries
    * have all received their route-level page content.
    */
-  pages?: LocalePagesDictionary;
+  pages: LocalePagesDictionary;
 }
