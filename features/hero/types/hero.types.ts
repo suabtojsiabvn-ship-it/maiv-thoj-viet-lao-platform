@@ -49,6 +49,12 @@ export interface HeroHighlight extends HeroHighlightConfig {
   description: string;
 }
 
+export interface HeroHighlights {
+  sectionLabel: string;
+  heading: string;
+  items: HeroHighlight[];
+}
+
 export interface HeroStatConfig {
   key: HeroStatKey;
   value: string;
@@ -60,6 +66,6 @@ export interface HeroStat extends HeroStatConfig {
 
 export interface HeroViewModel {
   content: HeroContent;
-  highlights: HeroHighlight[];
+  highlights: HeroHighlights;
   stats: HeroStat[];
 }

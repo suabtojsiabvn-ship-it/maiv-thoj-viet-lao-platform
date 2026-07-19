@@ -69,10 +69,15 @@ export interface LocaleHeroDictionary {
   };
 
   highlights: {
-    consultation: LocaleTextItem;
-    airportPickup: LocaleTextItem;
-    multilingualSupport: LocaleTextItem;
-    clinicalPartner: LocaleTextItem;
+    sectionLabel: string;
+    heading: string;
+
+    items: {
+      consultation: LocaleTextItem;
+      airportPickup: LocaleTextItem;
+      multilingualSupport: LocaleTextItem;
+      clinicalPartner: LocaleTextItem;
+    };
   };
 
   stats: {

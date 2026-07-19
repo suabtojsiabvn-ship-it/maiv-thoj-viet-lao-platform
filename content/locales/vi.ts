@@ -35,27 +35,32 @@ export const viDictionary: LocaleDictionary = {
     },
 
     highlights: {
-      consultation: {
-        title: "Hỏi trước, quyết định sau",
-        description:
-          "Bạn có thể trao đổi với đội ngũ, chia sẻ điều mình lo lắng và hiểu rõ các lựa chọn trước khi đưa ra quyết định.",
-      },
-      airportPickup: {
-        title: "Có người đón bạn tại Việt Nam",
-        description:
-          "Khi bạn đến nơi, đội ngũ sẽ hỗ trợ đón sân bay, đưa đón và đồng hành cùng bạn trong suốt thời gian ở Việt Nam.",
-      },
-      multilingualSupport: {
-        title: "Giao tiếp bằng ngôn ngữ bạn thấy thoải mái",
-        description:
-          "Hỗ trợ tiếng Anh, H'Mông quốc tế, Việt, Lào và Thái để việc trao đổi trở nên dễ hiểu và gần gũi hơn.",
-      },
-      clinicalPartner: {
-        title: "Chăm sóc nha khoa đáng tin cậy",
-        description:
-          "Việc làm răng được thực hiện bởi các đối tác nha khoa đáng tin cậy như An Nhien Dental, dưới sự phụ trách chuyên môn của Dr. Toan Nguyen.",
-      },
+  sectionLabel: "Vì sao khách hàng luôn cảm thấy an tâm",
+  heading: "Đội ngũ tận tâm đồng hành trong suốt hành trình của bạn",
+
+  items: {
+    consultation: {
+      title: "Trao đổi trước, quyết định sau",
+      description:
+        "Bạn có thể trò chuyện cùng đội ngũ của chúng tôi, chia sẻ những điều còn băn khoăn và tìm hiểu rõ các lựa chọn trước khi đưa ra quyết định.",
     },
+    airportPickup: {
+      title: "Đón tiếp ngay khi bạn đến Việt Nam",
+      description:
+        "Khi bạn đến Việt Nam, đội ngũ của chúng tôi sẽ hỗ trợ đón tại sân bay, đưa đón và giúp bạn giải quyết những nhu cầu thiết thực trong suốt thời gian lưu trú.",
+    },
+    multilingualSupport: {
+      title: "Giao tiếp dễ dàng và thoải mái",
+      description:
+        "Chúng tôi hỗ trợ bằng tiếng Anh, tiếng Hmong Quốc tế, tiếng Việt, tiếng Lào và tiếng Thái, giúp bạn dễ dàng trao đổi trong suốt hành trình.",
+    },
+    clinicalPartner: {
+      title: "Chăm sóc nha khoa đáng tin cậy",
+      description:
+        "Việc điều trị nha khoa được thực hiện bởi các đối tác chuyên môn uy tín như Nha khoa An Nhiên, dưới sự phụ trách của bác sĩ Toàn Nguyễn.",
+    },
+  },
+},
 
     stats: {
       facebookCommunity: "454K+ cộng đồng Facebook",

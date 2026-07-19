@@ -1,37 +1,29 @@
 "use client";
 
-import type { LucideIcon } from "lucide-react";
-
 import { MotionItem, MotionList } from "@/components/motion";
-
-interface HeroHighlight {
-  key: string;
-  title: string;
-  description: string;
-  icon: LucideIcon;
-}
-
-interface HeroHighlightsProps {
-  highlights: HeroHighlight[];
-}
+import type {
+  HeroHighlights as HeroHighlightsViewModel,
+} from "../types/hero.types";
 
 export function HeroHighlights({
-  highlights,
-}: HeroHighlightsProps) {
+  sectionLabel,
+  heading,
+  items,
+}: HeroHighlightsViewModel) {
   return (
     <div className="rounded-[2rem] border border-white/10 bg-white/[0.04] p-5 shadow-2xl shadow-cyan-950/30 backdrop-blur-xl md:p-6">
       <div className="mb-6">
         <p className="text-sm font-semibold uppercase tracking-[0.25em] text-cyan-300">
-          Why patients feel safe
+          {sectionLabel}
         </p>
 
         <h2 className="mt-3 text-2xl font-bold text-white">
-          A complete team for your journey
+          {heading}
         </h2>
       </div>
 
       <MotionList className="grid gap-4">
-        {highlights.map((item) => {
+        {items.map((item) => {
           const Icon = item.icon;
 
           return (

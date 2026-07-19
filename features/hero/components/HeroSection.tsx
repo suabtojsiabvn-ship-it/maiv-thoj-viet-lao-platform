@@ -29,7 +29,7 @@ export function Hero() {
 
             <HeroActions actions={hero.content.actions} />
 
-            <HeroHighlights highlights={hero.highlights} />
+            <HeroHighlights {...hero.highlights} />
 
             <HeroStats stats={hero.stats} />
           </div>

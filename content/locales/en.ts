@@ -35,28 +35,33 @@ hero: {
   secondary: "Talk With A Su",
 },
 
-  highlights: {
-    consultation: {
-      title: "Ask First, Decide Later",
-      description:
-        "You can talk with our team, share your concerns and understand your options before making any decision.",
+ highlights: {
+      sectionLabel: "Why patients feel safe",
+      heading: "A complete team for your journey",
+
+      items: {
+        consultation: {
+          title: "Ask First, Decide Later",
+          description:
+            "You can talk with our team, share your concerns and understand your options before making any decision.",
+        },
+        airportPickup: {
+          title: "Welcomed in Vietnam",
+          description:
+            "TWhen you arrive, our team helps with airport pickup, transportation and practical support during your stay.",
+        },
+        multilingualSupport: {
+          title: "You Can Speak Comfortably",
+          description:
+            "Support is available in English, International Hmong, Vietnamese, Lao and Thai so communication feels easier.",
+        },
+        clinicalPartner: {
+          title: "Trusted Clinical Care",
+          description:
+            "Dental treatment is provided by trusted clinical partners such as An Nhien Dental, led by Dr. Toan Nguyen.",
+        },
+      },
     },
-    airportPickup: {
-      title: "Welcomed in Vietnam",
-      description:
-        "When you arrive, our team helps with airport pickup, transportation and practical support during your stay.",
-    },
-    multilingualSupport: {
-      title: "You Can Speak Comfortably",
-      description:
-        "Support is available in English, International Hmong, Vietnamese, Lao and Thai so communication feels easier.",
-    },
-    clinicalPartner: {
-      title: "Trusted Clinical Care",
-      description:
-        "Dental treatment is provided by trusted clinical partners such as An Nhien Dental, led by Dr. Toan Nguyen.",
-    },
-  },
 
   stats: {
     facebookCommunity: "454K+ Facebook Community",

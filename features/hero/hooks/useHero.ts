@@ -22,12 +22,18 @@ export function useHero(): HeroViewModel {
       })),
     },
 
-    highlights: heroHighlights.map((highlight) => ({
-      ...highlight,
-      title: heroDictionary.highlights[highlight.key].title,
-      description:
-        heroDictionary.highlights[highlight.key].description,
-    })),
+    highlights: {
+      sectionLabel: heroDictionary.highlights.sectionLabel,
+      heading: heroDictionary.highlights.heading,
+      items: heroHighlights.map((highlight) => ({
+        ...highlight,
+        title:
+          heroDictionary.highlights.items[highlight.key].title,
+        description:
+          heroDictionary.highlights.items[highlight.key]
+            .description,
+      })),
+    },
 
     stats: heroStats.map((stat) => ({
       ...stat,

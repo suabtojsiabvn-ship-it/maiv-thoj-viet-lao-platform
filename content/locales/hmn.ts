@@ -35,25 +35,30 @@ export const hmnDictionary: LocaleDictionary = {
 },
 
     highlights: {
-      consultation: {
-        title: "Nug Ua Ntej, Mam Txiav Txim",
-        description:
-          "Koj tuaj yeem tham nrog peb pab neeg, qhia koj tej kev txhawj xeeb thiab nkag siab koj cov kev xaiv ua ntej yuav txiav txim siab.",
-      },
-      airportPickup: {
-        title: "Muaj Neeg Tos Txais Hauv Nyab Laj",
-        description:
-          "Thaum koj tuaj txog, peb pab neeg yuav tos txais tom tshav dav hlau, pab kev thauj mus los thiab nrog koj nyob hauv Nyab Laj txog hnub koj rov qab mus tsev.",
-      },
-      multilingualSupport: {
-        title: "Koj Hais Tau Yam Lus Koj Xis",
-        description:
-          "Peb pab tau lus Askiv, Hmoob thoob ntiaj teb, Nyab Laj, Nplog thiab Thaib kom kev sib txuas lus yooj yim dua.",
-      },
-      clinicalPartner: {
-        title: "Kev Kho Hniav Uas Ntseeg Siab",
-        description:
-          "Kev kho hniav yog ua los ntawm peb cov khub kho Hniav uas ntseeg siab xws li An Nhien Dental, nrog Dr. Toan Nguyen ua tus coj kev kho.",
+      sectionLabel: "Yam ua rau cov neeg tuaj kho hniav tso siab",
+      heading: "Muaj tug neeg nrog koj txhua kauj ruam",
+
+      items: {
+        consultation: {
+          title: "Nug Ua Ntej, Mam Txiav Txim",
+          description:
+            "Koj tham tau nrog peb pab neeg, qhia tej uas koj txhawj thiab nug kom nkag siab zoo ua ntej koj mam txiav txim siab.",
+        },
+        airportPickup: {
+          title: "Muaj Neeg Tos Txais Hauv Nyab Laj",
+          description:
+            "Thaum koj tuaj txog, peb pab neeg yuav tos txais koj tom tshav dav hlau, pab koj mus los thiab nrog nraim koj txog hnub koj rov qab mus tsev.",
+        },
+        multilingualSupport: {
+          title: "Koj Hais Tau Yam Lus Uas Koj Xis",
+          description:
+            "Peb nrog koj tham tau ua lus Askiv, lus Hmoob, lus Nyab Laj, lus Nplog thiab lus Thaib, kom koj nug thiab nkag siab tau yooj yim dua.",
+        },
+        clinicalPartner: {
+          title: "Kev Kho Hniav Uas Koj Tso Siab Tau",
+          description:
+            "Koj yuav tau kho hniav nrog peb cov chaw kho hniav uas ntseeg tau, xws li An Nhien Dental, uas Dr. Toan Nguyen yog tus saib xyuas kev kho.",
+        },
       },
     },
 
