@@ -111,26 +111,37 @@ export const hmnDictionary: LocaleDictionary = {
 
   founder: {
     sectionLabel: "Ntsib Maiv Thoj",
+
     title:
-  "Pab kom cov tsev neeg Hmoob thiab cov neeg txawv teb chaws muaj kev tso siab ua ntej tuaj Nyab Laj.",
+      "Tus neeg uas cov tsev neeg tso siab tau thaum xav tuaj kho hniav hauv Nyab Laj.",
+
     description:
-  "Rau ntau tsev neeg, kev taug kev mus lwm lub teb chaws kho hniav yog ib qho kev txiav txim siab loj. Maiv Thoj pab kom thawj kauj ruam ntawd yooj yim dua los ntawm kev ntseeg siab, kev qhia ncaj ncees, thiab kev saib xyuas zoo.",
+      "Rau ntau tsev neeg, kev mus rau lwm lub teb chaws kho hniav yog ib qho kev txiav txim siab loj. Maiv Thoj pab kom thawj kauj ruam ntawd meej thiab yooj yim dua, nrog kev qhia ncaj ncees thiab kev txuas koj mus rau cov neeg uas tsim nyog pab.",
+
     imageAlt:
-      "Maiv Thoj, Community Advisor ntawm Maiv Thoj Viet Lao Platform",
+      "Maiv Thoj, tus pab tswv yim rau zej zog thiab cov neeg txawv teb chaws ntawm Maiv Thoj Viet Lao Platform",
+
     story: [
-      "Tau ntau xyoo uas Maiv Thoj txuas nrog zej zog Hmoob thoob ntiaj teb, nws nkag siab txog kev txhawj xeeb uas ntau tsev neeg muaj thaum nrhiav kev kho Hniav txawv teb chaws.",
-      "Nws lub luag hauj lwm yog pab kom cov qhua pib lawv txoj kev nrog kev ntseeg siab, ntaub ntawv meej thiab kev txhawb nqa uas ntseeg tau.",
-      "Ua ke nrog A Sử (Txhim) thiab cov koom tes kho Hniav uas ntseeg tau hauv Nyab Laj, Maiv Thoj Viet Lao Platform pab hloov txoj kev tuaj kho Hniav mus ua ib txoj kev muaj neeg nrog saib xyuas thiab muaj nqis.",
+      "Tau ntau xyoo, Maiv Thoj tau qhia nkauj, dab neeg thiab nws lub neej txhua hnub rau zej zog Hmoob thoob ntiaj teb. Qhov no pab tsim kev sib raug zoo thiab kev tso siab nrog ntau tsev neeg.",
+      "Niaj hnub no, nws mloog cov tsev neeg tej kev txhawj xeeb, teb cov lus nug txog kev npaj thiab pab cov neeg txawv teb chaws nkag siab tias txoj kev tuaj kho hniav hauv Nyab Laj yuav muaj dab tsi ua ntej lawv txiav txim siab.",
+      "Kev tshuaj xyuas hniav, kev txheeb xyuas qhov teeb meem thiab kev npaj kho yog lub luag hauj lwm ntawm cov koom tes kho hniav uas ntseeg tau. Maiv Thoj lub luag hauj lwm yog pab kom txhua tus neeg tuaj kho hniav paub tias muaj neeg mloog lawv, zoo siab txais tos lawv thiab nrog pab lawv txhua kauj ruam.",
     ],
+
     quote:
-  "Txhua txoj kev taug zoo pib thaum koj paub tias twb muaj ib tug neeg tos pab koj lawm.",
+      "Txoj kev taug yuav yooj yim dua thaum koj paub tias muaj neeg mloog koj thiab npaj siab pab koj.",
+
     stats: {
-      facebook: "fanpage Facebook",
-      tiktok: "Maiv Thoj TikTok",
-      role: "Lub luag hauj lwm uas ntseeg tau",
+      facebook: "Zej Zog Hauv Facebook",
+      tiktok: "Zej Zog Hauv TikTok",
+      role: {
+        value:
+          "Tus Pab Tswv Yim Rau Zej Zog / Tus Pab Tswv Yim Rau Neeg Txawv Teb Chaws",
+        label: "Lub Luag Hauj Lwm",
+      },
     },
+
     cta: {
-      label: "Pib Tham nrog Maiv Thoj",
+      label: "Pib Sib Tham",
     },
   },
 

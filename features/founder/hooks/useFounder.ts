@@ -15,7 +15,10 @@ export function useFounder(): FounderViewModel {
     title: founder.title,
     description: founder.description,
     story: founder.story,
-    quote: founder.quote,
+    quote: {
+      text: founder.quote,
+      author: people.founder.name,
+    },
     cta: {
       label: founder.cta.label,
       href: "#booking",
@@ -26,16 +29,16 @@ export function useFounder(): FounderViewModel {
     },
     stats: [
       {
-        value: "454K+",
+        value: people.founder.community.facebook,
         label: founder.stats.facebook,
       },
       {
-        value: "1.3M+",
+        value: people.founder.community.tiktok,
         label: founder.stats.tiktok,
       },
       {
-        value: people.founder.role,
-        label: founder.stats.role,
+        value: founder.stats.role.value,
+        label: founder.stats.role.label,
       },
     ],
   };

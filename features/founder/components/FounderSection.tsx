@@ -36,7 +36,10 @@ export function Founder() {
               />
 
               <div className="mt-8 space-y-8">
-                <FounderQuote quote={founder.quote} />
+                <FounderQuote
+                  quote={founder.quote.text}
+                  author={founder.quote.author}
+                />
                 <FounderStats stats={founder.stats} />
 
                 <Button asChild size="lg">

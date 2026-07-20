@@ -112,31 +112,34 @@ export const viDictionary: LocaleDictionary = {
     sectionLabel: "Gặp Maiv Thoj",
 
     title:
-      "Giúp các gia đình quốc tế cảm thấy an tâm hơn khi nghĩ đến Việt Nam.",
+      "Một kết nối đáng tin cậy dành cho các gia đình đang cân nhắc làm răng tại Việt Nam.",
 
     description:
-      "Với nhiều gia đình, sang một quốc gia khác để chăm sóc nụ cười là một bước đi lớn. Maiv Thoj giúp bước đầu tiên ấy trở nên dễ dàng hơn bằng sự tin tưởng, thông tin rõ ràng và kết nối đúng người hỗ trợ.",
+      "Với nhiều gia đình, sang một quốc gia khác để làm răng là một quyết định lớn. Maiv Thoj giúp bước đầu tiên trở nên rõ ràng hơn bằng sự hướng dẫn đáng tin cậy, thông tin trung thực và những kết nối phù hợp.",
 
     imageAlt:
-      "Maiv Thoj, Community Ambassador của Maiv Thoj Viet Lao Platform",
+      "Maiv Thoj, Cố vấn cộng đồng và Cố vấn quốc tế của Maiv Thoj Viet Lao Platform",
 
     story: [
-      "Trong nhiều năm, Maiv Thoj đã gắn bó với cộng đồng H'Mông trên khắp thế giới qua âm nhạc, câu chuyện và đời sống thường ngày. Sự tin tưởng đó trở thành nền tảng để xây dựng Maiv Thoj Viet Lao Platform.",
-      "Hôm nay, Maiv Thoj giúp khách hàng quốc tế bắt đầu hành trình làm răng tại Việt Nam với nhiều sự an tâm hơn. Vai trò của cô là lắng nghe, trả lời câu hỏi và giúp gia đình hiểu rõ hành trình trước khi quyết định.",
-      "Việc làm răng được thực hiện bởi các đối tác nha khoa đáng tin cậy như An Nhien Dental. Vai trò của Maiv Thoj là khác biệt: giúp khách hàng cảm thấy được lắng nghe, được chào đón và được đồng hành trong suốt hành trình.",
+      "Qua nhiều năm chia sẻ âm nhạc, câu chuyện và đời sống thường ngày, Maiv Thoj đã xây dựng được sự gắn kết đáng tin cậy với cộng đồng H'Mông trên khắp thế giới.",
+      "Hôm nay, cô lắng nghe các gia đình, trả lời những câu hỏi thực tế và giúp khách hàng quốc tế hiểu hành trình làm răng tại Việt Nam có thể diễn ra như thế nào trước khi quyết định.",
+      "Việc thăm khám, chẩn đoán và lập kế hoạch điều trị thuộc trách nhiệm của các đối tác nha khoa đáng tin cậy. Vai trò của Maiv Thoj là giúp mỗi khách hàng cảm thấy được lắng nghe, được chào đón và có người đồng hành trong suốt hành trình.",
     ],
 
     quote:
-      "Điều quan trọng nhất trong một hành trình là biết rằng đã có người thật sự quan tâm đến bạn trước cả khi bạn đặt chân đến nơi.",
+      "Hành trình sẽ nhẹ nhàng hơn khi bạn biết có người lắng nghe và sẵn sàng hỗ trợ mình.",
 
     stats: {
       facebook: "Cộng đồng Facebook",
       tiktok: "Cộng đồng TikTok",
-      role: "Community Ambassador",
+      role: {
+        value: "Cố vấn cộng đồng / Cố vấn quốc tế",
+        label: "Vai trò",
+      },
     },
 
     cta: {
-      label: "Bắt đầu tư vấn",
+      label: "Bắt đầu trò chuyện",
     },
   },
 

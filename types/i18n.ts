@@ -98,7 +98,10 @@ export interface LocaleFounderDictionary {
   stats: {
     facebook: string;
     tiktok: string;
-    role: string;
+    role: {
+      value: string;
+      label: string;
+    };
   };
 
   cta: LocaleCta;

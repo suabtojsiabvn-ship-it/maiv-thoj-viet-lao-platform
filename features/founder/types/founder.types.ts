@@ -3,12 +3,17 @@ export interface FounderStat {
   label: string;
 }
 
+export interface FounderQuote {
+  text: string;
+  author: string;
+}
+
 export interface FounderViewModel {
   sectionLabel: string;
   title: string;
   description: string;
   story: string[];
-  quote: string;
+  quote: FounderQuote;
   cta: {
     label: string;
     href: string;

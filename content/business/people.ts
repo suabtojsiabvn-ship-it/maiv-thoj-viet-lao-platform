@@ -7,14 +7,19 @@ export const people = {
     role: "Community Advisor / International Advisor",
 
     description:
-      "Helping the global Hmong community and international patients confidently begin their healthcare journey in Vietnam through trusted guidance and multilingual support.",
+      "Helping global Hmong families and international patients begin their dental journey in Vietnam with clear information, trusted connections and multilingual support.",
 
     avatar: "maiv-profile",
 
     heroImage: "hero-maiv",
 
     quote:
-      "Every patient deserves trusted guidance, honest care, and the confidence to smile again.",
+      "Every patient deserves clear guidance, honest support and someone they can trust throughout the journey.",
+
+    community: {
+      facebook: "454K+",
+      tiktok: "1.3M+",
+    },
   },
 
   coordinator: {

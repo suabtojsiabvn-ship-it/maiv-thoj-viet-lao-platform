@@ -109,27 +109,39 @@ hero: {
   },
 
   founder: {
-  sectionLabel: "Meet Maiv Thoj",
-  title: "A trusted voice connecting international patients with Vietnam.",
-  description:
-    "Maiv Thoj Viet Lao Platform was created to help patients feel informed, supported and connected before they begin their healthcare journey in Vietnam.",
-  imageAlt: "Maiv Thoj, Community Advisor of Maiv Thoj Viet Lao Platform",
-  story: [
-    "Through years of connecting with the Hmong community around the world, Maiv Thoj understands the worries many families have when seeking trusted healthcare abroad.",
-    "Her role is to help patients begin their journey with confidence, clear information and trusted support.",
-    "Together with A Sử (Txhim) and trusted clinical partners in Vietnam, Maiv Thoj Viet Lao Platform helps turn healthcare travel into a supported and meaningful journey.",
-  ],
-  quote:
-  "Every meaningful journey begins with knowing that someone truly cares before you even arrive.",
-  stats: {
-    facebook: "Facebook Community",
-    tiktok: "TikTok Community",
-    role: "Trusted Role",
+    sectionLabel: "Meet Maiv Thoj",
+
+    title:
+      "A trusted connection for families considering dental care in Vietnam.",
+
+    description:
+      "For many families, traveling to another country for dental treatment is a major decision. Maiv Thoj helps make the first step clearer through trusted guidance, honest information and the right connections.",
+
+    imageAlt:
+      "Maiv Thoj, Community Advisor and International Advisor at Maiv Thoj Viet Lao Platform",
+
+    story: [
+      "Through years of sharing music, stories and everyday life, Maiv Thoj has built a trusted connection with Hmong communities around the world.",
+      "Today, she listens to families, answers practical questions and helps international patients understand what their dental journey in Vietnam may involve before they decide.",
+      "Clinical examination, diagnosis and treatment planning are handled by trusted dental partners. Maiv Thoj's role is to help each patient feel heard, welcomed and supported throughout the journey.",
+    ],
+
+    quote:
+      "A journey feels easier when you know someone is listening and ready to support you.",
+
+    stats: {
+      facebook: "Facebook Community",
+      tiktok: "TikTok Community",
+      role: {
+        value: "Community Advisor / International Advisor",
+        label: "Role",
+      },
+    },
+
+    cta: {
+      label: "Start With a Conversation",
+    },
   },
-  cta: {
-    label: "Start Your Consultation",
-  },
-},
 
   coordinator: {
   sectionLabel: "INTERNATIONAL PATIENT JOURNEY MANAGER",
