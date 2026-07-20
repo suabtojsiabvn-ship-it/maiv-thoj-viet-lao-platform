@@ -1,11 +1,17 @@
+"use client";
+
 import { LanguageSwitcher } from "@/components/common/language-switcher";
 import { BackHomeButton } from "@/components/common/navigation";
 import { Container } from "@/components/ui";
+import { brand } from "@/content/branding";
+import { useDictionary } from "@/hooks/useDictionary";
 
 import { Logo } from "./Logo";
 import { Navigation } from "./Navigation";
 
 export function Header() {
+  const dictionary = useDictionary();
+
   return (
     <header className="sticky top-0 z-50 border-b border-primary/15 bg-background/90 shadow-lg shadow-black/20 backdrop-blur-xl">
       <Container>
@@ -24,6 +30,16 @@ export function Header() {
               <LanguageSwitcher />
             </div>
           </div>
+        </div>
+
+        <div className="pb-3 text-center sm:hidden">
+          <p className="text-base font-bold leading-5 text-foreground">
+            {brand.name}
+          </p>
+
+          <p className="mx-auto mt-1 max-w-sm text-xs leading-5 text-muted-foreground">
+            {dictionary.common.tagline}
+          </p>
         </div>
       </Container>
     </header>

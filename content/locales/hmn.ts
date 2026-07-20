@@ -3,7 +3,7 @@ import type { LocaleDictionary } from "@/types/i18n";
 export const hmnDictionary: LocaleDictionary = {
   common: {
     brandName: "Maiv Thoj Viet Lao",
-    tagline: "Kev pab neeg mob thoob ntiaj teb txoj kev taug hauv Nyab Laj",
+    tagline: "Kev pab cov neeg tuaj kho hniav thoob ntiaj teb hauv Nyab Laj",
     primaryCta: "Cia Peb Pib Sib Tham",
     secondaryCta: "Nug Peb Pab Neeg Ua Ntej",
   },
@@ -23,7 +23,7 @@ export const hmnDictionary: LocaleDictionary = {
 
 
   hero: {
-    badge: "Kev pab neeg mob thoob ntiaj teb hauv Nyab Laj",
+    badge: "Kev pab cov neeg tuaj kho hniav thoob ntiaj teb hauv Nyab Laj",
 
     title: {
   line1: "Koj txoj kev kho hniav",
