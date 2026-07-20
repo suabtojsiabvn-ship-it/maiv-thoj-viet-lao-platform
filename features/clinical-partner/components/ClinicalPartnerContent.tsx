@@ -2,6 +2,8 @@
 
 import Link from "next/link";
 
+import { Button } from "@/components/ui";
+
 import { useClinicalPartner } from "../hooks/useClinicalPartner";
 
 import { ClinicalHighlights } from "./ClinicalHighlights";
@@ -13,45 +15,41 @@ export function ClinicalPartnerContent() {
 
   return (
     <div className="flex flex-col justify-center">
-      {/* Badge */}
-      <span className="inline-flex w-fit rounded-full border border-cyan-500/20 bg-cyan-500/10 px-4 py-1 text-sm font-medium uppercase tracking-wide text-cyan-300">
+      <span className="inline-flex w-fit rounded-full border border-primary/30 bg-primary/10 px-4 py-1 text-sm font-medium uppercase tracking-wide text-[#765817]">
         {clinicalPartner.badge}
       </span>
 
-      {/* Heading */}
-      <h2 className="mt-6 text-4xl font-bold tracking-tight text-white lg:text-5xl">
+      <h2 className="mt-5 text-balance font-heading text-3xl font-bold tracking-tight text-ivory-foreground md:mt-6 md:text-4xl lg:text-5xl">
         {clinicalPartner.heading}
       </h2>
 
-      {/* Intro */}
-      <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-300">
+      <p className="mt-5 max-w-2xl text-base leading-7 text-[#554e43] md:mt-6 md:text-lg md:leading-8">
         {clinicalPartner.intro}
       </p>
 
-      {/* Highlights */}
       <ClinicalHighlights
         highlights={clinicalPartner.highlights}
       />
 
-      {/* Technology */}
       <ClinicalTechnology
         title={clinicalPartner.technology.title}
         technologies={clinicalPartner.technologies}
       />
 
-      {/* Quote */}
       <ClinicalQuote
         quote={clinicalPartner.quote}
       />
 
-      {/* CTA */}
-      <div className="mt-10">
-        <Link
-          href={clinicalPartner.cta.href}
-          className="inline-flex items-center justify-center rounded-xl bg-cyan-500 px-7 py-4 text-sm font-semibold text-slate-950 transition hover:bg-cyan-400"
+      <div className="mt-8 md:mt-10">
+        <Button
+          asChild
+          size="lg"
+          className="w-full sm:w-auto"
         >
-          {clinicalPartner.cta.label}
-        </Link>
+          <Link href={clinicalPartner.cta.href}>
+            {clinicalPartner.cta.label}
+          </Link>
+        </Button>
       </div>
     </div>
   );
