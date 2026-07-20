@@ -8,7 +8,7 @@ export const anNhienDental: ClinicalPartner = {
   tagline: "Trusted Clinical Excellence",
 
   description:
-    "An Nhien Dental is our trusted clinical partner, providing modern dentistry with experienced professionals, digital technology and patient-centered care.",
+    "An Nhien Dental is a trusted clinical partner providing patient-centered dental treatment through experienced professionals, modern digital technology and careful clinical planning.",
 
   location: "Vietnam",
 
@@ -16,7 +16,7 @@ export const anNhienDental: ClinicalPartner = {
 
   profileImage: {
     src: "/images/partners/an-nhien-dental/clinic.webp",
-    alt: "An Nhien Dental",
+    alt: "An Nhien Dental clinic in Vietnam",
   },
 
   gallery: [],
@@ -26,21 +26,21 @@ export const anNhienDental: ClinicalPartner = {
       id: "experienced-team",
       title: "Experienced Dental Team",
       description:
-        "Skilled dentists dedicated to safe and predictable treatment.",
+        "Experienced dental professionals focused on careful evaluation, quality care and patient safety.",
       icon: "users",
     },
     {
       id: "digital-technology",
       title: "Modern Digital Technology",
       description:
-        "Advanced digital workflow for precise diagnosis and treatment.",
+        "Digital tools support detailed examination and careful treatment planning.",
       icon: "monitor-smartphone",
     },
     {
       id: "personalized-care",
       title: "Personalized Treatment",
       description:
-        "Every treatment plan is tailored to each patient's needs.",
+        "Treatment planning is based on each patient's oral health, goals and clinical evaluation.",
       icon: "heart-handshake",
     },
     {
@@ -56,12 +56,26 @@ export const anNhienDental: ClinicalPartner = {
     {
       id: "digital-scan",
       name: "Digital Intraoral Scanner",
-      description: "Accurate digital impressions for greater comfort.",
+      description:
+        "Digital impressions can provide a more comfortable experience in many cases.",
     },
     {
       id: "cbct",
       name: "CBCT 3D Imaging",
-      description: "High-precision diagnosis and treatment planning.",
+      description:
+        "Detailed 3D imaging supports clinical assessment and treatment planning.",
+    },
+    {
+      id: "cad-cam",
+      name: "CAD/CAM Workflow",
+      description:
+        "Digital design and manufacturing support consistency throughout the restorative workflow.",
+    },
+    {
+      id: "clinical-standards",
+      name: "International Clinical Standards",
+      description:
+        "Professional sterilization, safety and clinical protocols support quality patient care.",
     },
   ],
 

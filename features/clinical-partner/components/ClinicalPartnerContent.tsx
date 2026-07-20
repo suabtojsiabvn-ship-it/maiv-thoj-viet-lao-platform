@@ -35,6 +35,7 @@ export function ClinicalPartnerContent() {
 
       {/* Technology */}
       <ClinicalTechnology
+        title={clinicalPartner.technology.title}
         technologies={clinicalPartner.technologies}
       />
 
@@ -46,7 +47,7 @@ export function ClinicalPartnerContent() {
       {/* CTA */}
       <div className="mt-10">
         <Link
-          href="/booking"
+          href={clinicalPartner.cta.href}
           className="inline-flex items-center justify-center rounded-xl bg-cyan-500 px-7 py-4 text-sm font-semibold text-slate-950 transition hover:bg-cyan-400"
         >
           {clinicalPartner.cta.label}

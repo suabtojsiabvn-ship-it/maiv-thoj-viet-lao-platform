@@ -6,12 +6,10 @@ import { useClinicalPartner } from "../hooks/useClinicalPartner";
 
 interface ClinicalPartnerImageProps {
   src: string;
-  alt: string;
 }
 
 export function ClinicalPartnerImage({
   src,
-  alt,
 }: ClinicalPartnerImageProps) {
   const { clinicalPartner } = useClinicalPartner();
 
@@ -20,7 +18,7 @@ export function ClinicalPartnerImage({
       <div className="overflow-hidden rounded-3xl border border-white/10 bg-slate-900 shadow-2xl">
         <Image
           src={src}
-          alt={alt}
+          alt={clinicalPartner.imageAlt}
           width={900}
           height={700}
           priority
@@ -34,7 +32,7 @@ export function ClinicalPartnerImage({
         </p>
 
         <h3 className="mt-3 text-2xl font-bold text-white">
-          An Nhien Dental
+          {clinicalPartner.name}
         </h3>
 
         <p className="mt-3 text-sm leading-6 text-slate-300">

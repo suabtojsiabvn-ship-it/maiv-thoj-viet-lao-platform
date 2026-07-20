@@ -215,77 +215,81 @@ export const viDictionary: LocaleDictionary = {
     sectionLabel: "Đối tác nha khoa đáng tin cậy",
 
     title:
-      "Chăm sóc nha khoa chuyên môn bởi đội ngũ bạn có thể tin tưởng.",
+      "Chăm sóc nha khoa chuyên môn từ đội ngũ bạn có thể tin tưởng.",
 
     description:
-      "Maiv Thoj Viet Lao đồng hành trong hành trình của bạn. Khi đến bước thăm khám và làm răng, các đối tác nha khoa đáng tin cậy như An Nhien Dental sẽ phụ trách chuyên môn với đội ngũ có kinh nghiệm.",
+      "Maiv Thoj Viet Lao đồng hành trong hành trình của bạn. Việc thăm khám, chẩn đoán và làm răng được thực hiện bởi các đối tác đáng tin cậy như An Nhien Dental cùng đội ngũ nha khoa giàu kinh nghiệm.",
 
-    badge: "TRUSTED CLINICAL PARTNER",
+    imageAlt:
+      "Phòng khám An Nhien Dental, đối tác nha khoa đáng tin cậy của Maiv Thoj Viet Lao Platform tại Việt Nam",
 
-    heading: "Nơi sự tin tưởng gặp chăm sóc nha khoa chuyên môn",
+    badge: "ĐỐI TÁC NHA KHOA ĐÁNG TIN CẬY",
+
+    heading: "Nơi sự tin tưởng gặp chuyên môn nha khoa.",
 
     intro:
-      "Mỗi người trong hành trình của bạn có một vai trò riêng. Maiv Thoj giúp bạn bắt đầu bằng sự tin tưởng. A Sử đồng hành cùng bạn tại Việt Nam. Việc làm răng được thực hiện bởi đội ngũ nha khoa tại An Nhien Dental, dưới sự phụ trách của Dr. Toan Nguyen.",
+      "Mỗi người trong hành trình của bạn có một vai trò rõ ràng. Maiv Thoj giúp bạn bắt đầu bằng sự tin tưởng. A Sử (Txhim) hỗ trợ hành trình của bạn tại Việt Nam. Việc thăm khám và làm răng được thực hiện bởi đội ngũ An Nhien Dental, dưới sự phụ trách chuyên môn của Dr. Toàn Nguyễn.",
 
     quote:
-      "Mỗi nụ cười đều bắt đầu từ sự lắng nghe, thăm khám kỹ lưỡng và một kế hoạch điều trị phù hợp với từng người.",
+      "Mỗi nụ cười đều bắt đầu từ sự lắng nghe, thăm khám cẩn thận và một kế hoạch điều trị phù hợp với từng người.",
 
     cta: {
       label: "Khám phá lựa chọn làm răng",
     },
 
-    highlights: [
-  {
-    title: "Kế hoạch điều trị cá nhân hóa",
-    description:
-      "Mỗi kế hoạch điều trị được xây dựng sau khi bác sĩ thăm khám kỹ lưỡng, dựa trên tình trạng răng miệng, nhu cầu và thời gian của bạn.",
-  },
-  {
-    title: "Đội ngũ nha khoa giàu kinh nghiệm",
-    description:
-      "Bạn được chăm sóc bởi đội ngũ nha khoa giàu kinh nghiệm, luôn đặt chất lượng, sự an toàn và hiệu quả điều trị lên hàng đầu.",
-  },
-  {
-    title: "Phụ trách chuyên môn",
-    description:
-      "BS. Toàn Nguyễn phụ trách thăm khám, lập kế hoạch điều trị và giám sát chất lượng chuyên môn trong suốt quá trình điều trị.",
-  },
-  {
-    title: "Nha khoa kỹ thuật số hiện đại",
-    description:
-      "Công nghệ nha khoa kỹ thuật số hỗ trợ chẩn đoán chính xác hơn, lập kế hoạch hiệu quả hơn và mang lại trải nghiệm điều trị thoải mái hơn.",
-  },
-],
+    highlights: {
+      personalizedPlanning: {
+        title: "Kế hoạch điều trị cá nhân hóa",
+        description:
+          "Kế hoạch điều trị được xây dựng sau khi thăm khám, dựa trên tình trạng răng miệng, mục tiêu và thời gian bạn có tại Việt Nam.",
+      },
+      experiencedTeam: {
+        title: "Đội ngũ nha khoa giàu kinh nghiệm",
+        description:
+          "Bạn được chăm sóc bởi đội ngũ giàu kinh nghiệm, chú trọng quá trình điều trị cẩn thận, sự an toàn và sức khỏe răng miệng lâu dài.",
+      },
+      clinicalLeadership: {
+        title: "Phụ trách chuyên môn",
+        description:
+          "Dr. Toàn Nguyễn phụ trách thăm khám, chẩn đoán, lập kế hoạch điều trị và giám sát chất lượng chuyên môn trong suốt quá trình làm răng.",
+      },
+      digitalDentistry: {
+        title: "Nha khoa kỹ thuật số hiện đại",
+        description:
+          "Công cụ nha khoa kỹ thuật số hỗ trợ đánh giá chi tiết, lập kế hoạch cẩn thận và mang lại trải nghiệm thoải mái hơn trong những trường hợp phù hợp.",
+      },
+    },
 
     technology: {
-  title: "Công nghệ nha khoa hiện đại",
-},  
-        imageCard: {
-  badge: "Đối tác nha khoa đáng tin cậy",
-  description:
-    "Đội ngũ nha khoa giàu kinh nghiệm, kế hoạch điều trị cá nhân hóa và nha khoa kỹ thuật số hiện đại.",
-},
+      title: "Công nghệ và tiêu chuẩn nha khoa",
+    },
+
+    imageCard: {
+      badge: "Đối tác nha khoa đáng tin cậy",
+      description:
+        "Đội ngũ nha khoa giàu kinh nghiệm, kế hoạch điều trị phù hợp từng người và nha khoa kỹ thuật số hiện đại.",
+    },
 
     technologies: [
       {
         name: "CBCT 3D Imaging",
         description:
-          "Hình ảnh 3D hỗ trợ thăm khám và lên kế hoạch làm răng rõ ràng hơn.",
+          "Hình ảnh 3D chi tiết hỗ trợ thăm khám và lập kế hoạch điều trị.",
       },
       {
         name: "Digital Intraoral Scanner",
         description:
-          "Quét kỹ thuật số trong miệng giúp trải nghiệm lấy dấu thoải mái hơn trong nhiều trường hợp.",
+          "Lấy dấu kỹ thuật số có thể mang lại trải nghiệm thoải mái hơn trong nhiều trường hợp.",
       },
       {
         name: "CAD/CAM Workflow",
         description:
-          "Thiết kế và phục hình kỹ thuật số hỗ trợ độ chính xác và sự đồng nhất trong quá trình làm răng.",
+          "Thiết kế và chế tác kỹ thuật số hỗ trợ sự đồng nhất trong quy trình phục hình.",
       },
       {
         name: "International Clinical Standards",
         description:
-          "Quy trình vô trùng, an toàn và chăm sóc chuyên môn được xây dựng để hỗ trợ kết quả điều trị chất lượng.",
+          "Quy trình vô trùng, an toàn và chuyên môn hỗ trợ chất lượng chăm sóc nha khoa.",
       },
     ],
   },

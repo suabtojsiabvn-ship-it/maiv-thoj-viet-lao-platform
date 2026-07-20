@@ -213,84 +213,89 @@ export const hmnDictionary: LocaleDictionary = {
     },
   },
 
-   clinicalPartner: {
-  sectionLabel: "Tus Khub Kho Hniav Uas Ntseeg Siab",
+  clinicalPartner: {
+    sectionLabel: "Tus Khub Kho Hniav Uas Tso Siab Tau",
 
-  title:
-  "Kev kho hniav los ntawm pab kws kho hniav uas koj ntseeg tau.",
+    title:
+      "Kev kho hniav los ntawm pab neeg uas koj tso siab tau.",
 
-  description:
-    "Maiv Thoj Viet Lao pab koj txoj kev tuaj kho hniav. Thaum txog kev kuaj thiab kho, tus khub kho hniav uas ntseeg siab xws li An Nhien Dental yuav saib xyuas koj los ntawm pab kws kho hniav muaj kev paub.",
-
-  badge: "TUS KHUB KHO HNIAV UAS NTSEEG SIAB",
-
-  heading:
-  "Kev ntseeg siab thiab kev kho hniav zoo sib ntsib ntawm no.",
-
-  intro:
-  "Txhua tus muaj nws txoj haujlwm. Maiv Thoj pab koj pib nrog kev ntseeg siab. A Sử nrog koj nyob thaum koj nyob Nyab Laj. Hos kev kho hniav yog ua los ntawm pab kws kho hniav ntawm An Nhien Dental nyob rau hauv kev saib xyuas ntawm Dr. Toan Nguyen.",
-
-  quote:
-  "Txhua txoj kev luag ntxhi pib los ntawm kev mloog, kev tshuaj xyuas kom zoo thiab txoj kev kho uas haum rau txhua tus neeg.",
-
-  cta: {
-    label: "Saib Koj Cov Kev Xaiv Kho Hniav",
-  },
-
-  highlights: [
-  {
-    title: "Kev Npaj Kho Hniav Raws Li Koj Tus Kheej",
     description:
-      "Ua ntej pib kho hniav, kws kho hniav yuav tshuaj xyuas kom ntxaws thiab npaj txoj kev kho kom haum rau koj tus mob, koj lub hom phiaj thiab koj lub sijhawm.",
-  },
-  {
-    title: "Pab Neeg Kho Hniav Muaj Kev Paub",
-    description:
-      "Koj yuav tau txais kev kho los ntawm pab neeg kho hniav uas muaj kev paub, mob siab rau kev nyab xeeb thiab kev saib xyuas ntev.",
-  },
-  {
-    title: "Kev Coj Ua Haujlwm Kho Hniav",
-    description:
-      "Dr. Toan Nguyen saib xyuas kev kuaj mob, kev npaj kho hniav thiab kev tswj xyuas qhov zoo ntawm kev kho tag nrho.",
-  },
-  {
-    title: "Technology Kho Hniav Niaj Hnub",
-    description:
-      "Technology digital pab txhawb kev kuaj mob kom raug dua, npaj kho kom meej dua thiab ua rau kev kho xis nyob dua.",
-  },
-],
-technology: {
-  title: "Technology Kho Hniav Niaj Hnub",
-},
-imageCard: {
-  badge: "Tus Khub Kho Hniav Uas Ntseeg Siab Tau",
-  description:
-    "Pab neeg kho hniav muaj kev paub, npaj kho raws tus neeg mob thiab siv technology niaj hnub.",
-},
+      "Maiv Thoj Viet Lao nrog pab koj txoj kev taug. Thaum txog kev tshuaj xyuas, txheeb xyuas thiab kho hniav, cov koom tes uas tso siab tau xws li An Nhien Dental thiab lawv pab kws kho hniav yuav yog cov saib xyuas kev kho.",
 
-  technologies: [
-    {
-      name: "CBCT 3D Imaging",
-      description:
-        "Duab 3D pab kom kev kuaj thiab kev npaj kho hniav meej dua.",
+    imageAlt:
+      "An Nhien Dental, tus khub kho hniav uas tso siab tau ntawm Maiv Thoj Viet Lao Platform hauv Nyab Laj",
+
+    badge: "TUS KHUB KHO HNIAV UAS TSO SIAB TAU",
+
+    heading:
+      "Thaum kev tso siab thiab kev txawj kho hniav los ua ke.",
+
+    intro:
+      "Txhua tus muaj nws lub luag hauj lwm hauv koj txoj kev taug. Maiv Thoj pab kom koj pib nrog kev tso siab. A Sử (Txhim) nrog pab koj thaum nyob hauv Nyab Laj. Pab kws kho hniav ntawm An Nhien Dental yog cov tshuaj xyuas thiab kho koj, nyob rau hauv kev saib xyuas ntawm Dr. Toàn Nguyễn.",
+
+    quote:
+      "Txhua txoj kev luag ntxhi pib los ntawm kev mloog, tshuaj xyuas kom zoo thiab npaj txoj kev kho kom haum rau tus neeg ntawd.",
+
+    cta: {
+      label: "Saib Koj Cov Kev Xaiv Kho Hniav",
     },
-    {
-      name: "Digital Intraoral Scanner",
-      description:
-        "Kev scan digital hauv qhov ncauj pab kom xis dua thiab tsis tas siv cov khoom luam hniav qub hauv ntau rooj plaub.",
+
+    highlights: {
+      personalizedPlanning: {
+        title: "Kev Npaj Kho Kom Haum Rau Koj",
+        description:
+          "Kws kho hniav yuav tshuaj xyuas ua ntej thiab npaj txoj kev kho raws li koj cov hniav, koj lub hom phiaj thiab lub sijhawm uas koj nyob hauv Nyab Laj.",
+      },
+      experiencedTeam: {
+        title: "Pab Neeg Kho Hniav Muaj Kev Paub",
+        description:
+          "Koj cov hniav yuav raug saib xyuas los ntawm pab neeg muaj kev paub uas mob siab rau kev kho kom zoo, kev nyab xeeb thiab kev saib xyuas koj cov hniav ntev mus.",
+      },
+      clinicalLeadership: {
+        title: "Tus Kws Saib Xyuas Kev Kho Hniav",
+        description:
+          "Dr. Toàn Nguyễn saib xyuas kev tshuaj xyuas, txheeb xyuas qhov teeb meem, npaj txoj kev kho thiab qhov zoo ntawm kev kho hniav.",
+      },
+      digitalDentistry: {
+        title: "Kev Kho Hniav Digital Niaj Hnub",
+        description:
+          "Cov cuab yeej kho hniav digital pab kom kev tshuaj xyuas thiab kev npaj kho meej dua, thiab pab kom xis nyob dua thaum tsim nyog siv.",
+      },
     },
-    {
-      name: "CAD/CAM Workflow",
-      description:
-        "Kev tsim thiab ua hniav digital pab kom kev kho muaj kev raug thiab sib xws dua.",
+
+    technology: {
+      title: "Cuab Yeej thiab Txheej Txheem Kho Hniav Niaj Hnub",
     },
-    {
-      name: "International Clinical Standards",
+
+    imageCard: {
+      badge: "Tus Khub Kho Hniav Uas Tso Siab Tau",
       description:
-        "Kev tu huv, kev nyab xeeb thiab txheej txheem kho hniav raug npaj kom pab txhawb kev kho kom zoo.",
+        "Pab kws kho hniav muaj kev paub, kev npaj kho kom haum rau tus neeg thiab cuab yeej digital niaj hnub.",
     },
-  ],
-},
+
+    technologies: [
+      {
+        name: "CBCT 3D Imaging",
+        description:
+          "Duab 3D pab txhawb kev tshuaj xyuas hniav thiab kev npaj txoj kev kho.",
+      },
+      {
+        name: "Digital Intraoral Scanner",
+        description:
+          "Kev luam hniav digital hauv qhov ncauj pab kom xis nyob dua hauv ntau rooj plaub.",
+      },
+      {
+        name: "CAD/CAM Workflow",
+        description:
+          "Kev tsim thiab ua cov hniav tshiab siv digital pab kom txhua kauj ruam sib xws dua.",
+      },
+      {
+        name: "International Clinical Standards",
+        description:
+          "Kev ntxuav thiab tua kab mob, kev nyab xeeb thiab cov txheej txheem kho hniav pab txhawb kev saib xyuas kom zoo.",
+      },
+    ],
+  },
 
   treatments: {
   sectionLabel: "Peb Pab Tau Koj Li Cas",

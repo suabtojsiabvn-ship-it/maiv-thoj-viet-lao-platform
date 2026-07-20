@@ -4,26 +4,35 @@ import {
   ShieldCheck,
   Users,
 } from "lucide-react";
+import type { LucideIcon } from "lucide-react";
 
-import type { LocaleTextItem } from "@/types/i18n";
+import type {
+  ClinicalHighlight,
+  ClinicalHighlightId,
+} from "../types/clinical-partner.types";
 
 interface ClinicalHighlightsProps {
-  highlights: LocaleTextItem[];
+  highlights: ClinicalHighlight[];
 }
 
-const icons = [Users, MonitorSmartphone, HeartHandshake, ShieldCheck];
+const highlightIcons: Record<ClinicalHighlightId, LucideIcon> = {
+  personalizedPlanning: HeartHandshake,
+  experiencedTeam: Users,
+  clinicalLeadership: ShieldCheck,
+  digitalDentistry: MonitorSmartphone,
+};
 
 export function ClinicalHighlights({
   highlights,
 }: ClinicalHighlightsProps) {
   return (
     <div className="mt-12 grid gap-6 sm:grid-cols-2">
-      {highlights.map((highlight, index) => {
-        const Icon = icons[index] ?? Users;
+      {highlights.map((highlight) => {
+        const Icon = highlightIcons[highlight.id];
 
         return (
           <article
-            key={highlight.title}
+            key={highlight.id}
             className="rounded-3xl border border-white/10 bg-white/5 p-6 transition-all duration-300 hover:border-cyan-400/40 hover:bg-cyan-500/5"
           >
             <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-cyan-500/10 text-cyan-300">

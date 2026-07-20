@@ -211,84 +211,89 @@ hero: {
     },
   },
 
- clinicalPartner: {
-  sectionLabel: "Trusted Clinical Partner",
+  clinicalPartner: {
+    sectionLabel: "Trusted Clinical Partner",
 
-  title:
-  "Professional dental care delivered by a team you can trust.",
+    title:
+      "Professional dental care from a team you can trust.",
 
-  description:
-    "Maiv Thoj Viet Lao supports your journey. When it comes to clinical treatment, trusted partners such as An Nhien Dental provide professional care led by experienced dental professionals.",
-
-  badge: "TRUSTED CLINICAL PARTNER",
-
-  heading:
-  "Where trusted guidance meets professional dental expertise.",
-
-  intro:
-  "Everyone has a different role in your journey. Maiv Thoj helps you begin with confidence. A Su supports you throughout your stay in Vietnam. Your dental care is provided by the experienced team at An Nhien Dental under the professional leadership of Dr. Toan Nguyen.",
-
-  quote:
-  "Every smile begins with listening, careful planning and treatment that is tailored to each individual.",
-
-  cta: {
-    label: "Explore Your Treatment Options",
-  },
-
-  highlights: [
-  {
-    title: "Personalized Treatment Planning",
     description:
-      "Every treatment begins with a careful clinical evaluation to create a treatment plan tailored to your oral health, goals and travel schedule.",
-  },
-  {
-    title: "Experienced Dental Team",
-    description:
-      "Your treatment is provided by experienced dental professionals committed to quality, safety and long-term oral health.",
-  },
-  {
-    title: "Professional Clinical Leadership",
-    description:
-      "Dr. Toan Nguyen oversees diagnosis, treatment planning and clinical quality throughout your dental journey.",
-  },
-  {
-    title: "Modern Digital Dentistry",
-    description:
-      "Modern digital technology supports more accurate diagnosis, treatment planning and a more comfortable patient experience.",
-  },
-],
-technology: {
-  title: "Modern Clinical Technology",
-},
-imageCard: {
-  badge: "Trusted Clinical Partner",
-  description:
-    "Experienced dental professionals, personalized treatment planning and modern digital dentistry.",
-},
+      "Maiv Thoj Viet Lao supports your journey. Clinical examination, diagnosis and dental treatment are provided by trusted partners such as An Nhien Dental and their experienced dental professionals.",
 
-  technologies: [
-    {
-      name: "CBCT 3D Imaging",
-      description:
-        "Detailed 3D imaging helps create accurate diagnoses and treatment plans.",
+    imageAlt:
+      "An Nhien Dental clinic, trusted clinical partner of Maiv Thoj Viet Lao Platform in Vietnam",
+
+    badge: "TRUSTED CLINICAL PARTNER",
+
+    heading:
+      "Where trusted guidance meets professional dental expertise.",
+
+    intro:
+      "Everyone has a clear role in your journey. Maiv Thoj helps you begin with trust. A Sử (Txhim) supports your journey in Vietnam. Your clinical examination and dental treatment are provided by the team at An Nhien Dental, with clinical oversight from Dr. Toàn Nguyễn.",
+
+    quote:
+      "Every smile begins with listening, careful examination and a treatment plan suited to the individual.",
+
+    cta: {
+      label: "Explore Your Treatment Options",
     },
-    {
-      name: "Digital Intraoral Scanner",
-      description:
-        "Comfortable digital impressions without traditional impression materials in many cases.",
+
+    highlights: {
+      personalizedPlanning: {
+        title: "Personalized Treatment Planning",
+        description:
+          "Treatment planning begins after a clinical evaluation and considers your oral health, goals and available time in Vietnam.",
+      },
+      experiencedTeam: {
+        title: "Experienced Dental Team",
+        description:
+          "Your dental care is provided by experienced professionals focused on careful treatment, patient safety and long-term oral health.",
+      },
+      clinicalLeadership: {
+        title: "Professional Clinical Leadership",
+        description:
+          "Dr. Toàn Nguyễn oversees examination, diagnosis, treatment planning and clinical quality throughout the treatment process.",
+      },
+      digitalDentistry: {
+        title: "Modern Digital Dentistry",
+        description:
+          "Digital dental tools support detailed assessment, careful planning and a more comfortable treatment experience in appropriate cases.",
+      },
     },
-    {
-      name: "CAD/CAM Workflow",
-      description:
-        "Digital design and manufacturing support precision and consistency throughout treatment.",
+
+    technology: {
+      title: "Dental Technology and Clinical Standards",
     },
-    {
-      name: "International Clinical Standards",
+
+    imageCard: {
+      badge: "Trusted Clinical Partner",
       description:
-        "Professional safety, sterilization and clinical protocols designed to support quality patient care.",
+        "Experienced dental professionals, individualized treatment planning and modern digital dentistry.",
     },
-  ],
-},
+
+    technologies: [
+      {
+        name: "CBCT 3D Imaging",
+        description:
+          "Detailed 3D imaging supports clinical assessment and treatment planning.",
+      },
+      {
+        name: "Digital Intraoral Scanner",
+        description:
+          "Digital impressions can provide a more comfortable experience in many cases.",
+      },
+      {
+        name: "CAD/CAM Workflow",
+        description:
+          "Digital design and manufacturing support consistency throughout the restorative workflow.",
+      },
+      {
+        name: "International Clinical Standards",
+        description:
+          "Professional sterilization, safety and clinical protocols support quality patient care.",
+      },
+    ],
+  },
 
  treatments: {
   sectionLabel: "How We Can Help",

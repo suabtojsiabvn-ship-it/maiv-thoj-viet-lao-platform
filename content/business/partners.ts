@@ -7,7 +7,7 @@ export const partners = {
     type: "Trusted Clinical Partner",
 
     description:
-      "A trusted dental clinic in Vietnam providing modern digital dentistry with experienced doctors and international standards.",
+      "A trusted dental clinic in Hanoi, Vietnam, providing patient-centered treatment through experienced dental professionals and modern digital dentistry.",
 
     location: "Hanoi, Vietnam",
 

@@ -138,10 +138,17 @@ export interface LocaleCoordinatorDictionary {
   services: Record<LocaleCoordinatorServiceKey, LocaleTextItem>;
 }
 
+export type LocaleClinicalHighlightKey =
+  | "personalizedPlanning"
+  | "experiencedTeam"
+  | "clinicalLeadership"
+  | "digitalDentistry";
+
 export interface LocaleClinicalPartnerDictionary {
   sectionLabel: string;
   title: string;
   description: string;
+  imageAlt: string;
 
   badge: string;
   heading: string;
@@ -150,7 +157,7 @@ export interface LocaleClinicalPartnerDictionary {
 
   cta: LocaleCta;
 
-  highlights: LocaleTextItem[];
+  highlights: Record<LocaleClinicalHighlightKey, LocaleTextItem>;
 
   technology: {
     title: string;

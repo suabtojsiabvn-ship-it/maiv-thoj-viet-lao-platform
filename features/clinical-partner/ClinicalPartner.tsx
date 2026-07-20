@@ -16,7 +16,6 @@ export function ClinicalPartner() {
         <div className="grid items-center gap-20 lg:grid-cols-2">
           <ClinicalPartnerImage
             src={anNhienDental.profileImage.src}
-            alt={anNhienDental.profileImage.alt}
           />
 
           <ClinicalPartnerContent />
