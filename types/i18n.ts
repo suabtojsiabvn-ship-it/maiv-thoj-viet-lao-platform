@@ -107,10 +107,18 @@ export interface LocaleFounderDictionary {
   cta: LocaleCta;
 }
 
+export type LocaleCoordinatorServiceKey =
+  | "planning"
+  | "airportWelcome"
+  | "communication"
+  | "coordination"
+  | "memories";
+
 export interface LocaleCoordinatorDictionary {
   sectionLabel: string;
   title: string;
   description: string;
+  imageAlt: string;
 
   badge: string;
   heading: string;
@@ -127,7 +135,7 @@ export interface LocaleCoordinatorDictionary {
     description: string;
   };
 
-  services: LocaleTextItem[];
+  services: Record<LocaleCoordinatorServiceKey, LocaleTextItem>;
 }
 
 export interface LocaleClinicalPartnerDictionary {

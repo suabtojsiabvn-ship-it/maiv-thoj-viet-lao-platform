@@ -6,12 +6,10 @@ import { useCoordinator } from "../hooks/useCoordinator";
 
 interface CoordinatorImageProps {
   src: string;
-  alt: string;
 }
 
 export function CoordinatorImage({
   src,
-  alt,
 }: CoordinatorImageProps) {
   const { coordinator } = useCoordinator();
 
@@ -20,7 +18,7 @@ export function CoordinatorImage({
       <div className="overflow-hidden rounded-3xl border border-white/10 bg-slate-900 shadow-2xl">
         <Image
           src={src}
-          alt={alt}
+          alt={coordinator.imageAlt}
           width={640}
           height={800}
           priority

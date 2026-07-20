@@ -12,7 +12,6 @@ export function Coordinator() {
         <div className="grid items-center gap-20 lg:grid-cols-2">
           <CoordinatorImage
             src={peopleMedia.coordinator.profile}
-            alt="A Sử (Txhim), International Patient Journey Manager"
           />
 
           <CoordinatorContent />

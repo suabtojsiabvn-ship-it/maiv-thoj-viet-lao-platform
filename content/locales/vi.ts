@@ -150,20 +150,23 @@ export const viDictionary: LocaleDictionary = {
       "Người đồng hành cùng bạn trong suốt thời gian ở Việt Nam.",
 
     description:
-      "Khi bạn quyết định sang Việt Nam làm răng, A Sử là người hỗ trợ chính trong hành trình của bạn — từ chuẩn bị trước chuyến đi, đón sân bay, hỗ trợ giao tiếp, đưa đón cho đến ngày bạn trở về nhà.",
+      "Khi bạn quyết định sang Việt Nam làm răng, A Sử giúp điều phối hành trình của bạn — từ chuẩn bị trước chuyến đi, đón tại sân bay, hỗ trợ giao tiếp và di chuyển cho đến ngày bạn trở về nhà.",
 
-    badge: "PATIENT JOURNEY MANAGER",
+    imageAlt:
+      "A Sử (Txhim), Quản lý hành trình khách hàng quốc tế đồng hành trong hành trình làm răng tại Việt Nam",
 
-    heading: "Bạn không cần tự xoay xở một mình",
+    badge: "QUẢN LÝ HÀNH TRÌNH KHÁCH HÀNG QUỐC TẾ",
+
+    heading: "Bạn không cần tự xoay xở mọi bước một mình.",
 
     intro:
-      "Sang một quốc gia khác để làm răng có thể khiến nhiều người lo lắng. Ngôn ngữ khác, nơi ở mới và nhiều chi tiết nhỏ dễ làm bạn thấy áp lực. A Sử ở đây để giúp hành trình đó rõ ràng, nhẹ nhàng và an tâm hơn.",
+      "Sang một quốc gia khác để làm răng có thể khiến bạn lo lắng. Ngôn ngữ mới, nơi ở chưa quen và nhiều chi tiết cần chuẩn bị dễ khiến hành trình trở nên áp lực. A Sử giúp từng bước rõ ràng, có tổ chức và an tâm hơn.",
 
     story: [
-      "Trước chuyến đi, A Sử giúp bạn chuẩn bị lịch trình, trả lời các câu hỏi thực tế và nắm rõ những điều cần biết trước khi đến Việt Nam.",
-      "Khi bạn hạ cánh, A Sử hoặc đội ngũ sẽ đón bạn tại sân bay, hỗ trợ di chuyển và giúp bạn ổn định nơi ở để bắt đầu hành trình thoải mái hơn.",
-      "Trong thời gian ở Việt Nam, A Sử hỗ trợ giao tiếp, lịch hẹn, đưa đón và những nhu cầu thực tế trong quá trình làm răng.",
-      "Vai trò của A Sử không phải là bác sĩ hay người điều trị. A Sử là người giúp bạn cảm thấy được hiểu, được hỗ trợ và có người để liên hệ bất cứ khi nào cần.",
+      "Trước chuyến đi, A Sử giúp bạn chuẩn bị lịch trình, trả lời các câu hỏi thực tế và giải thích những điều cần biết trước khi đến Việt Nam.",
+      "Khi bạn hạ cánh, A Sử hoặc thành viên được phân công trong đội ngũ sẽ đón bạn tại sân bay, hỗ trợ di chuyển và nơi ở theo kế hoạch hành trình đã xác nhận.",
+      "Trong thời gian ở Việt Nam, A Sử hỗ trợ giao tiếp, điều phối lịch hẹn, di chuyển và những nhu cầu thiết thực hằng ngày.",
+      "A Sử không phải là bác sĩ hay người thực hiện điều trị. A Sử là đầu mối để bạn liên hệ, giúp bạn cảm thấy được thấu hiểu, được hỗ trợ và luôn có người để trao đổi khi cần.",
     ],
 
     quote:
@@ -174,32 +177,38 @@ export const viDictionary: LocaleDictionary = {
     },
 
     imageCard: {
-  role: "Quản lý hành trình khách hàng quốc tế",
-  description:
-    "Hỗ trợ bạn giao tiếp, điều phối lịch trình và an tâm hơn trong suốt hành trình làm răng tại Việt Nam.",
-},
-    services: [
-      {
+      role: "Quản lý hành trình khách hàng quốc tế",
+      description:
+        "Hỗ trợ giao tiếp, lịch trình và những nhu cầu thiết thực trong suốt hành trình làm răng tại Việt Nam.",
+    },
+
+    services: {
+      planning: {
         title: "Lên kế hoạch hành trình",
         description:
           "Hỗ trợ chuẩn bị lịch trình, thời gian đến Việt Nam, lịch hẹn và những điều quan trọng trước chuyến đi.",
       },
-      {
+      airportWelcome: {
         title: "Đón tại sân bay",
         description:
-          "Đón bạn khi đến Việt Nam và hỗ trợ di chuyển để hành trình bắt đầu thuận lợi hơn.",
+          "Đón bạn khi đến Việt Nam và hỗ trợ di chuyển theo kế hoạch hành trình đã xác nhận.",
       },
-      {
+      communication: {
         title: "Hỗ trợ giao tiếp",
         description:
-          "Giúp bạn trao đổi rõ ràng hơn với đối tác nha khoa và đội ngũ liên quan khi cần.",
+          "Giúp bạn trao đổi rõ ràng với đối tác nha khoa và đội ngũ hỗ trợ khi cần.",
       },
-      {
-        title: "Đồng hành trong suốt thời gian lưu trú",
+      coordination: {
+        title: "Điều phối hành trình",
         description:
-          "Từ di chuyển, câu hỏi thực tế đến lịch hẹn theo dõi, bạn luôn có người để liên hệ khi cần hỗ trợ.",
+          "Điều phối lịch hẹn, di chuyển và những hỗ trợ thiết thực trong thời gian bạn ở Việt Nam.",
       },
-    ],
+      memories: {
+        title: "Lưu giữ kỷ niệm hành trình",
+        description:
+          "Khi bạn đồng ý, đội ngũ có thể hỗ trợ chụp ảnh và quay video để lưu lại những kỷ niệm ý nghĩa tại Việt Nam.",
+      },
+    },
   },
 
   clinicalPartner: {

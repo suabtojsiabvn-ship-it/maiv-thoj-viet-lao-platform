@@ -5,35 +5,36 @@ import {
   MapPinned,
   Plane,
 } from "lucide-react";
+import type { LucideIcon } from "lucide-react";
 
-interface CoordinatorService {
-  title: string;
-  description: string;
-}
+import type {
+  CoordinatorService,
+  CoordinatorServiceId,
+} from "../types/coordinator.types";
 
 interface CoordinatorServicesProps {
   services: CoordinatorService[];
 }
 
-const icons = [
-  CalendarDays,
-  Plane,
-  Languages,
-  MapPinned,
-  Camera,
-];
+const serviceIcons: Record<CoordinatorServiceId, LucideIcon> = {
+  planning: CalendarDays,
+  airportWelcome: Plane,
+  communication: Languages,
+  coordination: MapPinned,
+  memories: Camera,
+};
 
 export function CoordinatorServices({
   services,
 }: CoordinatorServicesProps) {
   return (
     <div className="mt-10 grid gap-5 sm:grid-cols-2">
-      {services.map((service, index) => {
-        const Icon = icons[index] ?? CalendarDays;
+      {services.map((service) => {
+        const Icon = serviceIcons[service.id];
 
         return (
           <article
-            key={service.title}
+            key={service.id}
             className="group rounded-3xl border border-white/10 bg-white/5 p-5 transition-all duration-300 hover:border-cyan-400/40 hover:bg-cyan-500/5"
           >
             <div className="flex items-start gap-4">

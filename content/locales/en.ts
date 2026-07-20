@@ -144,67 +144,72 @@ hero: {
   },
 
   coordinator: {
-  sectionLabel: "INTERNATIONAL PATIENT JOURNEY MANAGER",
+    sectionLabel: "Meet A Sử",
 
-  title:
-    "The person who stays by your side throughout your journey in Vietnam.",
+    title:
+      "The person who stays beside you throughout your time in Vietnam.",
 
-  description:
-    "Personal support, clear communication and thoughtful coordination—so you can focus on your treatment with confidence.",
-
-  badge: "PATIENT JOURNEY MANAGER",
-
-  heading:
-    "You don't have to figure everything out alone.",
-
-  intro:
-    "Travelling to another country for dental treatment can feel uncertain. Having someone to communicate with, coordinate your appointments and support you throughout the journey can make the experience more comfortable and reassuring.",
-
-  story: [
-    "His role is not simply arranging transportation or appointments. He helps make your dental journey easier to understand, better organized and more comfortable from your arrival until you return home.",
-  ],
-
-  quote:
-    "You should never feel alone when travelling abroad for dental treatment.",
-
-  cta: {
-    label: "Talk With A Sử",
-  },
-
-  imageCard: {
-    role: "International Patient Journey Manager",
     description:
-      "Helping you communicate, coordinate and travel with confidence throughout your dental journey in Vietnam.",
-  },
+      "When you decide to travel to Vietnam for dental treatment, A Sử helps coordinate your journey—from preparation and airport arrival to communication, transportation and your return home.",
 
-  services: [
-    {
-      title: "Pre-Arrival Planning",
-      description:
-        "Helping you prepare your travel schedule, appointments and important details before you leave home.",
+    imageAlt:
+      "A Sử (Txhim), International Patient Journey Manager supporting an international dental journey in Vietnam",
+
+    badge: "PATIENT JOURNEY MANAGER",
+
+    heading: "You don't have to manage every step alone.",
+
+    intro:
+      "Traveling to another country for dental treatment can feel uncertain. A new language, unfamiliar surroundings and many practical details can make the journey feel overwhelming. A Sử helps make each step clearer, more organized and more reassuring.",
+
+    story: [
+      "Before you travel, A Sử helps prepare your schedule, answers practical questions and explains what you need to know before arriving in Vietnam.",
+      "When you arrive, A Sử or an assigned team member welcomes you at the airport and helps with transportation and accommodation according to your confirmed journey plan.",
+      "During your stay, A Sử supports communication, appointment coordination, transportation and practical day-to-day needs.",
+      "A Sử is not a dentist or treatment provider. He is your point of contact, helping you feel understood, supported and able to reach someone whenever you need assistance.",
+    ],
+
+    quote:
+      "Sometimes the greatest reassurance is knowing someone is there when you need help.",
+
+    cta: {
+      label: "Talk With A Sử",
     },
-    {
-      title: "Airport Welcome",
+
+    imageCard: {
+      role: "International Patient Journey Manager",
       description:
-        "Meeting you when you arrive and helping your journey in Vietnam begin comfortably.",
+        "Supporting communication, scheduling and practical needs throughout your dental journey in Vietnam.",
     },
-    {
-      title: "Multilingual Communication",
-      description:
-        "Helping you communicate clearly and confidently with trusted clinical partners whenever needed.",
+
+    services: {
+      planning: {
+        title: "Pre-Arrival Planning",
+        description:
+          "Preparing your travel schedule, expected appointments and important details before you leave home.",
+      },
+      airportWelcome: {
+        title: "Airport Welcome",
+        description:
+          "Welcoming you on arrival and helping with transportation according to your confirmed journey plan.",
+      },
+      communication: {
+        title: "Multilingual Communication",
+        description:
+          "Helping you communicate clearly with dental partners and the support team whenever needed.",
+      },
+      coordination: {
+        title: "Journey Coordination",
+        description:
+          "Coordinating appointments, transportation and practical support throughout your stay in Vietnam.",
+      },
+      memories: {
+        title: "Journey Memories",
+        description:
+          "With your permission, the team can help capture photos and videos so you can keep meaningful memories of your time in Vietnam.",
+      },
     },
-    {
-      title: "Journey Coordination",
-      description:
-        "Coordinating transportation, appointments, practical support and follow-up visits throughout your stay.",
-    },
-    {
-      title: "Journey Memories",
-      description:
-        "Complimentary photos and videos can be created during your journey with your permission.",
-    },
-  ],
-},
+  },
 
  clinicalPartner: {
   sectionLabel: "Trusted Clinical Partner",

@@ -145,66 +145,73 @@ export const hmnDictionary: LocaleDictionary = {
     },
   },
 
-        coordinator: {
-  sectionLabel: "Ntsib A Sử",
+  coordinator: {
+    sectionLabel: "Ntsib A Sử",
 
-  title:
-  "Tus uas yuav nrog koj nyob txhua kauj ruam thaum koj nyob Nyab Laj.",
+    title:
+      "Tus uas yuav nrog pab koj txhua kauj ruam thaum koj nyob hauv Nyab Laj.",
 
-  description:
-    "Thaum koj txiav txim siab tuaj kho hniav hauv Nyab Laj, A Sử yog tus uas yuav nrog koj sib txuas lus, pab npaj txhua yam thiab nyob nrog koj txij hnub koj tuaj txog mus txog hnub koj rov qab mus tsev.",
+    description:
+      "Thaum koj txiav txim siab tuaj kho hniav hauv Nyab Laj, A Sử pab npaj thiab saib xyuas koj txoj kev taug—txij kev npaj ua ntej tuaj, tos txais tom tshav dav hlau, pab sib txuas lus thiab kev mus los mus txog hnub koj rov qab mus tsev.",
 
-  badge: "PATIENT JOURNEY MANAGER",
+    imageAlt:
+      "A Sử (Txhim), tus saib xyuas cov neeg txawv teb chaws txoj kev tuaj kho hniav hauv Nyab Laj",
 
-  heading:
-  "Koj tsis tas yuav ua txhua yam ib leeg.",
+    badge: "TUS SAIB XYUAS NEEG TUAJ KHO HNIAV TXOJ KEV TAUG",
 
-  intro:
-  "Kev mus kho hniav txawv teb chaws tej zaum yuav ua rau koj ntxhov siab. Lus txawv, teb chaws tshiab thiab ntau yam me me yuav ua rau nyuaj. A Sử yuav pab kom txhua kauj ruam yooj yim dua thiab ua rau koj muaj kev kaj siab.",
+    heading: "Koj tsis tas yuav npaj thiab ua txhua yam ib leeg.",
 
-  story: [
-    "Ua ntej koj tawm kev, A Sử pab teb lus nug, npaj sijhawm, piav txhua kauj ruam thiab pab koj npaj koj txoj kev tuaj kho hniav kom meej.",
-    "Thaum koj tuaj txog Nyab Laj, A Sử yuav tos txais koj dawb ntawm tshav dav hlau thiab nrog koj mus txog chaw so kom koj tsis tas txhawj txog kev mus los.",
-    "Thaum koj nyob hauv Nyab Laj, A Sử pab kev sib txuas lus, teem sijhawm nrog tus khub kho hniav, pab kev thauj mus los thiab nyob ze yog koj xav tau kev pab.",
-    "Txawm hnub koj rov qab mus tsev los, peb tseem pab npaj kev mus tshav dav hlau thiab saib xyuas kom koj txoj kev taug xaus zoo ib yam li thaum pib.",
-  ],
+    intro:
+      "Kev mus rau lwm lub teb chaws kho hniav yuav ua rau yus txhawj. Lus txawv, chaw tshiab thiab ntau yam uas yuav tau npaj ua rau txoj kev taug zoo li nyuaj. A Sử pab piav thiab npaj txhua kauj ruam kom meej, yooj yim thiab kaj siab dua.",
 
-  quote:
-  "Qee zaum qhov ua rau yus kaj siab tshaj yog paub tias muaj ib tug neeg nyob ntawd thaum yus xav tau kev pab.",
+    story: [
+      "Ua ntej koj tuaj, A Sử pab npaj sijhawm, teb cov lus nug txog kev mus los thiab piav tej yam uas koj yuav tsum paub ua ntej tuaj txog Nyab Laj.",
+      "Thaum koj tuaj txog, A Sử lossis ib tug hauv pab neeg yuav tos txais koj tom tshav dav hlau thiab pab koj mus rau qhov chaw so raws li txoj kev taug uas tau pom zoo tseg.",
+      "Thaum koj nyob hauv Nyab Laj, A Sử pab kev sib txuas lus, teem caij nrog tus khub kho hniav, kev mus los thiab tej yam uas koj xav tau txhua hnub.",
+      "A Sử tsis yog kws kho hniav thiab tsis yog tus kho koj. Nws yog tus uas koj tiv tauj tau, pab kom koj nkag siab thiab nrog pab koj thaum koj xav tau.",
+    ],
 
-  cta: {
-    label: "Sib Tham Nrog A Sử",
+    quote:
+      "Qee zaum qhov ua rau yus kaj siab tshaj yog paub tias muaj ib tug neeg nyob ntawd thaum yus xav tau kev pab.",
+
+    cta: {
+      label: "Sib Tham Nrog A Sử",
+    },
+
+    imageCard: {
+      role: "Tus Saib Xyuas Neeg Txawv Teb Chaws Txoj Kev Taug",
+      description:
+        "Pab koj sib txuas lus, npaj sijhawm thiab saib xyuas tej yam koj xav tau thaum tuaj kho hniav hauv Nyab Laj.",
+    },
+
+    services: {
+      planning: {
+        title: "Npaj Ua Ntej Koj Tuaj",
+        description:
+          "Pab npaj hnub tuaj, sijhawm teem thiab tej yam tseem ceeb uas koj yuav tsum paub ua ntej tawm kev.",
+      },
+      airportWelcome: {
+        title: "Tos Txais Tom Tshav Dav Hlau",
+        description:
+          "Tos txais koj thaum tuaj txog thiab pab kev mus los raws li txoj kev taug uas tau pom zoo tseg.",
+      },
+      communication: {
+        title: "Pab Kev Sib Txuas Lus",
+        description:
+          "Pab koj sib txuas lus kom meej nrog tus khub kho hniav thiab pab neeg thaum koj xav tau.",
+      },
+      coordination: {
+        title: "Saib Xyuas Koj Txoj Kev Taug",
+        description:
+          "Pab teem caij, npaj kev mus los thiab saib xyuas tej yam tseem ceeb thaum koj nyob hauv Nyab Laj.",
+      },
+      memories: {
+        title: "Khaws Tej Kev Nco Zoo",
+        description:
+          "Yog koj pom zoo, pab neeg yuav pab thaij duab thiab kaw yeeb yaj kiab kom koj khaws tau tej kev nco zoo thaum nyob hauv Nyab Laj.",
+      },
+    },
   },
-
- imageCard: {
-  role: "Tus Saib Xyuas Neeg Txawv Teb Chaws Txoj Kev Taug",
-  description:
-    "Pab koj sib txuas lus, npaj sijhawm thiab taug koj txoj kev kho hniav hauv Nyab Laj nrog kev tso siab.",
-},
-
-  services: [
-    {
-      title: "Npaj Koj Txoj Kev Tuaj Kho Hniav",
-      description:
-        "Pab npaj hnub tuaj, sijhawm, ntaub ntawv thiab txhua yam uas koj yuav tsum paub ua ntej tawm kev.",
-    },
-    {
-      title: "Tos Txais Dawb Ntawm Tshav Dav Hlau",
-      description:
-        "Peb pab neeg tos txais koj thaum tuaj txog thiab saib xyuas kev thauj mus los dawb thaum koj nyob hauv Nyab Laj.",
-    },
-    {
-      title: "Kev Sib Txuas Lus Yooj Yim",
-      description:
-        "Pab koj sib txuas lus nrog tus khub kho hniav kom koj nkag siab txhua kauj ruam thiab muaj kev tso siab.",
-    },
-    {
-      title: "Nrog Koj Txog Hnub Rov Qab",
-      description:
-        "Peb pab neeg tseem nrog saib xyuas thiab pab koj mus txog tshav dav hlau thaum koj npaj rov qab mus tsev.",
-    },
-  ],
-},
 
    clinicalPartner: {
   sectionLabel: "Tus Khub Kho Hniav Uas Ntseeg Siab",
