@@ -7,16 +7,19 @@ interface WhyImageProps {
 
 export function WhyImage({ src, alt }: WhyImageProps) {
   return (
-    <div className="relative overflow-hidden rounded-[2rem] border border-white/10 bg-white/[0.04] shadow-2xl shadow-cyan-950/30">
+    <div className="relative overflow-hidden rounded-[1.75rem] border border-primary/20 bg-card shadow-2xl shadow-black/35 md:rounded-[2rem]">
       <Image
         src={src}
         alt={alt}
         width={720}
         height={900}
-        className="h-full min-h-[420px] w-full object-cover"
+        sizes="(min-width: 1024px) 42vw, 100vw"
+        className="aspect-[4/5] h-auto w-full object-cover sm:aspect-[5/4] lg:aspect-[4/5]"
       />
 
-      <div className="absolute inset-0 bg-gradient-to-t from-slate-950/70 via-slate-950/10 to-transparent" />
+      <div className="absolute inset-0 bg-gradient-to-t from-background/70 via-background/5 to-transparent" />
+
+      <div className="pointer-events-none absolute inset-0 ring-1 ring-inset ring-primary/10" />
     </div>
   );
 }

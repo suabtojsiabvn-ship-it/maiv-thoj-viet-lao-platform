@@ -8,7 +8,7 @@ interface WhyGridProps {
 
 export function WhyGrid({ cards }: WhyGridProps) {
   return (
-    <div className="grid gap-4 sm:grid-cols-2">
+    <div className="grid gap-3 sm:grid-cols-2 md:gap-4">
       {cards.map((card) => (
         <WhyCard key={card.key} card={card} />
       ))}
