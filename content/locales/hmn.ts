@@ -35,7 +35,7 @@ export const hmnDictionary: LocaleDictionary = {
 
     actions: {
   primary: "Pib Koj Txoj Kev Taug",
-  secondary: "Tham Nrog A Sử ( xwm tsawb)",
+  secondary: "Tham Nrog A Sử (Txhim)",
 },
 
     highlights: {
