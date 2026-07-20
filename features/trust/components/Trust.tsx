@@ -18,12 +18,16 @@ export function Trust() {
   const { trust } = useTrust();
 
   return (
-    <Section className="bg-slate-50">
+    <Section
+      spacing="md"
+      className="border-b border-primary/15 bg-ivory text-ivory-foreground"
+    >
       <Container>
         <SectionHeading
           badge={trust.badge}
           title={trust.heading}
           description={trust.description}
+          tone="light"
         />
 
         <CountryGrid countries={trust.countries} />

@@ -15,6 +15,7 @@ export interface SectionHeadingProps {
   align?: "left" | "center";
   maxWidth?: keyof typeof maxWidthClasses;
   headingLevel?: 1 | 2 | 3;
+  tone?: "dark" | "light";
 }
 
 export function SectionHeading({
@@ -24,30 +25,46 @@ export function SectionHeading({
   align = "center",
   maxWidth = "md",
   headingLevel = 2,
+  tone = "dark",
 }: SectionHeadingProps) {
   const HeadingTag = `h${headingLevel}` as keyof React.JSX.IntrinsicElements;
 
   return (
     <div
       className={cn(
-        "mb-16",
+        "mb-10 md:mb-16",
         align === "center" ? "text-center" : "text-left"
       )}
     >
       {badge && (
-        <span className="inline-flex rounded-full border border-cyan-500/30 bg-cyan-500/10 px-4 py-1 text-sm font-medium text-cyan-300">
+        <span
+          className={cn(
+            "inline-flex rounded-full border px-4 py-1 text-sm font-medium",
+            tone === "light"
+              ? "border-primary/30 bg-primary/10 text-[#765817]"
+              : "border-primary/30 bg-primary/10 text-gold-soft"
+          )}
+        >
           {badge}
         </span>
       )}
 
-      <HeadingTag className="mt-5 text-4xl font-bold tracking-tight text-white lg:text-5xl">
+      <HeadingTag
+        className={cn(
+          "mt-5 text-balance font-heading text-3xl font-bold tracking-tight md:text-4xl lg:text-5xl",
+          tone === "light" ? "text-ivory-foreground" : "text-foreground"
+        )}
+      >
         {title}
       </HeadingTag>
 
       {description && (
         <p
           className={cn(
-            "mt-6 text-lg leading-8 text-slate-400",
+            "mt-5 text-base leading-7 md:mt-6 md:text-lg md:leading-8",
+            tone === "light"
+              ? "text-[#665f54]"
+              : "text-muted-foreground",
             maxWidthClasses[maxWidth],
             align === "center" && "mx-auto"
           )}

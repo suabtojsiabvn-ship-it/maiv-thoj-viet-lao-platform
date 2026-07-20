@@ -3,19 +3,31 @@ import { GlassCard } from "./glass-card";
 interface StatCardProps {
   value: string;
   label: string;
+  tone?: "dark" | "light";
 }
 
 export function StatCard({
   value,
   label,
+  tone = "dark",
 }: StatCardProps) {
   return (
-    <GlassCard className="flex flex-col items-center justify-center p-8 text-center">
-      <div className="text-4xl font-bold text-cyan-400">
+    <GlassCard
+      tone={tone}
+      className="flex flex-col items-center justify-center p-6 text-center md:p-8"
+    >
+      <div className="text-3xl font-bold text-primary md:text-4xl">
         {value}
       </div>
 
-      <p className="mt-2 text-sm text-slate-400">
+      <p
+        className={[
+          "mt-2 text-sm leading-5",
+          tone === "light"
+            ? "text-[#665f54]"
+            : "text-muted-foreground",
+        ].join(" ")}
+      >
         {label}
       </p>
     </GlassCard>
