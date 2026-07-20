@@ -8,10 +8,10 @@ export function FounderQuote({
   author,
 }: FounderQuoteProps) {
   return (
-    <blockquote className="rounded-3xl border border-cyan-400/20 bg-cyan-400/10 p-6 text-lg font-medium leading-8 text-white">
+    <blockquote className="rounded-3xl border border-primary/30 bg-white/65 p-5 text-base font-medium leading-7 text-ivory-foreground shadow-sm shadow-black/5 md:p-6 md:text-lg md:leading-8">
       <p>“{quote}”</p>
 
-      <cite className="mt-4 block text-sm font-semibold not-italic text-cyan-200">
+      <cite className="mt-4 block text-sm font-semibold not-italic text-[#765817]">
         — {author}
       </cite>
     </blockquote>
