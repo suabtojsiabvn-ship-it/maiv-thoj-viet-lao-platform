@@ -8,6 +8,10 @@ export const hmnDictionary: LocaleDictionary = {
     secondaryCta: "Nug Peb Pab Neeg Ua Ntej",
   },
   navigation: {
+    label: "Cov ntawv qhia tseem ceeb",
+    openMenu: "Qhib cov ntawv qhia",
+    closeMenu: "Kaw cov ntawv qhia",
+    language: "Xaiv hom lus",
     items: {
       home: "Tsev",
       treatments: "Kho Hniav",
@@ -31,7 +35,7 @@ export const hmnDictionary: LocaleDictionary = {
 
     actions: {
   primary: "Pib Koj Txoj Kev Taug",
-  secondary: "Tham Nrog A Sử ( xwm tsawb)",
+  secondary: "Tham Nrog A Sá»­ ( xwm tsawb)",
 },
 
     highlights: {
@@ -146,36 +150,36 @@ export const hmnDictionary: LocaleDictionary = {
   },
 
   coordinator: {
-    sectionLabel: "Ntsib A Sử",
+    sectionLabel: "Ntsib A Sá»­",
 
     title:
       "Tus uas yuav nrog pab koj txhua kauj ruam thaum koj nyob hauv Nyab Laj.",
 
     description:
-      "Thaum koj txiav txim siab tuaj kho hniav hauv Nyab Laj, A Sử pab npaj thiab saib xyuas koj txoj kev taug—txij kev npaj ua ntej tuaj, tos txais tom tshav dav hlau, pab sib txuas lus thiab kev mus los mus txog hnub koj rov qab mus tsev.",
+      "Thaum koj txiav txim siab tuaj kho hniav hauv Nyab Laj, A Sá»­ pab npaj thiab saib xyuas koj txoj kev taugâ€”txij kev npaj ua ntej tuaj, tos txais tom tshav dav hlau, pab sib txuas lus thiab kev mus los mus txog hnub koj rov qab mus tsev.",
 
     imageAlt:
-      "A Sử (Txhim), tus saib xyuas cov neeg txawv teb chaws txoj kev tuaj kho hniav hauv Nyab Laj",
+      "A Sá»­ (Txhim), tus saib xyuas cov neeg txawv teb chaws txoj kev tuaj kho hniav hauv Nyab Laj",
 
     badge: "TUS SAIB XYUAS NEEG TUAJ KHO HNIAV TXOJ KEV TAUG",
 
     heading: "Koj tsis tas yuav npaj thiab ua txhua yam ib leeg.",
 
     intro:
-      "Kev mus rau lwm lub teb chaws kho hniav yuav ua rau yus txhawj. Lus txawv, chaw tshiab thiab ntau yam uas yuav tau npaj ua rau txoj kev taug zoo li nyuaj. A Sử pab piav thiab npaj txhua kauj ruam kom meej, yooj yim thiab kaj siab dua.",
+      "Kev mus rau lwm lub teb chaws kho hniav yuav ua rau yus txhawj. Lus txawv, chaw tshiab thiab ntau yam uas yuav tau npaj ua rau txoj kev taug zoo li nyuaj. A Sá»­ pab piav thiab npaj txhua kauj ruam kom meej, yooj yim thiab kaj siab dua.",
 
     story: [
-      "Ua ntej koj tuaj, A Sử pab npaj sijhawm, teb cov lus nug txog kev mus los thiab piav tej yam uas koj yuav tsum paub ua ntej tuaj txog Nyab Laj.",
-      "Thaum koj tuaj txog, A Sử lossis ib tug hauv pab neeg yuav tos txais koj tom tshav dav hlau thiab pab koj mus rau qhov chaw so raws li txoj kev taug uas tau pom zoo tseg.",
-      "Thaum koj nyob hauv Nyab Laj, A Sử pab kev sib txuas lus, teem caij nrog tus khub kho hniav, kev mus los thiab tej yam uas koj xav tau txhua hnub.",
-      "A Sử tsis yog kws kho hniav thiab tsis yog tus kho koj. Nws yog tus uas koj tiv tauj tau, pab kom koj nkag siab thiab nrog pab koj thaum koj xav tau.",
+      "Ua ntej koj tuaj, A Sá»­ pab npaj sijhawm, teb cov lus nug txog kev mus los thiab piav tej yam uas koj yuav tsum paub ua ntej tuaj txog Nyab Laj.",
+      "Thaum koj tuaj txog, A Sá»­ lossis ib tug hauv pab neeg yuav tos txais koj tom tshav dav hlau thiab pab koj mus rau qhov chaw so raws li txoj kev taug uas tau pom zoo tseg.",
+      "Thaum koj nyob hauv Nyab Laj, A Sá»­ pab kev sib txuas lus, teem caij nrog tus khub kho hniav, kev mus los thiab tej yam uas koj xav tau txhua hnub.",
+      "A Sá»­ tsis yog kws kho hniav thiab tsis yog tus kho koj. Nws yog tus uas koj tiv tauj tau, pab kom koj nkag siab thiab nrog pab koj thaum koj xav tau.",
     ],
 
     quote:
       "Qee zaum qhov ua rau yus kaj siab tshaj yog paub tias muaj ib tug neeg nyob ntawd thaum yus xav tau kev pab.",
 
     cta: {
-      label: "Sib Tham Nrog A Sử",
+      label: "Sib Tham Nrog A Sá»­",
     },
 
     imageCard: {
@@ -231,7 +235,7 @@ export const hmnDictionary: LocaleDictionary = {
       "Thaum kev tso siab thiab kev txawj kho hniav los ua ke.",
 
     intro:
-      "Txhua tus muaj nws lub luag hauj lwm hauv koj txoj kev taug. Maiv Thoj pab kom koj pib nrog kev tso siab. A Sử (Txhim) nrog pab koj thaum nyob hauv Nyab Laj. Pab kws kho hniav ntawm An Nhien Dental yog cov tshuaj xyuas thiab kho koj, nyob rau hauv kev saib xyuas ntawm Dr. Toàn Nguyễn.",
+      "Txhua tus muaj nws lub luag hauj lwm hauv koj txoj kev taug. Maiv Thoj pab kom koj pib nrog kev tso siab. A Sá»­ (Txhim) nrog pab koj thaum nyob hauv Nyab Laj. Pab kws kho hniav ntawm An Nhien Dental yog cov tshuaj xyuas thiab kho koj, nyob rau hauv kev saib xyuas ntawm Dr. ToÃ n Nguyá»…n.",
 
     quote:
       "Txhua txoj kev luag ntxhi pib los ntawm kev mloog, tshuaj xyuas kom zoo thiab npaj txoj kev kho kom haum rau tus neeg ntawd.",
@@ -254,7 +258,7 @@ export const hmnDictionary: LocaleDictionary = {
       clinicalLeadership: {
         title: "Tus Kws Saib Xyuas Kev Kho Hniav",
         description:
-          "Dr. Toàn Nguyễn saib xyuas kev tshuaj xyuas, txheeb xyuas qhov teeb meem, npaj txoj kev kho thiab qhov zoo ntawm kev kho hniav.",
+          "Dr. ToÃ n Nguyá»…n saib xyuas kev tshuaj xyuas, txheeb xyuas qhov teeb meem, npaj txoj kev kho thiab qhov zoo ntawm kev kho hniav.",
       },
       digitalDentistry: {
         title: "Kev Kho Hniav Digital Niaj Hnub",
@@ -399,9 +403,9 @@ export const hmnDictionary: LocaleDictionary = {
   {
     id: "arrival",
     icon: "plane-takeoff",
-    title: "Hnub 1 • Tuaj Txog Nyab Laj",
+    title: "Hnub 1 â€¢ Tuaj Txog Nyab Laj",
     description:
-      "A Sử yuav tos txais koj ntawm tshav dav hlau Nội Bài siv peb lub tsheb. Yog koj tuaj ntxov ces peb yuav coj koj mus Kho Hniav tam sim. Yog tuaj tsaus lawm ces peb yuav coj koj mus tsev so kom so, tag kis mam pib koj txoj kev kho hniav.",
+      "A Sá»­ yuav tos txais koj ntawm tshav dav hlau Ná»™i BÃ i siv peb lub tsheb. Yog koj tuaj ntxov ces peb yuav coj koj mus Kho Hniav tam sim. Yog tuaj tsaus lawm ces peb yuav coj koj mus tsev so kom so, tag kis mam pib koj txoj kev kho hniav.",
   },
   {
     id: "consultation",
@@ -413,23 +417,23 @@ export const hmnDictionary: LocaleDictionary = {
   {
     id: "recovery",
     icon: "heart-pulse",
-    title: "Hnub 2 • So Los Yog Mus Ncig Hà Nội",
+    title: "Hnub 2 â€¢ So Los Yog Mus Ncig HÃ  Ná»™i",
     description:
-      "Tom qab kho hniav koj muaj sijhawm so. Yog koj lub sijhawm tso cai, A Sử yuav coj koj mus ncig Hà Nội, haus kas fes, noj mov thiab thaij duab, yees duab cia ua kev nco.",
+      "Tom qab kho hniav koj muaj sijhawm so. Yog koj lub sijhawm tso cai, A Sá»­ yuav coj koj mus ncig HÃ  Ná»™i, haus kas fes, noj mov thiab thaij duab, yees duab cia ua kev nco.",
   },
   {
     id: "smile",
     icon: "clipboard-list",
-    title: "Hnub 3 • Luag Ntxhi Tshiab",
+    title: "Hnub 3 â€¢ Luag Ntxhi Tshiab",
     description:
-      "Rov qab mus Kho Hniav los lắp hniav tiav, kho kom haum thiab xyuas qhov luag ntxhi. Yog koj pom zoo peb yuav thaij duab thiab yees duab cia ua kev nco.",
+      "Rov qab mus Kho Hniav los láº¯p hniav tiav, kho kom haum thiab xyuas qhov luag ntxhi. Yog koj pom zoo peb yuav thaij duab thiab yees duab cia ua kev nco.",
   },
   {
     id: "departure",
     icon: "car",
-    title: "Hnub 4 • Kuaj Zaum Kawg Thiab Rov Qab",
+    title: "Hnub 4 â€¢ Kuaj Zaum Kawg Thiab Rov Qab",
     description:
-      "Tom qab kuaj zaum kawg thiab qhia kev saib xyuas, A Sử yuav coj koj rov mus tshav dav hlau kom koj rov qab tsev nrog ib txoj kev luag ntxhi tshiab thiab ntau txoj kev nco zoo.",
+      "Tom qab kuaj zaum kawg thiab qhia kev saib xyuas, A Sá»­ yuav coj koj rov mus tshav dav hlau kom koj rov qab tsev nrog ib txoj kev luag ntxhi tshiab thiab ntau txoj kev nco zoo.",
   },
 ],
 
@@ -449,12 +453,12 @@ trust: {
     "Txhua txoj kev kho hniav raug npaj raws li koj qhov teeb meem hniav, sijhawm taug kev thiab koj tus kheej qhov kev xav tau.",
 
   countries: [
-    { code: "🇺🇸", name: "USA" },
-    { code: "🇫🇷", name: "France" },
-    { code: "🇦🇺", name: "Australia" },
-    { code: "🇱🇦", name: "Laos" },
-    { code: "🇹🇭", name: "Thailand" },
-    { code: "🇻🇳", name: "Vietnam" },
+    { code: "ðŸ‡ºðŸ‡¸", name: "USA" },
+    { code: "ðŸ‡«ðŸ‡·", name: "France" },
+    { code: "ðŸ‡¦ðŸ‡º", name: "Australia" },
+    { code: "ðŸ‡±ðŸ‡¦", name: "Laos" },
+    { code: "ðŸ‡¹ðŸ‡­", name: "Thailand" },
+    { code: "ðŸ‡»ðŸ‡³", name: "Vietnam" },
   ],
 transparency: {
   title: "Peb txoj kev cog lus kom meej",
@@ -591,7 +595,7 @@ transparency: {
     veneers: "Porcelain Veneers",
 
     consultation:
-      "Kuv Tseem Tsis Paub — Kuv Xav Tau Lus Qhia",
+      "Kuv Tseem Tsis Paub â€” Kuv Xav Tau Lus Qhia",
   },
 
   languages: {
@@ -665,7 +669,7 @@ patientJourney: {
       stage: "Tuaj Txog",
       title: "Tos Txais Tom Tshav Dav Hlau thiab Pab Thaum Tuaj Txog",
       description:
-        "A Sử (Txhim), tus saib xyuas qhua txoj kev taug, lossis ib tug hauv peb pab neeg yuav qhia qhov chaw sib ntsib thiab pab coj koj tawm ntawm tshav dav hlau raws li txoj kev taug uas tau pom zoo.",
+        "A Sá»­ (Txhim), tus saib xyuas qhua txoj kev taug, lossis ib tug hauv peb pab neeg yuav qhia qhov chaw sib ntsib thiab pab coj koj tawm ntawm tshav dav hlau raws li txoj kev taug uas tau pom zoo.",
       estimatedDuration: "Hnub tuaj txog",
     },
 

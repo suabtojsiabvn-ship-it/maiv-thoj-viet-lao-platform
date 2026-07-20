@@ -8,6 +8,10 @@ export const viDictionary: LocaleDictionary = {
     secondaryCta: "Hỏi đội ngũ trước",
   },
   navigation: {
+    label: "Điều hướng chính",
+    openMenu: "Mở menu",
+    closeMenu: "Đóng menu",
+    language: "Chọn ngôn ngữ",
     items: {
       home: "Trang chủ",
       treatments: "Điều trị",

@@ -25,7 +25,7 @@ export function BackHomeButton() {
     <Link
       href={homePath}
       aria-label={dictionary.navigation.items.home}
-      className="group flex h-10 shrink-0 items-center gap-2 rounded-full border border-white/15 bg-white/5 px-3 text-sm font-medium text-slate-200 transition hover:border-cyan-400/60 hover:bg-white/10 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-400"
+      className="group flex h-10 shrink-0 items-center gap-2 rounded-full border border-primary/25 bg-card/80 px-3 text-sm font-medium text-muted-foreground transition hover:border-primary/60 hover:bg-primary/10 hover:text-gold-soft focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 focus-visible:ring-offset-background"
     >
       <svg
         viewBox="0 0 20 20"

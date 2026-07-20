@@ -3,7 +3,10 @@
 import { usePathname, useRouter } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
 
-import { useCurrentLocale } from "@/hooks/useDictionary";
+import {
+  useCurrentLocale,
+  useDictionary,
+} from "@/hooks/useDictionary";
 import {
   getLocaleInfo,
   getSupportedLocales,
@@ -16,6 +19,7 @@ export function LanguageSwitcher() {
   const router = useRouter();
   const pathname = usePathname();
   const currentLocale = useCurrentLocale();
+  const dictionary = useDictionary();
 
   const [open, setOpen] = useState(false);
   const menuRef = useRef<HTMLDivElement>(null);
@@ -86,8 +90,9 @@ export function LanguageSwitcher() {
         type="button"
         aria-haspopup="menu"
         aria-expanded={open}
+        aria-label={dictionary.navigation.language}
         onClick={() => setOpen((current) => !current)}
-        className="flex h-10 items-center gap-2 rounded-full border border-white/15 bg-white/5 px-3 text-sm font-medium text-white transition hover:border-cyan-400/60 hover:bg-white/10 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-400"
+        className="flex h-10 items-center gap-2 rounded-full border border-primary/25 bg-card/80 px-3 text-sm font-medium text-foreground transition hover:border-primary/60 hover:bg-primary/10 hover:text-gold-soft focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 focus-visible:ring-offset-background"
       >
         <span
           aria-hidden="true"
@@ -122,8 +127,8 @@ export function LanguageSwitcher() {
       {open ? (
         <div
           role="menu"
-          aria-label="Language"
-          className="absolute right-0 top-full z-50 mt-3 w-52 origin-top-right overflow-hidden rounded-2xl border border-white/10 bg-slate-900/95 p-2 shadow-2xl shadow-black/40 backdrop-blur-xl"
+          aria-label={dictionary.navigation.language}
+          className="absolute right-0 top-full z-50 mt-3 w-52 origin-top-right overflow-hidden rounded-2xl border border-primary/20 bg-card/95 p-2 shadow-2xl shadow-black/50 backdrop-blur-xl"
         >
           {getSupportedLocales().map((code) => {
             const localeInfo = getLocaleInfo(code);
@@ -139,8 +144,8 @@ export function LanguageSwitcher() {
                 className={[
                   "flex w-full items-center justify-between rounded-xl px-3 py-2.5 text-left text-sm transition",
                   active
-                    ? "bg-cyan-500/15 text-cyan-300"
-                    : "text-slate-200 hover:bg-white/10 hover:text-white",
+                    ? "bg-primary/15 text-gold-soft"
+                    : "text-muted-foreground hover:bg-primary/10 hover:text-foreground",
                 ].join(" ")}
               >
                 <span>{localeInfo.nativeLabel}</span>

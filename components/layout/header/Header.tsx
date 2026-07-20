@@ -16,8 +16,13 @@ export function Header() {
           </div>
 
           <div className="flex shrink-0 items-center gap-3 lg:gap-6">
-            <Navigation />
-            <LanguageSwitcher />
+            <div className="order-2 xl:order-1">
+              <Navigation />
+            </div>
+
+            <div className="order-1 xl:order-2">
+              <LanguageSwitcher />
+            </div>
           </div>
         </div>
       </Container>

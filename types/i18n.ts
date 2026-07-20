@@ -21,9 +21,9 @@ export const localePriority = {
 export const localeLabels = {
   en: "English",
   hmn: "Hmong",
-  vi: "Tiếng Việt",
-  th: "ไทย",
-  lo: "ລາວ",
+  vi: "Tiáº¿ng Viá»‡t",
+  th: "à¹„à¸—à¸¢",
+  lo: "àº¥àº²àº§",
 } as const;
 
 export interface LocaleInfo {
@@ -41,6 +41,10 @@ export type LocaleNavigationItemKey =
   | "contact";
 
 export interface LocaleNavigationDictionary {
+  label: string;
+  openMenu: string;
+  closeMenu: string;
+  language: string;
   items: Record<LocaleNavigationItemKey, string>;
 }
 

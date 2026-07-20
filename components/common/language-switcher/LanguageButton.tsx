@@ -18,10 +18,10 @@ export function LanguageButton({
       type="button"
       onClick={onClick}
       className={[
-        "rounded-md px-3 py-2 text-sm transition-colors",
+        "rounded-lg px-3 py-2 text-sm font-medium transition-colors",
         active
           ? "bg-primary text-primary-foreground"
-          : "hover:bg-muted",
+          : "text-muted-foreground hover:bg-primary/10 hover:text-gold-soft",
       ].join(" ")}
     >
       {locale.nativeLabel}

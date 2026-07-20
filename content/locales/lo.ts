@@ -12,6 +12,10 @@ common: {
   secondaryCta: "ສອບຖາມທີມງານຂອງພວກເຮົາ",
 },
   navigation: {
+    label: "ເມນູຫຼັກ",
+    openMenu: "ເປີດເມນູ",
+    closeMenu: "ປິດເມນູ",
+    language: "ເລືອກພາສາ",
     items: {
       home: "ໜ້າຫຼັກ",
       treatments: "ການເຮັດແຂ້ວ",

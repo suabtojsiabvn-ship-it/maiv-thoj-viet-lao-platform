@@ -9,6 +9,10 @@ export const thDictionary: LocaleDictionary = {
     secondaryCta: "ถามทีมของเราก่อน",
   },
   navigation: {
+    label: "เมนูหลัก",
+    openMenu: "เปิดเมนู",
+    closeMenu: "ปิดเมนู",
+    language: "เลือกภาษา",
     items: {
       home: "หน้าหลัก",
       treatments: "การทำฟัน",

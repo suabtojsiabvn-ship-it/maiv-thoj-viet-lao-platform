@@ -8,6 +8,10 @@ export const enDictionary: LocaleDictionary = {
   secondaryCta: "Ask Our Team First",
 },
   navigation: {
+    label: "Main navigation",
+    openMenu: "Open menu",
+    closeMenu: "Close menu",
+    language: "Choose language",
     items: {
       home: "Home",
       treatments: "Treatments",
@@ -144,36 +148,36 @@ hero: {
   },
 
   coordinator: {
-    sectionLabel: "Meet A Sử",
+    sectionLabel: "Meet A Sá»­",
 
     title:
       "The person who stays beside you throughout your time in Vietnam.",
 
     description:
-      "When you decide to travel to Vietnam for dental treatment, A Sử helps coordinate your journey—from preparation and airport arrival to communication, transportation and your return home.",
+      "When you decide to travel to Vietnam for dental treatment, A Sá»­ helps coordinate your journeyâ€”from preparation and airport arrival to communication, transportation and your return home.",
 
     imageAlt:
-      "A Sử (Txhim), International Patient Journey Manager supporting an international dental journey in Vietnam",
+      "A Sá»­ (Txhim), International Patient Journey Manager supporting an international dental journey in Vietnam",
 
     badge: "PATIENT JOURNEY MANAGER",
 
     heading: "You don't have to manage every step alone.",
 
     intro:
-      "Traveling to another country for dental treatment can feel uncertain. A new language, unfamiliar surroundings and many practical details can make the journey feel overwhelming. A Sử helps make each step clearer, more organized and more reassuring.",
+      "Traveling to another country for dental treatment can feel uncertain. A new language, unfamiliar surroundings and many practical details can make the journey feel overwhelming. A Sá»­ helps make each step clearer, more organized and more reassuring.",
 
     story: [
-      "Before you travel, A Sử helps prepare your schedule, answers practical questions and explains what you need to know before arriving in Vietnam.",
-      "When you arrive, A Sử or an assigned team member welcomes you at the airport and helps with transportation and accommodation according to your confirmed journey plan.",
-      "During your stay, A Sử supports communication, appointment coordination, transportation and practical day-to-day needs.",
-      "A Sử is not a dentist or treatment provider. He is your point of contact, helping you feel understood, supported and able to reach someone whenever you need assistance.",
+      "Before you travel, A Sá»­ helps prepare your schedule, answers practical questions and explains what you need to know before arriving in Vietnam.",
+      "When you arrive, A Sá»­ or an assigned team member welcomes you at the airport and helps with transportation and accommodation according to your confirmed journey plan.",
+      "During your stay, A Sá»­ supports communication, appointment coordination, transportation and practical day-to-day needs.",
+      "A Sá»­ is not a dentist or treatment provider. He is your point of contact, helping you feel understood, supported and able to reach someone whenever you need assistance.",
     ],
 
     quote:
       "Sometimes the greatest reassurance is knowing someone is there when you need help.",
 
     cta: {
-      label: "Talk With A Sử",
+      label: "Talk With A Sá»­",
     },
 
     imageCard: {
@@ -229,7 +233,7 @@ hero: {
       "Where trusted guidance meets professional dental expertise.",
 
     intro:
-      "Everyone has a clear role in your journey. Maiv Thoj helps you begin with trust. A Sử (Txhim) supports your journey in Vietnam. Your clinical examination and dental treatment are provided by the team at An Nhien Dental, with clinical oversight from Dr. Toàn Nguyễn.",
+      "Everyone has a clear role in your journey. Maiv Thoj helps you begin with trust. A Sá»­ (Txhim) supports your journey in Vietnam. Your clinical examination and dental treatment are provided by the team at An Nhien Dental, with clinical oversight from Dr. ToÃ n Nguyá»…n.",
 
     quote:
       "Every smile begins with listening, careful examination and a treatment plan suited to the individual.",
@@ -252,7 +256,7 @@ hero: {
       clinicalLeadership: {
         title: "Professional Clinical Leadership",
         description:
-          "Dr. Toàn Nguyễn oversees examination, diagnosis, treatment planning and clinical quality throughout the treatment process.",
+          "Dr. ToÃ n Nguyá»…n oversees examination, diagnosis, treatment planning and clinical quality throughout the treatment process.",
       },
       digitalDentistry: {
         title: "Modern Digital Dentistry",
@@ -397,7 +401,7 @@ hero: {
   {
     id: "arrival",
     icon: "plane-takeoff",
-    title: "Day 1 • Arrival in Vietnam",
+    title: "Day 1 â€¢ Arrival in Vietnam",
     description:
       "A Su personally welcomes you at Noi Bai International Airport with our private vehicle. If your flight arrives early, you'll be taken directly to our trusted clinical partner for your consultation, CT scan and treatment planning. If you arrive late, we'll first take you to your hotel so you can rest before your appointment the following morning.",
   },
@@ -411,21 +415,21 @@ hero: {
   {
     id: "recovery",
     icon: "heart-pulse",
-    title: "Day 2 • Recovery & Hanoi Experience",
+    title: "Day 2 â€¢ Recovery & Hanoi Experience",
     description:
       "Most patients spend this day resting. If your schedule allows, A Su can accompany you to explore Hanoi, enjoy local cuisine and coffee, while capturing beautiful memories with photos and videos.",
   },
   {
     id: "smile",
     icon: "clipboard-list",
-    title: "Day 3 • Your New Smile",
+    title: "Day 3 â€¢ Your New Smile",
     description:
       "Return to the clinic for your final restoration, bite adjustment and smile evaluation. Professional photos and journey videos can be created with your permission.",
   },
   {
     id: "departure",
     icon: "car",
-    title: "Day 4 • Final Check & Departure",
+    title: "Day 4 â€¢ Final Check & Departure",
     description:
       "After your final check-up and aftercare instructions, A Su takes you back to the airport. You return home with a confident smile and meaningful memories from Vietnam.",
   },
@@ -447,12 +451,12 @@ trust: {
     "Every treatment journey is personalized based on your dental needs, travel schedule and treatment plan.",
 
   countries: [
-    { code: "🇺🇸", name: "USA" },
-    { code: "🇫🇷", name: "France" },
-    { code: "🇦🇺", name: "Australia" },
-    { code: "🇱🇦", name: "Laos" },
-    { code: "🇹🇭", name: "Thailand" },
-    { code: "🇻🇳", name: "Vietnam" },
+    { code: "ðŸ‡ºðŸ‡¸", name: "USA" },
+    { code: "ðŸ‡«ðŸ‡·", name: "France" },
+    { code: "ðŸ‡¦ðŸ‡º", name: "Australia" },
+    { code: "ðŸ‡±ðŸ‡¦", name: "Laos" },
+    { code: "ðŸ‡¹ðŸ‡­", name: "Thailand" },
+    { code: "ðŸ‡»ðŸ‡³", name: "Vietnam" },
   ],
 
   transparency: {
@@ -591,7 +595,7 @@ trust: {
     veneers: "Porcelain Veneers",
 
     consultation:
-      "I'm Not Sure Yet — I'd Like Some Advice",
+      "I'm Not Sure Yet â€” I'd Like Some Advice",
   },
 
   languages: {
@@ -664,7 +668,7 @@ patientJourney: {
       title:
         "Airport Pickup and Arrival Support",
       description:
-        "A Sử (Txhim), Patient Journey Manager, or an assigned team member coordinates the meeting point and supports your transfer from the airport according to the confirmed journey plan.",
+        "A Sá»­ (Txhim), Patient Journey Manager, or an assigned team member coordinates the meeting point and supports your transfer from the airport according to the confirmed journey plan.",
       estimatedDuration: "Arrival day",
     },
 
@@ -860,7 +864,7 @@ pages: {
 
   footer: {
     description:
-  "Maiv Thoj Viet Lao supports Hmong families and international patients throughout their dental journey to Vietnam—from the first conversation and travel planning to airport pickup, treatment coordination, and ongoing support after returning home.",
+  "Maiv Thoj Viet Lao supports Hmong families and international patients throughout their dental journey to Vietnamâ€”from the first conversation and travel planning to airport pickup, treatment coordination, and ongoing support after returning home.",
     sections: {
       treatments: {
         title: "Services",
