@@ -38,8 +38,8 @@ export function Navigation() {
             className={[
               "relative py-2 text-sm font-medium transition-colors duration-300",
               active
-                ? "text-cyan-300"
-                : "text-slate-300 hover:text-cyan-300",
+                ? "text-gold-soft"
+                : "text-muted-foreground hover:text-primary",
             ].join(" ")}
           >
             {dictionary.navigation.items[item.key]}
@@ -47,10 +47,8 @@ export function Navigation() {
             <span
               aria-hidden="true"
               className={[
-                "absolute inset-x-0 -bottom-0.5 h-0.5 origin-center rounded-full bg-cyan-400 transition-transform duration-300",
-                active
-                  ? "scale-x-100"
-                  : "scale-x-0",
+                "absolute inset-x-0 -bottom-0.5 h-0.5 origin-center rounded-full bg-primary transition-transform duration-300",
+                active ? "scale-x-100" : "scale-x-0",
               ].join(" ")}
             />
           </Link>

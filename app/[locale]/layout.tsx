@@ -32,7 +32,7 @@ export default async function LocaleLayout({
 
   return (
     <LocaleProvider locale={locale as Locale}>
-      <div className="flex min-h-screen flex-col bg-slate-950 text-white">
+      <div className="flex min-h-screen flex-col bg-background text-foreground">
         <Header />
 
         <div className="flex-1">{children}</div>

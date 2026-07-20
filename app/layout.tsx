@@ -8,12 +8,12 @@ import "./globals.css";
 
 const inter = Inter({
   subsets: ["latin", "vietnamese"],
-  variable: "--font-sans",
+  variable: "--font-inter",
 });
 
 const playfair = Playfair_Display({
   subsets: ["latin", "vietnamese"],
-  variable: "--font-heading",
+  variable: "--font-display",
 });
 
 export const metadata: Metadata = defaultMetadata;

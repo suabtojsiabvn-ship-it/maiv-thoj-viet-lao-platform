@@ -47,27 +47,17 @@ export default async function HomePage({
   }
 
   return (
-    <main className="min-h-screen bg-slate-950 text-white">
+    <main className="min-h-screen bg-background text-foreground">
       <Hero />
-
       <Trust />
-
       <Why />
-
       <Founder />
-
       <Coordinator />
-
       <ClinicalPartner />
-
       <PatientJourney />
-
       <Treatments />
-
       <BeforeAfter />
-
       <Journey />
-
       <Booking />
     </main>
   );
