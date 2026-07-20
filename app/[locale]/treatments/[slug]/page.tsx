@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import Script from "next/script";
-import { notFound } from "next/navigation";
+import { notFound, redirect } from "next/navigation";
 
+import { getDictionary } from "@/content/locales";
 import {
   buildMetadata,
   createBreadcrumbSchema,
@@ -10,7 +11,7 @@ import {
   seo,
 } from "@/content/seo";
 import {
-  getTreatmentBySlug,
+  getTreatmentBySlugWithFallback,
   getTreatmentStaticParams,
 } from "@/content/treatments";
 import { TreatmentDetail } from "@/features/treatment-detail";
@@ -37,7 +38,7 @@ export async function generateMetadata({
     return {};
   }
 
-  const treatment = getTreatmentBySlug(
+  const treatment = getTreatmentBySlugWithFallback(
     locale as Locale,
     slug,
   );
@@ -55,7 +56,7 @@ export async function generateMetadata({
     image:
       treatment.seo.image ??
       treatment.media.og,
-    locale,
+    locale: treatment.locale,
   });
 }
 
@@ -68,7 +69,7 @@ export default async function TreatmentDetailPage({
     notFound();
   }
 
-  const treatment = getTreatmentBySlug(
+  const treatment = getTreatmentBySlugWithFallback(
     locale as Locale,
     slug,
   );
@@ -76,6 +77,14 @@ export default async function TreatmentDetailPage({
   if (!treatment) {
     notFound();
   }
+
+  if (treatment.locale !== locale) {
+    redirect(
+      `/${treatment.locale}/treatments/${treatment.slug}`,
+    );
+  }
+
+  const dictionary = await getDictionary(locale);
 
   const canonicalPath =
     treatment.seo.canonical ??
@@ -105,11 +114,11 @@ export default async function TreatmentDetailPage({
   const breadcrumbSchema =
     createBreadcrumbSchema([
       {
-        name: "Home",
+        name: dictionary.navigation.items.home,
         url: homeUrl,
       },
       {
-        name: "Treatments",
+        name: dictionary.navigation.items.treatments,
         url: treatmentsUrl,
       },
       {

@@ -7,7 +7,7 @@ export function TreatmentGrid() {
   const { items } = useTreatments();
 
   return (
-    <div className="mt-16 grid items-stretch gap-8 md:grid-cols-2">
+    <div className="mt-10 grid items-stretch gap-4 md:mt-14 md:grid-cols-2 md:gap-6 lg:gap-8">
       {items.map((treatment) => (
         <TreatmentCard
           key={treatment.slug}

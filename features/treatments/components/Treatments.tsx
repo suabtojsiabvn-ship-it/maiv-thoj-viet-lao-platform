@@ -13,12 +13,16 @@ export function Treatments() {
   const { treatments } = useTreatments();
 
   return (
-    <Section className="bg-slate-950">
+    <Section
+      spacing="md"
+      className="border-b border-primary/15 bg-ivory text-ivory-foreground"
+    >
       <Container>
         <SectionHeading
           badge={treatments.sectionLabel}
           title={treatments.title}
           description={treatments.description}
+          tone="light"
         />
 
         <TreatmentGrid />

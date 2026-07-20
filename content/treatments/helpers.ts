@@ -55,3 +55,16 @@ export function getTreatmentStaticParams() {
     slug: treatment.slug,
   }));
 }
+
+export function getTreatmentBySlugWithFallback(
+  locale: Locale,
+  slug: string,
+  fallbackLocale: Locale = "en",
+): TreatmentContent | undefined {
+  return (
+    getTreatmentBySlug(locale, slug) ??
+    (locale === fallbackLocale
+      ? undefined
+      : getTreatmentBySlug(fallbackLocale, slug))
+  );
+}
