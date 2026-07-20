@@ -15,10 +15,16 @@ export function Hero() {
   const hero = useHero();
 
   return (
-    <Section className="relative min-h-screen overflow-hidden">
+    <Section
+      spacing="sm"
+      className="overflow-hidden border-b border-primary/10"
+    >
       <HeroBackground />
 
-      <Container className="relative z-10 flex min-h-screen flex-col justify-center">
+      <Container
+        size="lg"
+        className="relative z-10"
+      >
         <MotionSection>
           <div className="relative z-10 mx-auto flex max-w-5xl flex-col items-center text-center">
             <HeroContent

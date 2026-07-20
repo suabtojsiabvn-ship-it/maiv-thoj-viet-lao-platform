@@ -11,6 +11,9 @@ const badgeVariants = {
   cyan:
     "border border-cyan-500/20 bg-cyan-500/10 text-cyan-300",
 
+  gold:
+    "border border-primary/30 bg-primary/10 text-gold-soft",
+
   success:
     "border border-emerald-500/20 bg-emerald-500/10 text-emerald-300",
 

@@ -11,15 +11,15 @@ interface HeroStatsProps {
 export function HeroStats({ stats }: HeroStatsProps) {
   return (
     <FadeUp delay={0.5}>
-      <MotionList className="mt-14 grid w-full max-w-3xl grid-cols-3 gap-8">
+      <MotionList className="mt-10 grid w-full max-w-3xl grid-cols-3 gap-2 sm:gap-6 md:mt-12 md:gap-8">
         {stats.map((stat) => (
           <MotionItem key={stat.key}>
-            <div>
-              <div className="text-3xl font-bold text-cyan-400">
+            <div className="rounded-2xl border border-primary/10 bg-card/40 px-2 py-4 sm:px-4">
+              <div className="text-2xl font-bold text-primary sm:text-3xl">
                 {stat.value}
               </div>
 
-              <p className="mt-2 text-sm text-slate-400">
+              <p className="mt-2 text-xs leading-5 text-muted-foreground sm:text-sm">
                 {stat.label}
               </p>
             </div>
