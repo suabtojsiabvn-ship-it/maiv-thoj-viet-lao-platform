@@ -8,17 +8,17 @@ export function CoordinatorQuote({
   author,
 }: CoordinatorQuoteProps) {
   return (
-    <blockquote className="relative mt-10 overflow-hidden rounded-3xl border border-cyan-500/20 bg-cyan-500/5 p-8">
-      <div className="absolute left-6 top-4 text-6xl font-serif leading-none text-cyan-500/20">
+    <blockquote className="relative mt-8 overflow-hidden rounded-3xl border border-primary/20 bg-card/65 p-5 md:mt-10 md:p-8">
+      <div className="absolute left-5 top-3 font-serif text-6xl leading-none text-primary/20 md:left-6 md:top-4">
         &ldquo;
       </div>
 
-      <p className="relative z-10 text-lg italic leading-8 text-slate-200">
+      <p className="relative z-10 text-base italic leading-7 text-foreground md:text-lg md:leading-8">
         {quote}
       </p>
 
-      <footer className="mt-6 border-t border-white/10 pt-4">
-        <span className="text-sm font-semibold uppercase tracking-wide text-cyan-300">
+      <footer className="mt-5 border-t border-primary/15 pt-4 md:mt-6">
+        <span className="text-sm font-semibold uppercase tracking-wide text-primary">
           {author}
         </span>
       </footer>

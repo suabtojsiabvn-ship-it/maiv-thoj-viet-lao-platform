@@ -7,9 +7,13 @@ import { CoordinatorImage } from "./components/CoordinatorImage";
 
 export function Coordinator() {
   return (
-    <Section id="patient-coordinator" spacing="xl">
+    <Section
+      id="patient-coordinator"
+      spacing="md"
+      className="overflow-hidden border-b border-primary/10 bg-background"
+    >
       <Container>
-        <div className="grid items-center gap-20 lg:grid-cols-2">
+        <div className="grid items-center gap-10 lg:grid-cols-2 lg:gap-16">
           <CoordinatorImage
             src={peopleMedia.coordinator.profile}
           />
