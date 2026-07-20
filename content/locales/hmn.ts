@@ -36,7 +36,7 @@ export const hmnDictionary: LocaleDictionary = {
 
     highlights: {
       sectionLabel: "Yam ua rau cov neeg tuaj kho hniav tso siab",
-      heading: "Muaj tug neeg nrog koj txhua kauj ruam",
+      heading: "Muaj ib pab neeg nrog koj txhua kauj ruam",
 
       items: {
         consultation: {
@@ -70,43 +70,44 @@ export const hmnDictionary: LocaleDictionary = {
   },
 
   why: {
-  sectionLabel: "VIM LI CAS COV TSEV NEEG THIAJ NTSEEG SIAB",
+    sectionLabel:
+      "VIM LI CAS COV TSEV NEEG THIAJ TSO SIAB RAU MAIV THOJ VIET LAO",
 
-  title:
-  "Kev muaj ib tug neeg nrog koj tseem ceeb ib yam li qhov luag nyav uas koj xav tau.",
+    title:
+      "Thaum koj tuaj kho hniav, muaj neeg nrog koj txhua kauj ruam yog ib qho tseem ceeb heev.",
 
-  description:
-  "Kev tuaj kho hniav txawv teb chaws yog ib qho kev txiav txim siab loj. Peb xav kom koj txoj kev taug no muaj kev meej pem, muaj neeg nrog nraim thiab muaj kev npaj kom haum rau koj txij thawj zaug sib tham mus txog hnub koj rov qab mus tsev nrog koj txoj kev luag ntxhi tshiab.",
+    description:
+      "Kev mus rau lwm lub teb chaws kho hniav yog ib qho kev txiav txim siab loj. Peb pab piav txhua kauj ruam kom meej thiab yooj yim rau koj nkag siab, txij thawj zaug sib tham mus txog hnub koj rov qab mus tsev.",
 
-  imageAlt:
-    "Ib txoj kev taug kho hniav hauv Nyab Laj uas Maiv Thoj Viet Lao pab saib xyuas",
+    imageAlt:
+      "Ib tug neeg tuaj txawv teb chaws uas Maiv Thoj Viet Lao nrog nraim thaum tuaj kho hniav hauv Nyab Laj",
 
-  cards: {
-    guidance: {
-      title: "Kev Npaj Kho Hniav Raws Li Koj Tus Kheej",
-      description:
-        "Ua ntej pib kho hniav, kws kho hniav yuav tshuaj xyuas koj cov hniav kom ntxaws thiab npaj ib txoj kev kho uas haum rau koj tus mob, koj lub sijhawm thiab yam koj xav tau.",
-    },
+    cards: {
+      guidance: {
+        title: "Piav Kom Meej Ua Ntej Koj Txiav Txim",
+        description:
+          "Ua ntej koj txiav txim siab, peb yuav mloog tej uas koj txhawj, teb koj cov lus nug thiab pab koj nkag siab txog cov kev kho uas kws kho hniav yuav pom zoo tom qab tshuaj xyuas koj cov hniav.",
+      },
 
-    language: {
-      title: "Hais Yam Lus Uas Koj Hnov Xis",
-      description:
-        "Txawm koj hais lus Askiv, Hmoob thoob ntiaj teb, Nyab Laj, Thaib lossis Nplog, peb yuav pab kom kev sib tham meej thiab yooj yim rau koj.",
-    },
+      language: {
+        title: "Hais Yam Lus Uas Koj Xis Tshaj",
+        description:
+          "Txawm koj hais lus Askiv, lus Hmoob, lus Nyab Laj, lus Thaib lossis lus Nplog, peb yuav pab kom txhua txoj kev sib tham meej thiab yooj yim rau koj.",
+      },
 
-    coordination: {
-      title: "Kev Pab Uas Dhau Ntawm Chav Kho hniav",
-      description:
-        "Txij thaum koj tuaj txog tshav dav hlau, kev thauj mus los, caij ntsib kws kho hniav, kev pab sib txuas lus thiab tej yam me me txhua hnub, peb yuav pab koj thaum koj nyob hauv Nyab Laj.",
-    },
+      coordination: {
+        title: "Kev Pab Tsis Yog Nyob Hauv Chav Kho Hniav Xwb",
+        description:
+          "Txij thaum tuaj txog tshav dav hlau, kev mus los, caij ntsib kws kho hniav, kev txhais lus mus txog tej yam koj xav tau txhua hnub, yuav muaj neeg pab koj thaum koj nyob hauv Nyab Laj.",
+      },
 
-    care: {
-      title: "Tsis Yog Kev Tuaj Kho hniav Xwb",
-      description:
-        "Yog koj lub sijhawm tso cai, peb vam tias koj lub sijhawm hauv Nyab Laj yuav tsis yog tsuas yog kev kho xwb, tab sis yog ib txoj kev taug muaj nqis thiab muaj kev nco zoo coj rov qab mus tsev.",
+      care: {
+        title: "Tsis Yog Tuaj Kho Hniav Xwb",
+        description:
+          "Yog koj lub sijhawm kho hniav tso cai, peb kuj pab tau koj npaj mus ncig thiab paub txog Nyab Laj, kom txoj kev taug no muaj kev nco zoo tshaj li kev tuaj kho hniav xwb.",
+      },
     },
   },
-},
 
   founder: {
     sectionLabel: "Ntsib Maiv Thoj",

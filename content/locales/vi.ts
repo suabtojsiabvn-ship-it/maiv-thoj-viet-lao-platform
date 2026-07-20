@@ -35,32 +35,32 @@ export const viDictionary: LocaleDictionary = {
     },
 
     highlights: {
-  sectionLabel: "Vì sao khách hàng luôn cảm thấy an tâm",
-  heading: "Đội ngũ tận tâm đồng hành trong suốt hành trình của bạn",
+      sectionLabel: "Vì sao khách hàng cảm thấy an tâm",
+      heading: "Một đội ngũ đồng hành trọn vẹn trong suốt hành trình",
 
-  items: {
-    consultation: {
-      title: "Trao đổi trước, quyết định sau",
-      description:
-        "Bạn có thể trò chuyện cùng đội ngũ của chúng tôi, chia sẻ những điều còn băn khoăn và tìm hiểu rõ các lựa chọn trước khi đưa ra quyết định.",
+      items: {
+        consultation: {
+          title: "Hỏi trước, quyết định sau",
+          description:
+            "Bạn có thể trao đổi với đội ngũ, chia sẻ điều mình lo lắng và hiểu rõ các lựa chọn trước khi đưa ra quyết định.",
+        },
+        airportPickup: {
+          title: "Có người đón bạn tại Việt Nam",
+          description:
+            "Khi bạn đến nơi, đội ngũ sẽ hỗ trợ đón sân bay, đưa đón và đồng hành cùng bạn trong suốt thời gian ở Việt Nam.",
+        },
+        multilingualSupport: {
+          title: "Giao tiếp bằng ngôn ngữ bạn thấy thoải mái",
+          description:
+            "Hỗ trợ tiếng Anh, H'Mông quốc tế, Việt, Lào và Thái để việc trao đổi trở nên dễ hiểu và gần gũi hơn.",
+        },
+        clinicalPartner: {
+          title: "Chăm sóc nha khoa đáng tin cậy",
+          description:
+            "Việc làm răng được thực hiện bởi các đối tác nha khoa đáng tin cậy như An Nhien Dental, dưới sự phụ trách chuyên môn của Dr. Toan Nguyen.",
+        },
+      },
     },
-    airportPickup: {
-      title: "Đón tiếp ngay khi bạn đến Việt Nam",
-      description:
-        "Khi bạn đến Việt Nam, đội ngũ của chúng tôi sẽ hỗ trợ đón tại sân bay, đưa đón và giúp bạn giải quyết những nhu cầu thiết thực trong suốt thời gian lưu trú.",
-    },
-    multilingualSupport: {
-      title: "Giao tiếp dễ dàng và thoải mái",
-      description:
-        "Chúng tôi hỗ trợ bằng tiếng Anh, tiếng Hmong Quốc tế, tiếng Việt, tiếng Lào và tiếng Thái, giúp bạn dễ dàng trao đổi trong suốt hành trình.",
-    },
-    clinicalPartner: {
-      title: "Chăm sóc nha khoa đáng tin cậy",
-      description:
-        "Việc điều trị nha khoa được thực hiện bởi các đối tác chuyên môn uy tín như Nha khoa An Nhiên, dưới sự phụ trách của bác sĩ Toàn Nguyễn.",
-    },
-  },
-},
 
     stats: {
       facebookCommunity: "454K+ cộng đồng Facebook",
@@ -70,40 +70,40 @@ export const viDictionary: LocaleDictionary = {
   },
 
   why: {
-    sectionLabel: "Vì sao chọn Maiv Thoj Viet Lao",
+    sectionLabel: "VÌ SAO CÁC GIA ĐÌNH TIN TƯỞNG MAIV THOJ VIET LAO",
 
     title:
-      "Bởi vì cảm giác được đồng hành cũng quan trọng như kết quả làm răng.",
+      "Có người đồng hành cùng bạn là điều rất quan trọng trong suốt hành trình làm răng.",
 
     description:
-      "Lựa chọn sang Việt Nam để làm răng không chỉ là chuyện điều trị. Đó là một hành trình cần sự rõ ràng, tin tưởng và có người thật sự ở bên hỗ trợ bạn trong từng bước.",
+      "Sang một quốc gia khác để làm răng là một quyết định lớn. Chúng tôi giúp từng bước trở nên rõ ràng và dễ hiểu hơn, từ cuộc trò chuyện đầu tiên cho đến khi bạn trở về nhà.",
 
     imageAlt:
-      "Hành trình làm răng tại Việt Nam được Maiv Thoj Viet Lao đồng hành",
+      "Khách hàng quốc tế được Maiv Thoj Viet Lao đồng hành trong hành trình làm răng tại Việt Nam",
 
     cards: {
       guidance: {
-        title: "Một hành trình bắt đầu từ sự tin tưởng",
+        title: "Được giải thích rõ trước khi quyết định",
         description:
-          "Trước khi bạn quyết định, đội ngũ sẽ lắng nghe, trả lời câu hỏi và giúp bạn hiểu rõ điều gì phù hợp với mình.",
+          "Trước khi bạn quyết định, chúng tôi lắng nghe điều bạn lo lắng, trả lời câu hỏi và giúp bạn hiểu những phương án bác sĩ có thể đề xuất sau khi thăm khám.",
       },
 
       language: {
-        title: "Nói bằng ngôn ngữ bạn thấy thoải mái",
+        title: "Trao đổi bằng ngôn ngữ bạn thấy thoải mái nhất",
         description:
-          "Dù bạn dùng tiếng Anh, H'Mông quốc tế, Việt, Thái hay Lào, chúng tôi sẽ cố gắng để mọi cuộc trao đổi rõ ràng và dễ hiểu hơn.",
+          "Dù bạn nói tiếng Anh, H'Mông quốc tế, Việt, Thái hay Lào, chúng tôi sẽ giúp mọi cuộc trao đổi trở nên rõ ràng và thoải mái hơn.",
       },
 
       coordination: {
-        title: "Hỗ trợ không chỉ ở phòng khám",
+        title: "Hỗ trợ không chỉ ở phòng khám nha khoa",
         description:
-          "Từ lúc đến sân bay, di chuyển, lịch hẹn, phiên dịch cho đến những việc nhỏ trong thời gian ở Việt Nam, bạn luôn có người hỗ trợ.",
+          "Từ lúc đến sân bay, di chuyển, lịch hẹn, phiên dịch cho đến những nhu cầu thiết thực, bạn luôn có người hỗ trợ trong thời gian ở Việt Nam.",
       },
 
       care: {
         title: "Không chỉ là một chuyến đi làm răng",
         description:
-          "Khi lịch trình cho phép, chúng tôi mong thời gian của bạn tại Việt Nam không chỉ là điều trị, mà còn là một hành trình có ý nghĩa để nhớ về.",
+          "Khi lịch trình điều trị cho phép, chúng tôi cũng có thể giúp bạn lên kế hoạch cho những trải nghiệm ý nghĩa tại Việt Nam, để hành trình này có thêm nhiều kỷ niệm ngoài việc làm răng.",
       },
     },
   },

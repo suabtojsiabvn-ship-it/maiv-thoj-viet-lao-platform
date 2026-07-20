@@ -35,33 +35,33 @@ hero: {
   secondary: "Talk With A Su",
 },
 
- highlights: {
-      sectionLabel: "Why patients feel safe",
-      heading: "A complete team for your journey",
+  highlights: {
+    sectionLabel: "Why patients feel safe",
+    heading: "A complete team for your journey",
 
-      items: {
-        consultation: {
-          title: "Ask First, Decide Later",
-          description:
-            "You can talk with our team, share your concerns and understand your options before making any decision.",
-        },
-        airportPickup: {
-          title: "Welcomed in Vietnam",
-          description:
-            "TWhen you arrive, our team helps with airport pickup, transportation and practical support during your stay.",
-        },
-        multilingualSupport: {
-          title: "You Can Speak Comfortably",
-          description:
-            "Support is available in English, International Hmong, Vietnamese, Lao and Thai so communication feels easier.",
-        },
-        clinicalPartner: {
-          title: "Trusted Clinical Care",
-          description:
-            "Dental treatment is provided by trusted clinical partners such as An Nhien Dental, led by Dr. Toan Nguyen.",
-        },
+    items: {
+      consultation: {
+        title: "Ask First, Decide Later",
+        description:
+          "You can talk with our team, share your concerns and understand your options before making any decision.",
+      },
+      airportPickup: {
+        title: "Welcomed in Vietnam",
+        description:
+          "When you arrive, our team helps with airport pickup, transportation and practical support during your stay.",
+      },
+      multilingualSupport: {
+        title: "You Can Speak Comfortably",
+        description:
+          "Support is available in English, International Hmong, Vietnamese, Lao and Thai so communication feels easier.",
+      },
+      clinicalPartner: {
+        title: "Trusted Clinical Care",
+        description:
+          "Dental treatment is provided by trusted clinical partners such as An Nhien Dental, led by Dr. Toan Nguyen.",
       },
     },
+  },
 
   stats: {
     facebookCommunity: "454K+ Facebook Community",
@@ -69,44 +69,44 @@ hero: {
     languagesSupported: "5 Languages Supported",
   },
 },
-     why: {
-  sectionLabel: "WHY CHOOSE MAIV THOJ VIET LAO",
+  why: {
+    sectionLabel: "WHY FAMILIES TRUST MAIV THOJ VIET LAO",
 
-  title:
-  "Why Families Trust Us.",
+    title:
+      "Having someone beside you matters throughout your dental journey.",
 
-  description:
-  "Choosing dental treatment in another country is a big decision. Our goal is to make that journey feel clear, supported and personalized from your first conversation until you safely return home..",
+    description:
+      "Traveling to another country for dental treatment is a big decision. We help make each step clearer and easier to understand, from your first conversation until you return home.",
 
-  imageAlt:
-    "An international patient journey supported by Maiv Thoj Viet Lao in Vietnam",
+    imageAlt:
+      "An international patient supported by Maiv Thoj Viet Lao during a dental journey in Vietnam",
 
-  cards: {
-    guidance: {
-      title: "A Journey Built on Trust",
-      description:
-        "Before treatment begins, your dentist carefully evaluates your oral health and creates a treatment plan based on your clinical needs, available time and personal goals.",
-    },
+    cards: {
+      guidance: {
+        title: "Clear Guidance Before You Decide",
+        description:
+          "Before you decide, we listen to your concerns, answer your questions and help you understand the options a dentist may recommend after a clinical evaluation.",
+      },
 
-    language: {
-      title: "Speak in a Language You Feel Comfortable With",
-      description:
-        "Whether you speak English, International Hmong, Vietnamese, Thai or Lao, we do our best to make every conversation clear and comfortable.",
-    },
+      language: {
+        title: "Speak in the Language You Feel Most Comfortable With",
+        description:
+          "Whether you speak English, International Hmong, Vietnamese, Thai or Lao, we help make each conversation clear and comfortable.",
+      },
 
-    coordination: {
-      title: "Support Beyond the Clinic",
-      description:
-        "From airport arrival and transportation to appointments, interpretation and everyday assistance, you're supported throughout your stay in Vietnam.",
-    },
+      coordination: {
+        title: "Support Beyond the Dental Clinic",
+        description:
+          "From airport arrival and transportation to appointments, interpretation and practical needs, you have someone supporting you throughout your stay in Vietnam.",
+      },
 
-    care: {
-      title: "More Than a Medical Trip",
-      description:
-        "When your schedule allows, we hope your time in Vietnam becomes more than treatment—a meaningful journey with memories you'll be happy to take home.",
+      care: {
+        title: "More Than a Dental Trip",
+        description:
+          "When your treatment schedule allows, we can also help you plan meaningful experiences in Vietnam, so your journey can include memories beyond dental treatment.",
+      },
     },
   },
-},
 
   founder: {
   sectionLabel: "Meet Maiv Thoj",
