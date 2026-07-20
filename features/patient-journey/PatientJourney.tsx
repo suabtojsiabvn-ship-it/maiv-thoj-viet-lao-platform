@@ -33,8 +33,8 @@ export function PatientJourney() {
   return (
     <Section
       id="patient-journey"
-      className="border-t border-white/10 bg-slate-950"
-      spacing="xl"
+      className="border-b border-primary/10 bg-background"
+      spacing="md"
     >
       <Container size="lg">
         <SectionHeading
@@ -44,7 +44,7 @@ export function PatientJourney() {
           maxWidth="lg"
         />
 
-        <ol className="mx-auto mt-16 max-w-4xl">
+        <ol className="mx-auto mt-10 max-w-4xl md:mt-14">
           {steps.map((step, index) => (
             <TimelineItem
               key={step.id}
