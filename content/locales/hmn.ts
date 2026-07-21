@@ -833,6 +833,185 @@ export const hmnDictionary: LocaleDictionary = {
       },
     },
 
+    destinations: {
+      seo: {
+        title: "Tej Chaw Zoo Mus Saib Hauv Nyab Laj",
+        description:
+          "Kawm ntxiv txog tej chaw tiag hauv Nyab Laj uas koj yuav xav mus saib ua ntej lossis tom qab kho hniav, yog koj lub sijhawm thiab kev rov zoo tso cai.",
+      },
+      badge: "KAWM NTXIV TXOG NYAB LAJ",
+      heading: "Tej chaw zoo mus saib thaum koj tuaj Nyab Laj",
+      description:
+        "Yog sijhawm kho hniav thiab koj txoj kev rov zoo tso cai, tej chaw no yuav pab kom koj txoj kev tuaj Nyab Laj kaj siab thiab muaj kev nco zoo ntxiv.",
+      cardCta: "Kawm Ntxiv Txog Qhov Chaw No",
+      backLabel: "Rov Mus Saib Txhua Qhov Chaw",
+      bookingCta: "Tham Nrog Peb Npaj Koj Txoj Kev",
+      schema: {
+        collectionName: "Tej Chaw Zoo Mus Saib Hauv Nyab Laj",
+        breadcrumbHome: "Tsev",
+        breadcrumbCurrent: "Tej Chaw Mus Saib",
+      },
+      labels: {
+        country: "Teb chaws",
+        province: "Xeev",
+        district: "Cheeb tsam",
+        duration: "Sijhawm pom zoo",
+        highlights: "Yam zoo mus saib",
+        bestFor: "Zoo rau",
+        gallery: "Cov duab",
+        vietnam: "Nyab Laj",
+        regionalDestination: "Ib cheeb tsam ntawd",
+        flexibleJourney: "Npaj tau raws koj lub sijhawm",
+      },
+      emptyState: {
+        heading: "Peb tseem yuav ntxiv lwm qhov chaw",
+        description:
+          "Peb tab tom npaj ntxiv lwm qhov chaw tiag rau koj kawm txog.",
+      },
+      items: {
+        sapa: {
+          title: "Sa Pa",
+          summary:
+            "Sa Pa yog ib qho chaw nto moo nyob pem roob, muaj liaj teb ntaiv, huab cua txias, zos Hmoob thiab lwm haiv neeg, nrog roob hav zoo nkauj heev.",
+          highlights: [
+            {
+              title: "Liaj teb ntaiv",
+              description:
+                "Cov liaj teb ua ntu zus saum roob yog ib yam uas ua rau cheeb tsam no txawv thiab zoo nkauj.",
+            },
+            {
+              title: "Zos Hmoob thiab lwm haiv neeg",
+              description:
+                "Koj yuav pom kev ua neej, kab lis kev cai thiab zej zog nyob pem roob ze dua.",
+            },
+            {
+              title: "Huab cua txias",
+              description:
+                "Huab cua txias thiab kaj siab yuav haum rau kev mus so me ntsis tom qab kho hniav, yog koj rov zoo thiab kws kho hniav pom zoo.",
+            },
+          ],
+          bestFor: [
+            "Kab lis kev cai",
+            "Kev ua neej pem roob",
+            "Saib toj roob hauv pes",
+            "Thaij duab",
+          ],
+          recommendedDuration: "2–3 hnub",
+        },
+        "bac-ha": {
+          title: "Bắc Hà",
+          summary:
+            "Bắc Hà yog ib lub zos me nyob pem roob hauv Lào Cai, muaj khw tshav puam txhua lub lim tiam, ntau haiv neeg, toj roob hauv pes thiab lub neej zos uas nyob ntsiag to.",
+          highlights: [
+            {
+              title: "Khw tshav puam pem roob",
+              description:
+                "Ib qho chaw uas cov neeg hauv zos tuaj sib ntsib, muag khoom thiab nthuav lawv tej tsoos tsho thiab kab lis kev cai.",
+            },
+            {
+              title: "Kab lis kev cai hauv zos",
+              description:
+                "Koj yuav pom txoj kev ua neej yooj yim thiab sov siab ntawm cov zej zog nyob pem roob.",
+            },
+            {
+              title: "Zaub mov hauv zos",
+              description:
+                "Tej zaub mov hauv cheeb tsam muaj tsw qab thiab qhia tau txog txoj kev ua neej ntawm cov neeg nyob ntawd.",
+            },
+          ],
+          bestFor: [
+            "Kab lis kev cai",
+            "Khw hnub",
+            "Kev ua neej pem roob",
+            "Thaij duab",
+          ],
+          recommendedDuration: "2–3 hnub",
+        },
+        "ha-giang": {
+          title: "Hà Giang",
+          summary:
+            "Hà Giang nyob rau sab qaum teb Nyab Laj, muaj roob pob zeb siab, kev nkhaus saum roob, zos ntau haiv neeg thiab toj roob hauv pes uas pom ib zaug yeej nco ntev.",
+          highlights: [
+            {
+              title: "Roob pob zeb loj",
+              description:
+                "Cov roob sib tshooj ua rau cheeb tsam qaum teb no muaj ib qho kev zoo nkauj uas muaj zog thiab txawv heev.",
+            },
+            {
+              title: "Txoj kev saum roob",
+              description:
+                "Cov kev nkhaus thiab chaw nres saib toj roob hauv pes zoo rau kev tshawb xyuas thiab thaij duab.",
+            },
+            {
+              title: "Zos nyob pem roob",
+              description:
+                "Cov zej zog hauv zos tseem khaws lawv txoj kev ua neej thiab kab lis kev cai qub cia.",
+            },
+          ],
+          bestFor: [
+            "Tshawb xyuas",
+            "Saib roob",
+            "Kab lis kev cai",
+            "Thaij duab",
+          ],
+          recommendedDuration: "3–4 hnub",
+        },
+        "moc-chau": {
+          title: "Mộc Châu",
+          summary:
+            "Mộc Châu yog ib thaj toj siab ntsuab, muaj toj tshuaj yej, huab cua xis nyob, toj roob hauv pes mos muag thiab ntau qhov chaw mus so kaj siab.",
+          highlights: [
+            {
+              title: "Toj siab ntsuab",
+              description:
+                "Muaj toj tshuaj yej, tiaj nyom dav thiab huab cua ntshiab rau koj mus saib thiab so.",
+            },
+            {
+              title: "Toj roob hauv pes kaj siab",
+              description:
+                "Yuav haum rau kev mus so me ntsis tom qab kho hniav, yog koj rov zoo thiab kws kho hniav pom zoo.",
+            },
+            {
+              title: "Mus pom kev ua neej hauv zos",
+              description:
+                "Tej chaw ntuj thiab kab lis kev cai hauv zos pab kom txoj kev mus ncig luv luv muaj nqis ntxiv.",
+            },
+          ],
+          bestFor: ["Xwm ntuj", "Mus so", "Toj tshuaj yej", "Thaij duab"],
+          recommendedDuration: "2–3 hnub",
+        },
+        "ha-long": {
+          title: "Hạ Long",
+          summary:
+            "Hạ Long yog ib cheeb tsam ntug hiav txwv nto moo hauv Nyab Laj, muaj dej hiav txwv dav, pov txwv pob zeb, nkoj ncig thiab chaw so zoo.",
+          highlights: [
+            {
+              title: "Lub hiav txwv nto moo",
+              description:
+                "Hiav txwv thiab pov txwv pob zeb yuav haum rau kev mus so kaj siab tom qab kho hniav, yog koj rov zoo thiab kws kho hniav pom zoo.",
+            },
+            {
+              title: "Nkoj ncig thiab chaw so",
+              description:
+                "Muaj ntau hom nkoj thiab chaw nyob uas pab kom koj so tau yooj yim ntawm ntug hiav txwv.",
+            },
+            {
+              title: "Mus ncig kom kaj siab",
+              description:
+                "Zoo rau cov neeg tuaj txawv teb chaws uas xav siv sijhawm hauv Nyab Laj nrog ib txoj kev mus hiav txwv uas xis nyob.",
+            },
+          ],
+          bestFor: [
+            "Mus so",
+            "Caij nkoj",
+            "Saib hiav txwv",
+            "Mus ncig kom kaj siab",
+          ],
+          recommendedDuration: "2–3 hnub",
+        },
+      },
+    },
+
     travelGuide: {
       seo: {
         title: "Phau Ntawv Qhia Kev Mus Nyab Laj",
@@ -949,4 +1128,3 @@ export const hmnDictionary: LocaleDictionary = {
     },
   },
 };
-

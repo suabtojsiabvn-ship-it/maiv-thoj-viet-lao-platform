@@ -839,6 +839,170 @@ export const viDictionary: LocaleDictionary = {
       },
     },
 
+    destinations: {
+      seo: {
+        title: "Điểm Đến Tại Việt Nam",
+        description:
+          "Khám phá những điểm đến có thật tại Việt Nam mà bạn có thể ghé thăm trước hoặc sau khi làm răng, tùy lịch trình và tình trạng hồi phục.",
+      },
+      badge: "KHÁM PHÁ VIỆT NAM",
+      heading: "Những điểm đến đáng trải nghiệm trong thời gian ở Việt Nam",
+      description:
+        "Khi lịch điều trị và tình trạng hồi phục cho phép, những địa điểm này có thể giúp hành trình của bạn thêm thư thái và đáng nhớ.",
+      cardCta: "Khám Phá Điểm Đến",
+      backLabel: "Quay Lại Tất Cả Điểm Đến",
+      bookingCta: "Cùng Chúng Tôi Lên Kế Hoạch",
+      schema: {
+        collectionName: "Điểm Đến Tại Việt Nam",
+        breadcrumbHome: "Trang Chủ",
+        breadcrumbCurrent: "Điểm Đến",
+      },
+      labels: {
+        country: "Quốc gia",
+        province: "Tỉnh, thành",
+        district: "Khu vực",
+        duration: "Thời gian gợi ý",
+        highlights: "Trải nghiệm nổi bật",
+        bestFor: "Phù hợp với",
+        gallery: "Hình ảnh điểm đến",
+        vietnam: "Việt Nam",
+        regionalDestination: "Điểm đến trong khu vực",
+        flexibleJourney: "Lịch trình linh hoạt",
+      },
+      emptyState: {
+        heading: "Sắp có thêm điểm đến",
+        description:
+          "Chúng tôi đang chuẩn bị thêm nhiều địa điểm có thật để bạn khám phá.",
+      },
+      items: {
+        sapa: {
+          title: "Sa Pa",
+          summary:
+            "Sa Pa là điểm đến vùng cao nổi tiếng với ruộng bậc thang, khí hậu mát lành, bản làng dân tộc và khung cảnh núi non hùng vĩ.",
+          highlights: [
+            {
+              title: "Ruộng bậc thang",
+              description:
+                "Khung cảnh ruộng bậc thang đặc trưng của vùng núi Tây Bắc.",
+            },
+            {
+              title: "Bản làng dân tộc",
+              description:
+                "Không gian văn hóa bản địa với đời sống mộc mạc và gần gũi.",
+            },
+            {
+              title: "Khí hậu mát lành",
+              description:
+                "Thời tiết dễ chịu có thể phù hợp cho hành trình nghỉ dưỡng nhẹ nhàng sau điều trị, tùy tình trạng hồi phục và hướng dẫn của bác sĩ.",
+            },
+          ],
+          bestFor: ["Văn hóa", "Đời sống vùng cao", "Phong cảnh", "Chụp ảnh"],
+          recommendedDuration: "2–3 ngày",
+        },
+        "bac-ha": {
+          title: "Bắc Hà",
+          summary:
+            "Bắc Hà là điểm đến vùng cao mộc mạc của Lào Cai, nổi tiếng với chợ phiên, văn hóa dân tộc, cảnh quan núi đồi và nhịp sống bản làng bình dị.",
+          highlights: [
+            {
+              title: "Chợ phiên vùng cao",
+              description:
+                "Không gian giao thương truyền thống với nhiều sắc màu văn hóa bản địa.",
+            },
+            {
+              title: "Văn hóa dân tộc",
+              description:
+                "Nơi bạn có thể cảm nhận đời sống mộc mạc của cộng đồng vùng cao.",
+            },
+            {
+              title: "Ẩm thực địa phương",
+              description:
+                "Các món ăn đặc trưng vùng núi mang hương vị gần gũi và chân thật.",
+            },
+          ],
+          bestFor: ["Văn hóa", "Chợ phiên", "Đời sống vùng cao", "Chụp ảnh"],
+          recommendedDuration: "2–3 ngày",
+        },
+        "ha-giang": {
+          title: "Hà Giang",
+          summary:
+            "Hà Giang là vùng đất biên cương hùng vĩ với núi đá, cung đường đèo, bản làng dân tộc và cảnh quan thiên nhiên đầy cảm xúc.",
+          highlights: [
+            {
+              title: "Cảnh quan núi đá",
+              description:
+                "Những dãy núi trùng điệp tạo nên vẻ đẹp mạnh mẽ của vùng cực Bắc.",
+            },
+            {
+              title: "Cung đường trải nghiệm",
+              description:
+                "Các tuyến đường đèo mang đến nhiều điểm ngắm cảnh và chụp ảnh đáng nhớ.",
+            },
+            {
+              title: "Bản làng vùng cao",
+              description:
+                "Không gian văn hóa bản địa với nhịp sống chậm và chân thật.",
+            },
+          ],
+          bestFor: ["Khám phá", "Cảnh núi", "Văn hóa", "Chụp ảnh"],
+          recommendedDuration: "3–4 ngày",
+        },
+        "moc-chau": {
+          title: "Mộc Châu",
+          summary:
+            "Mộc Châu là điểm đến cao nguyên xanh mát với đồi chè, khí hậu dễ chịu, cảnh quan thơ mộng và nhiều trải nghiệm nghỉ dưỡng nhẹ nhàng.",
+          highlights: [
+            {
+              title: "Cao nguyên xanh",
+              description:
+                "Không gian rộng mở với đồi chè, đồng cỏ và khí hậu trong lành.",
+            },
+            {
+              title: "Cảnh quan nhẹ nhàng",
+              description:
+                "Có thể phù hợp cho hành trình nghỉ dưỡng sau điều trị, tùy tình trạng hồi phục và hướng dẫn của bác sĩ.",
+            },
+            {
+              title: "Trải nghiệm địa phương",
+              description:
+                "Các điểm tham quan thiên nhiên và văn hóa giúp chuyến đi thêm trọn vẹn.",
+            },
+          ],
+          bestFor: ["Thiên nhiên", "Nghỉ dưỡng", "Đồi chè", "Chụp ảnh"],
+          recommendedDuration: "2–3 ngày",
+        },
+        "ha-long": {
+          title: "Hạ Long",
+          summary:
+            "Hạ Long là điểm đến biển nổi tiếng của Việt Nam với vịnh biển, đảo đá, du thuyền và trải nghiệm nghỉ dưỡng cao cấp.",
+          highlights: [
+            {
+              title: "Vịnh biển biểu tượng",
+              description:
+                "Cảnh quan biển đảo có thể phù hợp cho thời gian thư giãn nhẹ nhàng sau điều trị, tùy tình trạng hồi phục và hướng dẫn của bác sĩ.",
+            },
+            {
+              title: "Du thuyền và nghỉ dưỡng",
+              description:
+                "Trải nghiệm thư giãn trên vịnh với nhiều lựa chọn lưu trú và ẩm thực.",
+            },
+            {
+              title: "Hành trình cao cấp",
+              description:
+                "Phù hợp với khách quốc tế muốn kết hợp thời gian tại Việt Nam với trải nghiệm biển chất lượng.",
+            },
+          ],
+          bestFor: [
+            "Nghỉ dưỡng",
+            "Du thuyền",
+            "Cảnh biển",
+            "Trải nghiệm cao cấp",
+          ],
+          recommendedDuration: "2–3 ngày",
+        },
+      },
+    },
+
     travelGuide: {
       seo: {
         title: "Cẩm nang du lịch Việt Nam",
@@ -956,4 +1120,3 @@ export const viDictionary: LocaleDictionary = {
     },
   },
 };
-

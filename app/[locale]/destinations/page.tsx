@@ -2,14 +2,14 @@ import type { Metadata } from "next";
 import Script from "next/script";
 import { notFound } from "next/navigation";
 
-import { getDestinationsByLocale } from "@/content/destinations";
+import { getDictionary } from "@/content/locales";
 import {
   buildMetadata,
   createBreadcrumbSchema,
   createCollectionPageSchema,
   seo,
 } from "@/content/seo";
-import { DestinationGrid } from "@/features/destinations/components/DestinationGrid";
+import { Destinations } from "@/features/destinations";
 import { isSupportedLocale } from "@/lib/i18n-routing";
 import type { Locale } from "@/types/i18n";
 
@@ -28,10 +28,12 @@ export async function generateMetadata({
     return {};
   }
 
+  const dictionary = await getDictionary(locale);
+  const page = dictionary.pages.destinations;
+
   return buildMetadata({
-    title: "Destinations | Maiv Thoj Viet Lao Platform",
-    description:
-      "Explore selected destinations in Vietnam that can become part of your patient journey with Maiv Thoj Viet Lao Platform.",
+    title: page.seo.title,
+    description: page.seo.description,
     canonical: `/${locale}/destinations`,
     locale,
   });
@@ -46,82 +48,54 @@ export default async function DestinationListingPage({
     notFound();
   }
 
-  const destinations = getDestinationsByLocale(
-    locale as Locale,
-  );
+  const currentLocale = locale as Locale;
+  const dictionary = await getDictionary(currentLocale);
+  const page = dictionary.pages.destinations;
 
   const pageUrl = new URL(
-    `/${locale}/destinations`,
+    `/${currentLocale}/destinations`,
     seo.siteUrl,
   ).toString();
 
-  const homeUrl = new URL(
-    `/${locale}`,
-    seo.siteUrl,
-  ).toString();
+  const homeUrl = new URL(`/${currentLocale}`, seo.siteUrl).toString();
 
-  const collectionSchema =
-    createCollectionPageSchema({
-      name: "Destinations",
-      description:
-        "Explore selected destinations in Vietnam that can become part of your patient journey with Maiv Thoj Viet Lao Platform.",
+  const collectionSchema = createCollectionPageSchema({
+    name: page.schema.collectionName,
+    description: page.seo.description,
+    url: pageUrl,
+  });
+
+  const breadcrumbSchema = createBreadcrumbSchema([
+    {
+      name: page.schema.breadcrumbHome,
+      url: homeUrl,
+    },
+    {
+      name: page.schema.breadcrumbCurrent,
       url: pageUrl,
-    });
-
-  const breadcrumbSchema =
-    createBreadcrumbSchema([
-      {
-        name: "Home",
-        url: homeUrl,
-      },
-      {
-        name: "Destinations",
-        url: pageUrl,
-      },
-    ]);
+    },
+  ]);
 
   return (
     <>
       <Script
-        id={`destinations-collection-schema-${locale}`}
+        id={`destinations-collection-schema-${currentLocale}`}
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify(
-            collectionSchema,
-          ),
+          __html: JSON.stringify(collectionSchema),
         }}
       />
 
       <Script
-        id={`destinations-breadcrumb-schema-${locale}`}
+        id={`destinations-breadcrumb-schema-${currentLocale}`}
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify(
-            breadcrumbSchema,
-          ),
+          __html: JSON.stringify(breadcrumbSchema),
         }}
       />
 
-      <main className="min-h-screen bg-slate-950 text-white">
-        <section className="px-6 py-24">
-          <div className="mx-auto max-w-6xl">
-            <p className="text-sm font-semibold uppercase tracking-[0.25em] text-cyan-300">
-              Destinations
-            </p>
-
-            <h1 className="mt-4 max-w-4xl text-4xl font-bold tracking-tight text-white md:text-6xl">
-              Travel experiences that support your treatment journey.
-            </h1>
-
-            <p className="mt-6 max-w-3xl text-lg leading-8 text-slate-300">
-              Explore selected destinations in Vietnam that can become
-              part of a calm, meaningful and well-supported patient
-              journey with Maiv Thoj Viet Lao Platform.
-            </p>
-
-            <DestinationGrid destinations={destinations} />
-          </div>
-        </section>
+      <main className="min-h-screen bg-[#090806] text-[#F8F4EC]">
+        <Destinations locale={currentLocale} />
       </main>
     </>
   );

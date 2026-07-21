@@ -20,7 +20,10 @@ export const destinations = [
 
 export {
   getDestinationBySlug,
+  getDestinationBySlugWithFallback,
   getDestinationSlugs,
+  getDestinationStaticParams,
   getDestinationsByLocale,
   getFeaturedDestinations,
+  isDestinationKey,
 } from "./helpers";

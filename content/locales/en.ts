@@ -826,6 +826,164 @@ export const enDictionary: LocaleDictionary = {
       },
     },
 
+    destinations: {
+      seo: {
+        title: "Vietnam Destinations",
+        description:
+          "Explore real destinations in Vietnam that may become part of your visit before or after dental treatment, when your schedule and recovery allow.",
+      },
+      badge: "EXPLORE VIETNAM",
+      heading: "Places worth discovering during your time in Vietnam",
+      description:
+        "When your treatment schedule and recovery allow, these real destinations can add a calm and meaningful experience to your visit.",
+      cardCta: "Explore Destination",
+      backLabel: "Back to All Destinations",
+      bookingCta: "Plan Your Journey With Us",
+      schema: {
+        collectionName: "Vietnam Destinations",
+        breadcrumbHome: "Home",
+        breadcrumbCurrent: "Destinations",
+      },
+      labels: {
+        country: "Country",
+        province: "Province",
+        district: "District",
+        duration: "Suggested Duration",
+        highlights: "What to Discover",
+        bestFor: "Best For",
+        gallery: "Photo Gallery",
+        vietnam: "Vietnam",
+        regionalDestination: "Regional destination",
+        flexibleJourney: "Flexible journey",
+      },
+      emptyState: {
+        heading: "More destinations are coming",
+        description: "We are preparing more real places for you to explore.",
+      },
+      items: {
+        sapa: {
+          title: "Sa Pa",
+          summary:
+            "Sa Pa is a renowned highland destination with terraced rice fields, cool mountain air, ethnic villages and dramatic scenery.",
+          highlights: [
+            {
+              title: "Terraced Rice Fields",
+              description:
+                "Distinctive hillside landscapes that reflect generations of highland farming.",
+            },
+            {
+              title: "Ethnic Villages",
+              description:
+                "Local communities offer a closer look at the culture and everyday life of Vietnam's northern highlands.",
+            },
+            {
+              title: "Cool Mountain Climate",
+              description:
+                "The mild weather may suit a gentle visit after treatment when your recovery and dentist's guidance allow.",
+            },
+          ],
+          bestFor: ["Culture", "Highland life", "Scenery", "Photography"],
+          recommendedDuration: "2–3 days",
+        },
+        "bac-ha": {
+          title: "Bac Ha",
+          summary:
+            "Bac Ha is a quiet highland town in Lao Cai known for its traditional market, ethnic culture, mountain scenery and unhurried village life.",
+          highlights: [
+            {
+              title: "Highland Market",
+              description:
+                "A traditional gathering place filled with local products and the colors of regional culture.",
+            },
+            {
+              title: "Ethnic Culture",
+              description:
+                "A chance to experience the warm, grounded rhythm of life in northern highland communities.",
+            },
+            {
+              title: "Local Food",
+              description:
+                "Regional dishes offer honest flavors and a closer connection to local life.",
+            },
+          ],
+          bestFor: ["Culture", "Markets", "Highland life", "Photography"],
+          recommendedDuration: "2–3 days",
+        },
+        "ha-giang": {
+          title: "Ha Giang",
+          summary:
+            "Ha Giang is Vietnam's dramatic northern frontier, known for limestone mountains, winding passes, ethnic villages and unforgettable landscapes.",
+          highlights: [
+            {
+              title: "Limestone Mountains",
+              description:
+                "Layered mountain ranges create the powerful scenery that defines Vietnam's far north.",
+            },
+            {
+              title: "Scenic Roads",
+              description:
+                "Mountain passes offer remarkable viewpoints for exploration and photography.",
+            },
+            {
+              title: "Highland Villages",
+              description:
+                "Local communities preserve a slower pace of life and distinct cultural traditions.",
+            },
+          ],
+          bestFor: ["Adventure", "Mountain views", "Culture", "Photography"],
+          recommendedDuration: "3–4 days",
+        },
+        "moc-chau": {
+          title: "Moc Chau",
+          summary:
+            "Moc Chau is a green plateau with tea hills, pleasant weather, gentle scenery and relaxed countryside experiences.",
+          highlights: [
+            {
+              title: "Green Plateau",
+              description:
+                "Open landscapes of tea hills, grasslands and fresh highland air.",
+            },
+            {
+              title: "Gentle Scenery",
+              description:
+                "A relaxed visit may be suitable after treatment when your recovery and dentist's guidance allow.",
+            },
+            {
+              title: "Local Experiences",
+              description:
+                "Nature and cultural stops can make a short countryside journey feel complete.",
+            },
+          ],
+          bestFor: ["Nature", "Relaxation", "Tea hills", "Photography"],
+          recommendedDuration: "2–3 days",
+        },
+        "ha-long": {
+          title: "Ha Long",
+          summary:
+            "Ha Long is one of Vietnam's best-known coastal destinations, with its iconic bay, limestone islands, cruises and refined resort experiences.",
+          highlights: [
+            {
+              title: "Iconic Bay",
+              description:
+                "The calm seascape and limestone islands may suit gentle relaxation when your recovery and clinical guidance allow.",
+            },
+            {
+              title: "Cruises and Resorts",
+              description:
+                "A range of comfortable stays and bay cruises offer time to slow down and rest.",
+            },
+            {
+              title: "Refined Travel",
+              description:
+                "A strong option for international visitors who want to combine time in Vietnam with a premium coastal experience.",
+            },
+          ],
+          bestFor: ["Relaxation", "Cruises", "Sea views", "Premium travel"],
+          recommendedDuration: "2–3 days",
+        },
+      },
+    },
+
     travelGuide: {
       seo: {
         title: "Vietnam Travel Guide",

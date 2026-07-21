@@ -15,9 +15,9 @@ export const localePriority = {
 export const localeLabels = {
   en: "English",
   hmn: "Hmong",
-  vi: "Tiáº¿ng Viá»‡t",
-  th: "à¹„à¸—à¸¢",
-  lo: "àº¥àº²àº§",
+  vi: "Tiếng Việt",
+  th: "ไทย",
+  lo: "ລາວ",
 } as const;
 
 export interface LocaleInfo {
@@ -573,6 +573,64 @@ export interface LocaleTreatmentsPageDictionary {
   };
 }
 
+export type LocaleDestinationKey =
+  | "sapa"
+  | "bac-ha"
+  | "ha-giang"
+  | "moc-chau"
+  | "ha-long";
+
+export interface LocaleDestinationItemDictionary {
+  title: string;
+  summary: string;
+  highlights: LocaleTextItem[];
+  bestFor: string[];
+  recommendedDuration: string;
+}
+
+/**
+ * Localized listing and detail text used by /[locale]/destinations.
+ *
+ * Destination media, slugs and real-world location data remain in the
+ * content layer. This dictionary supplies only visitor-facing language.
+ */
+export interface LocaleDestinationsPageDictionary {
+  seo: LocalePageSeoDictionary;
+
+  badge: string;
+  heading: string;
+  description: string;
+  cardCta: string;
+  backLabel: string;
+  bookingCta: string;
+
+  schema: {
+    collectionName: string;
+    breadcrumbHome: string;
+    breadcrumbCurrent: string;
+  };
+
+  labels: {
+    country: string;
+    province: string;
+    district: string;
+    duration: string;
+    highlights: string;
+    bestFor: string;
+    gallery: string;
+    vietnam: string;
+    regionalDestination: string;
+    flexibleJourney: string;
+  };
+
+  emptyState: {
+    heading: string;
+    description: string;
+  };
+
+  items: Record<LocaleDestinationKey, LocaleDestinationItemDictionary>;
+}
+
 /**
  * Localized listing-page text used by /[locale]/travel-guide.
  */
@@ -616,6 +674,7 @@ export interface LocalePagesDictionary {
   contact: LocaleContactPageDictionary;
   journey: LocaleJourneyPageDictionary;
   treatments: LocaleTreatmentsPageDictionary;
+  destinations: LocaleDestinationsPageDictionary;
   travelGuide: LocaleTravelGuidePageDictionary;
   about: LocaleAboutPageDictionary;
 }
@@ -666,4 +725,3 @@ export interface LocaleDictionary {
    */
   pages: LocalePagesDictionary;
 }
-
