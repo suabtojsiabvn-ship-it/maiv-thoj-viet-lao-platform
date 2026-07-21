@@ -23,12 +23,10 @@ export function useBooking() {
     description: booking.benefits[meta.id].description,
   }));
 
-  const treatments: BookingOption[] = bookingTreatmentValues.map(
-    (value) => ({
-      value,
-      label: booking.treatments[value],
-    })
-  );
+  const treatments: BookingOption[] = bookingTreatmentValues.map((value) => ({
+    value,
+    label: booking.treatments[value],
+  }));
 
   const languages: BookingOption[] = bookingLanguageValues.map((value) => ({
     value,
@@ -36,6 +34,7 @@ export function useBooking() {
   }));
 
   const content: BookingContentData = {
+    seo: booking.seo,
     badge: booking.badge,
     heading: booking.heading,
     intro: booking.intro,
@@ -44,6 +43,8 @@ export function useBooking() {
     treatments,
     languages,
     cta: booking.cta,
+    validation: booking.validation,
+    feedback: booking.feedback,
   };
 
   return {

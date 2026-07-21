@@ -3,8 +3,7 @@ import type { LocaleDictionary } from "@/types/i18n";
 export const thDictionary: LocaleDictionary = {
   common: {
     brandName: "Maiv Thoj Viet Lao",
-    tagline:
-      "ดูแลและประสานงานการทำฟันในเวียดนามสำหรับลูกค้าต่างชาติ",
+    tagline: "ดูแลและประสานงานการทำฟันในเวียดนามสำหรับลูกค้าต่างชาติ",
     primaryCta: "เริ่มต้นด้วยการพูดคุย",
     secondaryCta: "ถามทีมของเราก่อน",
   },
@@ -21,7 +20,6 @@ export const thDictionary: LocaleDictionary = {
       contact: "ติดต่อ",
     },
   },
-
 
   hero: {
     badge: "การดูแลการเดินทางทำฟันในเวียดนามสำหรับลูกค้าต่างชาติ",
@@ -77,8 +75,7 @@ export const thDictionary: LocaleDictionary = {
   why: {
     sectionLabel: "เหตุผลที่ครอบครัวไว้วางใจ MAIV THOJ VIET LAO",
 
-    title:
-      "การมีใครสักคนคอยอยู่ข้างคุณเป็นสิ่งสำคัญตลอดเส้นทางการทำฟัน",
+    title: "การมีใครสักคนคอยอยู่ข้างคุณเป็นสิ่งสำคัญตลอดเส้นทางการทำฟัน",
 
     description:
       "การเดินทางไปทำฟันในต่างประเทศเป็นการตัดสินใจครั้งสำคัญ เราช่วยให้ทุกขั้นตอนชัดเจนและเข้าใจง่ายขึ้น ตั้งแต่การพูดคุยครั้งแรกจนถึงวันที่คุณเดินทางกลับบ้าน",
@@ -116,8 +113,7 @@ export const thDictionary: LocaleDictionary = {
   founder: {
     sectionLabel: "พบกับ Maiv Thoj",
 
-    title:
-      "คนที่ครอบครัวไว้วางใจได้เมื่อต้องการมาทำฟันที่เวียดนาม",
+    title: "คนที่ครอบครัวไว้วางใจได้เมื่อต้องการมาทำฟันที่เวียดนาม",
 
     description:
       "สำหรับหลายครอบครัว การเดินทางไปต่างประเทศเพื่อทำฟันเป็นการตัดสินใจครั้งสำคัญ Maiv Thoj ช่วยให้ก้าวแรกชัดเจนและง่ายขึ้น ด้วยคำแนะนำที่ไว้วางใจได้ ข้อมูลที่ตรงไปตรงมา และการเชื่อมต่อกับคนที่เหมาะสม",
@@ -131,8 +127,7 @@ export const thDictionary: LocaleDictionary = {
       "การตรวจ วินิจฉัย และวางแผนการรักษาเป็นหน้าที่ของพันธมิตรทันตกรรมที่เชื่อถือได้ บทบาทของ Maiv Thoj คือช่วยให้ลูกค้าแต่ละคนรู้สึกว่าได้รับการรับฟัง ได้รับการต้อนรับ และมีคนคอยดูแลตลอดการเดินทาง",
     ],
 
-    quote:
-      "การเดินทางจะง่ายขึ้นเมื่อคุณรู้ว่ามีคนรับฟังและพร้อมช่วยเหลือคุณ",
+    quote: "การเดินทางจะง่ายขึ้นเมื่อคุณรู้ว่ามีคนรับฟังและพร้อมช่วยเหลือคุณ",
 
     stats: {
       facebook: "ชุมชน Facebook",
@@ -151,8 +146,7 @@ export const thDictionary: LocaleDictionary = {
   coordinator: {
     sectionLabel: "พบกับ A Sử",
 
-    title:
-      "คนที่จะคอยอยู่ข้างคุณตลอดเวลาที่คุณอยู่ในเวียดนาม",
+    title: "คนที่จะคอยอยู่ข้างคุณตลอดเวลาที่คุณอยู่ในเวียดนาม",
 
     description:
       "เมื่อคุณตัดสินใจมาเวียดนามเพื่อทำฟัน A Sử จะช่วยประสานงานการเดินทางของคุณ ตั้งแต่การเตรียมตัวก่อนเดินทาง การต้อนรับที่สนามบิน การช่วยสื่อสารและการเดินทาง ไปจนถึงวันที่คุณกลับบ้าน",
@@ -341,8 +335,7 @@ export const thDictionary: LocaleDictionary = {
   beforeAfter: {
     sectionLabel: "เรื่องราวรอยยิ้มจริง",
 
-    title:
-      "รอยยิ้มทุกครั้งมีเรื่องราว การเดินทางของแต่ละคนก็ไม่เหมือนกัน",
+    title: "รอยยิ้มทุกครั้งมีเรื่องราว การเดินทางของแต่ละคนก็ไม่เหมือนกัน",
 
     description:
       "เบื้องหลังภาพก่อนและหลังทุกภาพ คือคนหนึ่งคนที่มอบความไว้วางใจให้เราดูแลการตัดสินใจสำคัญ เรื่องราวเหล่านี้สะท้อนการเดินทางทำฟันจริงที่ได้รับการดูแลโดย Maiv Thoj Viet Lao และดำเนินการโดยพันธมิตรทันตกรรมที่เชื่อถือได้",
@@ -382,57 +375,55 @@ export const thDictionary: LocaleDictionary = {
   journey: {
     sectionLabel: "การเดินทางทำฟันของคุณ",
 
-    title:
-      "คุณไม่จำเป็นต้องค้นหาและจัดการทุกอย่างด้วยตัวเอง",
+    title: "คุณไม่จำเป็นต้องค้นหาและจัดการทุกอย่างด้วยตัวเอง",
 
     description:
       "การเดินทางไปอีกประเทศเพื่อทำฟันอาจทำให้คุณกังวล เราจึงออกแบบการเดินทางที่ชัดเจน ทุกขั้นตอนมีคำอธิบาย ทุกคำถามได้รับการรับฟัง และมีคนคอยช่วยเหลือคุณเสมอ",
 
     badge: "PATIENT JOURNEY SUPPORT",
 
-    heading:
-      "ตั้งแต่ข้อความแรกจนถึงวันที่คุณกลับบ้าน",
+    heading: "ตั้งแต่ข้อความแรกจนถึงวันที่คุณกลับบ้าน",
 
     intro:
       "การเดินทางของคุณเริ่มต้นก่อนที่คุณจะมาถึงเวียดนาม มันเริ่มจากการพูดคุย เติบโตจากความไว้วางใจ และดำเนินต่อด้วยการดูแลในทุกขั้นตอน",
 
     steps: [
-  {
-    id: "arrival",
-    icon: "plane-takeoff",
-    title: "วันที่ 1 • เดินทางถึงเวียดนาม",
-    description:
-      "A Sử จะต้อนรับคุณด้วยตนเองที่สนามบินนานาชาติโหน่ยบ่าย พร้อมรถรับส่งส่วนตัวของทีม หากเที่ยวบินมาถึงในช่วงเช้า เราจะพาคุณไปยังคลินิกทันตกรรมเพื่อเข้ารับการตรวจ ถ่าย CT และวางแผนการรักษาทันที หากมาถึงในช่วงค่ำ เราจะพาคุณไปเช็กอินโรงแรมเพื่อพักผ่อน และเริ่มการนัดหมายในเช้าวันถัดไป",
-  },
-  {
-    id: "consultation",
-    icon: "stethoscope",
-    title: "ตรวจและวางแผนการรักษา",
-    description:
-      "ทันตแพทย์จะตรวจสุขภาพช่องปาก ถ่ายภาพ CBCT / CT และอธิบายแผนการรักษาที่เหมาะสมที่สุด หากเหมาะสม การเตรียมฟันจะดำเนินการในวันเดียวกัน",
-  },
-  {
-    id: "recovery",
-    icon: "heart-pulse",
-    title: "วันที่ 2 • พักฟื้นและสัมผัสกรุงฮานอย",
-    description:
-      "ผู้ป่วยส่วนใหญ่จะพักผ่อนในวันนี้ หากมีเวลา A Sử สามารถพาคุณเที่ยวชมกรุงฮานอย ลิ้มลองอาหารท้องถิ่นและกาแฟเวียดนาม พร้อมบันทึกความทรงจำด้วยภาพถ่ายและวิดีโอ",
-  },
-  {
-    id: "smile",
-    icon: "clipboard-list",
-    title: "วันที่ 3 • รอยยิ้มใหม่ของคุณ",
-    description:
-      "กลับมาที่คลินิกเพื่อติดตั้งงานทันตกรรมขั้นสุดท้าย ปรับการสบฟัน และตรวจรอยยิ้มครั้งสุดท้าย พร้อมถ่ายภาพและวิดีโอการเดินทางของคุณ หากคุณยินยอม",
-  },
-  {
-    id: "departure",
-    icon: "car",
-    title: "วันที่ 4 • ตรวจครั้งสุดท้ายและเดินทางกลับ",
-    description:
-      "หลังจากการตรวจครั้งสุดท้ายและรับคำแนะนำในการดูแลหลังการรักษา A Sử จะพาคุณเดินทางกลับสนามบิน คุณจะเดินทางกลับบ้านพร้อมรอยยิ้มใหม่และความทรงจำอันแสนประทับใจจากเวียดนาม",
-  },
-],
+      {
+        id: "arrival",
+        icon: "plane-takeoff",
+        title: "วันที่ 1 • เดินทางถึงเวียดนาม",
+        description:
+          "A Sử จะต้อนรับคุณด้วยตนเองที่สนามบินนานาชาติโหน่ยบ่าย พร้อมรถรับส่งส่วนตัวของทีม หากเที่ยวบินมาถึงในช่วงเช้า เราจะพาคุณไปยังคลินิกทันตกรรมเพื่อเข้ารับการตรวจ ถ่าย CT และวางแผนการรักษาทันที หากมาถึงในช่วงค่ำ เราจะพาคุณไปเช็กอินโรงแรมเพื่อพักผ่อน และเริ่มการนัดหมายในเช้าวันถัดไป",
+      },
+      {
+        id: "consultation",
+        icon: "stethoscope",
+        title: "ตรวจและวางแผนการรักษา",
+        description:
+          "ทันตแพทย์จะตรวจสุขภาพช่องปาก ถ่ายภาพ CBCT / CT และอธิบายแผนการรักษาที่เหมาะสมที่สุด หากเหมาะสม การเตรียมฟันจะดำเนินการในวันเดียวกัน",
+      },
+      {
+        id: "recovery",
+        icon: "heart-pulse",
+        title: "วันที่ 2 • พักฟื้นและสัมผัสกรุงฮานอย",
+        description:
+          "ผู้ป่วยส่วนใหญ่จะพักผ่อนในวันนี้ หากมีเวลา A Sử สามารถพาคุณเที่ยวชมกรุงฮานอย ลิ้มลองอาหารท้องถิ่นและกาแฟเวียดนาม พร้อมบันทึกความทรงจำด้วยภาพถ่ายและวิดีโอ",
+      },
+      {
+        id: "smile",
+        icon: "clipboard-list",
+        title: "วันที่ 3 • รอยยิ้มใหม่ของคุณ",
+        description:
+          "กลับมาที่คลินิกเพื่อติดตั้งงานทันตกรรมขั้นสุดท้าย ปรับการสบฟัน และตรวจรอยยิ้มครั้งสุดท้าย พร้อมถ่ายภาพและวิดีโอการเดินทางของคุณ หากคุณยินยอม",
+      },
+      {
+        id: "departure",
+        icon: "car",
+        title: "วันที่ 4 • ตรวจครั้งสุดท้ายและเดินทางกลับ",
+        description:
+          "หลังจากการตรวจครั้งสุดท้ายและรับคำแนะนำในการดูแลหลังการรักษา A Sử จะพาคุณเดินทางกลับสนามบิน คุณจะเดินทางกลับบ้านพร้อมรอยยิ้มใหม่และความทรงจำอันแสนประทับใจจากเวียดนาม",
+      },
+    ],
 
     cta: {
       label: "เริ่มต้นการปรึกษา",
@@ -440,90 +431,93 @@ export const thDictionary: LocaleDictionary = {
   },
 
   trust: {
-  badge: "ยินดีต้อนรับผู้ป่วยจากทั่วโลก",
+    badge: "ยินดีต้อนรับผู้ป่วยจากทั่วโลก",
 
-  heading: "ยินดีต้อนรับผู้ป่วยนานาชาติสู่เวียดนาม",
-
-  description:
-    "ไม่ว่าคุณจะเดินทางมาจากสหรัฐอเมริกา ฝรั่งเศส ออสเตรเลีย ลาว ไทย หรือประเทศอื่น ๆ ทีมงานของเราพร้อมดูแลการเดินทางเพื่อการรักษาของคุณด้วยการสื่อสารหลายภาษาและการดูแลที่เหมาะกับแต่ละบุคคล",
-
-  personalizedCare:
-    "ทุกแผนการรักษาถูกออกแบบตามสภาพช่องปาก ตารางการเดินทาง และความต้องการของแต่ละคน",
-
-  countries: [
-    { code: "🇺🇸", name: "USA" },
-    { code: "🇫🇷", name: "France" },
-    { code: "🇦🇺", name: "Australia" },
-    { code: "🇱🇦", name: "Laos" },
-    { code: "🇹🇭", name: "Thailand" },
-    { code: "🇻🇳", name: "Vietnam" },
-  ],
-transparency: {
-  title: "คำมั่นสัญญาด้านความโปร่งใส",
-
-  description:
-    "ข้อมูลที่ชัดเจนและการดูแลที่เชื่อถือได้ตลอดการเดินทางมารักษาทางทันตกรรมในเวียดนามของคุณ",
-
-  items: [
-    "แผนการรักษาเฉพาะบุคคล",
-    "แจ้งค่าใช้จ่ายอย่างชัดเจนก่อนการรักษา",
-    "ไม่มีค่าใช้จ่ายในการรักษาที่แอบแฝง",
-    "บริการช่วยรับและส่งสนามบิน",
-    "การดูแลและช่วยเหลือหลายภาษาตลอดการเดินทาง",
-  ],
-},
-  material: {
-    title: "วัสดุทันตกรรมคุณภาพสูง",
+    heading: "ยินดีต้อนรับผู้ป่วยนานาชาติสู่เวียดนาม",
 
     description:
-      "เลือกใช้ระบบเซรามิกคุณภาพสูงจากเยอรมนี สวิตเซอร์แลนด์ และสหรัฐอเมริกา ตามแผนการรักษาเฉพาะบุคคล",
+      "ไม่ว่าคุณจะเดินทางมาจากสหรัฐอเมริกา ฝรั่งเศส ออสเตรเลีย ลาว ไทย หรือประเทศอื่น ๆ ทีมงานของเราพร้อมดูแลการเดินทางเพื่อการรักษาของคุณด้วยการสื่อสารหลายภาษาและการดูแลที่เหมาะกับแต่ละบุคคล",
 
-    items: [
-      "Premium ceramic systems",
-      "Personalized material selection",
-      "Clinical suitability comes first",
+    personalizedCare:
+      "ทุกแผนการรักษาถูกออกแบบตามสภาพช่องปาก ตารางการเดินทาง และความต้องการของแต่ละคน",
+
+    countries: [
+      { code: "🇺🇸", name: "USA" },
+      { code: "🇫🇷", name: "France" },
+      { code: "🇦🇺", name: "Australia" },
+      { code: "🇱🇦", name: "Laos" },
+      { code: "🇹🇭", name: "Thailand" },
+      { code: "🇻🇳", name: "Vietnam" },
     ],
+    transparency: {
+      title: "คำมั่นสัญญาด้านความโปร่งใส",
+
+      description:
+        "ข้อมูลที่ชัดเจนและการดูแลที่เชื่อถือได้ตลอดการเดินทางมารักษาทางทันตกรรมในเวียดนามของคุณ",
+
+      items: [
+        "แผนการรักษาเฉพาะบุคคล",
+        "แจ้งค่าใช้จ่ายอย่างชัดเจนก่อนการรักษา",
+        "ไม่มีค่าใช้จ่ายในการรักษาที่แอบแฝง",
+        "บริการช่วยรับและส่งสนามบิน",
+        "การดูแลและช่วยเหลือหลายภาษาตลอดการเดินทาง",
+      ],
+    },
+    material: {
+      title: "วัสดุทันตกรรมคุณภาพสูง",
+
+      description:
+        "เลือกใช้ระบบเซรามิกคุณภาพสูงจากเยอรมนี สวิตเซอร์แลนด์ และสหรัฐอเมริกา ตามแผนการรักษาเฉพาะบุคคล",
+
+      items: [
+        "Premium ceramic systems",
+        "Personalized material selection",
+        "Clinical suitability comes first",
+      ],
+    },
+    community: {
+      title: "ชุมชนที่ไว้วางใจเรา",
+
+      description:
+        "สร้างจากประสบการณ์ของผู้ป่วยจริง การดูแลหลายภาษา และความไว้วางใจจากชุมชน",
+
+      stats: [
+        {
+          value: "454K+",
+          label: "Facebook",
+        },
+        {
+          value: "1.3M+",
+          label: "TikTok",
+        },
+        {
+          value: "5",
+          label: "Languages",
+        },
+        {
+          value: "International",
+          label: "Support",
+        },
+      ],
+    },
   },
-  community: {
-  title: "ชุมชนที่ไว้วางใจเรา",
-
-  description:
-    "สร้างจากประสบการณ์ของผู้ป่วยจริง การดูแลหลายภาษา และความไว้วางใจจากชุมชน",
-
-  stats: [
-    {
-      value: "454K+",
-      label: "Facebook",
-    },
-    {
-      value: "1.3M+",
-      label: "TikTok",
-    },
-    {
-      value: "5",
-      label: "Languages",
-    },
-    {
-      value: "International",
-      label: "Support",
-    },
-  ],
-},
-},
 
   booking: {
+    seo: {
+      title: "นัดปรึกษาทันตกรรมฟรี",
+      description:
+        "เล่าเรื่องสภาพฟัน ภาษาที่ต้องการใช้ และแผนการมาเวียดนามให้ทีมดูแลผู้รับบริการต่างชาติของ Maiv Thoj Viet Lao ทราบ",
+    },
     sectionLabel: "มาคุยกับเราก่อน",
 
-    title:
-      "ทุกการเดินทางเริ่มจากการพูดคุยง่าย ๆ",
+    title: "ทุกการเดินทางเริ่มจากการพูดคุยง่าย ๆ",
 
     description:
       "คุณไม่จำเป็นต้องรู้แน่ชัดว่าต้องทำอะไรตั้งแต่แรก แค่เล่าให้เราฟังเล็กน้อยเกี่ยวกับสภาพฟัน ความต้องการ หรือสิ่งที่คุณกังวล เราจะช่วยคุณหาขั้นตอนต่อไปที่เหมาะสม",
 
     badge: "ปรึกษาเรื่องการเดินทางฟรี",
 
-    heading:
-      "เราต้องการรับฟังก่อนที่จะให้คำแนะนำ",
+    heading: "เราต้องการรับฟังก่อนที่จะให้คำแนะนำ",
 
     intro:
       "บางคนรู้แล้วว่าต้องการทำฟันแบบไหน บางคนเพียงแค่อยากยิ้มได้อย่างมั่นใจมากขึ้น ไม่ว่าคุณกำลังเริ่มจากจุดไหน เราจะค่อย ๆ เดินไปกับคุณทีละขั้น",
@@ -571,11 +565,9 @@ transparency: {
 
       treatment: "เราช่วยคุณได้อย่างไร?",
 
-      selectTreatment:
-        "เลือกตัวเลือกที่ใกล้กับสถานการณ์ของคุณที่สุด",
+      selectTreatment: "เลือกตัวเลือกที่ใกล้กับสถานการณ์ของคุณที่สุด",
 
-      travelDate:
-        "คุณกำลังคิดจะมาเวียดนามเมื่อไหร่?",
+      travelDate: "คุณกำลังคิดจะมาเวียดนามเมื่อไหร่?",
 
       message: "เล่าให้เราฟังเพิ่มเติม",
 
@@ -592,8 +584,7 @@ transparency: {
 
       veneers: "วีเนียร์พอร์ซเลน",
 
-      consultation:
-        "ฉันยังไม่แน่ใจ — อยากปรึกษาก่อน",
+      consultation: "ฉันยังไม่แน่ใจ — อยากปรึกษาก่อน",
     },
 
     languages: {
@@ -612,252 +603,255 @@ transparency: {
       privacy:
         "ข้อมูลของคุณจะถูกเก็บเป็นส่วนตัว และใช้เพื่อให้ทีมของเราตอบคำถาม ให้คำแนะนำ และช่วยวางแผนการเดินทางมาทำฟันของคุณเท่านั้น",
     },
-  },
-patientJourney: {
-  badge: "Your Journey",
-
-  title:
-    "From Your First Conversation to Returning Home",
-
-  description:
-    "Understand how the Maiv Thoj Viet Lao team supports your consultation, travel, treatment coordination, recovery and follow-up journey in Vietnam.",
-
-  optional: "Optional",
-
-  timing: "Timing",
-
-  steps: {
-    initialContact: {
-      stage: "Discovery",
-      title: "Contact Our International Support Team",
-      description:
-        "Share your dental concerns, preferred language, available photographs or records, and your expected travel period with the Maiv Thoj Viet Lao team.",
-      estimatedDuration: "Before treatment planning",
+    validation: {
+      fullName: "กรุณากรอกชื่อและนามสกุล",
+      country: "กรุณากรอกประเทศหรือภูมิภาคที่อาศัยอยู่",
+      whatsapp: "กรุณากรอกหมายเลข WhatsApp หรือโทรศัพท์ที่ถูกต้อง",
+      email: "กรุณากรอกอีเมลที่ถูกต้อง",
     },
-
-    initialConsultation: {
-      stage: "Consultation",
-      title: "Initial Consultation",
-      description:
-        "The team reviews your information, answers initial questions and helps coordinate communication with the clinical partner. A final diagnosis cannot be confirmed until an appropriate clinical examination is completed.",
-      estimatedDuration: "Online before travel",
-    },
-
-    preliminaryPlanning: {
-      stage: "Planning",
-      title:
-        "Preliminary Treatment and Travel Planning",
-      description:
-        "Based on the information available, the team helps prepare a preliminary journey plan covering expected appointments, travel dates, airport arrival and accommodation needs.",
-      estimatedDuration: "Before booking travel",
-    },
-
-    travelToVietnam: {
-      stage: "Travel",
-      title: "Travel to Vietnam",
-      description:
-        "Before departure, confirm your flight details, passport requirements, accommodation and contact information so the support team can prepare for your arrival.",
-      estimatedDuration: "Travel day",
-    },
-
-    airportArrival: {
-      stage: "Arrival",
-      title:
-        "Airport Pickup and Arrival Support",
-      description:
-        "A Sử (Txhim), Patient Journey Manager, or an assigned team member coordinates the meeting point and supports your transfer from the airport according to the confirmed journey plan.",
-      estimatedDuration: "Arrival day",
-    },
-
-    clinicalAssessment: {
-      stage: "Treatment",
-      title:
-        "Clinical Examination and Final Treatment Plan",
-      description:
-        "The clinical partner examines your oral health, reviews diagnostic imaging when required and explains the final recommended treatment plan, schedule and material options before treatment begins.",
-      estimatedDuration:
-        "First clinical appointment",
-    },
-
-    treatmentProcess: {
-      stage: "Treatment",
-      title:
-        "Treatment and Journey Coordination",
-      description:
-        "Treatment is completed according to the approved clinical plan. The Patient Journey Manager helps coordinate transportation, communication and the daily schedule throughout the treatment period.",
-      estimatedDuration:
-        "Depends on the treatment plan",
-    },
-
-    recovery: {
-      stage: "Recovery",
-      title: "Rest and Recovery",
-      description:
-        "Follow the clinical aftercare instructions and allow appropriate time for rest. The team remains available to support communication and schedule adjustments during your stay.",
-      estimatedDuration:
-        "According to clinical advice",
-    },
-
-    optionalTravel: {
-      stage: "Experience",
-      title: "Optional Vietnam Experience",
-      description:
-        "When your treatment schedule and clinical condition allow, the team may help coordinate a suitable travel experience before your return journey.",
-      estimatedDuration: "Based on available time",
-    },
-
-    finalReview: {
-      stage: "Departure",
-      title:
-        "Final Review and Airport Drop-off",
-      description:
-        "Before departure, the clinical team reviews the treatment result and provides aftercare guidance. Airport drop-off is then coordinated according to the confirmed flight schedule.",
-      estimatedDuration: "Final day",
-    },
-
-    internationalAftercare: {
-      stage: "Aftercare",
-      title: "Follow-up After Returning Home",
-      description:
-        "After returning home, keep your treatment records and follow the recommended maintenance plan. The support team can help coordinate follow-up communication when necessary.",
-      estimatedDuration: "Ongoing",
+    feedback: {
+      successTitle: "ส่งข้อมูลของคุณเรียบร้อยแล้ว",
+      successDescription:
+        "ขอบคุณ ทีมงานจะตรวจสอบข้อมูลและติดต่อกลับเร็ว ๆ นี้เพื่อพูดคุยต่อ",
+      invalidResponse:
+        "ไม่สามารถอ่านการตอบกลับจากเซิร์ฟเวอร์ได้ กรุณาลองอีกครั้ง",
+      requestFailed:
+        "ขณะนี้ยังไม่สามารถส่งข้อมูลได้ กรุณารอสักครู่แล้วลองอีกครั้ง",
     },
   },
-},
+  patientJourney: {
+    badge: "Your Journey",
 
-pages: {
-  contact: {
-    seo: {
-      title: "ติดต่อทีมดูแลการเดินทาง",
-      description:
-        "ติดต่อ Maiv Thoj Viet Lao ผ่าน WhatsApp อีเมล หรือโทรศัพท์ เพื่อสอบถามเรื่องการทำฟัน วางแผนการเดินทาง และรับการดูแลสำหรับลูกค้าต่างชาติในเวียดนาม",
-    },
-
-    badge: "ติดต่อ",
-
-    heading: "พูดคุยกับทีมดูแลการเดินทางของเรา",
+    title: "From Your First Conversation to Returning Home",
 
     description:
-      "ไม่ว่าคุณจะเพิ่งเริ่มหาข้อมูล หรือกำลังวางแผนเดินทางมาเวียดนามเพื่อทำฟัน ทีมของเราพร้อมรับฟัง ตอบคำถาม และช่วยให้คุณเข้าใจขั้นตอนต่าง ๆ ก่อนตัดสินใจ",
+      "Understand how the Maiv Thoj Viet Lao team supports your consultation, travel, treatment coordination, recovery and follow-up journey in Vietnam.",
 
-    channels: {
-      whatsapp: {
+    optional: "Optional",
+
+    timing: "Timing",
+
+    steps: {
+      initialContact: {
+        stage: "Discovery",
+        title: "Contact Our International Support Team",
         description:
-          "พูดคุยโดยตรงกับทีมของเราเกี่ยวกับสภาพฟัน แผนการรักษา และการเดินทาง",
+          "Share your dental concerns, preferred language, available photographs or records, and your expected travel period with the Maiv Thoj Viet Lao team.",
+        estimatedDuration: "Before treatment planning",
       },
 
-      email: {
+      initialConsultation: {
+        stage: "Consultation",
+        title: "Initial Consultation",
         description:
-          "ส่งรูปฟัน คำถาม หรือรายละเอียดการเดินทาง เพื่อให้ทีมช่วยตรวจสอบข้อมูลเบื้องต้น",
+          "The team reviews your information, answers initial questions and helps coordinate communication with the clinical partner. A final diagnosis cannot be confirmed until an appropriate clinical examination is completed.",
+        estimatedDuration: "Online before travel",
       },
 
-      vietnamPhone: {
+      preliminaryPlanning: {
+        stage: "Planning",
+        title: "Preliminary Treatment and Travel Planning",
         description:
-          "โทรติดต่อหมายเลขทีมสนับสนุนในเวียดนามในเวลาทำการ",
+          "Based on the information available, the team helps prepare a preliminary journey plan covering expected appointments, travel dates, airport arrival and accommodation needs.",
+        estimatedDuration: "Before booking travel",
       },
 
-      laosPhone: {
+      travelToVietnam: {
+        stage: "Travel",
+        title: "Travel to Vietnam",
         description:
-          "หากสะดวกกว่า คุณสามารถโทรติดต่อหมายเลขทีมสนับสนุนในลาวได้เช่นกัน",
+          "Before departure, confirm your flight details, passport requirements, accommodation and contact information so the support team can prepare for your arrival.",
+        estimatedDuration: "Travel day",
       },
-    },
 
-    cta: {
-      heading: "เริ่มต้นด้วยการพูดคุยกันก่อน",
+      airportArrival: {
+        stage: "Arrival",
+        title: "Airport Pickup and Arrival Support",
+        description:
+          "A Sử (Txhim), Patient Journey Manager, or an assigned team member coordinates the meeting point and supports your transfer from the airport according to the confirmed journey plan.",
+        estimatedDuration: "Arrival day",
+      },
 
-      description:
-        "ทุกการเดินทางเพื่อรอยยิ้มเริ่มจากการเข้าใจความต้องการของคุณ ทีมของเรายินดีตอบคำถามก่อนที่คุณจะตัดสินใจ",
+      clinicalAssessment: {
+        stage: "Treatment",
+        title: "Clinical Examination and Final Treatment Plan",
+        description:
+          "The clinical partner examines your oral health, reviews diagnostic imaging when required and explains the final recommended treatment plan, schedule and material options before treatment begins.",
+        estimatedDuration: "First clinical appointment",
+      },
 
-      label: "พูดคุยกับทีมของเรา",
+      treatmentProcess: {
+        stage: "Treatment",
+        title: "Treatment and Journey Coordination",
+        description:
+          "Treatment is completed according to the approved clinical plan. The Patient Journey Manager helps coordinate transportation, communication and the daily schedule throughout the treatment period.",
+        estimatedDuration: "Depends on the treatment plan",
+      },
+
+      recovery: {
+        stage: "Recovery",
+        title: "Rest and Recovery",
+        description:
+          "Follow the clinical aftercare instructions and allow appropriate time for rest. The team remains available to support communication and schedule adjustments during your stay.",
+        estimatedDuration: "According to clinical advice",
+      },
+
+      optionalTravel: {
+        stage: "Experience",
+        title: "Optional Vietnam Experience",
+        description:
+          "When your treatment schedule and clinical condition allow, the team may help coordinate a suitable travel experience before your return journey.",
+        estimatedDuration: "Based on available time",
+      },
+
+      finalReview: {
+        stage: "Departure",
+        title: "Final Review and Airport Drop-off",
+        description:
+          "Before departure, the clinical team reviews the treatment result and provides aftercare guidance. Airport drop-off is then coordinated according to the confirmed flight schedule.",
+        estimatedDuration: "Final day",
+      },
+
+      internationalAftercare: {
+        stage: "Aftercare",
+        title: "Follow-up After Returning Home",
+        description:
+          "After returning home, keep your treatment records and follow the recommended maintenance plan. The support team can help coordinate follow-up communication when necessary.",
+        estimatedDuration: "Ongoing",
+      },
     },
   },
 
-  about: {
-    seo: {
-      title: "เกี่ยวกับ Maiv Thoj Viet Lao",
-      description:
-        "ทำความรู้จัก Maiv Thoj Viet Lao ภารกิจของเรา ทีมดูแล และการสนับสนุนลูกค้าต่างชาติที่เดินทางมาทำฟันในเวียดนาม",
-    },
+  pages: {
+    contact: {
+      seo: {
+        title: "ติดต่อทีมดูแลการเดินทาง",
+        description:
+          "ติดต่อ Maiv Thoj Viet Lao ผ่าน WhatsApp อีเมล หรือโทรศัพท์ เพื่อสอบถามเรื่องการทำฟัน วางแผนการเดินทาง และรับการดูแลสำหรับลูกค้าต่างชาติในเวียดนาม",
+      },
 
-    badge: "เกี่ยวกับเรา",
+      badge: "ติดต่อ",
 
-    heading: "คนที่พร้อมดูแลตลอดการเดินทางของคุณ",
-
-    description:
-      "บทบาทของเราคือช่วยให้ลูกค้าต่างชาติได้รับข้อมูลที่ชัดเจน รู้สึกอุ่นใจ และมีคนคอยดูแลก่อน ระหว่าง และหลังการเดินทางมาทำฟัน",
-  },
-
-  journey: {
-    seo: {
-      title: "เส้นทางการดูแลลูกค้า",
-      description:
-        "ดูขั้นตอนก่อน ระหว่าง และหลังการเดินทางมาทำฟันในเวียดนาม",
-    },
-
-    trustMessage: {
-      heading: "ทุกคนมีเส้นทางที่แตกต่างกัน",
+      heading: "พูดคุยกับทีมดูแลการเดินทางของเรา",
 
       description:
-        "แผนการรักษาและตารางการเดินทางจะจัดให้เหมาะกับสภาพช่องปาก เวลาที่มี และคำแนะนำจากทันตแพทย์",
-    },
-  },
+        "ไม่ว่าคุณจะเพิ่งเริ่มหาข้อมูล หรือกำลังวางแผนเดินทางมาเวียดนามเพื่อทำฟัน ทีมของเราพร้อมรับฟัง ตอบคำถาม และช่วยให้คุณเข้าใจขั้นตอนต่าง ๆ ก่อนตัดสินใจ",
 
- treatments: {
-    seo: {
+      channels: {
+        whatsapp: {
+          description:
+            "พูดคุยโดยตรงกับทีมของเราเกี่ยวกับสภาพฟัน แผนการรักษา และการเดินทาง",
+        },
+
+        email: {
+          description:
+            "ส่งรูปฟัน คำถาม หรือรายละเอียดการเดินทาง เพื่อให้ทีมช่วยตรวจสอบข้อมูลเบื้องต้น",
+        },
+
+        vietnamPhone: {
+          description: "โทรติดต่อหมายเลขทีมสนับสนุนในเวียดนามในเวลาทำการ",
+        },
+
+        laosPhone: {
+          description:
+            "หากสะดวกกว่า คุณสามารถโทรติดต่อหมายเลขทีมสนับสนุนในลาวได้เช่นกัน",
+        },
+      },
+
+      cta: {
+        heading: "เริ่มต้นด้วยการพูดคุยกันก่อน",
+
+        description:
+          "ทุกการเดินทางเพื่อรอยยิ้มเริ่มจากการเข้าใจความต้องการของคุณ ทีมของเรายินดีตอบคำถามก่อนที่คุณจะตัดสินใจ",
+
+        label: "พูดคุยกับทีมของเรา",
+      },
+    },
+
+    about: {
+      seo: {
+        title: "เกี่ยวกับ Maiv Thoj Viet Lao",
+        description:
+          "ทำความรู้จัก Maiv Thoj Viet Lao ภารกิจของเรา ทีมดูแล และการสนับสนุนลูกค้าต่างชาติที่เดินทางมาทำฟันในเวียดนาม",
+      },
+
+      badge: "เกี่ยวกับเรา",
+
+      heading: "คนที่พร้อมดูแลตลอดการเดินทางของคุณ",
+
+      description:
+        "บทบาทของเราคือช่วยให้ลูกค้าต่างชาติได้รับข้อมูลที่ชัดเจน รู้สึกอุ่นใจ และมีคนคอยดูแลก่อน ระหว่าง และหลังการเดินทางมาทำฟัน",
+    },
+
+    journey: {
+      seo: {
+        title: "เส้นทางการดูแลลูกค้า",
+        description: "ดูขั้นตอนก่อน ระหว่าง และหลังการเดินทางมาทำฟันในเวียดนาม",
+      },
+
+      trustMessage: {
+        heading: "ทุกคนมีเส้นทางที่แตกต่างกัน",
+
+        description:
+          "แผนการรักษาและตารางการเดินทางจะจัดให้เหมาะกับสภาพช่องปาก เวลาที่มี และคำแนะนำจากทันตแพทย์",
+      },
+    },
+
+    treatments: {
+      seo: {
         title: "การรักษาทางทันตกรรม",
         description:
-            "สำรวจบริการรากฟันเทียม ครอบฟัน วีเนียร์ และการออกแบบรอยยิ้มกับพันธมิตรทันตกรรมที่เชื่อถือได้ของเรา",
-    },
+          "สำรวจบริการรากฟันเทียม ครอบฟัน วีเนียร์ และการออกแบบรอยยิ้มกับพันธมิตรทันตกรรมที่เชื่อถือได้ของเรา",
+      },
 
-    badge: "การรักษา",
+      badge: "การรักษา",
 
-    heading: "ทางเลือกการรักษาที่เหมาะกับคุณ",
+      heading: "ทางเลือกการรักษาที่เหมาะกับคุณ",
 
-    description:
+      description:
         "เรียนรู้เกี่ยวกับการรักษาแต่ละประเภทและพูดคุยกับทีมงานของเราเพื่อเลือกแนวทางที่เหมาะสมที่สุด",
 
-    schema: {
+      schema: {
         collectionName: "การรักษาทางทันตกรรม",
         breadcrumbHome: "หน้าแรก",
         breadcrumbCurrent: "การรักษา",
-    },
+      },
 
-    emptyState: {
+      emptyState: {
         heading: "กำลังเพิ่มข้อมูลการรักษา",
 
+        description: "รายละเอียดการรักษาเพิ่มเติมจะพร้อมให้บริการเร็ว ๆ นี้",
+      },
+    },
+
+    travelGuide: {
+      seo: {
+        title: "คู่มือการเดินทางในเวียดนาม",
         description:
-            "รายละเอียดการรักษาเพิ่มเติมจะพร้อมให้บริการเร็ว ๆ นี้",
-    },
-},
+          "ข้อมูลการเดินทางที่เป็นประโยชน์สำหรับลูกค้าต่างชาติที่มาเวียดนามเพื่อทำฟัน",
+      },
 
-  travelGuide: {
-    seo: {
-      title: "คู่มือการเดินทางในเวียดนาม",
-      description:
-        "ข้อมูลการเดินทางที่เป็นประโยชน์สำหรับลูกค้าต่างชาติที่มาเวียดนามเพื่อทำฟัน",
-    },
+      badge: "คู่มือการเดินทาง",
 
-    badge: "คู่มือการเดินทาง",
-
-    heading: "เดินทางอย่างมั่นใจมากขึ้น",
-
-    description:
-      "ข้อมูลสำคัญที่จะช่วยให้การเดินทางมาเวียดนามของคุณง่าย สะดวก และอุ่นใจขึ้น",
-
-    schema: {
-      collectionName: "คู่มือการเดินทางในเวียดนาม",
-      breadcrumbHome: "หน้าหลัก",
-      breadcrumbCurrent: "คู่มือการเดินทาง",
-    },
-
-    emptyState: {
-      heading: "กำลังเพิ่มคู่มือใหม่",
+      heading: "เดินทางอย่างมั่นใจมากขึ้น",
 
       description:
-        "บทความเกี่ยวกับการเดินทางและสถานที่ต่าง ๆ จะถูกเพิ่มในเร็ว ๆ นี้",
+        "ข้อมูลสำคัญที่จะช่วยให้การเดินทางมาเวียดนามของคุณง่าย สะดวก และอุ่นใจขึ้น",
+
+      schema: {
+        collectionName: "คู่มือการเดินทางในเวียดนาม",
+        breadcrumbHome: "หน้าหลัก",
+        breadcrumbCurrent: "คู่มือการเดินทาง",
+      },
+
+      emptyState: {
+        heading: "กำลังเพิ่มคู่มือใหม่",
+
+        description:
+          "บทความเกี่ยวกับการเดินทางและสถานที่ต่าง ๆ จะถูกเพิ่มในเร็ว ๆ นี้",
+      },
     },
   },
-},
 
   footer: {
     description:
@@ -906,8 +900,8 @@ pages: {
     },
     contact: {
       title: "ติดต่อ",
-        vietnamPhoneLabel: "สายด่วนเวียดนาม",
-        laosPhoneLabel: "สายด่วนลาว",
+      vietnamPhoneLabel: "สายด่วนเวียดนาม",
+      laosPhoneLabel: "สายด่วนลาว",
       whatsappLabel: "WhatsApp",
       addressLabel: "ที่อยู่",
       phoneLabel: "โทรศัพท์",
@@ -917,11 +911,9 @@ pages: {
     },
     socialTitle: "ติดตามเรา",
 
-bottom: {
-  rightsReserved:
-    "สงวนลิขสิทธิ์.",
-  builtFor:
-    "ดูแลการเดินทางมาทำฟันในเวียดนามสำหรับลูกค้าต่างชาติ.",
-},
+    bottom: {
+      rightsReserved: "สงวนลิขสิทธิ์.",
+      builtFor: "ดูแลการเดินทางมาทำฟันในเวียดนามสำหรับลูกค้าต่างชาติ.",
+    },
   },
 };

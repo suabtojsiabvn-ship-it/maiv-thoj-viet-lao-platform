@@ -3,7 +3,8 @@ import type { LocaleDictionary } from "@/types/i18n";
 export const viDictionary: LocaleDictionary = {
   common: {
     brandName: "Maiv Thoj Viet Lao",
-    tagline: "Đồng hành cùng khách hàng quốc tế trên hành trình làm răng tại Việt Nam",
+    tagline:
+      "Đồng hành cùng khách hàng quốc tế trên hành trình làm răng tại Việt Nam",
     primaryCta: "Bắt đầu bằng một cuộc trò chuyện",
     secondaryCta: "Hỏi đội ngũ trước",
   },
@@ -20,7 +21,6 @@ export const viDictionary: LocaleDictionary = {
       contact: "Liên hệ",
     },
   },
-
 
   hero: {
     badge: "Đồng hành cùng khách hàng quốc tế tại Việt Nam",
@@ -150,8 +150,7 @@ export const viDictionary: LocaleDictionary = {
   coordinator: {
     sectionLabel: "Gặp A Sử",
 
-    title:
-      "Người đồng hành cùng bạn trong suốt thời gian ở Việt Nam.",
+    title: "Người đồng hành cùng bạn trong suốt thời gian ở Việt Nam.",
 
     description:
       "Khi bạn quyết định sang Việt Nam làm răng, A Sử giúp điều phối hành trình của bạn — từ chuẩn bị trước chuyến đi, đón tại sân bay, hỗ trợ giao tiếp và di chuyển cho đến ngày bạn trở về nhà.",
@@ -218,8 +217,7 @@ export const viDictionary: LocaleDictionary = {
   clinicalPartner: {
     sectionLabel: "Đối tác nha khoa đáng tin cậy",
 
-    title:
-      "Chăm sóc nha khoa chuyên môn từ đội ngũ bạn có thể tin tưởng.",
+    title: "Chăm sóc nha khoa chuyên môn từ đội ngũ bạn có thể tin tưởng.",
 
     description:
       "Maiv Thoj Viet Lao đồng hành trong hành trình của bạn. Việc thăm khám, chẩn đoán và làm răng được thực hiện bởi các đối tác đáng tin cậy như An Nhien Dental cùng đội ngũ nha khoa giàu kinh nghiệm.",
@@ -341,8 +339,7 @@ export const viDictionary: LocaleDictionary = {
   beforeAfter: {
     sectionLabel: "Hành trình nụ cười thật",
 
-    title:
-      "Mỗi nụ cười đều có một câu chuyện. Mỗi hành trình đều rất riêng.",
+    title: "Mỗi nụ cười đều có một câu chuyện. Mỗi hành trình đều rất riêng.",
 
     description:
       "Đằng sau mỗi hình ảnh trước và sau là một người đã tin tưởng trao cho chúng tôi một quyết định quan trọng. Những câu chuyện này phản ánh hành trình làm răng thật, được Maiv Thoj Viet Lao đồng hành và được thực hiện bởi các đối tác nha khoa đáng tin cậy.",
@@ -378,155 +375,157 @@ export const viDictionary: LocaleDictionary = {
       },
     },
   },
-   journey: {
-  sectionLabel: "Hành trình của bạn",
+  journey: {
+    sectionLabel: "Hành trình của bạn",
 
-  badge: "PATIENT JOURNEY",
+    badge: "PATIENT JOURNEY",
 
-  title:
-    "Một hành trình rõ ràng, an tâm và luôn có người đồng hành.",
-
-  description:
-    "Mỗi khách hàng đều có lịch trình khác nhau, nhưng mục tiêu của chúng tôi luôn giống nhau: giúp bạn cảm thấy yên tâm từ khi hạ cánh tại Việt Nam cho đến khi trở về nhà với nụ cười mới.",
-
-  heading:
-    "Từ cuộc trò chuyện đầu tiên đến ngày bạn an tâm trở về nhà.",
-
-  intro:
-    "Hành trình của bạn bắt đầu từ trước khi đặt chân đến Việt Nam. Mọi bước đều được giải thích rõ ràng, sắp xếp phù hợp với kế hoạch làm răng và có người đồng hành khi bạn cần.",
-  steps: [
-    {
-      id: "arrival",
-      icon: "plane-takeoff",
-
-      title: "Ngày 1 • Đến Việt Nam",
-
-      description:
-        "A Sử trực tiếp đón bạn tại sân bay Nội Bài bằng xe của đội ngũ. Nếu chuyến bay đến sớm, bạn sẽ được đưa đến An Nhien Dental để thăm khám, chụp CT, tư vấn và lên kế hoạch điều trị. Nếu chuyến bay đến muộn, chúng tôi sẽ đưa bạn về khách sạn nghỉ ngơi và bắt đầu hành trình vào sáng hôm sau.",
-    },
-
-    {
-      id: "consultation",
-      icon: "stethoscope",
-
-      title: "Khám và lập kế hoạch điều trị",
-
-      description:
-        "Bác sĩ tiến hành khám, chụp CT, đánh giá tình trạng răng miệng và tư vấn phương án phù hợp. Nếu đúng kế hoạch điều trị, việc mài răng hoặc chuẩn bị cho phục hình sẽ được thực hiện ngay trong ngày.",
-    },
-
-    {
-      id: "recovery",
-      icon: "heart-pulse",
-
-      title: "Ngày 2 • Nghỉ ngơi hoặc khám phá Hà Nội",
-
-      description:
-        "Sau điều trị, bạn có thời gian nghỉ ngơi để cơ thể thích nghi. Nếu sức khỏe và lịch trình phù hợp, A Sử sẽ đồng hành cùng bạn khám phá Hà Nội, thưởng thức ẩm thực địa phương, cà phê và lưu giữ những khoảnh khắc đẹp bằng ảnh và video.",
-    },
-
-    {
-      id: "smile",
-      icon: "clipboard-list",
-
-      title: "Ngày 3 • Hoàn thiện nụ cười",
-
-      description:
-        "Bạn quay lại nha khoa để lắp răng hoàn thiện, điều chỉnh khớp cắn và kiểm tra lần cuối trước khi hoàn tất điều trị. Đội ngũ sẽ chụp ảnh và quay video lưu giữ hành trình nếu bạn đồng ý.",
-    },
-
-    {
-      id: "departure",
-      icon: "car",
-
-      title: "Ngày 4 • Kiểm tra cuối và tiễn sân bay",
-
-      description:
-        "Bác sĩ kiểm tra kết quả sau điều trị, hướng dẫn chăm sóc tại nhà và giải đáp các câu hỏi còn lại. Sau đó A Sử đưa bạn ra sân bay bằng xe của đội ngũ để trở về nhà với nụ cười mới và những kỷ niệm đẹp tại Việt Nam.",
-    },
-  ],
-
-  cta: {
-    label: "Bắt đầu hành trình của bạn",
-  },
-},
-trust: {
-  badge: "CHÀO ĐÓN BỆNH NHÂN QUỐC TẾ",
-
-  heading: "Chào đón khách hàng quốc tế đến Việt Nam",
-
-  description:
-    "Dù bạn đến từ Hoa Kỳ, Pháp, Úc, Lào, Thái Lan hay bất kỳ quốc gia nào khác, đội ngũ của chúng tôi luôn sẵn sàng đồng hành cùng bạn bằng nhiều ngôn ngữ trong suốt hành trình chăm sóc nụ cười tại Việt Nam.",
-
-  personalizedCare:
-    "Mỗi kế hoạch điều trị đều được cá nhân hóa dựa trên tình trạng răng miệng, lịch trình và nhu cầu riêng của bạn.",
-
-  countries: [
-    { code: "🇺🇸", name: "Hoa Kỳ" },
-    { code: "🇫🇷", name: "Pháp" },
-    { code: "🇦🇺", name: "Úc" },
-    { code: "🇱🇦", name: "Lào" },
-    { code: "🇹🇭", name: "Thái Lan" },
-    { code: "🇻🇳", name: "Việt Nam" },
-  ],
-transparency: {
-  title: "Cam kết minh bạch",
-
-  description:
-    "Thông tin rõ ràng và hỗ trợ đáng tin cậy trong suốt hành trình chăm sóc răng miệng của bạn tại Việt Nam.",
-
-  items: [
-    "Kế hoạch điều trị được cá nhân hóa",
-    "Báo giá rõ ràng trước điều trị",
-    "Không có chi phí điều trị ẩn",
-    "Hỗ trợ đón và tiễn sân bay",
-    "Đồng hành và hỗ trợ đa ngôn ngữ",
-  ],
-},
-  material: {
-    title: "Vật liệu nha khoa cao cấp",
+    title: "Một hành trình rõ ràng, an tâm và luôn có người đồng hành.",
 
     description:
-      "Hệ thống sứ cao cấp từ Đức, Thụy Sĩ và Hoa Kỳ được lựa chọn dựa trên kế hoạch điều trị và nhu cầu lâm sàng của từng khách hàng.",
+      "Mỗi khách hàng đều có lịch trình khác nhau, nhưng mục tiêu của chúng tôi luôn giống nhau: giúp bạn cảm thấy yên tâm từ khi hạ cánh tại Việt Nam cho đến khi trở về nhà với nụ cười mới.",
 
-    items: [
-      "Hệ thống sứ cao cấp",
-      "Lựa chọn vật liệu phù hợp",
-      "Ưu tiên tính phù hợp lâm sàng",
+    heading: "Từ cuộc trò chuyện đầu tiên đến ngày bạn an tâm trở về nhà.",
+
+    intro:
+      "Hành trình của bạn bắt đầu từ trước khi đặt chân đến Việt Nam. Mọi bước đều được giải thích rõ ràng, sắp xếp phù hợp với kế hoạch làm răng và có người đồng hành khi bạn cần.",
+    steps: [
+      {
+        id: "arrival",
+        icon: "plane-takeoff",
+
+        title: "Ngày 1 • Đến Việt Nam",
+
+        description:
+          "A Sử trực tiếp đón bạn tại sân bay Nội Bài bằng xe của đội ngũ. Nếu chuyến bay đến sớm, bạn sẽ được đưa đến An Nhien Dental để thăm khám, chụp CT, tư vấn và lên kế hoạch điều trị. Nếu chuyến bay đến muộn, chúng tôi sẽ đưa bạn về khách sạn nghỉ ngơi và bắt đầu hành trình vào sáng hôm sau.",
+      },
+
+      {
+        id: "consultation",
+        icon: "stethoscope",
+
+        title: "Khám và lập kế hoạch điều trị",
+
+        description:
+          "Bác sĩ tiến hành khám, chụp CT, đánh giá tình trạng răng miệng và tư vấn phương án phù hợp. Nếu đúng kế hoạch điều trị, việc mài răng hoặc chuẩn bị cho phục hình sẽ được thực hiện ngay trong ngày.",
+      },
+
+      {
+        id: "recovery",
+        icon: "heart-pulse",
+
+        title: "Ngày 2 • Nghỉ ngơi hoặc khám phá Hà Nội",
+
+        description:
+          "Sau điều trị, bạn có thời gian nghỉ ngơi để cơ thể thích nghi. Nếu sức khỏe và lịch trình phù hợp, A Sử sẽ đồng hành cùng bạn khám phá Hà Nội, thưởng thức ẩm thực địa phương, cà phê và lưu giữ những khoảnh khắc đẹp bằng ảnh và video.",
+      },
+
+      {
+        id: "smile",
+        icon: "clipboard-list",
+
+        title: "Ngày 3 • Hoàn thiện nụ cười",
+
+        description:
+          "Bạn quay lại nha khoa để lắp răng hoàn thiện, điều chỉnh khớp cắn và kiểm tra lần cuối trước khi hoàn tất điều trị. Đội ngũ sẽ chụp ảnh và quay video lưu giữ hành trình nếu bạn đồng ý.",
+      },
+
+      {
+        id: "departure",
+        icon: "car",
+
+        title: "Ngày 4 • Kiểm tra cuối và tiễn sân bay",
+
+        description:
+          "Bác sĩ kiểm tra kết quả sau điều trị, hướng dẫn chăm sóc tại nhà và giải đáp các câu hỏi còn lại. Sau đó A Sử đưa bạn ra sân bay bằng xe của đội ngũ để trở về nhà với nụ cười mới và những kỷ niệm đẹp tại Việt Nam.",
+      },
     ],
+
+    cta: {
+      label: "Bắt đầu hành trình của bạn",
+    },
   },
-  community: {
-  title: "Được cộng đồng H'Mông quốc tế tin tưởng",
+  trust: {
+    badge: "CHÀO ĐÓN BỆNH NHÂN QUỐC TẾ",
 
-  description:
-    "Một cộng đồng được xây dựng từ những hành trình khách hàng thực tế, sự đồng hành đa ngôn ngữ và niềm tin lâu dài.",
+    heading: "Chào đón khách hàng quốc tế đến Việt Nam",
 
-  stats: [
-    {
-      value: "454K+",
-      label: "Cộng đồng Facebook",
+    description:
+      "Dù bạn đến từ Hoa Kỳ, Pháp, Úc, Lào, Thái Lan hay bất kỳ quốc gia nào khác, đội ngũ của chúng tôi luôn sẵn sàng đồng hành cùng bạn bằng nhiều ngôn ngữ trong suốt hành trình chăm sóc nụ cười tại Việt Nam.",
+
+    personalizedCare:
+      "Mỗi kế hoạch điều trị đều được cá nhân hóa dựa trên tình trạng răng miệng, lịch trình và nhu cầu riêng của bạn.",
+
+    countries: [
+      { code: "🇺🇸", name: "Hoa Kỳ" },
+      { code: "🇫🇷", name: "Pháp" },
+      { code: "🇦🇺", name: "Úc" },
+      { code: "🇱🇦", name: "Lào" },
+      { code: "🇹🇭", name: "Thái Lan" },
+      { code: "🇻🇳", name: "Việt Nam" },
+    ],
+    transparency: {
+      title: "Cam kết minh bạch",
+
+      description:
+        "Thông tin rõ ràng và hỗ trợ đáng tin cậy trong suốt hành trình chăm sóc răng miệng của bạn tại Việt Nam.",
+
+      items: [
+        "Kế hoạch điều trị được cá nhân hóa",
+        "Báo giá rõ ràng trước điều trị",
+        "Không có chi phí điều trị ẩn",
+        "Hỗ trợ đón và tiễn sân bay",
+        "Đồng hành và hỗ trợ đa ngôn ngữ",
+      ],
     },
-    {
-      value: "1.3M+",
-      label: "Người theo dõi TikTok",
+    material: {
+      title: "Vật liệu nha khoa cao cấp",
+
+      description:
+        "Hệ thống sứ cao cấp từ Đức, Thụy Sĩ và Hoa Kỳ được lựa chọn dựa trên kế hoạch điều trị và nhu cầu lâm sàng của từng khách hàng.",
+
+      items: [
+        "Hệ thống sứ cao cấp",
+        "Lựa chọn vật liệu phù hợp",
+        "Ưu tiên tính phù hợp lâm sàng",
+      ],
     },
-    {
-      value: "5",
-      label: "Ngôn ngữ hỗ trợ",
+    community: {
+      title: "Được cộng đồng H'Mông quốc tế tin tưởng",
+
+      description:
+        "Một cộng đồng được xây dựng từ những hành trình khách hàng thực tế, sự đồng hành đa ngôn ngữ và niềm tin lâu dài.",
+
+      stats: [
+        {
+          value: "454K+",
+          label: "Cộng đồng Facebook",
+        },
+        {
+          value: "1.3M+",
+          label: "Người theo dõi TikTok",
+        },
+        {
+          value: "5",
+          label: "Ngôn ngữ hỗ trợ",
+        },
+        {
+          value: "Quốc tế",
+          label: "Đồng hành khách hàng",
+        },
+      ],
     },
-    {
-      value: "Quốc tế",
-      label: "Đồng hành khách hàng",
-    },
-  ],
-},
-},
+  },
 
   booking: {
+    seo: {
+      title: "Đặt lịch tư vấn nha khoa miễn phí",
+      description:
+        "Chia sẻ tình trạng răng miệng, ngôn ngữ và dự định đến Việt Nam với đội ngũ hỗ trợ quốc tế Maiv Thoj Viet Lao.",
+    },
     sectionLabel: "Hãy trò chuyện cùng chúng tôi",
 
-    title:
-      "Mỗi hành trình bắt đầu bằng một cuộc trò chuyện đơn giản.",
+    title: "Mỗi hành trình bắt đầu bằng một cuộc trò chuyện đơn giản.",
 
     description:
       "Bạn không cần biết chính xác mình cần làm gì trước khi liên hệ. Hãy kể một chút về tình trạng, mong muốn hoặc điều bạn đang lo lắng, chúng tôi sẽ cùng bạn tìm bước tiếp theo phù hợp.",
@@ -536,34 +535,33 @@ transparency: {
     heading: "Hãy cùng lên kế hoạch cho hành trình điều trị của bạn",
 
     intro:
-  "Hãy chia sẻ tình trạng răng miệng và dự định của bạn. Đội ngũ sẽ xem xét thông tin, tư vấn và chuẩn bị kế hoạch điều trị phù hợp trước khi bạn đưa ra quyết định.",
+      "Hãy chia sẻ tình trạng răng miệng và dự định của bạn. Đội ngũ sẽ xem xét thông tin, tư vấn và chuẩn bị kế hoạch điều trị phù hợp trước khi bạn đưa ra quyết định.",
 
     benefits: {
-  consultation: {
-    title: "Bắt đầu bằng một cuộc trò chuyện",
-    description:
-      "Bạn chưa cần đưa ra quyết định ngay. Hãy chia sẻ tình trạng của mình, đặt câu hỏi và tìm hiểu các lựa chọn trước.",
-  },
+      consultation: {
+        title: "Bắt đầu bằng một cuộc trò chuyện",
+        description:
+          "Bạn chưa cần đưa ra quyết định ngay. Hãy chia sẻ tình trạng của mình, đặt câu hỏi và tìm hiểu các lựa chọn trước.",
+      },
 
-  plan: {
-    title: "Kế hoạch điều trị cá nhân hóa",
-    description:
-      "Đội ngũ sẽ xem xét tình trạng răng miệng, nhu cầu và thời gian của bạn để tư vấn hướng điều trị phù hợp.",
-  },
+      plan: {
+        title: "Kế hoạch điều trị cá nhân hóa",
+        description:
+          "Đội ngũ sẽ xem xét tình trạng răng miệng, nhu cầu và thời gian của bạn để tư vấn hướng điều trị phù hợp.",
+      },
 
-  travel: {
-    title: "Hỗ trợ hành trình",
-    description:
-      "Nếu bạn quyết định sang Việt Nam, chúng tôi sẽ hỗ trợ điều phối để bạn biết trước từng bước của hành trình.",
-  },
+      travel: {
+        title: "Hỗ trợ hành trình",
+        description:
+          "Nếu bạn quyết định sang Việt Nam, chúng tôi sẽ hỗ trợ điều phối để bạn biết trước từng bước của hành trình.",
+      },
 
-  coordinator: {
-    title: "Đội ngũ đồng hành",
-    description:
-      "Bạn sẽ được kết nối với người đồng hành và đối tác nha khoa phù hợp để hỗ trợ xuyên suốt hành trình.",
-  },
-},
-
+      coordinator: {
+        title: "Đội ngũ đồng hành",
+        description:
+          "Bạn sẽ được kết nối với người đồng hành và đối tác nha khoa phù hợp để hỗ trợ xuyên suốt hành trình.",
+      },
+    },
 
     fields: {
       fullName: "Họ và tên",
@@ -582,11 +580,9 @@ transparency: {
 
       treatment: "Chúng tôi có thể giúp bạn điều gì?",
 
-      selectTreatment:
-        "Chọn lựa chọn gần nhất với tình trạng của bạn",
+      selectTreatment: "Chọn lựa chọn gần nhất với tình trạng của bạn",
 
-      travelDate:
-        "Khi nào bạn đang nghĩ đến việc đến Việt Nam?",
+      travelDate: "Khi nào bạn đang nghĩ đến việc đến Việt Nam?",
 
       message: "Kể cho chúng tôi nghe thêm",
 
@@ -594,8 +590,6 @@ transparency: {
         "Bạn có thể chia sẻ điều mình lo lắng, mong muốn cải thiện nụ cười, tình trạng răng trước đây, kế hoạch đến Việt Nam hoặc bất kỳ câu hỏi nào bạn đang có.",
     },
 
-
-    
     treatments: {
       implant: "Thay thế răng đã mất",
 
@@ -605,8 +599,7 @@ transparency: {
 
       veneers: "Mặt dán sứ Veneer",
 
-      consultation:
-        "Tôi chưa chắc — tôi muốn được tư vấn trước",
+      consultation: "Tôi chưa chắc — tôi muốn được tư vấn trước",
     },
 
     languages: {
@@ -625,251 +618,255 @@ transparency: {
       privacy:
         "Thông tin của bạn được giữ riêng tư và chỉ được dùng để đội ngũ hỗ trợ trả lời câu hỏi, tư vấn và giúp bạn lên kế hoạch hành trình làm răng.",
     },
-  },
-patientJourney: {
-  badge: "Your Journey",
-
-  title:
-    "From Your First Conversation to Returning Home",
-
-  description:
-    "Understand how the Maiv Thoj Viet Lao team supports your consultation, travel, treatment coordination, recovery and follow-up journey in Vietnam.",
-
-  optional: "Optional",
-
-  timing: "Timing",
-
-  steps: {
-    initialContact: {
-      stage: "Discovery",
-      title: "Contact Our International Support Team",
-      description:
-        "Share your dental concerns, preferred language, available photographs or records, and your expected travel period with the Maiv Thoj Viet Lao team.",
-      estimatedDuration: "Before treatment planning",
+    validation: {
+      fullName: "Vui lòng nhập họ và tên.",
+      country: "Vui lòng nhập quốc gia hoặc khu vực.",
+      whatsapp: "Vui lòng nhập số WhatsApp hoặc số điện thoại hợp lệ.",
+      email: "Vui lòng nhập địa chỉ email hợp lệ.",
     },
-
-    initialConsultation: {
-      stage: "Consultation",
-      title: "Initial Consultation",
-      description:
-        "The team reviews your information, answers initial questions and helps coordinate communication with the clinical partner. A final diagnosis cannot be confirmed until an appropriate clinical examination is completed.",
-      estimatedDuration: "Online before travel",
-    },
-
-    preliminaryPlanning: {
-      stage: "Planning",
-      title:
-        "Preliminary Treatment and Travel Planning",
-      description:
-        "Based on the information available, the team helps prepare a preliminary journey plan covering expected appointments, travel dates, airport arrival and accommodation needs.",
-      estimatedDuration: "Before booking travel",
-    },
-
-    travelToVietnam: {
-      stage: "Travel",
-      title: "Travel to Vietnam",
-      description:
-        "Before departure, confirm your flight details, passport requirements, accommodation and contact information so the support team can prepare for your arrival.",
-      estimatedDuration: "Travel day",
-    },
-
-    airportArrival: {
-      stage: "Arrival",
-      title:
-        "Airport Pickup and Arrival Support",
-      description:
-        "A Sử (Txhim), Patient Journey Manager, or an assigned team member coordinates the meeting point and supports your transfer from the airport according to the confirmed journey plan.",
-      estimatedDuration: "Arrival day",
-    },
-
-    clinicalAssessment: {
-      stage: "Treatment",
-      title:
-        "Clinical Examination and Final Treatment Plan",
-      description:
-        "The clinical partner examines your oral health, reviews diagnostic imaging when required and explains the final recommended treatment plan, schedule and material options before treatment begins.",
-      estimatedDuration:
-        "First clinical appointment",
-    },
-
-    treatmentProcess: {
-      stage: "Treatment",
-      title:
-        "Treatment and Journey Coordination",
-      description:
-        "Treatment is completed according to the approved clinical plan. The Patient Journey Manager helps coordinate transportation, communication and the daily schedule throughout the treatment period.",
-      estimatedDuration:
-        "Depends on the treatment plan",
-    },
-
-    recovery: {
-      stage: "Recovery",
-      title: "Rest and Recovery",
-      description:
-        "Follow the clinical aftercare instructions and allow appropriate time for rest. The team remains available to support communication and schedule adjustments during your stay.",
-      estimatedDuration:
-        "According to clinical advice",
-    },
-
-    optionalTravel: {
-      stage: "Experience",
-      title: "Optional Vietnam Experience",
-      description:
-        "When your treatment schedule and clinical condition allow, the team may help coordinate a suitable travel experience before your return journey.",
-      estimatedDuration: "Based on available time",
-    },
-
-    finalReview: {
-      stage: "Departure",
-      title:
-        "Final Review and Airport Drop-off",
-      description:
-        "Before departure, the clinical team reviews the treatment result and provides aftercare guidance. Airport drop-off is then coordinated according to the confirmed flight schedule.",
-      estimatedDuration: "Final day",
-    },
-
-    internationalAftercare: {
-      stage: "Aftercare",
-      title: "Follow-up After Returning Home",
-      description:
-        "After returning home, keep your treatment records and follow the recommended maintenance plan. The support team can help coordinate follow-up communication when necessary.",
-      estimatedDuration: "Ongoing",
+    feedback: {
+      successTitle: "Thông tin của bạn đã được gửi",
+      successDescription:
+        "Cảm ơn bạn. Đội ngũ sẽ xem xét thông tin và sớm liên hệ để tiếp tục trao đổi.",
+      invalidResponse: "Không thể đọc phản hồi từ máy chủ. Vui lòng thử lại.",
+      requestFailed:
+        "Hiện chưa thể gửi thông tin của bạn. Vui lòng thử lại sau ít phút.",
     },
   },
-},
-pages: {
-  contact: {
-    seo: {
-      title: "Liên hệ đội ngũ đồng hành",
-      description:
-        "Liên hệ Maiv Thoj Viet Lao qua WhatsApp, email hoặc điện thoại để được tư vấn nha khoa, lên kế hoạch hành trình và hỗ trợ khách hàng quốc tế tại Việt Nam.",
-    },
+  patientJourney: {
+    badge: "Your Journey",
 
-    badge: "LIÊN HỆ",
-
-    heading: "Trao đổi cùng đội ngũ đồng hành",
+    title: "From Your First Conversation to Returning Home",
 
     description:
-      "Dù bạn mới tìm hiểu hay đã sẵn sàng lên kế hoạch sang Việt Nam làm răng, chúng tôi luôn sẵn sàng lắng nghe, giải đáp và giúp bạn hiểu rõ từng bước trước khi quyết định.",
+      "Understand how the Maiv Thoj Viet Lao team supports your consultation, travel, treatment coordination, recovery and follow-up journey in Vietnam.",
 
-    channels: {
-      whatsapp: {
+    optional: "Optional",
+
+    timing: "Timing",
+
+    steps: {
+      initialContact: {
+        stage: "Discovery",
+        title: "Contact Our International Support Team",
         description:
-          "Trao đổi trực tiếp với đội ngũ về tình trạng răng, kế hoạch điều trị và hành trình.",
+          "Share your dental concerns, preferred language, available photographs or records, and your expected travel period with the Maiv Thoj Viet Lao team.",
+        estimatedDuration: "Before treatment planning",
       },
 
-      email: {
+      initialConsultation: {
+        stage: "Consultation",
+        title: "Initial Consultation",
         description:
-          "Gửi hình ảnh răng, câu hỏi hoặc thông tin chuyến đi để chúng tôi hỗ trợ bạn.",
+          "The team reviews your information, answers initial questions and helps coordinate communication with the clinical partner. A final diagnosis cannot be confirmed until an appropriate clinical examination is completed.",
+        estimatedDuration: "Online before travel",
       },
 
-      vietnamPhone: {
+      preliminaryPlanning: {
+        stage: "Planning",
+        title: "Preliminary Treatment and Travel Planning",
         description:
-          "Gọi đến số hỗ trợ tại Việt Nam trong giờ làm việc.",
+          "Based on the information available, the team helps prepare a preliminary journey plan covering expected appointments, travel dates, airport arrival and accommodation needs.",
+        estimatedDuration: "Before booking travel",
       },
 
-      laosPhone: {
+      travelToVietnam: {
+        stage: "Travel",
+        title: "Travel to Vietnam",
         description:
-          "Nếu thuận tiện hơn, bạn cũng có thể liên hệ qua số điện thoại tại Lào.",
+          "Before departure, confirm your flight details, passport requirements, accommodation and contact information so the support team can prepare for your arrival.",
+        estimatedDuration: "Travel day",
       },
-    },
 
-    cta: {
-      heading: "Hãy bắt đầu bằng một cuộc trò chuyện",
+      airportArrival: {
+        stage: "Arrival",
+        title: "Airport Pickup and Arrival Support",
+        description:
+          "A Sử (Txhim), Patient Journey Manager, or an assigned team member coordinates the meeting point and supports your transfer from the airport according to the confirmed journey plan.",
+        estimatedDuration: "Arrival day",
+      },
 
-      description:
-        "Mỗi hành trình làm răng đều bắt đầu từ việc lắng nghe nhu cầu của bạn. Chúng tôi sẵn sàng tư vấn trước khi bạn đưa ra quyết định.",
+      clinicalAssessment: {
+        stage: "Treatment",
+        title: "Clinical Examination and Final Treatment Plan",
+        description:
+          "The clinical partner examines your oral health, reviews diagnostic imaging when required and explains the final recommended treatment plan, schedule and material options before treatment begins.",
+        estimatedDuration: "First clinical appointment",
+      },
 
-      label: "Trao đổi với đội ngũ",
+      treatmentProcess: {
+        stage: "Treatment",
+        title: "Treatment and Journey Coordination",
+        description:
+          "Treatment is completed according to the approved clinical plan. The Patient Journey Manager helps coordinate transportation, communication and the daily schedule throughout the treatment period.",
+        estimatedDuration: "Depends on the treatment plan",
+      },
+
+      recovery: {
+        stage: "Recovery",
+        title: "Rest and Recovery",
+        description:
+          "Follow the clinical aftercare instructions and allow appropriate time for rest. The team remains available to support communication and schedule adjustments during your stay.",
+        estimatedDuration: "According to clinical advice",
+      },
+
+      optionalTravel: {
+        stage: "Experience",
+        title: "Optional Vietnam Experience",
+        description:
+          "When your treatment schedule and clinical condition allow, the team may help coordinate a suitable travel experience before your return journey.",
+        estimatedDuration: "Based on available time",
+      },
+
+      finalReview: {
+        stage: "Departure",
+        title: "Final Review and Airport Drop-off",
+        description:
+          "Before departure, the clinical team reviews the treatment result and provides aftercare guidance. Airport drop-off is then coordinated according to the confirmed flight schedule.",
+        estimatedDuration: "Final day",
+      },
+
+      internationalAftercare: {
+        stage: "Aftercare",
+        title: "Follow-up After Returning Home",
+        description:
+          "After returning home, keep your treatment records and follow the recommended maintenance plan. The support team can help coordinate follow-up communication when necessary.",
+        estimatedDuration: "Ongoing",
+      },
     },
   },
+  pages: {
+    contact: {
+      seo: {
+        title: "Liên hệ đội ngũ đồng hành",
+        description:
+          "Liên hệ Maiv Thoj Viet Lao qua WhatsApp, email hoặc điện thoại để được tư vấn nha khoa, lên kế hoạch hành trình và hỗ trợ khách hàng quốc tế tại Việt Nam.",
+      },
 
-  about: {
-    seo: {
-      title: "Giới thiệu Maiv Thoj Viet Lao",
-      description:
-        "Tìm hiểu về Maiv Thoj Viet Lao, đội ngũ đồng hành và sứ mệnh hỗ trợ khách hàng quốc tế đến Việt Nam làm răng.",
-    },
+      badge: "LIÊN HỆ",
 
-    badge: "GIỚI THIỆU",
-
-    heading: "Những người đồng hành cùng hành trình của bạn",
-
-    description:
-      "Chúng tôi giúp khách hàng quốc tế cảm thấy yên tâm trước, trong và sau hành trình làm răng tại Việt Nam.",
-  },
-
-  journey: {
-    seo: {
-      title: "Hành trình khách hàng",
-      description:
-        "Khám phá từng bước trong hành trình làm răng tại Việt Nam.",
-    },
-
-    trustMessage: {
-      heading: "Mỗi khách hàng là một hành trình riêng",
+      heading: "Trao đổi cùng đội ngũ đồng hành",
 
       description:
-        "Kế hoạch điều trị và lịch trình sẽ được cá nhân hóa dựa trên tình trạng răng, thời gian và chỉ định chuyên môn.",
-    },
-  },
+        "Dù bạn mới tìm hiểu hay đã sẵn sàng lên kế hoạch sang Việt Nam làm răng, chúng tôi luôn sẵn sàng lắng nghe, giải đáp và giúp bạn hiểu rõ từng bước trước khi quyết định.",
 
-  treatments: {
-    seo: {
+      channels: {
+        whatsapp: {
+          description:
+            "Trao đổi trực tiếp với đội ngũ về tình trạng răng, kế hoạch điều trị và hành trình.",
+        },
+
+        email: {
+          description:
+            "Gửi hình ảnh răng, câu hỏi hoặc thông tin chuyến đi để chúng tôi hỗ trợ bạn.",
+        },
+
+        vietnamPhone: {
+          description: "Gọi đến số hỗ trợ tại Việt Nam trong giờ làm việc.",
+        },
+
+        laosPhone: {
+          description:
+            "Nếu thuận tiện hơn, bạn cũng có thể liên hệ qua số điện thoại tại Lào.",
+        },
+      },
+
+      cta: {
+        heading: "Hãy bắt đầu bằng một cuộc trò chuyện",
+
+        description:
+          "Mỗi hành trình làm răng đều bắt đầu từ việc lắng nghe nhu cầu của bạn. Chúng tôi sẵn sàng tư vấn trước khi bạn đưa ra quyết định.",
+
+        label: "Trao đổi với đội ngũ",
+      },
+    },
+
+    about: {
+      seo: {
+        title: "Giới thiệu Maiv Thoj Viet Lao",
+        description:
+          "Tìm hiểu về Maiv Thoj Viet Lao, đội ngũ đồng hành và sứ mệnh hỗ trợ khách hàng quốc tế đến Việt Nam làm răng.",
+      },
+
+      badge: "GIỚI THIỆU",
+
+      heading: "Những người đồng hành cùng hành trình của bạn",
+
+      description:
+        "Chúng tôi giúp khách hàng quốc tế cảm thấy yên tâm trước, trong và sau hành trình làm răng tại Việt Nam.",
+    },
+
+    journey: {
+      seo: {
+        title: "Hành trình khách hàng",
+        description:
+          "Khám phá từng bước trong hành trình làm răng tại Việt Nam.",
+      },
+
+      trustMessage: {
+        heading: "Mỗi khách hàng là một hành trình riêng",
+
+        description:
+          "Kế hoạch điều trị và lịch trình sẽ được cá nhân hóa dựa trên tình trạng răng, thời gian và chỉ định chuyên môn.",
+      },
+    },
+
+    treatments: {
+      seo: {
         title: "Điều Trị Nha Khoa",
         description:
-            "Khám phá các dịch vụ Implant, răng sứ, veneer và thiết kế nụ cười tại đối tác nha khoa uy tín của chúng tôi.",
-    },
+          "Khám phá các dịch vụ Implant, răng sứ, veneer và thiết kế nụ cười tại đối tác nha khoa uy tín của chúng tôi.",
+      },
 
-    badge: "ĐIỀU TRỊ",
+      badge: "ĐIỀU TRỊ",
 
-    heading: "Giải pháp điều trị phù hợp với từng nụ cười",
+      heading: "Giải pháp điều trị phù hợp với từng nụ cười",
 
-    description:
+      description:
         "Tìm hiểu từng phương pháp điều trị và trao đổi với đội ngũ của chúng tôi để lựa chọn giải pháp phù hợp nhất.",
 
-    schema: {
+      schema: {
         collectionName: "Điều Trị Nha Khoa",
         breadcrumbHome: "Trang Chủ",
         breadcrumbCurrent: "Điều Trị",
-    },
+      },
 
-    emptyState: {
+      emptyState: {
         heading: "Sắp có thêm nhiều dịch vụ",
 
         description:
-            "Thông tin về nhiều phương pháp điều trị khác sẽ sớm được cập nhật.",
-    },
-},
-
-  travelGuide: {
-    seo: {
-      title: "Cẩm nang du lịch Việt Nam",
-      description:
-        "Thông tin hữu ích dành cho khách hàng quốc tế đến Việt Nam làm răng.",
+          "Thông tin về nhiều phương pháp điều trị khác sẽ sớm được cập nhật.",
+      },
     },
 
-    badge: "CẨM NANG",
+    travelGuide: {
+      seo: {
+        title: "Cẩm nang du lịch Việt Nam",
+        description:
+          "Thông tin hữu ích dành cho khách hàng quốc tế đến Việt Nam làm răng.",
+      },
 
-    heading: "Tự tin hơn trước chuyến đi",
+      badge: "CẨM NANG",
 
-    description:
-      "Những thông tin cần thiết giúp chuyến đi đến Việt Nam trở nên dễ dàng và thuận tiện hơn.",
-
-    schema: {
-      collectionName: "Cẩm nang du lịch Việt Nam",
-      breadcrumbHome: "Trang chủ",
-      breadcrumbCurrent: "Cẩm nang du lịch",
-    },
-
-    emptyState: {
-      heading: "Sắp có thêm bài viết",
+      heading: "Tự tin hơn trước chuyến đi",
 
       description:
-        "Chúng tôi sẽ bổ sung thêm nhiều hướng dẫn và điểm đến hữu ích.",
+        "Những thông tin cần thiết giúp chuyến đi đến Việt Nam trở nên dễ dàng và thuận tiện hơn.",
+
+      schema: {
+        collectionName: "Cẩm nang du lịch Việt Nam",
+        breadcrumbHome: "Trang chủ",
+        breadcrumbCurrent: "Cẩm nang du lịch",
+      },
+
+      emptyState: {
+        heading: "Sắp có thêm bài viết",
+
+        description:
+          "Chúng tôi sẽ bổ sung thêm nhiều hướng dẫn và điểm đến hữu ích.",
+      },
     },
   },
-},
 
   footer: {
     description:
@@ -918,24 +915,23 @@ pages: {
     },
 
     contact: {
-  title: "Liên hệ",
-  addressLabel: "Địa chỉ",
-  phoneLabel: "Điện thoại",
-  vietnamPhoneLabel: "Hotline Việt Nam",
-  laosPhoneLabel: "Hotline Lào",
-  emailLabel: "Email",
-  whatsappLabel: "WhatsApp",
-  hoursLabel: "Giờ làm việc",
-  languagesLabel: "Ngôn ngữ",
-},
+      title: "Liên hệ",
+      addressLabel: "Địa chỉ",
+      phoneLabel: "Điện thoại",
+      vietnamPhoneLabel: "Hotline Việt Nam",
+      laosPhoneLabel: "Hotline Lào",
+      emailLabel: "Email",
+      whatsappLabel: "WhatsApp",
+      hoursLabel: "Giờ làm việc",
+      languagesLabel: "Ngôn ngữ",
+    },
 
-socialTitle: "Theo dõi chúng tôi",
+    socialTitle: "Theo dõi chúng tôi",
 
-bottom: {
-  rightsReserved:
-    "Đã đăng ký bản quyền.",
-  builtFor:
-    "Đồng hành cùng khách hàng quốc tế trên hành trình làm răng tại Việt Nam.",
-},
+    bottom: {
+      rightsReserved: "Đã đăng ký bản quyền.",
+      builtFor:
+        "Đồng hành cùng khách hàng quốc tế trên hành trình làm răng tại Việt Nam.",
+    },
   },
 };

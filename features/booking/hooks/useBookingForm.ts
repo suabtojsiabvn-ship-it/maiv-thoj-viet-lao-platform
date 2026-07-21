@@ -2,13 +2,14 @@ import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 
 import {
-  bookingSchema,
+  createBookingSchema,
   BookingFormValues,
+  type BookingValidationMessages,
 } from "../schema/booking.schema";
 
-export function useBookingForm() {
+export function useBookingForm(validationMessages: BookingValidationMessages) {
   return useForm<BookingFormValues>({
-    resolver: zodResolver(bookingSchema),
+    resolver: zodResolver(createBookingSchema(validationMessages)),
 
     defaultValues: {
       fullName: "",

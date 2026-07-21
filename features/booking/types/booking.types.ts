@@ -17,12 +17,7 @@ export type BookingTreatmentKey =
   | "veneers"
   | "consultation";
 
-export type BookingLanguageKey =
-  | "en"
-  | "vi"
-  | "lo"
-  | "hmn"
-  | "th";
+export type BookingLanguageKey = "en" | "vi" | "lo" | "hmn" | "th";
 
 export interface BookingBenefitMeta {
   id: BookingBenefitKey;
@@ -66,6 +61,10 @@ export interface BookingFields {
 }
 
 export interface BookingContentData {
+  seo: {
+    title: string;
+    description: string;
+  };
   badge: string;
   heading: string;
   intro: string;
@@ -77,5 +76,17 @@ export interface BookingContentData {
     submit: string;
     submitting: string;
     privacy: string;
+  };
+  validation: {
+    fullName: string;
+    country: string;
+    whatsapp: string;
+    email: string;
+  };
+  feedback: {
+    successTitle: string;
+    successDescription: string;
+    invalidResponse: string;
+    requestFailed: string;
   };
 }

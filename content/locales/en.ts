@@ -2,11 +2,11 @@ import type { LocaleDictionary } from "@/types/i18n";
 
 export const enDictionary: LocaleDictionary = {
   common: {
-  brandName: "Maiv Thoj Viet Lao",
-  tagline: "International Patient Journey Support in Vietnam",
-  primaryCta: "Start With a Conversation",
-  secondaryCta: "Ask Our Team First",
-},
+    brandName: "Maiv Thoj Viet Lao",
+    tagline: "International Patient Journey Support in Vietnam",
+    primaryCta: "Start With a Conversation",
+    secondaryCta: "Ask Our Team First",
+  },
   navigation: {
     label: "Main navigation",
     openMenu: "Open menu",
@@ -21,63 +21,60 @@ export const enDictionary: LocaleDictionary = {
     },
   },
 
+  hero: {
+    badge: "International Patient Journey Support in Vietnam",
 
+    title: {
+      line1: "Your smile journey",
+      line2: "starts with someone you can trust.",
+    },
 
-hero: {
-  badge: "International Patient Journey Support in Vietnam",
+    subtitle:
+      "Choosing dental care in another country is a big decision. We help international patients, especially the global Hmong community, feel supported from the very first conversation until they return home with confidence.",
 
-  title: {
-  line1: "Your smile journey",
-  line2: "starts with someone you can trust.",
-},
+    actions: {
+      primary: "Start Your Journey",
+      secondary: "Talk With A Su",
+    },
 
-  subtitle:
-  "Choosing dental care in another country is a big decision. We help international patients, especially the global Hmong community, feel supported from the very first conversation until they return home with confidence.",
+    highlights: {
+      sectionLabel: "Why patients feel safe",
+      heading: "A complete team for your journey",
 
-  actions: {
-  primary: "Start Your Journey",
-  secondary: "Talk With A Su",
-},
-
-  highlights: {
-    sectionLabel: "Why patients feel safe",
-    heading: "A complete team for your journey",
-
-    items: {
-      consultation: {
-        title: "Ask First, Decide Later",
-        description:
-          "You can talk with our team, share your concerns and understand your options before making any decision.",
-      },
-      airportPickup: {
-        title: "Welcomed in Vietnam",
-        description:
-          "When you arrive, our team helps with airport pickup, transportation and practical support during your stay.",
-      },
-      multilingualSupport: {
-        title: "You Can Speak Comfortably",
-        description:
-          "Support is available in English, International Hmong, Vietnamese, Lao and Thai so communication feels easier.",
-      },
-      clinicalPartner: {
-        title: "Trusted Clinical Care",
-        description:
-          "Dental treatment is provided by trusted clinical partners such as An Nhien Dental, led by Dr. Toan Nguyen.",
+      items: {
+        consultation: {
+          title: "Ask First, Decide Later",
+          description:
+            "You can talk with our team, share your concerns and understand your options before making any decision.",
+        },
+        airportPickup: {
+          title: "Welcomed in Vietnam",
+          description:
+            "When you arrive, our team helps with airport pickup, transportation and practical support during your stay.",
+        },
+        multilingualSupport: {
+          title: "You Can Speak Comfortably",
+          description:
+            "Support is available in English, International Hmong, Vietnamese, Lao and Thai so communication feels easier.",
+        },
+        clinicalPartner: {
+          title: "Trusted Clinical Care",
+          description:
+            "Dental treatment is provided by trusted clinical partners such as An Nhien Dental, led by Dr. Toan Nguyen.",
+        },
       },
     },
-  },
 
-  stats: {
-    facebookCommunity: "454K+ Facebook Community",
-    tiktokCommunity: "1.3M+ TikTok Followers",
-    languagesSupported: "5 Languages Supported",
+    stats: {
+      facebookCommunity: "454K+ Facebook Community",
+      tiktokCommunity: "1.3M+ TikTok Followers",
+      languagesSupported: "5 Languages Supported",
+    },
   },
-},
   why: {
     sectionLabel: "WHY FAMILIES TRUST MAIV THOJ VIET LAO",
 
-    title:
-      "Having someone beside you matters throughout your dental journey.",
+    title: "Having someone beside you matters throughout your dental journey.",
 
     description:
       "Traveling to another country for dental treatment is a big decision. We help make each step clearer and easier to understand, from your first conversation until you return home.",
@@ -148,36 +145,35 @@ hero: {
   },
 
   coordinator: {
-    sectionLabel: "Meet A Sá»­",
+    sectionLabel: "Meet A Sử",
 
-    title:
-      "The person who stays beside you throughout your time in Vietnam.",
+    title: "The person who stays beside you throughout your time in Vietnam.",
 
     description:
-      "When you decide to travel to Vietnam for dental treatment, A Sá»­ helps coordinate your journeyâ€”from preparation and airport arrival to communication, transportation and your return home.",
+      "When you decide to travel to Vietnam for dental treatment, A Sử helps coordinate your journey—from preparation and airport arrival to communication, transportation and your return home.",
 
     imageAlt:
-      "A Sá»­ (Txhim), International Patient Journey Manager supporting an international dental journey in Vietnam",
+      "A Sử (Txhim), International Patient Journey Manager supporting an international dental journey in Vietnam",
 
     badge: "PATIENT JOURNEY MANAGER",
 
     heading: "You don't have to manage every step alone.",
 
     intro:
-      "Traveling to another country for dental treatment can feel uncertain. A new language, unfamiliar surroundings and many practical details can make the journey feel overwhelming. A Sá»­ helps make each step clearer, more organized and more reassuring.",
+      "Traveling to another country for dental treatment can feel uncertain. A new language, unfamiliar surroundings and many practical details can make the journey feel overwhelming. A Sử helps make each step clearer, more organized and more reassuring.",
 
     story: [
-      "Before you travel, A Sá»­ helps prepare your schedule, answers practical questions and explains what you need to know before arriving in Vietnam.",
-      "When you arrive, A Sá»­ or an assigned team member welcomes you at the airport and helps with transportation and accommodation according to your confirmed journey plan.",
-      "During your stay, A Sá»­ supports communication, appointment coordination, transportation and practical day-to-day needs.",
-      "A Sá»­ is not a dentist or treatment provider. He is your point of contact, helping you feel understood, supported and able to reach someone whenever you need assistance.",
+      "Before you travel, A Sử helps prepare your schedule, answers practical questions and explains what you need to know before arriving in Vietnam.",
+      "When you arrive, A Sử or an assigned team member welcomes you at the airport and helps with transportation and accommodation according to your confirmed journey plan.",
+      "During your stay, A Sử supports communication, appointment coordination, transportation and practical day-to-day needs.",
+      "A Sử is not a dentist or treatment provider. He is your point of contact, helping you feel understood, supported and able to reach someone whenever you need assistance.",
     ],
 
     quote:
       "Sometimes the greatest reassurance is knowing someone is there when you need help.",
 
     cta: {
-      label: "Talk With A Sá»­",
+      label: "Talk With A Sử",
     },
 
     imageCard: {
@@ -218,8 +214,7 @@ hero: {
   clinicalPartner: {
     sectionLabel: "Trusted Clinical Partner",
 
-    title:
-      "Professional dental care from a team you can trust.",
+    title: "Professional dental care from a team you can trust.",
 
     description:
       "Maiv Thoj Viet Lao supports your journey. Clinical examination, diagnosis and dental treatment are provided by trusted partners such as An Nhien Dental and their experienced dental professionals.",
@@ -229,11 +224,10 @@ hero: {
 
     badge: "TRUSTED CLINICAL PARTNER",
 
-    heading:
-      "Where trusted guidance meets professional dental expertise.",
+    heading: "Where trusted guidance meets professional dental expertise.",
 
     intro:
-      "Everyone has a clear role in your journey. Maiv Thoj helps you begin with trust. A Sá»­ (Txhim) supports your journey in Vietnam. Your clinical examination and dental treatment are provided by the team at An Nhien Dental, with clinical oversight from Dr. ToÃ n Nguyá»…n.",
+      "Everyone has a clear role in your journey. Maiv Thoj helps you begin with trust. A Sử (Txhim) supports your journey in Vietnam. Your clinical examination and dental treatment are provided by the team at An Nhien Dental, with clinical oversight from Dr. Toàn Nguyễn.",
 
     quote:
       "Every smile begins with listening, careful examination and a treatment plan suited to the individual.",
@@ -256,7 +250,7 @@ hero: {
       clinicalLeadership: {
         title: "Professional Clinical Leadership",
         description:
-          "Dr. ToÃ n Nguyá»…n oversees examination, diagnosis, treatment planning and clinical quality throughout the treatment process.",
+          "Dr. Toàn Nguyễn oversees examination, diagnosis, treatment planning and clinical quality throughout the treatment process.",
       },
       digitalDentistry: {
         title: "Modern Digital Dentistry",
@@ -299,572 +293,570 @@ hero: {
     ],
   },
 
- treatments: {
-  sectionLabel: "How We Can Help",
-
-  title:
-  "Every smile is unique. Every treatment plan should be too.",
-
-  description:
-  "There is no single treatment that fits everyone. Our role is to help you understand your options and connect you with trusted dental professionals who can recommend what is best for your smile.",
-
-  items: {
-    implant: {
-      title: "Replacing Missing Teeth",
-      description:
-        "If you've lost one or more teeth, dental implants may help restore comfort, confidence and everyday function. Your treatment plan will always be based on your individual oral condition.",
-    },
-
-    crowns: {
-      title: "Strengthening Damaged Teeth",
-      description:
-        "Ceramic crowns can help protect weakened teeth while improving their appearance, shape and function in a natural-looking way.",
-    },
-
-    veneers: {
-      title: "Enhancing Your Smile",
-      description:
-        "Porcelain veneers can improve the colour, shape and balance of your smile while preserving as much healthy tooth structure as possible whenever appropriate.",
-    },
-
-    smileMakeover: {
-      title: "A Smile Designed Around You",
-      description:
-        "Some patients need only one treatment, while others benefit from a combination of solutions. Your smile makeover is planned around your personal goals, oral health and long-term wellbeing.",
-    },
-  },
-
-  cta: {
-    learnMore: "Explore Your Options",
-  },
-},
-
-
-   beforeAfter: {
-  sectionLabel: "Real Patient Journeys",
-
-  title: "Every smile tells a story. Every journey is personal.",
-
-  description:
-    "Behind every before and after photo is someone who trusted us with an important decision. These stories reflect real patient journeys supported by Maiv Thoj Viet Lao Platform and treated by our trusted clinical partners.",
-
-  labels: {
-    before: "Before",
-    after: "After",
-  },
-
-  cases: {
-    case1: {
-      title: "Feeling confident enough to smile again",
-      treatment: "Ceramic Crown Treatment",
-      country: "Hmong patient living in the United States",
-    },
-
-    case2: {
-      title: "Eating comfortably with restored teeth",
-      treatment: "Dental Implant Treatment",
-      country: "Patient from Australia",
-    },
-
-    case3: {
-      title: "A brighter smile with a natural look",
-      treatment: "Porcelain Veneer Treatment",
-      country: "Patient from France",
-    },
-
-    case4: {
-      title: "A smile designed around personal goals",
-      treatment: "Comprehensive Smile Makeover",
-      country: "International Hmong patient",
-    },
-  },
-},
-
- journey: {
-  sectionLabel: "Your Journey",
-
-  title:
-  "You don't have to plan everything on your own.",
-
-  description:
-  "Traveling abroad for dental care can feel complicated. We've designed a clear journey where every step is explained, every question is welcomed, and support is always within reach.",
-
-  badge: "PATIENT JOURNEY SUPPORT",
-
- heading:
-  "From your first message to your safe return home.",
-
-  intro:
-  "Your journey begins long before you arrive in Vietnam. It starts with a conversation, grows through trust, and continues with genuine support every step of the way.",
-
-  steps: [
-  {
-    id: "arrival",
-    icon: "plane-takeoff",
-    title: "Day 1 â€¢ Arrival in Vietnam",
-    description:
-      "A Su personally welcomes you at Noi Bai International Airport with our private vehicle. If your flight arrives early, you'll be taken directly to our trusted clinical partner for your consultation, CT scan and treatment planning. If you arrive late, we'll first take you to your hotel so you can rest before your appointment the following morning.",
-  },
-  {
-    id: "consultation",
-    icon: "stethoscope",
-    title: "Consultation & Treatment Planning",
-    description:
-      "Your dentist performs a clinical examination, CBCT / CT scan and discusses the most suitable treatment plan. When appropriate, tooth preparation is completed on the same day.",
-  },
-  {
-    id: "recovery",
-    icon: "heart-pulse",
-    title: "Day 2 â€¢ Recovery & Hanoi Experience",
-    description:
-      "Most patients spend this day resting. If your schedule allows, A Su can accompany you to explore Hanoi, enjoy local cuisine and coffee, while capturing beautiful memories with photos and videos.",
-  },
-  {
-    id: "smile",
-    icon: "clipboard-list",
-    title: "Day 3 â€¢ Your New Smile",
-    description:
-      "Return to the clinic for your final restoration, bite adjustment and smile evaluation. Professional photos and journey videos can be created with your permission.",
-  },
-  {
-    id: "departure",
-    icon: "car",
-    title: "Day 4 â€¢ Final Check & Departure",
-    description:
-      "After your final check-up and aftercare instructions, A Su takes you back to the airport. You return home with a confident smile and meaningful memories from Vietnam.",
-  },
-],
-
-  cta: {
-    label: "Plan My Journey",
-  },
-},
-trust: {
-  badge: "PATIENTS WELCOME WORLDWIDE",
-
-  heading: "Welcoming International Patients to Vietnam",
-
-  description:
-    "Whether you are travelling from the United States, France, Australia, Laos, Thailand or elsewhere, our team is here to support your dental journey in Vietnam with multilingual communication and personalized care.",
-
-  personalizedCare:
-    "Every treatment journey is personalized based on your dental needs, travel schedule and treatment plan.",
-
-  countries: [
-    { code: "ðŸ‡ºðŸ‡¸", name: "USA" },
-    { code: "ðŸ‡«ðŸ‡·", name: "France" },
-    { code: "ðŸ‡¦ðŸ‡º", name: "Australia" },
-    { code: "ðŸ‡±ðŸ‡¦", name: "Laos" },
-    { code: "ðŸ‡¹ðŸ‡­", name: "Thailand" },
-    { code: "ðŸ‡»ðŸ‡³", name: "Vietnam" },
-  ],
-
-  transparency: {
-  title: "Our Transparency Promise",
-
-  description:
-    "Clear communication and dependable support throughout your dental journey in Vietnam.",
-
-  items: [
-    "Personalized treatment planning",
-    "Clear quotation before treatment",
-    "No hidden treatment costs",
-    "Airport pickup and drop-off support",
-    "Multilingual journey assistance",
-  ],
-},
-  material: {
-    title: "Trusted Dental Materials",
-
-    description:
-      "Premium ceramic systems from Germany, Switzerland and the USA are selected according to your personalized treatment plan and clinical needs.",
-
-    items: [
-      "Premium ceramic systems",
-      "Personalized material selection",
-      "Clinical suitability comes first",
-    ],
-  },
-  community: {
-  title: "Trusted by the International Hmong Community",
-
-  description:
-    "A growing community built through real patient stories, multilingual support and trusted recommendations.",
-
-  stats: [
-    {
-      value: "454K+",
-      label: "Facebook Community",
-    },
-    {
-      value: "1.3M+",
-      label: "TikTok Followers",
-    },
-    {
-      value: "5",
-      label: "Supported Languages",
-    },
-    {
-      value: "International",
-      label: "Patient Journey Support",
-    },
-  ],
-},
-  
-},
-
-   booking: {
-  sectionLabel: "Let's Talk",
-
-  title:
-  "Every journey begins with a simple conversation.",
-
-  description:
-  "You don't need to know every answer before reaching out. Simply tell us about your smile, your concerns, or your travel plans, and we'll help you understand the next step that's right for you.",
-
-  badge: "START YOUR CONSULTATION",
-
- heading: "Let's Plan Your Dental Journey Together",
-
-  intro:
-  "Tell us about your dental concerns and travel plans. Our team will review your information and prepare personalized guidance before you decide on any treatment.",
-
-  benefits: {
-  consultation: {
-    title: "Start With a Conversation",
-    description:
-      "There is no pressure to make a decision today. Begin with a conversation, ask your questions and understand your options first.",
-  },
-
-  plan: {
-    title: "Personalized Treatment Plan",
-    description:
-      "Our clinical team reviews your oral health concerns and prepares guidance based on your needs, goals and travel schedule.",
-  },
-
-  travel: {
-    title: "Journey Support",
-    description:
-      "If you decide to travel, we'll help coordinate your journey so you know what to expect before you arrive in Vietnam.",
-  },
-
-  coordinator: {
-    title: "Trusted Team",
-    description:
-      "You'll be connected with the right coordinator and trusted clinical partner to support you throughout your journey.",
-  },
-},
-
-  fields: {
-  fullName: "Full Name",
-  fullNamePlaceholder: "Enter your full name",
-
-  country: "Country / Region",
-  countryPlaceholder: "Where are you travelling from?",
-
-  preferredLanguage: "Preferred Language",
-
-  whatsapp: "WhatsApp / Phone",
-  whatsappPlaceholder: "Your preferred contact number",
-
-  email: "Email",
-  emailPlaceholder: "Your email address",
-
-  treatment: "Treatment Interest",
-
-  selectTreatment:
-    "Select a treatment you're interested in",
-
-  travelDate:
-    "When are you thinking about visiting Vietnam?",
-
-  message: "How Can We Help?",
-
-  messagePlaceholder:
-    "Tell us about your dental concerns, travel plans or any questions you have. We'll review your information and get back to you with personalized guidance.",
-},
-
-
   treatments: {
-    implant: "Replacing Missing Teeth",
+    sectionLabel: "How We Can Help",
 
-    smileMakeover: "Complete Smile Makeover",
-
-    crowns: "Ceramic Crowns",
-
-    veneers: "Porcelain Veneers",
-
-    consultation:
-      "I'm Not Sure Yet â€” I'd Like Some Advice",
-  },
-
-  languages: {
-    en: "English",
-    hmn: "International Hmong",
-    lo: "Lao",
-    th: "Thai",
-    vi: "Vietnamese",
-  },
-
-  cta: {
-    submit: "Start the Conversation",
-
-    submitting: "Sending Your Message...",
-
-    privacy:
-  "Your information is kept private and used only to help our team answer your questions, provide guidance, and support your dental journey to Vietnam.",
-  },
-},
-
-patientJourney: {
-  badge: "Your Journey",
-
-  title:
-    "From Your First Conversation to Returning Home",
-
-  description:
-    "Understand how the Maiv Thoj Viet Lao team supports your consultation, travel, treatment coordination, recovery and follow-up journey in Vietnam.",
-
-  optional: "Optional",
-
-  timing: "Timing",
-
-  steps: {
-    initialContact: {
-      stage: "Discovery",
-      title: "Contact Our International Support Team",
-      description:
-        "Share your dental concerns, preferred language, available photographs or records, and your expected travel period with the Maiv Thoj Viet Lao team.",
-      estimatedDuration: "Before treatment planning",
-    },
-
-    initialConsultation: {
-      stage: "Consultation",
-      title: "Initial Consultation",
-      description:
-        "The team reviews your information, answers initial questions and helps coordinate communication with the clinical partner. A final diagnosis cannot be confirmed until an appropriate clinical examination is completed.",
-      estimatedDuration: "Online before travel",
-    },
-
-    preliminaryPlanning: {
-      stage: "Planning",
-      title:
-        "Preliminary Treatment and Travel Planning",
-      description:
-        "Based on the information available, the team helps prepare a preliminary journey plan covering expected appointments, travel dates, airport arrival and accommodation needs.",
-      estimatedDuration: "Before booking travel",
-    },
-
-    travelToVietnam: {
-      stage: "Travel",
-      title: "Travel to Vietnam",
-      description:
-        "Before departure, confirm your flight details, passport requirements, accommodation and contact information so the support team can prepare for your arrival.",
-      estimatedDuration: "Travel day",
-    },
-
-    airportArrival: {
-      stage: "Arrival",
-      title:
-        "Airport Pickup and Arrival Support",
-      description:
-        "A Sá»­ (Txhim), Patient Journey Manager, or an assigned team member coordinates the meeting point and supports your transfer from the airport according to the confirmed journey plan.",
-      estimatedDuration: "Arrival day",
-    },
-
-    clinicalAssessment: {
-      stage: "Treatment",
-      title:
-        "Clinical Examination and Final Treatment Plan",
-      description:
-        "The clinical partner examines your oral health, reviews diagnostic imaging when required and explains the final recommended treatment plan, schedule and material options before treatment begins.",
-      estimatedDuration:
-        "First clinical appointment",
-    },
-
-    treatmentProcess: {
-      stage: "Treatment",
-      title:
-        "Treatment and Journey Coordination",
-      description:
-        "Treatment is completed according to the approved clinical plan. The Patient Journey Manager helps coordinate transportation, communication and the daily schedule throughout the treatment period.",
-      estimatedDuration:
-        "Depends on the treatment plan",
-    },
-
-    recovery: {
-      stage: "Recovery",
-      title: "Rest and Recovery",
-      description:
-        "Follow the clinical aftercare instructions and allow appropriate time for rest. The team remains available to support communication and schedule adjustments during your stay.",
-      estimatedDuration:
-        "According to clinical advice",
-    },
-
-    optionalTravel: {
-      stage: "Experience",
-      title: "Optional Vietnam Experience",
-      description:
-        "When your treatment schedule and clinical condition allow, the team may help coordinate a suitable travel experience before your return journey.",
-      estimatedDuration: "Based on available time",
-    },
-
-    finalReview: {
-      stage: "Departure",
-      title:
-        "Final Review and Airport Drop-off",
-      description:
-        "Before departure, the clinical team reviews the treatment result and provides aftercare guidance. Airport drop-off is then coordinated according to the confirmed flight schedule.",
-      estimatedDuration: "Final day",
-    },
-
-    internationalAftercare: {
-      stage: "Aftercare",
-      title: "Follow-up After Returning Home",
-      description:
-        "After returning home, keep your treatment records and follow the recommended maintenance plan. The support team can help coordinate follow-up communication when necessary.",
-      estimatedDuration: "Ongoing",
-    },
-  },
-},
-
-pages: {
-  contact: {
-    seo: {
-      title: "Contact Our Patient Journey Team",
-      description:
-        "Talk with Maiv Thoj Viet Lao by WhatsApp, email or phone for dental consultation, travel planning and international patient journey support in Vietnam.",
-    },
-
-    badge: "CONTACT",
-
-    heading: "Talk with our patient journey team",
+    title: "Every smile is unique. Every treatment plan should be too.",
 
     description:
-      "Whether you're still exploring your options or already planning your trip, we're here to answer your questions and help you understand the next step with confidence.",
+      "There is no single treatment that fits everyone. Our role is to help you understand your options and connect you with trusted dental professionals who can recommend what is best for your smile.",
 
-    channels: {
-      whatsapp: {
+    items: {
+      implant: {
+        title: "Replacing Missing Teeth",
         description:
-          "Chat directly with our team for consultation, treatment questions and travel planning.",
+          "If you've lost one or more teeth, dental implants may help restore comfort, confidence and everyday function. Your treatment plan will always be based on your individual oral condition.",
       },
 
-      email: {
+      crowns: {
+        title: "Strengthening Damaged Teeth",
         description:
-          "Send us your dental photos, questions or travel information and we'll get back to you.",
+          "Ceramic crowns can help protect weakened teeth while improving their appearance, shape and function in a natural-looking way.",
       },
 
-      vietnamPhone: {
+      veneers: {
+        title: "Enhancing Your Smile",
         description:
-          "Call our Vietnam support number during business hours.",
+          "Porcelain veneers can improve the colour, shape and balance of your smile while preserving as much healthy tooth structure as possible whenever appropriate.",
       },
 
-      laosPhone: {
+      smileMakeover: {
+        title: "A Smile Designed Around You",
         description:
-          "Call our Laos support number if that is more convenient for you.",
+          "Some patients need only one treatment, while others benefit from a combination of solutions. Your smile makeover is planned around your personal goals, oral health and long-term wellbeing.",
       },
     },
 
     cta: {
-      heading: "Let's start with a conversation",
-
-      description:
-        "Every smile journey begins with understanding your needs first. We are happy to answer your questions before you make any decision.",
-
-      label: "Talk With Our Team",
+      learnMore: "Explore Your Options",
     },
   },
 
-  about: {
-    seo: {
-      title: "About Maiv Thoj Viet Lao",
-      description:
-        "Learn about Maiv Thoj Viet Lao, our mission, our team and how we support international patients travelling to Vietnam.",
-    },
+  beforeAfter: {
+    sectionLabel: "Real Patient Journeys",
 
-    badge: "ABOUT",
-
-    heading: "People who support your journey",
+    title: "Every smile tells a story. Every journey is personal.",
 
     description:
-      "Our role is to help international patients feel informed, supported and welcomed before, during and after their dental journey.",
+      "Behind every before and after photo is someone who trusted us with an important decision. These stories reflect real patient journeys supported by Maiv Thoj Viet Lao Platform and treated by our trusted clinical partners.",
+
+    labels: {
+      before: "Before",
+      after: "After",
+    },
+
+    cases: {
+      case1: {
+        title: "Feeling confident enough to smile again",
+        treatment: "Ceramic Crown Treatment",
+        country: "Hmong patient living in the United States",
+      },
+
+      case2: {
+        title: "Eating comfortably with restored teeth",
+        treatment: "Dental Implant Treatment",
+        country: "Patient from Australia",
+      },
+
+      case3: {
+        title: "A brighter smile with a natural look",
+        treatment: "Porcelain Veneer Treatment",
+        country: "Patient from France",
+      },
+
+      case4: {
+        title: "A smile designed around personal goals",
+        treatment: "Comprehensive Smile Makeover",
+        country: "International Hmong patient",
+      },
+    },
   },
 
   journey: {
-    seo: {
-      title: "Patient Journey",
-      description:
-        "See what happens before, during and after your dental treatment journey in Vietnam.",
+    sectionLabel: "Your Journey",
+
+    title: "You don't have to plan everything on your own.",
+
+    description:
+      "Traveling abroad for dental care can feel complicated. We've designed a clear journey where every step is explained, every question is welcomed, and support is always within reach.",
+
+    badge: "PATIENT JOURNEY SUPPORT",
+
+    heading: "From your first message to your safe return home.",
+
+    intro:
+      "Your journey begins long before you arrive in Vietnam. It starts with a conversation, grows through trust, and continues with genuine support every step of the way.",
+
+    steps: [
+      {
+        id: "arrival",
+        icon: "plane-takeoff",
+        title: "Day 1 • Arrival in Vietnam",
+        description:
+          "A Su personally welcomes you at Noi Bai International Airport with our private vehicle. If your flight arrives early, you'll be taken directly to our trusted clinical partner for your consultation, CT scan and treatment planning. If you arrive late, we'll first take you to your hotel so you can rest before your appointment the following morning.",
+      },
+      {
+        id: "consultation",
+        icon: "stethoscope",
+        title: "Consultation & Treatment Planning",
+        description:
+          "Your dentist performs a clinical examination, CBCT / CT scan and discusses the most suitable treatment plan. When appropriate, tooth preparation is completed on the same day.",
+      },
+      {
+        id: "recovery",
+        icon: "heart-pulse",
+        title: "Day 2 • Recovery & Hanoi Experience",
+        description:
+          "Most patients spend this day resting. If your schedule allows, A Su can accompany you to explore Hanoi, enjoy local cuisine and coffee, while capturing beautiful memories with photos and videos.",
+      },
+      {
+        id: "smile",
+        icon: "clipboard-list",
+        title: "Day 3 • Your New Smile",
+        description:
+          "Return to the clinic for your final restoration, bite adjustment and smile evaluation. Professional photos and journey videos can be created with your permission.",
+      },
+      {
+        id: "departure",
+        icon: "car",
+        title: "Day 4 • Final Check & Departure",
+        description:
+          "After your final check-up and aftercare instructions, A Su takes you back to the airport. You return home with a confident smile and meaningful memories from Vietnam.",
+      },
+    ],
+
+    cta: {
+      label: "Plan My Journey",
     },
+  },
+  trust: {
+    badge: "PATIENTS WELCOME WORLDWIDE",
 
-    trustMessage: {
-      heading: "Every journey is different",
+    heading: "Welcoming International Patients to Vietnam",
+
+    description:
+      "Whether you are travelling from the United States, France, Australia, Laos, Thailand or elsewhere, our team is here to support your dental journey in Vietnam with multilingual communication and personalized care.",
+
+    personalizedCare:
+      "Every treatment journey is personalized based on your dental needs, travel schedule and treatment plan.",
+
+    countries: [
+      { code: "🇺🇸", name: "USA" },
+      { code: "🇫🇷", name: "France" },
+      { code: "🇦🇺", name: "Australia" },
+      { code: "🇱🇦", name: "Laos" },
+      { code: "🇹🇭", name: "Thailand" },
+      { code: "🇻🇳", name: "Vietnam" },
+    ],
+
+    transparency: {
+      title: "Our Transparency Promise",
 
       description:
-        "Your treatment plan and travel schedule are personalized according to your oral health, available time and clinical recommendations.",
+        "Clear communication and dependable support throughout your dental journey in Vietnam.",
+
+      items: [
+        "Personalized treatment planning",
+        "Clear quotation before treatment",
+        "No hidden treatment costs",
+        "Airport pickup and drop-off support",
+        "Multilingual journey assistance",
+      ],
+    },
+    material: {
+      title: "Trusted Dental Materials",
+
+      description:
+        "Premium ceramic systems from Germany, Switzerland and the USA are selected according to your personalized treatment plan and clinical needs.",
+
+      items: [
+        "Premium ceramic systems",
+        "Personalized material selection",
+        "Clinical suitability comes first",
+      ],
+    },
+    community: {
+      title: "Trusted by the International Hmong Community",
+
+      description:
+        "A growing community built through real patient stories, multilingual support and trusted recommendations.",
+
+      stats: [
+        {
+          value: "454K+",
+          label: "Facebook Community",
+        },
+        {
+          value: "1.3M+",
+          label: "TikTok Followers",
+        },
+        {
+          value: "5",
+          label: "Supported Languages",
+        },
+        {
+          value: "International",
+          label: "Patient Journey Support",
+        },
+      ],
     },
   },
 
-  treatments: {
+  booking: {
     seo: {
-        title: "Dental Treatments",
-        description:
-            "Explore implant dentistry, crowns, veneers and smile makeover treatments available through our trusted clinical partners.",
+      title: "Book a Free Dental Consultation",
+      description:
+        "Share your dental concerns, preferred language and travel plans with the Maiv Thoj Viet Lao international support team.",
     },
+    sectionLabel: "Let's Talk",
 
-    badge: "TREATMENTS",
-
-    heading: "Treatment options designed around your needs",
+    title: "Every journey begins with a simple conversation.",
 
     description:
+      "You don't need to know every answer before reaching out. Simply tell us about your smile, your concerns, or your travel plans, and we'll help you understand the next step that's right for you.",
+
+    badge: "START YOUR CONSULTATION",
+
+    heading: "Let's Plan Your Dental Journey Together",
+
+    intro:
+      "Tell us about your dental concerns and travel plans. Our team will review your information and prepare personalized guidance before you decide on any treatment.",
+
+    benefits: {
+      consultation: {
+        title: "Start With a Conversation",
+        description:
+          "There is no pressure to make a decision today. Begin with a conversation, ask your questions and understand your options first.",
+      },
+
+      plan: {
+        title: "Personalized Treatment Plan",
+        description:
+          "Our clinical team reviews your oral health concerns and prepares guidance based on your needs, goals and travel schedule.",
+      },
+
+      travel: {
+        title: "Journey Support",
+        description:
+          "If you decide to travel, we'll help coordinate your journey so you know what to expect before you arrive in Vietnam.",
+      },
+
+      coordinator: {
+        title: "Trusted Team",
+        description:
+          "You'll be connected with the right coordinator and trusted clinical partner to support you throughout your journey.",
+      },
+    },
+
+    fields: {
+      fullName: "Full Name",
+      fullNamePlaceholder: "Enter your full name",
+
+      country: "Country / Region",
+      countryPlaceholder: "Where are you travelling from?",
+
+      preferredLanguage: "Preferred Language",
+
+      whatsapp: "WhatsApp / Phone",
+      whatsappPlaceholder: "Your preferred contact number",
+
+      email: "Email",
+      emailPlaceholder: "Your email address",
+
+      treatment: "Treatment Interest",
+
+      selectTreatment: "Select a treatment you're interested in",
+
+      travelDate: "When are you thinking about visiting Vietnam?",
+
+      message: "How Can We Help?",
+
+      messagePlaceholder:
+        "Tell us about your dental concerns, travel plans or any questions you have. We'll review your information and get back to you with personalized guidance.",
+    },
+
+    treatments: {
+      implant: "Replacing Missing Teeth",
+
+      smileMakeover: "Complete Smile Makeover",
+
+      crowns: "Ceramic Crowns",
+
+      veneers: "Porcelain Veneers",
+
+      consultation: "I'm Not Sure Yet — I'd Like Some Advice",
+    },
+
+    languages: {
+      en: "English",
+      hmn: "International Hmong",
+      lo: "Lao",
+      th: "Thai",
+      vi: "Vietnamese",
+    },
+
+    cta: {
+      submit: "Start the Conversation",
+
+      submitting: "Sending Your Message...",
+
+      privacy:
+        "Your information is kept private and used only to help our team answer your questions, provide guidance, and support your dental journey to Vietnam.",
+    },
+    validation: {
+      fullName: "Please enter your name.",
+      country: "Please enter your country or region.",
+      whatsapp: "Please enter a valid WhatsApp or phone number.",
+      email: "Please enter a valid email address.",
+    },
+    feedback: {
+      successTitle: "Your Request Has Been Sent",
+      successDescription:
+        "Thank you. Our team will review your information and contact you soon to continue the conversation.",
+      invalidResponse:
+        "We could not read the server response. Please try again.",
+      requestFailed:
+        "We could not send your request right now. Please try again shortly.",
+    },
+  },
+
+  patientJourney: {
+    badge: "Your Journey",
+
+    title: "From Your First Conversation to Returning Home",
+
+    description:
+      "Understand how the Maiv Thoj Viet Lao team supports your consultation, travel, treatment coordination, recovery and follow-up journey in Vietnam.",
+
+    optional: "Optional",
+
+    timing: "Timing",
+
+    steps: {
+      initialContact: {
+        stage: "Discovery",
+        title: "Contact Our International Support Team",
+        description:
+          "Share your dental concerns, preferred language, available photographs or records, and your expected travel period with the Maiv Thoj Viet Lao team.",
+        estimatedDuration: "Before treatment planning",
+      },
+
+      initialConsultation: {
+        stage: "Consultation",
+        title: "Initial Consultation",
+        description:
+          "The team reviews your information, answers initial questions and helps coordinate communication with the clinical partner. A final diagnosis cannot be confirmed until an appropriate clinical examination is completed.",
+        estimatedDuration: "Online before travel",
+      },
+
+      preliminaryPlanning: {
+        stage: "Planning",
+        title: "Preliminary Treatment and Travel Planning",
+        description:
+          "Based on the information available, the team helps prepare a preliminary journey plan covering expected appointments, travel dates, airport arrival and accommodation needs.",
+        estimatedDuration: "Before booking travel",
+      },
+
+      travelToVietnam: {
+        stage: "Travel",
+        title: "Travel to Vietnam",
+        description:
+          "Before departure, confirm your flight details, passport requirements, accommodation and contact information so the support team can prepare for your arrival.",
+        estimatedDuration: "Travel day",
+      },
+
+      airportArrival: {
+        stage: "Arrival",
+        title: "Airport Pickup and Arrival Support",
+        description:
+          "A Sử (Txhim), Patient Journey Manager, or an assigned team member coordinates the meeting point and supports your transfer from the airport according to the confirmed journey plan.",
+        estimatedDuration: "Arrival day",
+      },
+
+      clinicalAssessment: {
+        stage: "Treatment",
+        title: "Clinical Examination and Final Treatment Plan",
+        description:
+          "The clinical partner examines your oral health, reviews diagnostic imaging when required and explains the final recommended treatment plan, schedule and material options before treatment begins.",
+        estimatedDuration: "First clinical appointment",
+      },
+
+      treatmentProcess: {
+        stage: "Treatment",
+        title: "Treatment and Journey Coordination",
+        description:
+          "Treatment is completed according to the approved clinical plan. The Patient Journey Manager helps coordinate transportation, communication and the daily schedule throughout the treatment period.",
+        estimatedDuration: "Depends on the treatment plan",
+      },
+
+      recovery: {
+        stage: "Recovery",
+        title: "Rest and Recovery",
+        description:
+          "Follow the clinical aftercare instructions and allow appropriate time for rest. The team remains available to support communication and schedule adjustments during your stay.",
+        estimatedDuration: "According to clinical advice",
+      },
+
+      optionalTravel: {
+        stage: "Experience",
+        title: "Optional Vietnam Experience",
+        description:
+          "When your treatment schedule and clinical condition allow, the team may help coordinate a suitable travel experience before your return journey.",
+        estimatedDuration: "Based on available time",
+      },
+
+      finalReview: {
+        stage: "Departure",
+        title: "Final Review and Airport Drop-off",
+        description:
+          "Before departure, the clinical team reviews the treatment result and provides aftercare guidance. Airport drop-off is then coordinated according to the confirmed flight schedule.",
+        estimatedDuration: "Final day",
+      },
+
+      internationalAftercare: {
+        stage: "Aftercare",
+        title: "Follow-up After Returning Home",
+        description:
+          "After returning home, keep your treatment records and follow the recommended maintenance plan. The support team can help coordinate follow-up communication when necessary.",
+        estimatedDuration: "Ongoing",
+      },
+    },
+  },
+
+  pages: {
+    contact: {
+      seo: {
+        title: "Contact Our Patient Journey Team",
+        description:
+          "Talk with Maiv Thoj Viet Lao by WhatsApp, email or phone for dental consultation, travel planning and international patient journey support in Vietnam.",
+      },
+
+      badge: "CONTACT",
+
+      heading: "Talk with our patient journey team",
+
+      description:
+        "Whether you're still exploring your options or already planning your trip, we're here to answer your questions and help you understand the next step with confidence.",
+
+      channels: {
+        whatsapp: {
+          description:
+            "Chat directly with our team for consultation, treatment questions and travel planning.",
+        },
+
+        email: {
+          description:
+            "Send us your dental photos, questions or travel information and we'll get back to you.",
+        },
+
+        vietnamPhone: {
+          description: "Call our Vietnam support number during business hours.",
+        },
+
+        laosPhone: {
+          description:
+            "Call our Laos support number if that is more convenient for you.",
+        },
+      },
+
+      cta: {
+        heading: "Let's start with a conversation",
+
+        description:
+          "Every smile journey begins with understanding your needs first. We are happy to answer your questions before you make any decision.",
+
+        label: "Talk With Our Team",
+      },
+    },
+
+    about: {
+      seo: {
+        title: "About Maiv Thoj Viet Lao",
+        description:
+          "Learn about Maiv Thoj Viet Lao, our mission, our team and how we support international patients travelling to Vietnam.",
+      },
+
+      badge: "ABOUT",
+
+      heading: "People who support your journey",
+
+      description:
+        "Our role is to help international patients feel informed, supported and welcomed before, during and after their dental journey.",
+    },
+
+    journey: {
+      seo: {
+        title: "Patient Journey",
+        description:
+          "See what happens before, during and after your dental treatment journey in Vietnam.",
+      },
+
+      trustMessage: {
+        heading: "Every journey is different",
+
+        description:
+          "Your treatment plan and travel schedule are personalized according to your oral health, available time and clinical recommendations.",
+      },
+    },
+
+    treatments: {
+      seo: {
+        title: "Dental Treatments",
+        description:
+          "Explore implant dentistry, crowns, veneers and smile makeover treatments available through our trusted clinical partners.",
+      },
+
+      badge: "TREATMENTS",
+
+      heading: "Treatment options designed around your needs",
+
+      description:
         "Learn more about each treatment and discuss which option is appropriate for your situation.",
 
-    schema: {
+      schema: {
         collectionName: "Dental Treatments",
         breadcrumbHome: "Home",
         breadcrumbCurrent: "Treatments",
-    },
+      },
 
-    emptyState: {
+      emptyState: {
         heading: "More treatments are coming",
 
+        description: "Additional treatment information will be added soon.",
+      },
+    },
+
+    travelGuide: {
+      seo: {
+        title: "Vietnam Travel Guide",
         description:
-            "Additional treatment information will be added soon.",
-    },
-},
+          "Helpful travel information for international patients visiting Vietnam for dental treatment.",
+      },
 
-  travelGuide: {
-    seo: {
-      title: "Vietnam Travel Guide",
+      badge: "TRAVEL GUIDE",
+
+      heading: "Travel with confidence",
+
       description:
-        "Helpful travel information for international patients visiting Vietnam for dental treatment.",
-    },
+        "Useful travel information to help make your visit to Vietnam easier and more comfortable.",
 
-    badge: "TRAVEL GUIDE",
-
-    heading: "Travel with confidence",
-
-    description:
-      "Useful travel information to help make your visit to Vietnam easier and more comfortable.",
-
-
-       schema: {
+      schema: {
         collectionName: "Travel Guide",
         breadcrumbHome: "Home",
         breadcrumbCurrent: "Travel Guide",
-    },
-    emptyState: {
-      heading: "More travel guides are coming",
+      },
+      emptyState: {
+        heading: "More travel guides are coming",
 
-      description:
-        "Additional destination and travel articles will be published soon.",
+        description:
+          "Additional destination and travel articles will be published soon.",
+      },
     },
   },
-},
 
   footer: {
     description:
-  "Maiv Thoj Viet Lao supports Hmong families and international patients throughout their dental journey to Vietnamâ€”from the first conversation and travel planning to airport pickup, treatment coordination, and ongoing support after returning home.",
+      "Maiv Thoj Viet Lao supports Hmong families and international patients throughout their dental journey to Vietnam—from the first conversation and travel planning to airport pickup, treatment coordination, and ongoing support after returning home.",
     sections: {
       treatments: {
         title: "Services",
@@ -909,19 +901,16 @@ pages: {
       phoneLabel: "Phone",
       vietnamPhoneLabel: "Vietnam Hotline",
       laosPhoneLabel: "Laos Hotline",
-      emailLabel:"email",
+      emailLabel: "email",
       whatsappLabel: "WhatsApp",
       hoursLabel: "Hours",
       languagesLabel: "Languages",
-
     },
     socialTitle: "Follow Us",
 
-bottom: {
-  rightsReserved: "All rights reserved.",
-  builtFor:
-    "Supporting international patient journeys in Vietnam.",
-},
+    bottom: {
+      rightsReserved: "All rights reserved.",
+      builtFor: "Supporting international patient journeys in Vietnam.",
+    },
   },
-
 };

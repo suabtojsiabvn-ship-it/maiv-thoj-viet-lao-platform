@@ -1,12 +1,6 @@
 export const defaultLocale = "en" as const;
 
-export const locales = [
-  "en",
-  "hmn",
-  "vi",
-  "th",
-  "lo",
-] as const;
+export const locales = ["en", "hmn", "vi", "th", "lo"] as const;
 
 export type Locale = (typeof locales)[number];
 
@@ -299,6 +293,11 @@ export interface LocaleTrustDictionary {
 }
 
 export interface LocaleBookingDictionary {
+  seo: {
+    title: string;
+    description: string;
+  };
+
   sectionLabel: string;
   title: string;
   description: string;
@@ -358,6 +357,20 @@ export interface LocaleBookingDictionary {
     submit: string;
     submitting: string;
     privacy: string;
+  };
+
+  validation: {
+    fullName: string;
+    country: string;
+    whatsapp: string;
+    email: string;
+  };
+
+  feedback: {
+    successTitle: string;
+    successDescription: string;
+    invalidResponse: string;
+    requestFailed: string;
   };
 }
 
@@ -457,10 +470,7 @@ export interface LocalePatientJourneyDictionary {
   optional: string;
   timing: string;
 
-  steps: Record<
-    LocalePatientJourneyStepKey,
-    LocalePatientJourneyStepText
-  >;
+  steps: Record<LocalePatientJourneyStepKey, LocalePatientJourneyStepText>;
 }
 
 export interface LocaleWhyDictionary {

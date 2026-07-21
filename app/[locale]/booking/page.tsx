@@ -1,9 +1,11 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 
+import { getDictionary } from "@/content/locales";
 import { buildMetadata } from "@/content/seo";
 import { Booking } from "@/features/booking";
 import { isSupportedLocale } from "@/lib/i18n-routing";
+import type { Locale } from "@/types/i18n";
 
 interface BookingPageProps {
   params: Promise<{
@@ -20,18 +22,17 @@ export async function generateMetadata({
     return {};
   }
 
+  const dictionary = await getDictionary(locale as Locale);
+
   return buildMetadata({
-    title: "Book a Free Consultation",
-    description:
-      "Request a free consultation with Maiv Thoj Viet Lao. Share your dental needs, preferred language and travel plans with our international patient journey team.",
+    title: dictionary.booking.seo.title,
+    description: dictionary.booking.seo.description,
     canonical: `/${locale}/booking`,
     locale,
   });
 }
 
-export default async function BookingPage({
-  params,
-}: BookingPageProps) {
+export default async function BookingPage({ params }: BookingPageProps) {
   const { locale } = await params;
 
   if (!isSupportedLocale(locale)) {
@@ -39,7 +40,7 @@ export default async function BookingPage({
   }
 
   return (
-    <main className="min-h-screen bg-slate-950 text-white">
+    <main className="min-h-screen bg-[#090806] text-[#f8f4ec]">
       <Booking />
     </main>
   );
