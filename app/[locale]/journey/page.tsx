@@ -41,12 +41,10 @@ export default async function JourneyPage({
     notFound();
   }
 
-  // Load the locale dictionary so the page participates
-  // in the dictionary-first architecture.
   await getDictionary(locale);
 
   return (
-    <main className="min-h-screen bg-slate-950 text-white">
+    <main className="min-h-screen bg-[#090806] text-[#F8F4EC]">
       <Journey />
     </main>
   );

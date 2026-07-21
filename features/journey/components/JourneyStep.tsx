@@ -7,6 +7,7 @@ import {
   PlaneTakeoff,
   Stethoscope,
 } from "lucide-react";
+import type { LucideIcon } from "lucide-react";
 
 import type {
   JourneyIcon,
@@ -18,10 +19,7 @@ interface JourneyStepProps {
   isLast?: boolean;
 }
 
-const iconMap: Record<
-  JourneyIcon,
-  React.ComponentType<{ className?: string }>
-> = {
+const iconMap: Record<JourneyIcon, LucideIcon> = {
   "message-circle": MessageCircle,
   "clipboard-list": ClipboardList,
   "plane-takeoff": PlaneTakeoff,
@@ -38,26 +36,27 @@ export function JourneyStep({
   const Icon = iconMap[step.icon];
 
   return (
-    <div className="relative flex gap-6">
-      {/* Timeline */}
-      <div className="flex flex-col items-center">
-        <div className="flex h-14 w-14 items-center justify-center rounded-full border border-cyan-500/20 bg-cyan-500/10 text-cyan-300 shadow-lg shadow-cyan-500/10 transition-all duration-300 group-hover:scale-105">
-          <Icon className="h-6 w-6" />
+    <div className="group relative flex gap-4 sm:gap-6">
+      <div className="flex shrink-0 flex-col items-center">
+        <div className="flex size-12 items-center justify-center rounded-full border border-[#D6A84B]/35 bg-[#1D1912] text-[#E9CC82] shadow-[0_12px_36px_rgba(214,168,75,0.12)] transition duration-300 group-hover:border-[#D6A84B]/70 group-hover:bg-[#D6A84B]/15 sm:size-14">
+          <Icon
+            aria-hidden="true"
+            className="size-5 sm:size-6"
+          />
         </div>
 
         {!isLast && (
-          <div className="mt-3 h-full w-px bg-gradient-to-b from-cyan-500/40 via-white/10 to-transparent" />
+          <div className="mt-3 w-px flex-1 bg-gradient-to-b from-[#D6A84B]/55 via-[#D6A84B]/20 to-[#D6A84B]/5" />
         )}
       </div>
 
-      {/* Card */}
-      <div className="group flex-1 pb-10">
-        <div className="rounded-3xl border border-white/10 bg-white/5 p-6 transition-all duration-300 hover:border-cyan-400/40 hover:bg-cyan-500/5 hover:shadow-xl hover:shadow-cyan-500/10">
-          <h3 className="text-xl font-semibold text-white transition-colors duration-300 group-hover:text-cyan-300">
+      <div className="min-w-0 flex-1 pb-6 sm:pb-8">
+        <div className="rounded-[1.5rem] border border-[#D6A84B]/20 bg-[#15130F] p-5 shadow-[0_18px_55px_rgba(0,0,0,0.16)] transition duration-300 group-hover:-translate-y-0.5 group-hover:border-[#D6A84B]/45 group-hover:bg-[#1D1912] sm:rounded-[1.75rem] sm:p-7">
+          <h3 className="font-[family-name:var(--font-display)] text-xl font-semibold leading-snug text-[#F7F3EA] transition-colors duration-300 group-hover:text-[#E9CC82] sm:text-2xl">
             {step.title}
           </h3>
 
-          <p className="mt-4 leading-7 text-slate-400">
+          <p className="mt-3 text-sm leading-7 text-[#B8B0A2] sm:mt-4 sm:text-base">
             {step.description}
           </p>
         </div>
