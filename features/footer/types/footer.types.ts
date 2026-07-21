@@ -1,25 +1,12 @@
-import type { LucideIcon } from "lucide-react";
+import type { TreatmentSlug } from "@/content/treatments";
 
-export interface FooterLink {
-  label: string;
-  href: string;
-}
+export type FooterTreatmentDictionaryKey =
+  | "implants"
+  | "smileMakeover"
+  | "veneers"
+  | "crowns";
 
-export interface FooterSection {
-  title: string;
-  links: FooterLink[];
-}
-
-export interface FooterContactInfo {
-  address: string;
-  phone: string;
-  email: string;
-  hours: string;
-  languages: string[];
-}
-
-export interface FooterSocialLink {
-  label: string;
-  href: string;
-  icon: LucideIcon;
+export interface FooterTreatmentLink {
+  dictionaryKey: FooterTreatmentDictionaryKey;
+  slug: TreatmentSlug;
 }

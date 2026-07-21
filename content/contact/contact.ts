@@ -8,8 +8,8 @@ export const contactInfo = {
 
     laos: {
       label: "Lao Hotline",
-      value: "020 5250 4085",
-      href: "tel:02052504085",
+      value: "+856 20 5250 4085",
+      href: "tel:+8562052504085",
     },
   },
 

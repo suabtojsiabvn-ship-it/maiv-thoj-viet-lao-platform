@@ -9,14 +9,28 @@ import { FooterSocial } from "./components/FooterSocial";
 
 export function Footer() {
   return (
-    <footer className="border-t border-white/10 bg-slate-950">
+    <footer className="border-t border-[#D6A84B]/25 bg-[#090806] text-[#F8F4EC]">
       <Container>
-        <div className="grid gap-10 py-14 md:grid-cols-2 lg:grid-cols-5">
-          <FooterBrand />
-          <FooterNavigation />
-          <FooterServices />
-          <FooterContact />
-          <FooterSocial />
+        <div className="grid gap-10 py-14 sm:grid-cols-2 lg:grid-cols-12 lg:gap-8 lg:py-16">
+          <div className="sm:col-span-2 lg:col-span-4">
+            <FooterBrand />
+          </div>
+
+          <div className="lg:col-span-2">
+            <FooterNavigation />
+          </div>
+
+          <div className="lg:col-span-2">
+            <FooterServices />
+          </div>
+
+          <div className="lg:col-span-2">
+            <FooterContact />
+          </div>
+
+          <div className="lg:col-span-2">
+            <FooterSocial />
+          </div>
         </div>
 
         <FooterBottom />
