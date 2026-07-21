@@ -868,6 +868,27 @@ export const viDictionary: LocaleDictionary = {
     },
   },
 
+  explore: {
+    sectionLabel: "KHÁM PHÁ VIỆT NAM",
+    title: "Tận hưởng nhiều hơn trong thời gian ở Việt Nam.",
+    description:
+      "Khám phá những điểm đến đáng nhớ và các hướng dẫn thiết thực giúp bạn chủ động hơn trong hành trình làm răng.",
+    items: {
+      destinations: {
+        title: "Điểm Đến Gợi Ý",
+        description:
+          "Tìm hiểu những địa điểm có thật tại Việt Nam mà bạn có thể ghé thăm trước hoặc sau khi điều trị.",
+        cta: "Khám Phá Điểm Đến",
+      },
+      travelGuide: {
+        title: "Cẩm Nang Du Lịch",
+        description:
+          "Xem thông tin hữu ích về sân bay, lưu trú, di chuyển, văn hóa địa phương và việc đi lại sau điều trị.",
+        cta: "Xem Cẩm Nang",
+      },
+    },
+  },
+
   footer: {
     description:
       "Maiv Thoj Viet Lao đồng hành cùng khách hàng H'Mông và khách hàng quốc tế trên hành trình làm răng tại Việt Nam — từ tư vấn ban đầu, đón sân bay, hỗ trợ di chuyển cho đến khi trở về nhà.",
@@ -935,3 +956,4 @@ export const viDictionary: LocaleDictionary = {
     },
   },
 };
+

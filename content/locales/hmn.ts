@@ -861,6 +861,27 @@ export const hmnDictionary: LocaleDictionary = {
     },
   },
 
+  explore: {
+    sectionLabel: "KAWM NTXIV TXOG NYAB LAJ",
+    title: "Npaj koj txoj kev tuaj Nyab Laj kom yooj yim dua.",
+    description:
+      "Saib tej chaw uas koj xav mus xyuas thiab nyeem cov lus qhia uas yuav pab koj npaj txoj kev tuaj kho hniav kom kaj siab dua.",
+    items: {
+      destinations: {
+        title: "Tej Chaw Zoo Mus Saib",
+        description:
+          "Kawm ntxiv txog tej chaw tiag hauv Nyab Laj uas koj yuav xav mus xyuas ua ntej lossis tom qab kho hniav.",
+        cta: "Saib Tej Chaw",
+      },
+      travelGuide: {
+        title: "Lus Qhia Kev Taug Kev",
+        description:
+          "Nyeem txog kev tuaj tshav dav hlau, chaw nyob, kev mus los, zaub mov thiab yam yuav tau ceev faj tom qab kho hniav.",
+        cta: "Nyeem Cov Lus Qhia",
+      },
+    },
+  },
+
   footer: {
     description:
       "Maiv Thoj Viet Lao pab cov tsev neeg Hmoob thiab cov neeg tuaj txawv teb chaws txij thawj lo lus sib tham, kev npaj kev taug kev, kev txais tom tshav dav hlau, kev koom tes nrog pab kws kho hniav, mus txog thaum lawv rov qab mus tsev.",
@@ -928,3 +949,4 @@ export const hmnDictionary: LocaleDictionary = {
     },
   },
 };
+

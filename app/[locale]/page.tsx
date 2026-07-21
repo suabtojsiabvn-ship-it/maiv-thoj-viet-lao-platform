@@ -7,6 +7,7 @@ import { Booking } from "@/features/booking";
 import { ClinicalPartner } from "@/features/clinical-partner";
 import { Coordinator } from "@/features/coordinator";
 import { Founder } from "@/features/founder";
+import { Explore } from "@/features/explore";
 import { Hero } from "@/features/hero";
 import { Journey } from "@/features/journey";
 import { PatientJourney } from "@/features/patient-journey";
@@ -58,6 +59,7 @@ export default async function HomePage({
       <Treatments />
       <BeforeAfter />
       <Journey />
+      <Explore locale={locale} />
       <Booking />
     </main>
   );

@@ -854,6 +854,27 @@ export const enDictionary: LocaleDictionary = {
     },
   },
 
+  explore: {
+    sectionLabel: "EXPLORE VIETNAM",
+    title: "Make more of your time in Vietnam.",
+    description:
+      "Discover places worth visiting and practical guidance that can make your dental journey easier to plan.",
+    items: {
+      destinations: {
+        title: "Places to Discover",
+        description:
+          "Explore real destinations in Vietnam that can become a meaningful part of your time before or after treatment.",
+        cta: "Explore Destinations",
+      },
+      travelGuide: {
+        title: "Travel Guide",
+        description:
+          "Find practical information about arrival, accommodation, transportation, local culture and travelling after treatment.",
+        cta: "Read the Travel Guide",
+      },
+    },
+  },
+
   footer: {
     description:
       "Maiv Thoj Viet Lao supports Hmong families and international patients throughout their dental journey to Vietnam—from the first conversation and travel planning to airport pickup, treatment coordination, and ongoing support after returning home.",

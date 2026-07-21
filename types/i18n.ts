@@ -620,6 +620,21 @@ export interface LocalePagesDictionary {
   about: LocaleAboutPageDictionary;
 }
 
+export interface LocaleExploreItemDictionary extends LocaleTextItem {
+  cta: string;
+}
+
+export interface LocaleExploreDictionary {
+  sectionLabel: string;
+  title: string;
+  description: string;
+
+  items: {
+    destinations: LocaleExploreItemDictionary;
+    travelGuide: LocaleExploreItemDictionary;
+  };
+}
+
 export interface LocaleDictionary {
   common: {
     brandName: string;
@@ -640,6 +655,7 @@ export interface LocaleDictionary {
   patientJourney: LocalePatientJourneyDictionary;
   trust: LocaleTrustDictionary;
   booking: LocaleBookingDictionary;
+  explore: LocaleExploreDictionary;
   footer: LocaleFooterDictionary;
 
   /**
@@ -650,3 +666,4 @@ export interface LocaleDictionary {
    */
   pages: LocalePagesDictionary;
 }
+
