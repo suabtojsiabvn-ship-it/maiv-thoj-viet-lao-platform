@@ -36,10 +36,10 @@ export const mocChauDestination: DestinationContent = {
     description:
       "Khám phá Mộc Châu cùng Maiv Thoj Viet Lao Platform trong hành trình nha khoa kết hợp du lịch tại Việt Nam.",
     canonical: "/vi/destinations/moc-chau",
-    image: "/images/destinations/moc-chau-cover.jpg",
+    image: "/images/destinations/moc-chau-cover.webp",
   },
   media: {
-    coverImage: "/images/destinations/moc-chau-cover.jpg",
+    coverImage: "/images/destinations/moc-chau-cover.webp",
     gallery: [
       "/images/destinations/moc-chau-1.webp",
       "/images/destinations/moc-chau-2.JPG",
