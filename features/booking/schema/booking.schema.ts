@@ -1,39 +1,21 @@
 import { z } from "zod";
 
-export interface BookingValidationMessages {
-  fullName: string;
-  country: string;
-  whatsapp: string;
-  email: string;
-}
+export const bookingSchema = z.object({
+  fullName: z.string().min(2, "Please enter your name."),
 
-const defaultValidationMessages: BookingValidationMessages = {
-  fullName: "Please enter your name.",
-  country: "Please enter your country or region.",
-  whatsapp: "Please enter a valid WhatsApp or phone number.",
-  email: "Please enter a valid email address.",
-};
+  country: z.string().min(2),
 
-export function createBookingSchema(messages: BookingValidationMessages) {
-  return z.object({
-    fullName: z.string().trim().min(2, messages.fullName),
+  preferredLanguage: z.string(),
 
-    country: z.string().trim().min(2, messages.country),
+  whatsapp: z.string().min(5),
 
-    preferredLanguage: z.string(),
+  email: z.string().email(),
 
-    whatsapp: z.string().trim().min(5, messages.whatsapp),
+  treatment: z.string(),
 
-    email: z.string().trim().email(messages.email),
+  travelDate: z.string().optional(),
 
-    treatment: z.string(),
-
-    travelDate: z.string().optional(),
-
-    message: z.string().max(1000).optional(),
-  });
-}
-
-export const bookingSchema = createBookingSchema(defaultValidationMessages);
+  message: z.string().max(1000).optional(),
+});
 
 export type BookingFormValues = z.infer<typeof bookingSchema>;

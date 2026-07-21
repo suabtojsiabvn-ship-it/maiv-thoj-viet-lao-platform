@@ -21,13 +21,13 @@ export function BookingForm() {
     handleSubmit,
     reset,
     formState: { errors, isSubmitting },
-  } = useBookingForm(booking.validation);
+  } = useBookingForm();
 
   const onSubmit = handleSubmit(async (values) => {
     setSubmitError(null);
 
     try {
-      await submitBooking(values, booking.feedback);
+      await submitBooking(values);
       reset();
       setSubmitted(true);
     } catch (error) {
