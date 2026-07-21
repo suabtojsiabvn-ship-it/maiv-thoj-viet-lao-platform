@@ -1,31 +1,47 @@
+import { locales } from "@/types/i18n";
 import type { Locale } from "@/types/i18n";
 
 import { crownsTreatments } from "./crowns";
 import { implantTreatments } from "./implants";
+import { localizedTreatmentTranslations } from "./locales";
+import { localizeTreatment } from "./localize";
 import { smileMakeoverTreatments } from "./smile-makeover";
-import type {
-  TreatmentContent,
-  TreatmentSlug,
-} from "./types";
+import type { TreatmentContent, TreatmentSlug } from "./types";
 import { veneersTreatments } from "./veneers";
 
-export const treatments: TreatmentContent[] = [
+const sourceTreatments: TreatmentContent[] = [
   ...implantTreatments,
   ...veneersTreatments,
   ...crownsTreatments,
   ...smileMakeoverTreatments,
 ];
 
+const englishTreatments = sourceTreatments.filter(
+  (treatment) => treatment.locale === "en",
+);
+
+export const treatments: TreatmentContent[] = locales.flatMap((locale) => {
+  if (locale === "en") {
+    return englishTreatments;
+  }
+
+  const translations = localizedTreatmentTranslations[locale];
+
+  if (!translations) {
+    return [];
+  }
+
+  return englishTreatments.map((treatment) =>
+    localizeTreatment(treatment, locale, translations[treatment.slug]),
+  );
+});
+
 export function getAllTreatments(): TreatmentContent[] {
   return treatments;
 }
 
-export function getTreatmentsByLocale(
-  locale: Locale,
-): TreatmentContent[] {
-  return treatments.filter(
-    (treatment) => treatment.locale === locale,
-  );
+export function getTreatmentsByLocale(locale: Locale): TreatmentContent[] {
+  return treatments.filter((treatment) => treatment.locale === locale);
 }
 
 export function getTreatmentBySlug(
@@ -33,27 +49,23 @@ export function getTreatmentBySlug(
   slug: string,
 ): TreatmentContent | undefined {
   return treatments.find(
-    (treatment) =>
-      treatment.locale === locale &&
-      treatment.slug === slug,
+    (treatment) => treatment.locale === locale && treatment.slug === slug,
   );
 }
 
 export function getTreatmentSlugs(): TreatmentSlug[] {
   return Array.from(
-    new Set(
-      treatments.map(
-        (treatment) => treatment.slug,
-      ),
-    ),
+    new Set(englishTreatments.map((treatment) => treatment.slug)),
   );
 }
 
 export function getTreatmentStaticParams() {
-  return treatments.map((treatment) => ({
-    locale: treatment.locale,
-    slug: treatment.slug,
-  }));
+  return locales.flatMap((locale) =>
+    getTreatmentSlugs().map((slug) => ({
+      locale,
+      slug,
+    })),
+  );
 }
 
 export function getTreatmentBySlugWithFallback(
