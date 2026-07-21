@@ -36,10 +36,10 @@ export const bacHaDestination: DestinationContent = {
     description:
       "Khám phá Bắc Hà cùng Maiv Thoj Viet Lao Platform trong hành trình nha khoa kết hợp du lịch tại Việt Nam.",
     canonical: "/vi/destinations/bac-ha",
-    image: "/images/destinations/bac-ha-cover.jpg",
+    image: "/images/destinations/bac-ha-cover.webp",
   },
   media: {
-    coverImage: "/images/destinations/bac-ha-cover.jpg",
+    coverImage: "/images/destinations/bac-ha-cover.webp",
     gallery: [
       "/images/destinations/bac-ha-1.webp",
       "/images/destinations/bac-ha-2.webp",
