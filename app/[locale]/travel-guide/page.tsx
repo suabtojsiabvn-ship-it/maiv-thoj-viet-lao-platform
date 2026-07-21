@@ -51,17 +51,12 @@ export default async function TravelGuideListingPage({
 
   const dictionary = await getDictionary(locale);
   const pageDictionary = dictionary.pages.travelGuide;
-  const guides = getTravelGuidesByLocale(locale as Locale);
+  const currentLocale = locale as Locale;
+  const guides = getTravelGuidesByLocale(currentLocale);
 
-  const pageUrl = new URL(
-    `/${locale}/travel-guide`,
-    seo.siteUrl,
-  ).toString();
+  const pageUrl = new URL(`/${locale}/travel-guide`, seo.siteUrl).toString();
 
-  const homeUrl = new URL(
-    `/${locale}`,
-    seo.siteUrl,
-  ).toString();
+  const homeUrl = new URL(`/${locale}`, seo.siteUrl).toString();
 
   const collectionSchema = createCollectionPageSchema({
     name: pageDictionary.schema.collectionName,
@@ -98,22 +93,26 @@ export default async function TravelGuideListingPage({
         }}
       />
 
-      <main className="min-h-screen bg-slate-950 text-white">
-        <section className="px-6 py-24">
+      <main className="min-h-screen bg-[#090806] text-[#F8F4EC]">
+        <section className="px-5 py-20 sm:px-6 sm:py-24 lg:py-28">
           <div className="mx-auto max-w-6xl">
-            <p className="text-sm font-semibold uppercase tracking-[0.25em] text-cyan-300">
+            <p className="text-xs font-semibold uppercase tracking-[0.28em] text-[#D6A84B] sm:text-sm">
               {pageDictionary.badge}
             </p>
 
-            <h1 className="mt-4 max-w-4xl text-4xl font-bold tracking-tight text-white md:text-6xl">
+            <h1 className="mt-4 max-w-4xl font-[family-name:var(--font-display)] text-4xl font-semibold tracking-tight text-[#F7F3EA] sm:text-5xl lg:text-7xl">
               {pageDictionary.heading}
             </h1>
 
-            <p className="mt-6 max-w-3xl text-lg leading-8 text-slate-300">
+            <p className="mt-6 max-w-3xl text-base leading-8 text-[#B8B0A2] sm:text-lg">
               {pageDictionary.description}
             </p>
 
-            <TravelGuideGrid guides={guides} />
+            <TravelGuideGrid
+              guides={guides}
+              locale={currentLocale}
+              page={pageDictionary}
+            />
           </div>
         </section>
       </main>

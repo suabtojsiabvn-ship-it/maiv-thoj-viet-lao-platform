@@ -6,7 +6,7 @@ export const aftercareTravelGuide: TravelGuideContent = {
   locale: "vi",
   title: "Du lịch nhẹ nhàng sau điều trị",
   summary:
-  "Sau điều trị, khách hàng có thể nghỉ ngơi hoặc tham quan theo kế hoạch phù hợp. Đội ngũ Maiv Thoj Viet Lao Platform tiếp tục đồng hành và hỗ trợ việc di chuyển cho đến khi khách hoàn tất hành trình và trở về nước.",
+    "Sau điều trị, khách hàng có thể nghỉ ngơi hoặc tham quan theo kế hoạch phù hợp. Đội ngũ Maiv Thoj Viet Lao Platform tiếp tục đồng hành và hỗ trợ việc di chuyển cho đến khi khách hoàn tất hành trình và trở về nước.",
   category: "aftercare",
   estimatedTime: "After clinical appointment",
   estimatedBudget: "Flexible by destination and recovery plan",

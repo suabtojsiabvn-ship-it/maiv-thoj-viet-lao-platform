@@ -24,7 +24,11 @@ export const travelGuides = [
 export {
   getFeaturedTravelGuides,
   getTravelGuideBySlug,
+  getTravelGuideBySlugWithFallback,
   getTravelGuideSlugs,
+  getTravelGuideStaticParams,
   getTravelGuidesByCategory,
   getTravelGuidesByLocale,
+  isTravelGuideKey,
+  travelGuideKeys,
 } from "./helpers";

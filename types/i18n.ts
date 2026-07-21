@@ -631,8 +631,27 @@ export interface LocaleDestinationsPageDictionary {
   items: Record<LocaleDestinationKey, LocaleDestinationItemDictionary>;
 }
 
+export type LocaleTravelGuideKey =
+  | "airport-arrival"
+  | "hotel-stay"
+  | "local-transportation"
+  | "visa-preparation"
+  | "food-culture"
+  | "aftercare-travel";
+
+export interface LocaleTravelGuideItemDictionary {
+  title: string;
+  summary: string;
+  category: string;
+  estimatedTime: string;
+  estimatedBudget: string;
+  body: string[];
+  tips: string[];
+  seo: LocalePageSeoDictionary;
+}
+
 /**
- * Localized listing-page text used by /[locale]/travel-guide.
+ * Localized text used by both the travel-guide listing and article routes.
  */
 export interface LocaleTravelGuidePageDictionary {
   seo: LocalePageSeoDictionary;
@@ -647,10 +666,29 @@ export interface LocaleTravelGuidePageDictionary {
     breadcrumbCurrent: string;
   };
 
+  labels: {
+    readGuide: string;
+    backToGuides: string;
+    category: string;
+    estimatedTime: string;
+    estimatedBudget: string;
+    tipsHeading: string;
+    consultationCta: string;
+  };
+
   emptyState: {
     heading: string;
     description: string;
   };
+
+  notFound: {
+    badge: string;
+    heading: string;
+    description: string;
+    backHome: string;
+  };
+
+  items: Record<LocaleTravelGuideKey, LocaleTravelGuideItemDictionary>;
 }
 
 /**

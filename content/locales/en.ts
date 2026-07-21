@@ -986,28 +986,184 @@ export const enDictionary: LocaleDictionary = {
 
     travelGuide: {
       seo: {
-        title: "Vietnam Travel Guide",
+        title: "Vietnam Travel Guide for Dental Patients",
         description:
-          "Helpful travel information for international patients visiting Vietnam for dental treatment.",
+          "Practical arrival, accommodation, transportation and aftercare guidance for international dental patients travelling to Vietnam.",
       },
 
       badge: "TRAVEL GUIDE",
 
-      heading: "Travel with confidence",
+      heading: "Prepare well. Travel with confidence.",
 
       description:
-        "Useful travel information to help make your visit to Vietnam easier and more comfortable.",
+        "Clear, practical guidance for every part of your journey—from preparing documents and arriving at the airport to staying comfortably and travelling after treatment.",
 
       schema: {
-        collectionName: "Travel Guide",
+        collectionName: "Vietnam Travel Guide for Dental Patients",
         breadcrumbHome: "Home",
         breadcrumbCurrent: "Travel Guide",
+      },
+      labels: {
+        readGuide: "Read guide",
+        backToGuides: "Back to all guides",
+        category: "Category",
+        estimatedTime: "When",
+        estimatedBudget: "Planning note",
+        tipsHeading: "Helpful tips",
+        consultationCta: "Discuss your journey with us",
       },
       emptyState: {
         heading: "More travel guides are coming",
 
         description:
           "Additional destination and travel articles will be published soon.",
+      },
+      notFound: {
+        badge: "TRAVEL GUIDE",
+        heading: "Guide not found",
+        description:
+          "This guide is unavailable. Return home to continue planning your journey.",
+        backHome: "Back to home",
+      },
+      items: {
+        "airport-arrival": {
+          title: "Arriving at the airport and beginning your journey",
+          summary:
+            "Know what to expect after landing in Vietnam and how our team helps you meet your driver and begin your dental journey calmly.",
+          category: "Airport arrival",
+          estimatedTime: "1–2 hours after landing",
+          estimatedBudget: "Based on the airport and pickup plan",
+          body: [
+            "Your arrival should feel clear from the moment you land. Before your flight, we confirm your arrival details and explain where to meet the support team after immigration and baggage collection.",
+            "Keep your phone connected when possible and let us know early if your flight changes. Your Patient Journey Manager will coordinate the meeting point and onward travel so you do not have to navigate the first stage alone.",
+          ],
+          tips: [
+            "Keep your phone connected to the internet after landing.",
+            "Follow the confirmed airport meeting instructions.",
+            "Send us an update if your flight is delayed or changed.",
+            "Keep your passport, luggage receipt and hotel details easy to reach.",
+          ],
+          seo: {
+            title: "Vietnam Airport Arrival Guide for Dental Patients",
+            description:
+              "Airport arrival and pickup guidance for international dental patients beginning their journey in Vietnam.",
+          },
+        },
+        "hotel-stay": {
+          title: "Staying comfortably during treatment",
+          summary:
+            "Choose accommodation that supports rest, easy clinic travel and a comfortable recovery throughout your time in Vietnam.",
+          category: "Accommodation",
+          estimatedTime: "Throughout the treatment journey",
+          estimatedBudget: "Flexible by hotel class and location",
+          body: [
+            "A suitable hotel makes the treatment journey easier. We recommend prioritising a quiet room, reliable transport access and a location close to the clinic or your planned pickup route.",
+            "If you need help comparing options or adjusting dates around appointments, tell your Patient Journey Manager early. The goal is to give you enough time to rest without making travel between the hotel and clinic complicated.",
+          ],
+          tips: [
+            "Prioritise a hotel near the clinic or pickup route.",
+            "Choose a quiet place where you can rest after treatment.",
+            "Check international guest and check-in policies before booking.",
+            "Ask us before changing dates that affect your treatment schedule.",
+          ],
+          seo: {
+            title: "Hotel Stay Guide for Dental Treatment in Vietnam",
+            description:
+              "Accommodation guidance for international dental patients staying in Vietnam during treatment.",
+          },
+        },
+        "local-transportation": {
+          title: "Getting around during your treatment journey",
+          summary:
+            "Understand how airport, hotel and clinic transport is coordinated so your appointments and essential travel remain simple.",
+          category: "Transportation",
+          estimatedTime: "Based on route and appointment schedule",
+          estimatedBudget: "Flexible by distance and transport option",
+          body: [
+            "Your main journeys between the airport, hotel and clinic are coordinated around the treatment plan. This reduces uncertainty and helps you arrive at each appointment with enough time.",
+            "If you want to add a personal stop or change a pickup time, contact your Patient Journey Manager before the journey. We will check that the change does not interfere with clinical care or recovery.",
+          ],
+          tips: [
+            "Follow the confirmed pickup time for each appointment.",
+            "You do not need to arrange transport for the main scheduled visits yourself.",
+            "Request itinerary changes as early as possible.",
+            "Keep your Patient Journey Manager's contact details available.",
+          ],
+          seo: {
+            title: "Local Transportation Guide for Dental Patients in Vietnam",
+            description:
+              "Transport planning between the airport, hotel and dental clinic for international patients in Vietnam.",
+          },
+        },
+        "visa-preparation": {
+          title: "Preparing documents before travelling to Vietnam",
+          summary:
+            "Organise your passport, entry requirements, accommodation details and appointment information before departure.",
+          category: "Travel preparation",
+          estimatedTime: "Before departure",
+          estimatedBudget: "Depends on nationality and travel plan",
+          body: [
+            "Entry requirements can vary by nationality, so confirm the current rules before buying a non-refundable ticket. Check your passport validity and keep your accommodation and return-flight information together.",
+            "Save digital copies of essential documents on your phone and in a secure online location. We can confirm appointment and local support details, but official visa decisions remain with the relevant authorities.",
+          ],
+          tips: [
+            "Check that your passport remains valid for the required period.",
+            "Confirm entry requirements for your nationality before departure.",
+            "Keep digital copies of your passport and flight details.",
+            "Carry your hotel address and treatment appointment information.",
+          ],
+          seo: {
+            title: "Vietnam Visa and Document Preparation Guide",
+            description:
+              "Passport, entry and travel-document preparation for international dental patients visiting Vietnam.",
+          },
+        },
+        "food-culture": {
+          title: "Food and local culture during your stay",
+          summary:
+            "Enjoy Vietnam thoughtfully while choosing food and activities that remain suitable for your treatment and recovery.",
+          category: "Food and culture",
+          estimatedTime: "During free time",
+          estimatedBudget: "Flexible by experience",
+          body: [
+            "Local food and culture can be a meaningful part of your stay. After dental treatment, however, follow your clinician's instructions and choose soft, comfortable foods while your mouth is sensitive.",
+            "When visiting markets, villages or cultural sites, allow enough time to rest and respect local customs. Your support team can suggest suitable meals and gentle activities based on your recovery plan.",
+          ],
+          tips: [
+            "Ask your clinician before eating hard, hot or spicy food after treatment.",
+            "Choose soft, easy-to-eat meals during early recovery.",
+            "Respect local customs when visiting communities and cultural sites.",
+            "Ask the support team for food suggestions suitable for your dental condition.",
+          ],
+          seo: {
+            title: "Vietnam Food and Culture Guide for Dental Patients",
+            description:
+              "Food and cultural guidance for international dental patients staying and recovering in Vietnam.",
+          },
+        },
+        "aftercare-travel": {
+          title: "Travelling gently after treatment",
+          summary:
+            "Plan light, flexible activities that respect your clinician's advice and give your body enough time to recover.",
+          category: "Aftercare travel",
+          estimatedTime: "After the clinical appointment",
+          estimatedBudget: "Flexible by destination and recovery plan",
+          body: [
+            "Some patients can enjoy gentle sightseeing after treatment, while others need more rest. Your clinical instructions always come first, especially after a major procedure.",
+            "Choose short journeys, flexible bookings and activities that can be changed if you feel tired. Stay in contact with your Patient Journey Manager and report unusual pain, swelling or bleeding promptly.",
+          ],
+          tips: [
+            "Always follow your clinician's aftercare instructions.",
+            "Avoid long-distance travel immediately after a major procedure.",
+            "Choose a light itinerary with generous rest time.",
+            "Contact the support team promptly if you notice unusual symptoms.",
+          ],
+          seo: {
+            title: "Aftercare Travel Guide Following Dental Treatment",
+            description:
+              "Gentle travel and recovery guidance after dental treatment in Vietnam.",
+          },
+        },
       },
     },
   },

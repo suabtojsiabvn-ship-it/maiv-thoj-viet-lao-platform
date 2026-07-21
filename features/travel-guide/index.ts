@@ -1,4 +1,1 @@
-export {
-  TravelGuide,
-  TravelGuideArticle,
-} from "./components";
+export { TravelGuide, TravelGuideArticle } from "./components";

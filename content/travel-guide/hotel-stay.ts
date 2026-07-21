@@ -6,7 +6,7 @@ export const hotelStayGuide: TravelGuideContent = {
   locale: "vi",
   title: "Lưu trú trong thời gian điều trị",
   summary:
-  "Maiv Thoj Viet Lao Platform hỗ trợ khách hàng từ lúc đón tại sân bay, lưu trú, điều trị đến khi trở về sân bay, giúp hành trình diễn ra thuận lợi và thoải mái hơn.",
+    "Maiv Thoj Viet Lao Platform hỗ trợ khách hàng từ lúc đón tại sân bay, lưu trú, điều trị đến khi trở về sân bay, giúp hành trình diễn ra thuận lợi và thoải mái hơn.",
   category: "hotel",
   estimatedTime: "Throughout treatment journey",
   estimatedBudget: "Flexible by hotel class and location",

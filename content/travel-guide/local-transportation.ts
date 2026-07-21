@@ -6,16 +6,16 @@ export const localTransportationGuide: TravelGuideContent = {
   locale: "vi",
   title: "Di chuyển trong hành trình điều trị",
   summary:
-  "Trong suốt thời gian điều trị, Maiv Thoj Viet Lao Platform hỗ trợ việc đưa đón và điều phối lịch trình giữa sân bay, khách sạn, phòng khám và các hoạt động liên quan để khách hàng có trải nghiệm thuận tiện và an tâm.",
+    "Trong suốt thời gian điều trị, Maiv Thoj Viet Lao Platform hỗ trợ việc đưa đón và điều phối lịch trình giữa sân bay, khách sạn, phòng khám và các hoạt động liên quan để khách hàng có trải nghiệm thuận tiện và an tâm.",
   category: "transportation",
   estimatedTime: "Depends on route and appointment schedule",
   estimatedBudget: "Flexible by distance and transport option",
   tips: [
-  "Đội ngũ sẽ sắp xếp lịch đưa đón theo kế hoạch điều trị.",
-  "Không cần tự tìm phương tiện giữa các lịch hẹn chính.",
-  "Nếu muốn thay đổi lịch trình, hãy thông báo trước.",
-  "Patient Journey Manager luôn là đầu mối hỗ trợ trong quá trình di chuyển.",
-],
+    "Đội ngũ sẽ sắp xếp lịch đưa đón theo kế hoạch điều trị.",
+    "Không cần tự tìm phương tiện giữa các lịch hẹn chính.",
+    "Nếu muốn thay đổi lịch trình, hãy thông báo trước.",
+    "Patient Journey Manager luôn là đầu mối hỗ trợ trong quá trình di chuyển.",
+  ],
   seo: {
     title: "Local Transportation Guide | Maiv Thoj Viet Lao",
     description:

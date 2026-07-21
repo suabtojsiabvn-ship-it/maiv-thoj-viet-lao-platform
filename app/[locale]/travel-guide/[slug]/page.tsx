@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Script from "next/script";
 import { notFound } from "next/navigation";
 
+import { getDictionary } from "@/content/locales";
 import {
   buildMetadata,
   createArticleSchema,
@@ -9,10 +10,12 @@ import {
   seo,
 } from "@/content/seo";
 import {
-  getTravelGuideBySlug,
-  getTravelGuideSlugs,
+  getTravelGuideBySlugWithFallback,
+  getTravelGuideStaticParams,
+  isTravelGuideKey,
 } from "@/content/travel-guide";
 import { TravelGuideArticle } from "@/features/travel-guide";
+import { isSupportedLocale } from "@/lib/i18n-routing";
 import type { Locale } from "@/types/i18n";
 
 interface TravelGuideDetailPageProps {
@@ -23,7 +26,7 @@ interface TravelGuideDetailPageProps {
 }
 
 export function generateStaticParams() {
-  return getTravelGuideSlugs();
+  return getTravelGuideStaticParams();
 }
 
 export async function generateMetadata({
@@ -31,25 +34,26 @@ export async function generateMetadata({
 }: TravelGuideDetailPageProps): Promise<Metadata> {
   const { locale, slug } = await params;
 
-  const guide = getTravelGuideBySlug(
-    locale as Locale,
-    slug,
-  );
+  if (!isSupportedLocale(locale) || !isTravelGuideKey(slug)) {
+    return {};
+  }
+
+  const currentLocale = locale as Locale;
+  const guide = getTravelGuideBySlugWithFallback(currentLocale, slug);
 
   if (!guide) {
     return {};
   }
 
+  const dictionary = await getDictionary(currentLocale);
+  const content = dictionary.pages.travelGuide.items[slug];
+
   return buildMetadata({
-    title: guide.seo.title,
-    description: guide.seo.description,
-    canonical:
-      guide.seo.canonical ??
-      `/${guide.locale}/travel-guide/${guide.slug}`,
-    image:
-      guide.seo.image ??
-      guide.media.coverImage,
-    locale: guide.locale,
+    title: content.seo.title,
+    description: content.seo.description,
+    canonical: `/${currentLocale}/travel-guide/${slug}`,
+    image: guide.seo.image ?? guide.media.coverImage,
+    locale: currentLocale,
   });
 }
 
@@ -58,80 +62,76 @@ export default async function TravelGuideDetailPage({
 }: TravelGuideDetailPageProps) {
   const { locale, slug } = await params;
 
-  const guide = getTravelGuideBySlug(
-    locale as Locale,
-    slug,
-  );
+  if (!isSupportedLocale(locale) || !isTravelGuideKey(slug)) {
+    notFound();
+  }
+
+  const currentLocale = locale as Locale;
+  const guide = getTravelGuideBySlugWithFallback(currentLocale, slug);
 
   if (!guide) {
     notFound();
   }
 
+  const dictionary = await getDictionary(currentLocale);
+  const page = dictionary.pages.travelGuide;
+  const content = page.items[slug];
+
   const guideUrl = new URL(
-    guide.seo.canonical ??
-      `/${guide.locale}/travel-guide/${guide.slug}`,
+    `/${currentLocale}/travel-guide/${slug}`,
     seo.siteUrl,
   ).toString();
-
   const travelGuideUrl = new URL(
-    `/${guide.locale}/travel-guide`,
+    `/${currentLocale}/travel-guide`,
     seo.siteUrl,
   ).toString();
+  const homeUrl = new URL(`/${currentLocale}`, seo.siteUrl).toString();
 
-  const homeUrl = new URL(
-    `/${guide.locale}`,
-    seo.siteUrl,
-  ).toString();
+  const articleSchema = createArticleSchema({
+    headline: content.title,
+    description: content.seo.description,
+    url: guideUrl,
+    image: guide.seo.image ?? guide.media.coverImage,
+  });
 
-  const articleSchema =
-    createArticleSchema({
-      headline: guide.title,
-      description: guide.seo.description,
+  const breadcrumbSchema = createBreadcrumbSchema([
+    {
+      name: page.schema.breadcrumbHome,
+      url: homeUrl,
+    },
+    {
+      name: page.schema.breadcrumbCurrent,
+      url: travelGuideUrl,
+    },
+    {
+      name: content.title,
       url: guideUrl,
-      image:
-        guide.seo.image ??
-        guide.media.coverImage,
-    });
-
-  const breadcrumbSchema =
-    createBreadcrumbSchema([
-      {
-        name: "Home",
-        url: homeUrl,
-      },
-      {
-        name: "Travel Guide",
-        url: travelGuideUrl,
-      },
-      {
-        name: guide.title,
-        url: guideUrl,
-      },
-    ]);
+    },
+  ]);
 
   return (
     <>
       <Script
-        id={`travel-guide-article-${guide.slug}`}
+        id={`travel-guide-article-${currentLocale}-${slug}`}
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify(
-            articleSchema,
-          ),
+          __html: JSON.stringify(articleSchema),
         }}
       />
-
       <Script
-        id={`travel-guide-breadcrumb-${guide.slug}`}
+        id={`travel-guide-breadcrumb-${currentLocale}-${slug}`}
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify(
-            breadcrumbSchema,
-          ),
+          __html: JSON.stringify(breadcrumbSchema),
         }}
       />
 
-      <TravelGuideArticle guide={guide} />
+      <TravelGuideArticle
+        guide={guide}
+        locale={currentLocale}
+        content={content}
+        page={page}
+      />
     </>
   );
 }

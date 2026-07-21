@@ -1,39 +1,52 @@
-import type { TravelGuideContent } from "@/types/content/travel-guide";
+import { CalendarClock, MapPinned, WalletCards } from "lucide-react";
+
+import type {
+  LocaleTravelGuideItemDictionary,
+  LocaleTravelGuidePageDictionary,
+} from "@/types/i18n";
 
 interface TravelGuideMetaProps {
-  guide: TravelGuideContent;
+  content: LocaleTravelGuideItemDictionary;
+  labels: LocaleTravelGuidePageDictionary["labels"];
 }
 
-export function TravelGuideMeta({ guide }: TravelGuideMetaProps) {
+export function TravelGuideMeta({ content, labels }: TravelGuideMetaProps) {
   const items = [
     {
-      label: "Category",
-      value: guide.category,
+      label: labels.category,
+      value: content.category,
+      icon: MapPinned,
     },
     {
-      label: "Estimated time",
-      value: guide.estimatedTime ?? "Flexible",
+      label: labels.estimatedTime,
+      value: content.estimatedTime,
+      icon: CalendarClock,
     },
     {
-      label: "Estimated budget",
-      value: guide.estimatedBudget ?? "Depends on your journey",
+      label: labels.estimatedBudget,
+      value: content.estimatedBudget,
+      icon: WalletCards,
     },
   ];
 
   return (
-    <section className="mx-auto grid max-w-5xl gap-4 px-6 py-10 md:grid-cols-3">
-      {items.map((item) => (
-        <div
-          key={item.label}
-          className="rounded-2xl border border-white/10 bg-white/5 p-5"
-        >
-          <p className="text-sm uppercase tracking-wide text-cyan-300">
-            {item.label}
-          </p>
-
-          <p className="mt-2 font-semibold text-white">{item.value}</p>
-        </div>
-      ))}
+    <section className="px-5 py-10 sm:px-6 sm:py-12">
+      <div className="mx-auto grid max-w-5xl gap-4 md:grid-cols-3">
+        {items.map(({ label, value, icon: Icon }) => (
+          <div
+            key={label}
+            className="rounded-2xl border border-[#D6A84B]/20 bg-[#15130F] p-5 sm:p-6"
+          >
+            <Icon aria-hidden="true" className="size-5 text-[#D6A84B]" />
+            <p className="mt-4 text-xs font-semibold uppercase tracking-[0.2em] text-[#9E9587]">
+              {label}
+            </p>
+            <p className="mt-2 font-semibold leading-7 text-[#F7F3EA]">
+              {value}
+            </p>
+          </div>
+        ))}
+      </div>
     </section>
   );
 }

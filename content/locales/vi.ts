@@ -1005,29 +1005,179 @@ export const viDictionary: LocaleDictionary = {
 
     travelGuide: {
       seo: {
-        title: "Cẩm nang du lịch Việt Nam",
+        title: "Cẩm nang đến Việt Nam làm răng",
         description:
-          "Thông tin hữu ích dành cho khách hàng quốc tế đến Việt Nam làm răng.",
+          "Hướng dẫn thiết thực về nhập cảnh, sân bay, lưu trú, di chuyển và nghỉ ngơi sau điều trị dành cho khách quốc tế đến Việt Nam làm răng.",
       },
-
-      badge: "CẨM NANG",
-
-      heading: "Tự tin hơn trước chuyến đi",
-
+      badge: "CẨM NANG HÀNH TRÌNH",
+      heading: "Chuẩn bị chu đáo. An tâm lên đường.",
       description:
-        "Những thông tin cần thiết giúp chuyến đi đến Việt Nam trở nên dễ dàng và thuận tiện hơn.",
-
+        "Thông tin rõ ràng cho từng chặng—từ chuẩn bị giấy tờ, đến sân bay, lưu trú và di chuyển cho đến nghỉ ngơi phù hợp sau khi làm răng.",
       schema: {
-        collectionName: "Cẩm nang du lịch Việt Nam",
+        collectionName: "Cẩm nang đến Việt Nam làm răng",
         breadcrumbHome: "Trang chủ",
         breadcrumbCurrent: "Cẩm nang du lịch",
       },
-
+      labels: {
+        readGuide: "Đọc hướng dẫn",
+        backToGuides: "Xem tất cả hướng dẫn",
+        category: "Chủ đề",
+        estimatedTime: "Thời điểm",
+        estimatedBudget: "Lưu ý kế hoạch",
+        tipsHeading: "Những điều nên lưu ý",
+        consultationCta: "Trao đổi hành trình với chúng tôi",
+      },
       emptyState: {
         heading: "Sắp có thêm bài viết",
-
         description:
           "Chúng tôi sẽ bổ sung thêm nhiều hướng dẫn và điểm đến hữu ích.",
+      },
+      notFound: {
+        badge: "CẨM NANG HÀNH TRÌNH",
+        heading: "Không tìm thấy bài hướng dẫn",
+        description:
+          "Bài viết này hiện không khả dụng. Hãy quay về trang chủ để tiếp tục chuẩn bị hành trình.",
+        backHome: "Về trang chủ",
+      },
+      items: {
+        "airport-arrival": {
+          title: "Đến sân bay và bắt đầu hành trình",
+          summary:
+            "Nắm rõ các bước sau khi hạ cánh, điểm gặp đội ngũ hỗ trợ và cách bắt đầu hành trình làm răng tại Việt Nam một cách an tâm.",
+          category: "Đón tại sân bay",
+          estimatedTime: "1–2 giờ sau khi hạ cánh",
+          estimatedBudget: "Tùy sân bay và phương án đón",
+          body: [
+            "Chúng tôi mong bạn cảm thấy yên tâm ngay từ khi hạ cánh. Trước chuyến bay, đội ngũ sẽ xác nhận thông tin đến và hướng dẫn rõ điểm gặp sau khi hoàn tất thủ tục nhập cảnh, nhận hành lý.",
+            "Hãy duy trì kết nối điện thoại nếu có thể và báo sớm khi chuyến bay thay đổi. Người quản lý hành trình sẽ điều phối điểm gặp và chặng di chuyển tiếp theo để bạn không phải tự xoay xở trong ngày đầu tiên.",
+          ],
+          tips: [
+            "Giữ điện thoại có kết nối internet sau khi hạ cánh.",
+            "Làm theo hướng dẫn điểm gặp đã được xác nhận.",
+            "Báo ngay khi chuyến bay bị chậm hoặc thay đổi.",
+            "Để hộ chiếu, phiếu hành lý và địa chỉ nơi ở ở vị trí dễ lấy.",
+          ],
+          seo: {
+            title: "Hướng dẫn đến sân bay cho khách làm răng tại Việt Nam",
+            description:
+              "Hướng dẫn nhập cảnh, điểm gặp và đón tại sân bay cho khách quốc tế đến Việt Nam làm răng.",
+          },
+        },
+        "hotel-stay": {
+          title: "Lưu trú thoải mái trong thời gian điều trị",
+          summary:
+            "Chọn nơi ở thuận tiện cho việc nghỉ ngơi, di chuyển đến phòng khám và hồi phục trong suốt thời gian ở Việt Nam.",
+          category: "Lưu trú",
+          estimatedTime: "Trong suốt hành trình điều trị",
+          estimatedBudget: "Linh hoạt theo hạng khách sạn và vị trí",
+          body: [
+            "Một nơi ở phù hợp giúp hành trình làm răng nhẹ nhàng hơn. Bạn nên ưu tiên phòng yên tĩnh, dễ di chuyển và gần phòng khám hoặc nằm trên tuyến đưa đón đã thống nhất.",
+            "Nếu cần hỗ trợ so sánh lựa chọn hoặc điều chỉnh ngày ở theo lịch hẹn, hãy báo sớm cho người quản lý hành trình. Mục tiêu là để bạn có đủ thời gian nghỉ mà không gặp khó khăn khi đi lại giữa khách sạn và phòng khám.",
+          ],
+          tips: [
+            "Ưu tiên khách sạn gần phòng khám hoặc tuyến đưa đón.",
+            "Chọn nơi yên tĩnh để nghỉ ngơi sau điều trị.",
+            "Kiểm tra giờ nhận phòng và chính sách dành cho khách quốc tế.",
+            "Trao đổi trước khi thay đổi ngày ở có liên quan đến lịch điều trị.",
+          ],
+          seo: {
+            title: "Hướng dẫn lưu trú khi làm răng tại Việt Nam",
+            description:
+              "Gợi ý chọn nơi ở thuận tiện cho khách quốc tế trong thời gian làm răng tại Việt Nam.",
+          },
+        },
+        "local-transportation": {
+          title: "Di chuyển trong hành trình điều trị",
+          summary:
+            "Hiểu cách điều phối các chặng sân bay, khách sạn và phòng khám để lịch hẹn và việc đi lại thiết yếu luôn thuận tiện.",
+          category: "Di chuyển",
+          estimatedTime: "Theo lộ trình và lịch hẹn",
+          estimatedBudget: "Linh hoạt theo quãng đường và phương tiện",
+          body: [
+            "Các chặng di chuyển chính giữa sân bay, khách sạn và phòng khám được sắp xếp theo kế hoạch điều trị. Việc này giúp giảm bớt bối rối và đảm bảo bạn đến mỗi lịch hẹn đúng giờ.",
+            "Nếu muốn thêm điểm dừng cá nhân hoặc đổi giờ đón, hãy báo trước cho người quản lý hành trình. Đội ngũ sẽ kiểm tra để thay đổi không ảnh hưởng đến việc điều trị và nghỉ ngơi.",
+          ],
+          tips: [
+            "Có mặt đúng giờ đón đã xác nhận cho từng lịch hẹn.",
+            "Bạn không cần tự tìm phương tiện cho các chặng chính đã được sắp xếp.",
+            "Báo thay đổi lịch trình càng sớm càng tốt.",
+            "Luôn lưu sẵn thông tin liên hệ của người quản lý hành trình.",
+          ],
+          seo: {
+            title: "Hướng dẫn di chuyển cho khách làm răng tại Việt Nam",
+            description:
+              "Hướng dẫn điều phối di chuyển giữa sân bay, khách sạn và phòng khám cho khách quốc tế.",
+          },
+        },
+        "visa-preparation": {
+          title: "Chuẩn bị giấy tờ trước khi đến Việt Nam",
+          summary:
+            "Sắp xếp hộ chiếu, yêu cầu nhập cảnh, thông tin lưu trú và lịch hẹn trước khi khởi hành.",
+          category: "Chuẩn bị chuyến đi",
+          estimatedTime: "Trước khi khởi hành",
+          estimatedBudget: "Tùy quốc tịch và kế hoạch chuyến đi",
+          body: [
+            "Yêu cầu nhập cảnh có thể khác nhau theo quốc tịch, vì vậy hãy kiểm tra quy định hiện hành trước khi mua vé không hoàn hủy. Kiểm tra thời hạn hộ chiếu và lưu thông tin nơi ở cùng vé khứ hồi.",
+            "Nên lưu bản điện tử các giấy tờ quan trọng trên điện thoại và tại một nơi trực tuyến an toàn. Chúng tôi có thể xác nhận lịch hẹn và thông tin hỗ trợ tại Việt Nam, nhưng quyết định cấp visa thuộc cơ quan có thẩm quyền.",
+          ],
+          tips: [
+            "Kiểm tra hộ chiếu còn hiệu lực theo thời hạn yêu cầu.",
+            "Xác nhận quy định nhập cảnh áp dụng cho quốc tịch của bạn.",
+            "Lưu bản điện tử hộ chiếu và thông tin chuyến bay.",
+            "Mang theo địa chỉ nơi ở và thông tin lịch hẹn làm răng.",
+          ],
+          seo: {
+            title: "Hướng dẫn chuẩn bị visa và giấy tờ đến Việt Nam",
+            description:
+              "Hướng dẫn chuẩn bị hộ chiếu, nhập cảnh và giấy tờ cho khách quốc tế đến Việt Nam làm răng.",
+          },
+        },
+        "food-culture": {
+          title: "Ẩm thực và văn hóa địa phương",
+          summary:
+            "Trải nghiệm Việt Nam phù hợp với lịch điều trị, đồng thời lựa chọn món ăn và hoạt động an toàn cho quá trình hồi phục.",
+          category: "Ẩm thực và văn hóa",
+          estimatedTime: "Trong thời gian rảnh",
+          estimatedBudget: "Linh hoạt theo trải nghiệm",
+          body: [
+            "Ẩm thực và văn hóa địa phương có thể làm thời gian ở Việt Nam thêm ý nghĩa. Tuy nhiên sau khi làm răng, hãy tuân thủ hướng dẫn chuyên môn và chọn món mềm, dễ ăn khi răng miệng còn nhạy cảm.",
+            "Khi đến chợ, bản làng hoặc địa điểm văn hóa, hãy dành đủ thời gian nghỉ và tôn trọng phong tục địa phương. Đội ngũ hỗ trợ có thể gợi ý món ăn và hoạt động nhẹ nhàng phù hợp với kế hoạch hồi phục.",
+          ],
+          tips: [
+            "Hỏi bác sĩ trước khi ăn món cứng, nóng hoặc cay sau điều trị.",
+            "Ưu tiên món mềm, dễ ăn trong giai đoạn đầu hồi phục.",
+            "Tôn trọng phong tục khi đến cộng đồng và địa điểm văn hóa.",
+            "Nhờ đội ngũ hỗ trợ gợi ý món ăn phù hợp với tình trạng răng miệng.",
+          ],
+          seo: {
+            title: "Cẩm nang ẩm thực và văn hóa cho khách làm răng",
+            description:
+              "Gợi ý ẩm thực và văn hóa phù hợp cho khách quốc tế làm răng và nghỉ ngơi tại Việt Nam.",
+          },
+        },
+        "aftercare-travel": {
+          title: "Du lịch nhẹ nhàng sau điều trị",
+          summary:
+            "Lên kế hoạch linh hoạt, ưu tiên hướng dẫn của bác sĩ và dành đủ thời gian để cơ thể hồi phục.",
+          category: "Du lịch sau điều trị",
+          estimatedTime: "Sau buổi điều trị",
+          estimatedBudget: "Linh hoạt theo điểm đến và khả năng hồi phục",
+          body: [
+            "Một số khách có thể tham quan nhẹ nhàng sau điều trị, trong khi người khác cần nghỉ ngơi nhiều hơn. Hướng dẫn của bác sĩ luôn được ưu tiên, đặc biệt sau các thủ thuật lớn.",
+            "Hãy chọn chặng ngắn, dịch vụ có thể thay đổi và hoạt động dễ hủy nếu bạn mệt. Giữ liên lạc với người quản lý hành trình và báo ngay khi có đau, sưng hoặc chảy máu bất thường.",
+          ],
+          tips: [
+            "Luôn tuân thủ hướng dẫn chăm sóc sau điều trị của bác sĩ.",
+            "Không nên đi xa ngay sau thủ thuật lớn.",
+            "Chọn lịch trình nhẹ nhàng với nhiều thời gian nghỉ.",
+            "Liên hệ đội ngũ hỗ trợ ngay khi có dấu hiệu bất thường.",
+          ],
+          seo: {
+            title: "Hướng dẫn du lịch sau khi làm răng tại Việt Nam",
+            description:
+              "Gợi ý di chuyển nhẹ nhàng và hồi phục an toàn sau điều trị nha khoa tại Việt Nam.",
+          },
+        },
       },
     },
   },

@@ -1014,28 +1014,180 @@ export const hmnDictionary: LocaleDictionary = {
 
     travelGuide: {
       seo: {
-        title: "Phau Ntawv Qhia Kev Mus Nyab Laj",
-
+        title: "Kev Qhia Tuaj Kho Hniav thiab Mus Ncig Hauv Nyab Laj",
         description:
-          "Cov ntaub ntawv pab cov neeg tuaj txawv teb chaws npaj lawv txoj kev tuaj kho hniav hauv Nyab Laj.",
+          "Cov lus qhia txog kev npaj ntaub ntawv, tuaj tshav dav hlau, chaw nyob, kev mus los thiab kev saib xyuas tom qab kho hniav hauv Nyab Laj.",
       },
-
-      badge: "KEV MUS NCIG",
-
-      heading: "Mus txawv teb chaws nrog kev ntseeg siab",
-
+      badge: "KEV QHIA TXOJ KEV TUAJ",
+      heading: "Npaj kom zoo, tuaj kom kaj siab.",
       description:
-        "Cov lus qhia pab kom koj txoj kev tuaj Nyab Laj yooj yim dua thiab kaj siab dua.",
-
+        "Cov lus qhia yooj yim rau txhua ntu ntawm koj txoj kev tuaj—txij npaj ntaub ntawv, tuaj txog tshav dav hlau, chaw nyob thiab kev mus los mus txog thaum so zoo tom qab kho hniav.",
       schema: {
-        collectionName: "Travel Guide",
+        collectionName: "Kev Qhia Tuaj Kho Hniav Hauv Nyab Laj",
         breadcrumbHome: "Tsev",
-        breadcrumbCurrent: "Travel Guide",
+        breadcrumbCurrent: "Kev Qhia Txoj Kev Tuaj",
+      },
+      labels: {
+        readGuide: "Nyeem cov lus qhia",
+        backToGuides: "Rov saib txhua zaj qhia",
+        category: "Yam qhia",
+        estimatedTime: "Lub sijhawm",
+        estimatedBudget: "Yam yuav tau npaj",
+        tipsHeading: "Tej yam tsim nyog nco",
+        consultationCta: "Tham nrog peb txog koj txoj kev tuaj",
       },
       emptyState: {
-        heading: "Peb tseem yuav ntxiv cov lus qhia",
-
-        description: "Cov ntawv qhia tshiab yuav raug ntxiv sai sai.",
+        heading: "Peb tseem tab tom ntxiv lus qhia",
+        description:
+          "Yuav muaj lus qhia txog lwm qhov chaw thiab kev mus los ntxiv sai sai no.",
+      },
+      notFound: {
+        badge: "KEV QHIA TXOJ KEV TUAJ",
+        heading: "Nrhiav tsis tau zaj qhia no",
+        description:
+          "Zaj qhia no tseem tsis muaj. Rov mus rau nplooj tsev los npaj koj txoj kev tuaj ntxiv.",
+        backHome: "Rov mus tsev",
+      },
+      items: {
+        "airport-arrival": {
+          title: "Tuaj txog tshav dav hlau thiab pib koj txoj kev",
+          summary:
+            "Paub ua ntej tias thaum koj tsaws hauv Nyab Laj yuav ua li cas, yuav ntsib peb pab neeg qhov twg thiab yuav pib txoj kev kho hniav li cas kom kaj siab.",
+          category: "Tuaj tshav dav hlau",
+          estimatedTime: "1–2 teev tom qab dav hlau tsaws",
+          estimatedBudget:
+            "Nyob ntawm tshav dav hlau thiab kev teem caij tos txais",
+          body: [
+            "Peb xav kom koj kaj siab txij thaum dav hlau tsaws. Ua ntej koj ya tuaj, peb yuav txheeb koj lub sijhawm tuaj thiab qhia meej tias tom qab hla chaw kuaj ntaub ntawv thiab nqa hnab tas lawm yuav mus ntsib peb pab neeg qhov twg.",
+            "Khaws xov tooj kom txuas tau internet yog ua tau thiab qhia peb sai yog dav hlau hloov sijhawm. Tus saib xyuas koj txoj kev tuaj yuav teem qhov chaw ntsib thiab kev mus ntxiv kom koj tsis tas nrhiav txhua yam ib leeg.",
+          ],
+          tips: [
+            "Thaum tsaws lawm, khaws xov tooj kom txuas tau internet.",
+            "Ua raws qhov chaw ntsib uas peb tau qhia ua ntej.",
+            "Yog dav hlau qeeb lossis hloov sijhawm, qhia peb tam sim ntawd.",
+            "Khaws phau ntawv hla teb chaws, daim ntawv nqa hnab thiab chaw nyob kom yooj yim muab saib.",
+          ],
+          seo: {
+            title: "Kev Qhia Tuaj Tshav Dav Hlau Hauv Nyab Laj",
+            description:
+              "Kev qhia txog kev tuaj tshav dav hlau thiab kev tos txais rau cov neeg tuaj kho hniav hauv Nyab Laj.",
+          },
+        },
+        "hotel-stay": {
+          title: "Nyob kom xis thaum kho hniav",
+          summary:
+            "Xaiv chaw nyob uas so tau zoo, mus cuag chaw kho hniav yooj yim thiab pab kom lub cev rov zoo thaum koj nyob hauv Nyab Laj.",
+          category: "Chaw nyob",
+          estimatedTime: "Tas koj lub sijhawm tuaj kho hniav",
+          estimatedBudget: "Nyob ntawm hom tsev so thiab qhov chaw",
+          body: [
+            "Tsev so uas haum yuav ua rau txoj kev kho hniav yooj yim dua. Tsim nyog xaiv chav nyob ntsiag to, muaj kev mus los yooj yim thiab nyob ze chaw kho hniav lossis txoj kev uas peb yuav tuaj tos.",
+            "Yog xav kom peb pab piv tsev so lossis hloov hnub raws sijhawm kho hniav, qhia tus saib xyuas koj txoj kev tuaj kom ntxov. Peb xav kom koj muaj sijhawm so txaus thiab tsis nyuaj rau kev mus los ntawm tsev so mus rau chaw kho hniav.",
+          ],
+          tips: [
+            "Xaiv tsev so ze chaw kho hniav lossis ze txoj kev tuaj tos.",
+            "Xaiv qhov chaw ntsiag to kom so tau zoo tom qab kho hniav.",
+            "Nug txog sijhawm txais chav thiab txoj cai rau qhua txawv teb chaws ua ntej.",
+            "Tham nrog peb ua ntej hloov hnub uas yuav cuam tshuam sijhawm kho hniav.",
+          ],
+          seo: {
+            title: "Kev Qhia Xaiv Tsev So Thaum Kho Hniav Hauv Nyab Laj",
+            description:
+              "Kev qhia xaiv chaw nyob rau cov neeg txawv teb chaws uas tuaj kho hniav hauv Nyab Laj.",
+          },
+        },
+        "local-transportation": {
+          title: "Kev mus los thaum koj tuaj kho hniav",
+          summary:
+            "Paub tias kev mus ntawm tshav dav hlau, tsev so thiab chaw kho hniav yuav teem li cas kom txhua lub sijhawm sib ntsib yooj yim thiab meej.",
+          category: "Kev mus los",
+          estimatedTime: "Nyob ntawm txoj kev thiab sijhawm kho hniav",
+          estimatedBudget: "Nyob ntawm qhov deb thiab hom tsheb",
+          body: [
+            "Peb yuav teem cov kev mus los tseem ceeb ntawm tshav dav hlau, tsev so thiab chaw kho hniav raws koj daim phiaj kho. Qhov no pab kom koj tsis txhawj thiab tuaj txog txhua lub sijhawm kom raws caij.",
+            "Yog koj xav nres lwm qhov lossis hloov sijhawm tuaj tos, qhia tus saib xyuas koj txoj kev tuaj ua ntej. Peb yuav xyuas kom qhov hloov ntawd tsis cuam tshuam kev kho hniav lossis sijhawm so.",
+          ],
+          tips: [
+            "Ua raws lub sijhawm tuaj tos uas tau teem rau txhua hnub kho hniav.",
+            "Cov kev mus los tseem ceeb uas teem tseg koj tsis tas nrhiav tsheb koj tus kheej.",
+            "Yog xav hloov kev mus los, qhia kom ntxov li ntxov tau.",
+            "Khaws tus saib xyuas koj txoj kev tuaj tus xov tooj kom nrhiav tau yooj yim.",
+          ],
+          seo: {
+            title: "Kev Qhia Mus Los Thaum Kho Hniav Hauv Nyab Laj",
+            description:
+              "Kev teem tsheb ntawm tshav dav hlau, tsev so thiab chaw kho hniav rau cov neeg tuaj kho hniav hauv Nyab Laj.",
+          },
+        },
+        "visa-preparation": {
+          title: "Npaj ntaub ntawv ua ntej tuaj Nyab Laj",
+          summary:
+            "Npaj phau ntawv hla teb chaws, ntaub ntawv nkag teb chaws, chaw nyob thiab sijhawm kho hniav ua ntej tawm tuaj.",
+          category: "Npaj ua ntej tuaj",
+          estimatedTime: "Ua ntej tawm tuaj",
+          estimatedBudget: "Nyob ntawm koj haiv neeg thiab txoj kev npaj",
+          body: [
+            "Txoj cai nkag teb chaws txawv raws haiv neeg, yog li xyuas txoj cai tshiab ua ntej yuav daim pib uas thim tsis tau nyiaj. Saib kom phau ntawv hla teb chaws tseem siv tau ntev txaus thiab khaws ntaub ntawv tsev so nrog daim pib rov qab ua ke.",
+            "Khaws daim qauv ntaub ntawv tseem ceeb hauv xov tooj thiab ib qho chaw online uas ruaj ntseg. Peb pab txheeb sijhawm kho hniav thiab kev pab hauv zos tau, tiam sis kev pom zoo visa yog tsoom fwv lub luag haujlwm.",
+          ],
+          tips: [
+            "Xyuas kom phau ntawv hla teb chaws tseem siv tau raws lub sijhawm uas yuav tsum tau.",
+            "Xyuas txoj cai nkag teb chaws rau koj haiv neeg ua ntej ya.",
+            "Khaws daim qauv phau ntawv hla teb chaws thiab daim pib hauv xov tooj.",
+            "Nqa chaw nyob tsev so thiab ntaub ntawv sijhawm kho hniav nrog koj.",
+          ],
+          seo: {
+            title: "Kev Npaj Visa thiab Ntaub Ntawv Tuaj Nyab Laj",
+            description:
+              "Kev qhia npaj phau ntawv hla teb chaws, visa thiab ntaub ntawv rau cov neeg tuaj kho hniav hauv Nyab Laj.",
+          },
+        },
+        "food-culture": {
+          title: "Zaub mov thiab kab lis kev cai hauv zos",
+          summary:
+            "Txaus siab rau Nyab Laj kom haum koj lub sijhawm kho hniav, xaiv zaub mov thiab kev ua si uas tsis cuam tshuam kev rov zoo.",
+          category: "Zaub mov thiab kab lis kev cai",
+          estimatedTime: "Thaum muaj sijhawm so",
+          estimatedBudget: "Nyob ntawm yam koj xaiv mus saib",
+          body: [
+            "Zaub mov thiab kab lis kev cai hauv zos yuav ua rau koj txoj kev tuaj muaj nqis dua. Tiam sis tom qab kho hniav, ua raws kws kho hniav cov lus qhia thiab xaiv zaub mov muag, noj yooj yim thaum qhov ncauj tseem mob.",
+            "Thaum mus saib khw, zos lossis chaw kab lis kev cai, tseg sijhawm so kom txaus thiab hwm tej kev cai hauv zos. Peb pab neeg qhia tau cov zaub mov thiab kev ncig maj mam uas haum koj txoj kev rov zoo.",
+          ],
+          tips: [
+            "Nug kws kho hniav ua ntej noj zaub mov tawv, kub lossis ntsim tom qab kho.",
+            "Thawj hnub tom qab kho, xaiv zaub mov muag thiab zom yooj yim.",
+            "Hwm kev cai hauv zos thaum mus saib tej zej zog thiab chaw kab lis kev cai.",
+            "Nug peb pab neeg kom qhia zaub mov uas haum koj cov hniav.",
+          ],
+          seo: {
+            title: "Zaub Mov thiab Kab Lis Kev Cai Rau Neeg Tuaj Kho Hniav",
+            description:
+              "Kev qhia zaub mov thiab kab lis kev cai rau cov neeg tuaj kho hniav thiab so hauv Nyab Laj.",
+          },
+        },
+        "aftercare-travel": {
+          title: "Mus ncig maj mam tom qab kho hniav",
+          summary:
+            "Npaj kev ncig uas sib, hloov tau yooj yim thiab ua raws kws kho hniav cov lus qhia kom lub cev muaj sijhawm rov zoo.",
+          category: "Kev ncig tom qab kho",
+          estimatedTime: "Tom qab mus kho hniav",
+          estimatedBudget: "Nyob ntawm qhov chaw thiab kev rov zoo",
+          body: [
+            "Ib txhia neeg mus ncig maj mam tau tom qab kho hniav, hos ib txhia yuav tsum so ntau dua. Kws kho hniav cov lus qhia yog qhov tseem ceeb tshaj, tshwj xeeb yog tom qab ua kev kho loj.",
+            "Xaiv txoj kev luv, kev teem uas hloov tau thiab yam ua si uas tso tseg tau yog koj nkees. Nrog tus saib xyuas koj txoj kev tuaj sib txuas lus thiab qhia sai yog mob heev, o lossis los ntshav txawv txav.",
+          ],
+          tips: [
+            "Ua raws kws kho hniav cov lus qhia tom qab kho txhua zaus.",
+            "Tsis txhob mus deb tam sim tom qab ua kev kho loj.",
+            "Xaiv kev ncig sib thiab tseg sijhawm so kom ntau.",
+            "Yog muaj yam txawv txav, hu rau peb pab neeg tam sim ntawd.",
+          ],
+          seo: {
+            title: "Kev Qhia Mus Ncig Tom Qab Kho Hniav",
+            description:
+              "Kev qhia mus ncig maj mam thiab saib xyuas lub cev tom qab kho hniav hauv Nyab Laj.",
+          },
+        },
       },
     },
   },

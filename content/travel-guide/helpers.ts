@@ -1,38 +1,68 @@
-import type { TravelGuideCategory } from "@/types/content/travel-guide";
-import type { Locale } from "@/types/i18n";
+import type { TravelGuideContent } from "@/types/content/travel-guide";
+import { locales, type Locale, type LocaleTravelGuideKey } from "@/types/i18n";
 
 import { travelGuides } from "./index";
 
-export function getTravelGuidesByLocale(locale: Locale) {
-  return travelGuides.filter(
-    (guide) => guide.locale === locale && guide.published,
-  );
+export const travelGuideKeys = [
+  "airport-arrival",
+  "hotel-stay",
+  "local-transportation",
+  "visa-preparation",
+  "food-culture",
+  "aftercare-travel",
+] as const satisfies readonly LocaleTravelGuideKey[];
+
+export function isTravelGuideKey(value: string): value is LocaleTravelGuideKey {
+  return travelGuideKeys.some((key) => key === value);
 }
 
 export function getTravelGuideBySlug(locale: Locale, slug: string) {
   return travelGuides.find(
     (guide) =>
-      guide.locale === locale &&
-      guide.slug === slug &&
-      guide.published,
+      guide.locale === locale && guide.slug === slug && guide.published,
   );
 }
 
-export function getFeaturedTravelGuides(locale: Locale) {
-  return travelGuides.filter(
-    (guide) => guide.locale === locale && guide.published && guide.featured,
+export function getTravelGuideBySlugWithFallback(
+  locale: Locale,
+  slug: string,
+  fallbackLocale: Locale = "vi",
+) {
+  return (
+    getTravelGuideBySlug(locale, slug) ??
+    (locale === fallbackLocale
+      ? undefined
+      : getTravelGuideBySlug(fallbackLocale, slug))
+  );
+}
+
+export function getTravelGuidesByLocale(
+  locale: Locale,
+  fallbackLocale: Locale = "vi",
+) {
+  return travelGuideKeys
+    .map((slug) =>
+      getTravelGuideBySlugWithFallback(locale, slug, fallbackLocale),
+    )
+    .filter((guide): guide is TravelGuideContent => guide !== undefined);
+}
+
+export function getFeaturedTravelGuides(
+  locale: Locale,
+  fallbackLocale: Locale = "vi",
+) {
+  return getTravelGuidesByLocale(locale, fallbackLocale).filter(
+    (guide) => guide.featured,
   );
 }
 
 export function getTravelGuidesByCategory(
   locale: Locale,
-  category: TravelGuideCategory,
+  category: TravelGuideContent["category"],
+  fallbackLocale: Locale = "vi",
 ) {
-  return travelGuides.filter(
-    (guide) =>
-      guide.locale === locale &&
-      guide.category === category &&
-      guide.published,
+  return getTravelGuidesByLocale(locale, fallbackLocale).filter(
+    (guide) => guide.category === category,
   );
 }
 
@@ -44,4 +74,13 @@ export function getTravelGuideSlugs(locale?: Locale) {
       locale: guide.locale,
       slug: guide.slug,
     }));
+}
+
+export function getTravelGuideStaticParams() {
+  return locales.flatMap((locale) =>
+    travelGuideKeys.map((slug) => ({
+      locale,
+      slug,
+    })),
+  );
 }
