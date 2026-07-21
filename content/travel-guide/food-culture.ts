@@ -21,10 +21,10 @@ export const foodCultureGuide: TravelGuideContent = {
     description:
       "Gợi ý ẩm thực và văn hóa cho khách quốc tế trong hành trình điều trị nha khoa tại Việt Nam cùng Maiv Thoj Viet Lao Platform.",
     canonical: "/vi/travel-guide/food-culture",
-    image: "/images/travel-guide/food-culture-cover.jpg",
+    image: "/images/travel-guide/food-culture-cover.webp",
   },
   media: {
-    coverImage: "/images/travel-guide/food-culture-cover.jpg",
+    coverImage: "/images/travel-guide/food-culture-cover.webp",
     gallery: [
       "/images/travel-guide/food-culture-1.jpg",
       "/images/travel-guide/food-culture-2.jpg",

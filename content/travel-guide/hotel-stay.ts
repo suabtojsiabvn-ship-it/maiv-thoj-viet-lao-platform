@@ -21,10 +21,10 @@ export const hotelStayGuide: TravelGuideContent = {
     description:
       "Gợi ý lưu trú cho khách quốc tế trong hành trình điều trị nha khoa tại Việt Nam cùng Maiv Thoj Viet Lao Platform.",
     canonical: "/vi/travel-guide/hotel-stay",
-    image: "/images/travel-guide/hotel-stay-cover.jpg",
+    image: "/images/travel-guide/hotel-stay-cover.webp",
   },
   media: {
-    coverImage: "/images/travel-guide/hotel-stay-cover.jpg",
+    coverImage: "/images/travel-guide/hotel-stay-cover.webp",
     gallery: [
       "/images/travel-guide/hotel-stay-1.jpg",
       "/images/travel-guide/hotel-stay-2.jpg",

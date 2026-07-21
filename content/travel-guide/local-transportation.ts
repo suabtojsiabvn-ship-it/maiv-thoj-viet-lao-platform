@@ -21,10 +21,10 @@ export const localTransportationGuide: TravelGuideContent = {
     description:
       "Hướng dẫn di chuyển cho khách quốc tế trong hành trình điều trị nha khoa tại Việt Nam cùng Maiv Thoj Viet Lao Platform.",
     canonical: "/vi/travel-guide/local-transportation",
-    image: "/images/travel-guide/local-transportation-cover.jpg",
+    image: "/images/travel-guide/local-transportation-cover.webp",
   },
   media: {
-    coverImage: "/images/travel-guide/local-transportation-cover.jpg",
+    coverImage: "/images/travel-guide/local-transportation-cover.webp",
     gallery: [
       "/images/travel-guide/local-transportation-1.jpg",
       "/images/travel-guide/local-transportation-2.jpg",

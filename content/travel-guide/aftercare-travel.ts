@@ -21,10 +21,10 @@ export const aftercareTravelGuide: TravelGuideContent = {
     description:
       "Hướng dẫn du lịch nhẹ nhàng sau điều trị nha khoa tại Việt Nam cùng Maiv Thoj Viet Lao Platform.",
     canonical: "/vi/travel-guide/aftercare-travel",
-    image: "/images/travel-guide/aftercare-travel-cover.jpg",
+    image: "/images/travel-guide/aftercare-travel-1.webp",
   },
   media: {
-    coverImage: "/images/travel-guide/aftercare-travel-cover.jpg",
+    coverImage: "/images/travel-guide/aftercare-travel-1.webp",
     gallery: [
       "/images/travel-guide/aftercare-travel-1.jpg",
       "/images/travel-guide/aftercare-travel-2.jpg",

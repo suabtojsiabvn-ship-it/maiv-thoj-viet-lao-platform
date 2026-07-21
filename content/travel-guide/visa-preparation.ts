@@ -21,10 +21,10 @@ export const visaPreparationGuide: TravelGuideContent = {
     description:
       "Hướng dẫn chuẩn bị giấy tờ cho khách quốc tế trước khi đến Việt Nam điều trị nha khoa cùng Maiv Thoj Viet Lao Platform.",
     canonical: "/vi/travel-guide/visa-preparation",
-    image: "/images/travel-guide/visa-preparation-cover.jpg",
+    image: "/images/travel-guide/visa-preparation-cover.webp",
   },
   media: {
-    coverImage: "/images/travel-guide/visa-preparation-cover.jpg",
+    coverImage: "/images/travel-guide/visa-preparation-cover.webp",
     gallery: [
       "/images/travel-guide/visa-preparation-1.jpg",
       "/images/travel-guide/visa-preparation-2.jpg",

@@ -21,10 +21,10 @@ export const airportArrivalGuide: TravelGuideContent = {
     description:
       "Hướng dẫn đến sân bay cho khách quốc tế trong hành trình điều trị nha khoa tại Việt Nam cùng Maiv Thoj Viet Lao Platform.",
     canonical: "/vi/travel-guide/airport-arrival",
-    image: "/images/travel-guide/airport-arrival-cover.jpg",
+    image: "/images/travel-guide/airport-arrival-1.webp",
   },
   media: {
-    coverImage: "/images/travel-guide/airport-arrival-cover.jpg",
+    coverImage: "/images/travel-guide/airport-arrival-1.webp",
     gallery: [
       "/images/travel-guide/airport-arrival-1.jpg",
       "/images/travel-guide/airport-arrival-2.jpg",
