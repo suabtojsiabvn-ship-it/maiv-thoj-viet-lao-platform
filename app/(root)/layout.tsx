@@ -4,7 +4,7 @@ import { Inter, Playfair_Display } from "next/font/google";
 import { homepageSchema } from "@/content/seo";
 import { defaultMetadata } from "@/lib/metadata";
 
-import "./globals.css";
+import "../globals.css";
 
 const inter = Inter({
   subsets: ["latin", "vietnamese"],
