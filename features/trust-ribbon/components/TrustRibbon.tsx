@@ -1,36 +1,34 @@
-import { Container, Section } from "@/components/ui";
+"use client";
 
-import { trustItems } from "../data/trust-items";
+import { Container } from "@/components/ui";
+import { useHero } from "@/features/hero/hooks/useHero";
 
 import { TrustItem } from "./TrustItem";
 
 export function TrustRibbon() {
+  const hero = useHero();
+
   return (
-    <Section className="relative overflow-hidden bg-slate-950 py-10">
+    <section
+      aria-labelledby="trust-ribbon-heading"
+      className="relative overflow-hidden border-b border-primary/10 bg-secondary/55 py-5 sm:py-6"
+    >
       <Container>
-        <div className="rounded-[2rem] border border-white/10 bg-white/[0.03] p-4 shadow-2xl shadow-cyan-950/20 backdrop-blur-xl md:p-6">
-          <div className="mb-6 flex flex-col gap-2 text-center md:text-left">
-            <p className="text-sm font-semibold uppercase tracking-[0.25em] text-cyan-300">
-              Trusted Journey Signals
-            </p>
+        <h2 id="trust-ribbon-heading" className="sr-only">
+          {hero.highlights.heading}
+        </h2>
 
-            <h2 className="text-2xl font-bold text-white md:text-3xl">
-              Everything You Need to Feel Safe Before You Travel
-            </h2>
-          </div>
-
-          <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-5">
-            {trustItems.map((item) => (
-              <TrustItem
-                key={item.label}
-                label={item.label}
-                description={item.description}
-                icon={item.icon}
-              />
-            ))}
-          </div>
+        <div className="grid gap-3 sm:grid-cols-2 xl:grid-cols-4">
+          {hero.highlights.items.map((item) => (
+            <TrustItem
+              key={item.key}
+              label={item.title}
+              description={item.description}
+              icon={item.icon}
+            />
+          ))}
         </div>
       </Container>
-    </Section>
+    </section>
   );
 }

@@ -5,10 +5,7 @@ import { usePathname } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
 
 import { site } from "@/content/site";
-import {
-  useCurrentLocale,
-  useDictionary,
-} from "@/hooks/useDictionary";
+import { useCurrentLocale, useDictionary } from "@/hooks/useDictionary";
 
 export function Navigation() {
   const pathname = usePathname();
@@ -20,10 +17,7 @@ export function Navigation() {
 
   useEffect(() => {
     function handlePointerDown(event: MouseEvent) {
-      if (
-        menuRef.current &&
-        !menuRef.current.contains(event.target as Node)
-      ) {
+      if (menuRef.current && !menuRef.current.contains(event.target as Node)) {
         setOpen(false);
       }
     }
@@ -44,10 +38,7 @@ export function Navigation() {
   }, []);
 
   function getNavigationItem(item: (typeof site.navigation.main)[number]) {
-    const href =
-      item.href === "/"
-        ? `/${locale}`
-        : `/${locale}${item.href}`;
+    const href = item.href === "/" ? `/${locale}` : `/${locale}${item.href}`;
 
     const isHome = item.href === "/";
     const active = isHome
@@ -64,7 +55,7 @@ export function Navigation() {
     <>
       <nav
         aria-label={dictionary.navigation.label}
-        className="hidden items-center gap-6 xl:flex"
+        className="hidden items-center gap-5 xl:flex"
       >
         {site.navigation.main.map((item) => {
           const { href, active } = getNavigationItem(item);
@@ -75,7 +66,7 @@ export function Navigation() {
               href={href}
               aria-current={active ? "page" : undefined}
               className={[
-                "relative py-2 text-sm font-medium transition-colors duration-300",
+                "relative py-2 text-[0.82rem] font-medium transition-colors duration-300",
                 active
                   ? "text-gold-soft"
                   : "text-muted-foreground hover:text-primary",
@@ -95,10 +86,7 @@ export function Navigation() {
         })}
       </nav>
 
-      <div
-        ref={menuRef}
-        className="relative xl:hidden"
-      >
+      <div ref={menuRef} className="relative xl:hidden">
         <button
           type="button"
           aria-controls="mobile-navigation"
@@ -109,7 +97,7 @@ export function Navigation() {
               : dictionary.navigation.openMenu
           }
           onClick={() => setOpen((current) => !current)}
-          className="flex h-10 w-10 items-center justify-center rounded-full border border-primary/25 bg-card/80 text-primary transition hover:border-primary/60 hover:bg-primary/10 hover:text-gold-soft focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 focus-visible:ring-offset-background"
+          className="flex h-11 w-11 items-center justify-center rounded-full border border-primary/25 bg-card/80 text-primary transition hover:border-primary/60 hover:bg-primary/10 hover:text-gold-soft focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 focus-visible:ring-offset-background"
         >
           <svg
             viewBox="0 0 24 24"

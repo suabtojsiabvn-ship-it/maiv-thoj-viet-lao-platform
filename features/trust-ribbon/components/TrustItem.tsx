@@ -6,23 +6,17 @@ interface TrustItemProps {
   icon: LucideIcon;
 }
 
-export function TrustItem({
-  label,
-  description,
-  icon: Icon,
-}: TrustItemProps) {
+export function TrustItem({ label, description, icon: Icon }: TrustItemProps) {
   return (
-    <div className="group flex items-start gap-4 rounded-2xl border border-white/10 bg-white/[0.04] p-5 backdrop-blur transition hover:border-cyan-400/40 hover:bg-cyan-500/10">
-      <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-cyan-500/10 text-cyan-300 transition group-hover:bg-cyan-400 group-hover:text-slate-950">
+    <div className="group flex h-full items-start gap-3.5 rounded-2xl border border-primary/15 bg-background/55 p-4 backdrop-blur transition duration-300 hover:border-primary/40 hover:bg-primary/[0.07]">
+      <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl border border-primary/15 bg-primary/10 text-primary transition group-hover:bg-primary group-hover:text-primary-foreground">
         <Icon className="h-5 w-5" />
       </div>
 
       <div>
-        <p className="text-sm font-semibold text-white">
-          {label}
-        </p>
+        <p className="text-sm font-semibold text-foreground">{label}</p>
 
-        <p className="mt-1 text-xs leading-5 text-slate-400">
+        <p className="mt-1 text-xs leading-5 text-muted-foreground">
           {description}
         </p>
       </div>

@@ -13,6 +13,7 @@ import { Journey } from "@/features/journey";
 import { PatientJourney } from "@/features/patient-journey";
 import { Treatments } from "@/features/treatments";
 import { Trust } from "@/features/trust";
+import { TrustRibbon } from "@/features/trust-ribbon";
 import { Why } from "@/features/why";
 
 import { isSupportedLocale } from "@/lib/i18n-routing";
@@ -23,9 +24,7 @@ interface HomePageProps {
   }>;
 }
 
-export async function generateMetadata({
-  params,
-}: HomePageProps) {
+export async function generateMetadata({ params }: HomePageProps) {
   const { locale } = await params;
 
   if (!isSupportedLocale(locale)) {
@@ -38,9 +37,7 @@ export async function generateMetadata({
   });
 }
 
-export default async function HomePage({
-  params,
-}: HomePageProps) {
+export default async function HomePage({ params }: HomePageProps) {
   const { locale } = await params;
 
   if (!isSupportedLocale(locale)) {
@@ -50,6 +47,7 @@ export default async function HomePage({
   return (
     <main className="min-h-screen bg-background text-foreground">
       <Hero />
+      <TrustRibbon />
       <Trust />
       <Why />
       <Founder />

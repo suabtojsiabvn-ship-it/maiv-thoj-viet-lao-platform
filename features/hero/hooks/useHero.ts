@@ -1,6 +1,6 @@
 "use client";
 
-import { useDictionary } from "@/hooks/useDictionary";
+import { useCurrentLocale, useDictionary } from "@/hooks/useDictionary";
 
 import { heroActions } from "../data/hero-actions";
 import { heroHighlights } from "../data/hero-highlights";
@@ -8,6 +8,7 @@ import { heroStats } from "../data/hero-stats";
 import type { HeroViewModel } from "../types/hero.types";
 
 export function useHero(): HeroViewModel {
+  const locale = useCurrentLocale();
   const dictionary = useDictionary();
   const heroDictionary = dictionary.hero;
 
@@ -18,6 +19,7 @@ export function useHero(): HeroViewModel {
       subtitle: heroDictionary.subtitle,
       actions: heroActions.map((action) => ({
         ...action,
+        href: `/${locale}${action.href}`,
         label: heroDictionary.actions[action.key],
       })),
     },
@@ -27,11 +29,8 @@ export function useHero(): HeroViewModel {
       heading: heroDictionary.highlights.heading,
       items: heroHighlights.map((highlight) => ({
         ...highlight,
-        title:
-          heroDictionary.highlights.items[highlight.key].title,
-        description:
-          heroDictionary.highlights.items[highlight.key]
-            .description,
+        title: heroDictionary.highlights.items[highlight.key].title,
+        description: heroDictionary.highlights.items[highlight.key].description,
       })),
     },
 
