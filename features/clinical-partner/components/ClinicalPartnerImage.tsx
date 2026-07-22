@@ -8,13 +8,11 @@ interface ClinicalPartnerImageProps {
   src: string;
 }
 
-export function ClinicalPartnerImage({
-  src,
-}: ClinicalPartnerImageProps) {
+export function ClinicalPartnerImage({ src }: ClinicalPartnerImageProps) {
   const { clinicalPartner } = useClinicalPartner();
 
   return (
-    <div className="relative mx-auto w-full max-w-2xl pb-16 md:pb-20">
+    <div className="relative mx-auto w-full max-w-2xl pb-16 md:pb-20 lg:sticky lg:top-28">
       <div className="overflow-hidden rounded-3xl border border-primary/25 bg-white shadow-2xl shadow-black/15">
         <Image
           src={src}

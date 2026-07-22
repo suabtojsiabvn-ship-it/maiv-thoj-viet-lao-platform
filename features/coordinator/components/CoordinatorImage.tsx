@@ -8,13 +8,11 @@ interface CoordinatorImageProps {
   src: string;
 }
 
-export function CoordinatorImage({
-  src,
-}: CoordinatorImageProps) {
+export function CoordinatorImage({ src }: CoordinatorImageProps) {
   const { coordinator } = useCoordinator();
 
   return (
-    <div className="relative mx-auto w-full max-w-md pb-14 md:pb-16">
+    <div className="relative mx-auto w-full max-w-md pb-14 md:pb-16 lg:sticky lg:top-28">
       <div className="overflow-hidden rounded-3xl border border-primary/20 bg-card shadow-2xl shadow-black/40">
         <Image
           src={src}

@@ -276,22 +276,22 @@ export const hmnDictionary: LocaleDictionary = {
 
     technologies: [
       {
-        name: "CBCT 3D Imaging",
+        name: "Duab CBCT 3D",
         description:
           "Duab 3D pab txhawb kev tshuaj xyuas hniav thiab kev npaj txoj kev kho.",
       },
       {
-        name: "Digital Intraoral Scanner",
+        name: "Tshuab Luam Hniav Digital Hauv Qhov Ncauj",
         description:
           "Kev luam hniav digital hauv qhov ncauj pab kom xis nyob dua hauv ntau rooj plaub.",
       },
       {
-        name: "CAD/CAM Workflow",
+        name: "Txheej Txheem CAD/CAM",
         description:
           "Kev tsim thiab ua cov hniav tshiab siv digital pab kom txhua kauj ruam sib xws dua.",
       },
       {
-        name: "International Clinical Standards",
+        name: "Txheej Txheem Kho Hniav Raws Qauv Thoob Ntiaj Teb",
         description:
           "Kev ntxuav thiab tua kab mob, kev nyab xeeb thiab cov txheej txheem kho hniav pab txhawb kev saib xyuas kom zoo.",
       },
@@ -355,24 +355,24 @@ export const hmnDictionary: LocaleDictionary = {
       case1: {
         title: "Rov Muaj Kev Tso Siab Luag Ntxhi",
         treatment: "Hniav Ceramic",
-        country: "Neeg tuaj kho hniav nyob USA",
+        country: "Neeg tuaj kho hniav nyob Asmeskas",
       },
 
       case2: {
         title: "Hloov Hniav Ploj Kom Rov Siv Tau Zoo",
-        treatment: "Dental Implant",
+        treatment: "Cog Hniav Implant",
         country: "Neeg tuaj kho hniav nyob Australia",
       },
 
       case3: {
         title: "Lub Luag Ntxhi Zoo Li Ntuj Dua",
-        treatment: "Porcelain Veneers",
-        country: "Neeg tuaj kho hniav nyob France",
+        treatment: "Npog Hniav Porcelain",
+        country: "Neeg tuaj kho hniav nyob Fabkis",
       },
 
       case4: {
         title: "Tsim Dua Tag Nrho Lub Luag Ntxhi",
-        treatment: "Smile Makeover",
+        treatment: "Kho Tag Nrho Lub Luag Ntxhi",
         country: "Neeg Hmoob thoob ntiaj teb",
       },
     },
@@ -447,12 +447,12 @@ export const hmnDictionary: LocaleDictionary = {
       "Txhua txoj kev kho hniav raug npaj raws li koj qhov teeb meem hniav, sijhawm taug kev thiab koj tus kheej qhov kev xav tau.",
 
     countries: [
-      { code: "🇺🇸", name: "USA" },
-      { code: "🇫🇷", name: "France" },
+      { code: "🇺🇸", name: "Asmeskas" },
+      { code: "🇫🇷", name: "Fabkis" },
       { code: "🇦🇺", name: "Australia" },
-      { code: "🇱🇦", name: "Laos" },
-      { code: "🇹🇭", name: "Thailand" },
-      { code: "🇻🇳", name: "Vietnam" },
+      { code: "🇱🇦", name: "Nplog" },
+      { code: "🇹🇭", name: "Thaib Teb" },
+      { code: "🇻🇳", name: "Nyab Laj" },
     ],
     transparency: {
       title: "Peb txoj kev cog lus kom meej",
@@ -475,9 +475,9 @@ export const hmnDictionary: LocaleDictionary = {
         "Peb xaiv cov ceramic zoo los ntawm Lub Tebchaws Yelemees, Switzerland thiab Asmeskas raws li koj daim phiaj xwm kho hniav.",
 
       items: [
-        "Premium ceramic systems",
+        "Cov txheej txheem ceramic zoo",
         "Xaiv raws li tus neeg mob",
-        "Clinical suitability comes first",
+        "Saib qhov haum rau kev kho ua ntej",
       ],
     },
     community: {
@@ -489,19 +489,19 @@ export const hmnDictionary: LocaleDictionary = {
       stats: [
         {
           value: "454K+",
-          label: "Facebook Community",
+          label: "Zej Zog Hauv Facebook",
         },
         {
           value: "1.3M+",
-          label: "TikTok Followers",
+          label: "Cov Neeg Raws Hauv TikTok",
         },
         {
           value: "5",
-          label: "Languages",
+          label: "Yam Lus",
         },
         {
-          value: "International",
-          label: "Patient Support",
+          value: "Thoob Ntiaj Teb",
+          label: "Kev Pab Neeg Tuaj Kho Hniav",
         },
       ],
     },
@@ -587,7 +587,7 @@ export const hmnDictionary: LocaleDictionary = {
 
       crowns: "Hniav Ceramic, Hniav Looj",
 
-      veneers: "Porcelain Veneers",
+      veneers: "Npog Hniav Porcelain",
 
       consultation: "Kuv Tseem Tsis Paub — Kuv Xav Tau Lus Qhia",
     },
@@ -1223,7 +1223,7 @@ export const hmnDictionary: LocaleDictionary = {
         links: {
           implants: "Hloov Hniav Ploj",
           smileMakeover: "Kho Lub Luag Ntxhi",
-          veneers: "Porcelain Veneers",
+          veneers: "Npog Hniav Porcelain",
           crowns: "Hniav Ceramic",
         },
       },

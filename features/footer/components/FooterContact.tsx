@@ -51,7 +51,9 @@ export function FooterContact() {
               aria-hidden="true"
               className="mt-0.5 size-4 shrink-0 text-[#D6A84B]"
             />
-            <span className="break-all">{site.contact.email.value}</span>
+            <span className="whitespace-nowrap text-[0.82rem] tracking-[-0.01em]">
+              {site.contact.email.value}
+            </span>
           </a>
         </li>
 

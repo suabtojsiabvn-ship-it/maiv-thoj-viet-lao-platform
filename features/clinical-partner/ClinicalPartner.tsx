@@ -11,13 +11,11 @@ export function ClinicalPartner() {
     <Section
       id="clinical-partner"
       spacing="md"
-      className="overflow-hidden border-b border-primary/15 bg-ivory text-ivory-foreground"
+      className="overflow-clip border-b border-primary/15 bg-ivory text-ivory-foreground"
     >
       <Container>
-        <div className="grid items-center gap-10 lg:grid-cols-2 lg:gap-16">
-          <ClinicalPartnerImage
-            src={anNhienDental.profileImage.src}
-          />
+        <div className="grid items-start gap-10 lg:grid-cols-2 lg:gap-16">
+          <ClinicalPartnerImage src={anNhienDental.profileImage.src} />
 
           <ClinicalPartnerContent />
         </div>
