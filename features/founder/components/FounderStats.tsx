@@ -6,11 +6,11 @@ interface FounderStatsProps {
 
 export function FounderStats({ stats }: FounderStatsProps) {
   return (
-    <div className="grid grid-cols-3 gap-2 sm:gap-4">
+    <div className="grid grid-cols-2 gap-2 sm:grid-cols-3 sm:gap-4">
       {stats.map((stat) => (
         <div
           key={`${stat.value}-${stat.label}`}
-          className="rounded-2xl border border-primary/15 bg-white/70 p-3 text-center shadow-sm shadow-black/5 sm:p-5 sm:text-left"
+          className="rounded-2xl border border-primary/15 bg-white/70 p-3 text-center shadow-sm shadow-black/5 last:col-span-2 sm:p-5 sm:text-left sm:last:col-span-1"
         >
           <div className="text-xl font-bold text-[#765817] sm:text-2xl">
             {stat.value}

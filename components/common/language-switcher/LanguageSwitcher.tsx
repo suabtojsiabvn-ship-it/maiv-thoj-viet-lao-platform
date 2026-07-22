@@ -92,7 +92,7 @@ export function LanguageSwitcher() {
         aria-expanded={open}
         aria-label={dictionary.navigation.language}
         onClick={() => setOpen((current) => !current)}
-        className="flex h-10 items-center gap-2 rounded-full border border-primary/25 bg-card/80 px-3 text-sm font-medium text-foreground transition hover:border-primary/60 hover:bg-primary/10 hover:text-gold-soft focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 focus-visible:ring-offset-background"
+        className="flex h-11 items-center gap-2 rounded-full border border-primary/25 bg-card/80 px-3 text-sm font-medium text-foreground transition hover:border-primary/60 hover:bg-primary/10 hover:text-gold-soft focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 focus-visible:ring-offset-background"
       >
         <span
           aria-hidden="true"
