@@ -608,6 +608,8 @@ export const enDictionary: LocaleDictionary = {
       country: "Please enter your country or region.",
       whatsapp: "Please enter a valid WhatsApp or phone number.",
       email: "Please enter a valid email address.",
+      treatment: "Please select a treatment or consultation option.",
+      message: "Please keep your message under 1,000 characters.",
     },
     feedback: {
       successTitle: "Your Request Has Been Sent",

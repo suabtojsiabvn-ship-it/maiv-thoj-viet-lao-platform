@@ -11,8 +11,14 @@ interface SubmitBookingErrorResponse {
   message?: string;
 }
 
+interface SubmitBookingFeedback {
+  invalidResponse: string;
+  requestFailed: string;
+}
+
 export async function submitBooking(
   data: BookingFormValues,
+  feedback: SubmitBookingFeedback,
 ): Promise<SubmitBookingSuccessResponse> {
   const response = await fetch("/api/booking", {
     method: "POST",
@@ -27,13 +33,11 @@ export async function submitBooking(
   try {
     result = await response.json();
   } catch {
-    throw new Error(
-      "The server returned an invalid response. Please try again.",
-    );
+    throw new Error(feedback.invalidResponse);
   }
 
   if (!response.ok || !result.success) {
-    throw new Error(result.message || "Failed to submit the booking request.");
+    throw new Error(feedback.requestFailed);
   }
 
   return result;

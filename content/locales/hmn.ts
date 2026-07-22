@@ -613,6 +613,9 @@ export const hmnDictionary: LocaleDictionary = {
       country: "Thov sau lub teb chaws lossis thaj chaw uas koj nyob.",
       whatsapp: "Thov sau koj tus WhatsApp lossis xov tooj kom raug.",
       email: "Thov sau email kom raug.",
+      treatment:
+        "Thov xaiv yam kev kho hniav uas koj xav paub ntxiv, lossis xaiv qhov thov tswv yim.",
+      message: "Thov sau koj cov lus kom tsis pub dhau 1,000 tus cim.",
     },
     feedback: {
       successTitle: "Peb Tau Txais Koj Cov Lus Lawm",

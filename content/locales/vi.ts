@@ -623,6 +623,8 @@ export const viDictionary: LocaleDictionary = {
       country: "Vui lòng nhập quốc gia hoặc khu vực.",
       whatsapp: "Vui lòng nhập số WhatsApp hoặc số điện thoại hợp lệ.",
       email: "Vui lòng nhập địa chỉ email hợp lệ.",
+      treatment: "Vui lòng chọn phương án điều trị hoặc tư vấn.",
+      message: "Vui lòng giới hạn nội dung trong 1.000 ký tự.",
     },
     feedback: {
       successTitle: "Thông tin của bạn đã được gửi",

@@ -364,6 +364,8 @@ export interface LocaleBookingDictionary {
     country: string;
     whatsapp: string;
     email: string;
+    treatment: string;
+    message: string;
   };
 
   feedback: {

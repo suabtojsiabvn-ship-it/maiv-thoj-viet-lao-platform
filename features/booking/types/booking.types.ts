@@ -60,6 +60,15 @@ export interface BookingFields {
   messagePlaceholder: string;
 }
 
+export interface BookingValidationMessages {
+  fullName: string;
+  country: string;
+  whatsapp: string;
+  email: string;
+  treatment: string;
+  message: string;
+}
+
 export interface BookingContentData {
   seo: {
     title: string;
@@ -77,12 +86,7 @@ export interface BookingContentData {
     submitting: string;
     privacy: string;
   };
-  validation: {
-    fullName: string;
-    country: string;
-    whatsapp: string;
-    email: string;
-  };
+  validation: BookingValidationMessages;
   feedback: {
     successTitle: string;
     successDescription: string;
