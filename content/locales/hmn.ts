@@ -386,7 +386,7 @@ export const hmnDictionary: LocaleDictionary = {
     description:
       "Kev tuaj kho hniav hauv lwm lub teb chaws yuav zoo li nyuaj thaum xub thawj. Peb npaj txhua kauj ruam kom meej, teb txhua lo lus nug, thiab nrog koj mus txog thaum koj rov qab tsev.",
 
-    badge: "PATIENT JOURNEY",
+    badge: "TXOJ KEV TUAJ KHO HNIAV",
 
     heading: "Pib ntawm thawj lo lus sib tham mus txog hnub koj rov qab tsev.",
 
