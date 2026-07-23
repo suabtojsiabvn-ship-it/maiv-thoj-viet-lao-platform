@@ -16,8 +16,7 @@ export const implantTreatments: TreatmentContent[] = [
     hero: {
       badge: "DENTAL IMPLANTS IN VIETNAM",
 
-      title:
-        "Restore missing teeth with a treatment plan designed around you.",
+      title: "Restore missing teeth with a treatment plan designed around you.",
 
       description:
         "Dental implants may help restore function, comfort and confidence when one or more teeth are missing. Your treatment begins with a careful clinical evaluation and a personalized plan.",
@@ -64,8 +63,7 @@ export const implantTreatments: TreatmentContent[] = [
     },
 
     candidates: {
-      heading:
-        "Who may be suitable for implant treatment?",
+      heading: "Who may be suitable for implant treatment?",
 
       description:
         "Suitability can only be confirmed after a clinical examination and appropriate diagnostic imaging.",
@@ -114,8 +112,7 @@ export const implantTreatments: TreatmentContent[] = [
     },
 
     materials: {
-      heading:
-        "Implant systems and restorative materials",
+      heading: "Implant systems and restorative materials",
 
       description:
         "Material and implant-system selection is based on clinical suitability, availability and your personalized treatment plan.",
@@ -139,22 +136,19 @@ export const implantTreatments: TreatmentContent[] = [
 
       items: [
         {
-          question:
-            "How long does dental implant treatment take?",
+          question: "How long does dental implant treatment take?",
 
           answer:
             "Treatment time varies depending on healing, bone condition, the number of implants and whether additional procedures are required. Your dentist will explain the expected timeline after evaluation.",
         },
         {
-          question:
-            "Is everyone suitable for dental implants?",
+          question: "Is everyone suitable for dental implants?",
 
           answer:
             "No. Suitability depends on oral health, bone condition, general health and other clinical factors. A complete examination is required before treatment is recommended.",
         },
         {
-          question:
-            "Will I need to stay in Vietnam for the entire process?",
+          question: "Will I need to stay in Vietnam for the entire process?",
 
           answer:
             "Not always. Some implant journeys require more than one visit. The team will help coordinate your treatment and travel plan after your clinical needs are confirmed.",
@@ -163,8 +157,7 @@ export const implantTreatments: TreatmentContent[] = [
     },
 
     conversion: {
-      heading:
-        "Ready to understand your next step?",
+      heading: "Ready to understand your next step?",
 
       description:
         "Share your dental concerns and expected travel plans with our team. We will help you understand the consultation process before you make any treatment decision.",
@@ -188,19 +181,15 @@ export const implantTreatments: TreatmentContent[] = [
       contacts: [],
     },
 
-    relatedTreatments: [
-      "crowns",
-      "smileMakeover",
-    ],
+    relatedTreatments: ["crowns", "smileMakeover"],
 
     media: treatmentsMedia.implant,
 
     seo: {
-      title:
-        "Dental Implants in Vietnam | Maiv Thoj Viet Lao",
+      title: "Dental Implants in Vietnam",
 
       description:
-        "Explore personalized dental implant treatment in Vietnam with multilingual patient journey support and care from trusted clinical partners.",
+        "Explore dental implants in Hanoi, Vietnam, with personalized planning, Hmong and English support, airport pickup and international patient coordination.",
 
       canonical: "/en/treatments/implant",
 

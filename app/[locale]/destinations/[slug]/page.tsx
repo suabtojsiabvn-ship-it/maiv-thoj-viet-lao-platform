@@ -17,6 +17,7 @@ import {
   buildMetadata,
   createArticleSchema,
   createBreadcrumbSchema,
+  getSeoKeywords,
   seo,
 } from "@/content/seo";
 import { isSupportedLocale } from "@/lib/i18n-routing";
@@ -58,6 +59,7 @@ export async function generateMetadata({
     description: content.summary,
     canonical: `/${currentLocale}/destinations/${slug}`,
     image: destination.seo.image ?? destination.media.coverImage,
+    keywords: getSeoKeywords(currentLocale, "destination", slug),
     locale: currentLocale,
   });
 }
@@ -100,6 +102,7 @@ export default async function DestinationDetailPage({
     description: content.summary,
     url: destinationUrl,
     image: destination.seo.image ?? destination.media.coverImage,
+    inLanguage: currentLocale,
   });
 
   const breadcrumbSchema = createBreadcrumbSchema([

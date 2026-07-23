@@ -8,10 +8,12 @@ import {
   buildMetadata,
   createBreadcrumbSchema,
   createCollectionPageSchema,
+  getSeoKeywords,
   seo,
 } from "@/content/seo";
 import { getTreatmentSlugs } from "@/content/treatments";
 import { isSupportedLocale } from "@/lib/i18n-routing";
+import type { Locale } from "@/types/i18n";
 
 interface TreatmentsPageProps {
   params: Promise<{
@@ -30,18 +32,18 @@ export async function generateMetadata({
 
   const dictionary = await getDictionary(locale);
   const treatmentsPage = dictionary.pages.treatments;
+  const currentLocale = locale as Locale;
 
   return buildMetadata({
     title: treatmentsPage.seo.title,
     description: treatmentsPage.seo.description,
     canonical: `/${locale}/treatments`,
+    keywords: getSeoKeywords(currentLocale, "treatments"),
     locale,
   });
 }
 
-export default async function TreatmentsPage({
-  params,
-}: TreatmentsPageProps) {
+export default async function TreatmentsPage({ params }: TreatmentsPageProps) {
   const { locale } = await params;
 
   if (!isSupportedLocale(locale)) {
@@ -57,20 +59,15 @@ export default async function TreatmentsPage({
     summary: dictionary.treatments.items[slug].description,
   }));
 
-  const pageUrl = new URL(
-    `/${locale}/treatments`,
-    seo.siteUrl,
-  ).toString();
+  const pageUrl = new URL(`/${locale}/treatments`, seo.siteUrl).toString();
 
-  const homeUrl = new URL(
-    `/${locale}`,
-    seo.siteUrl,
-  ).toString();
+  const homeUrl = new URL(`/${locale}`, seo.siteUrl).toString();
 
   const collectionSchema = createCollectionPageSchema({
     name: treatmentsPage.schema.collectionName,
     description: treatmentsPage.seo.description,
     url: pageUrl,
+    inLanguage: locale,
   });
 
   const breadcrumbSchema = createBreadcrumbSchema([

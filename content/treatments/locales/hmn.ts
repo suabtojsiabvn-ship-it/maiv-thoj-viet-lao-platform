@@ -3,6 +3,7 @@ import type { TreatmentTranslation, TreatmentTranslations } from "../localize";
 
 interface HmnTreatmentProfile {
   title: string;
+  seoTitle: string;
   summary: string;
   badge: string;
   heroTitle: string;
@@ -83,7 +84,7 @@ function createHmnTreatment(
       ],
     },
     seo: {
-      title: `${profile.title} hauv Nyab Laj | Maiv Thoj Viet Lao`,
+      title: profile.seoTitle,
       description: profile.seoDescription,
     },
   };
@@ -92,6 +93,7 @@ function createHmnTreatment(
 export const hmnTreatmentTranslations = {
   implant: createHmnTreatment({
     title: "Kev Cog Hniav Hloov Hniav Ploj",
+    seoTitle: "Cog Hniav Hauv Nyab Laj",
     summary:
       "Ib txoj kev kho raws li koj tus mob los hloov hniav ploj thiab pab kom tom zaub mov tau yooj yim dua.",
     badge: "KEV COG HNIAV HAUV NYAB LAJ",
@@ -183,10 +185,11 @@ export const hmnTreatmentTranslations = {
       },
     ],
     seoDescription:
-      "Kawm txog kev cog hniav hauv Nyab Laj nrog txoj kev kho raws li koj tus mob thiab kev pab ntau hom lus.",
+      "Kawm txog kev cog hniav hauv Nyab Laj rau cov neeg Hmoob, nrog kev npaj raws koj tus mob, kev txhais lus, tos tshav dav hlau thiab kev mus los.",
   }),
   veneers: createHmnTreatment({
     title: "Veneer Kho Kom Hniav Zoo Nkauj",
+    seoTitle: "Veneer Hniav Hauv Nyab Laj",
     summary:
       "Ib txoj kev kho kom cov hniav pom thaum luag muaj xim, duab thiab qhov sib npaug zoo dua.",
     badge: "VENEER HAUV NYAB LAJ",
@@ -283,10 +286,11 @@ export const hmnTreatmentTranslations = {
       },
     ],
     seoDescription:
-      "Kawm txog veneer hauv Nyab Laj, kev npaj lub luag ntxhi rau koj thiab kev pab cov neeg tuaj txawv teb chaws.",
+      "Kawm txog veneer hniav hauv Nyab Laj, kev npaj xim thiab duab hniav kom haum koj, nrog pab neeg hais lus Hmoob thiab kev npaj txoj kev tuaj.",
   }),
   crowns: createHmnTreatment({
     title: "Hniav Looj Ceramic",
+    seoTitle: "Looj Hniav Hauv Nyab Laj",
     summary:
       "Ib txoj kev kho los tiv thaiv tus hniav uas tsis muaj zog, pab rov tom tau thiab kho qhov pom ntawm tus hniav.",
     badge: "HNIAV LOOJ HAUV NYAB LAJ",
@@ -383,10 +387,11 @@ export const hmnTreatmentTranslations = {
       },
     ],
     seoDescription:
-      "Kawm txog hniav looj ceramic hauv Nyab Laj nrog kev npaj kho raws li koj tus hniav thiab kev tom.",
+      "Kawm txog looj hniav ceramic thiab zirconia hauv Nyab Laj, nrog kev npaj raws koj tus hniav, kev tom thiab kev pab ua lus Hmoob.",
   }),
   smileMakeover: createHmnTreatment({
     title: "Kho Tag Nrho Lub Luag Ntxhi",
+    seoTitle: "Kho Kom Luag Ntxhi Hauv Nyab Laj",
     summary:
       "Ib txoj kev kho lub luag ntxhi uas yuav muab ntau hom kev kho hniav los sib txuas raws li yam koj xav tau.",
     badge: "KHO LUB LUAG NTXHI HAUV NYAB LAJ",
@@ -489,6 +494,6 @@ export const hmnTreatmentTranslations = {
       },
     ],
     seoDescription:
-      "Kawm txog kev kho tag nrho lub luag ntxhi hauv Nyab Laj nrog txoj kev kho thiab kev npaj kev tuaj uas tsim rau koj.",
+      "Kawm txog kev kho kom luag ntxhi zoo hauv Nyab Laj nrog veneer, looj hniav, cog hniav lossis lwm txoj kev kho uas npaj raws koj tus mob.",
   }),
 } satisfies TreatmentTranslations;

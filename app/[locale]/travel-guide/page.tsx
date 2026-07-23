@@ -7,6 +7,7 @@ import {
   buildMetadata,
   createBreadcrumbSchema,
   createCollectionPageSchema,
+  getSeoKeywords,
   seo,
 } from "@/content/seo";
 import { getTravelGuidesByLocale } from "@/content/travel-guide";
@@ -31,11 +32,13 @@ export async function generateMetadata({
 
   const dictionary = await getDictionary(locale);
   const pageDictionary = dictionary.pages.travelGuide;
+  const currentLocale = locale as Locale;
 
   return buildMetadata({
     title: pageDictionary.seo.title,
     description: pageDictionary.seo.description,
     canonical: `/${locale}/travel-guide`,
+    keywords: getSeoKeywords(currentLocale, "travelGuide"),
     locale,
   });
 }
@@ -62,6 +65,7 @@ export default async function TravelGuideListingPage({
     name: pageDictionary.schema.collectionName,
     description: pageDictionary.seo.description,
     url: pageUrl,
+    inLanguage: currentLocale,
   });
 
   const breadcrumbSchema = createBreadcrumbSchema([

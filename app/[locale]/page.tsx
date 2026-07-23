@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 
 import { getDictionary } from "@/content/locales";
-import { buildMetadata } from "@/content/seo";
+import { buildMetadata, getHomeSeo, getSeoKeywords } from "@/content/seo";
 
 import { BeforeAfter } from "@/features/before-after";
 import { Booking } from "@/features/booking";
@@ -18,6 +18,7 @@ import { TrustRibbon } from "@/features/trust-ribbon";
 import { Why } from "@/features/why";
 
 import { isSupportedLocale } from "@/lib/i18n-routing";
+import type { Locale } from "@/types/i18n";
 
 interface HomePageProps {
   params: Promise<{
@@ -33,11 +34,14 @@ export async function generateMetadata({ params }: HomePageProps) {
   }
 
   const dictionary = await getDictionary(locale);
+  const currentLocale = locale as Locale;
+  const homeSeo = getHomeSeo(currentLocale);
 
   return buildMetadata({
-    title: dictionary.common.tagline,
-    description: dictionary.hero.subtitle,
+    title: homeSeo?.title ?? dictionary.common.tagline,
+    description: homeSeo?.description ?? dictionary.hero.subtitle,
     canonical: `/${locale}`,
+    keywords: getSeoKeywords(currentLocale, "home"),
     locale,
   });
 }

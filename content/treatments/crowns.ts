@@ -182,8 +182,7 @@ export const crownsTreatments: TreatmentContent[] = [
     },
 
     conversion: {
-      heading:
-        "Would you like to understand your crown treatment options?",
+      heading: "Would you like to understand your crown treatment options?",
 
       description:
         "Share your dental concerns, available records and expected travel plans with our team. We will help coordinate an initial consultation before you make a treatment decision.",
@@ -232,20 +231,15 @@ export const crownsTreatments: TreatmentContent[] = [
       ],
     },
 
-    relatedTreatments: [
-      "implant",
-      "veneers",
-      "smileMakeover",
-    ],
+    relatedTreatments: ["implant", "veneers", "smileMakeover"],
 
     media: treatmentsMedia.crowns,
 
     seo: {
-      title:
-        "Dental Crowns in Vietnam | Maiv Thoj Viet Lao",
+      title: "Dental Crowns in Vietnam",
 
       description:
-        "Explore personalized dental crown treatment in Vietnam with multilingual patient journey support and care from trusted clinical partners.",
+        "Explore ceramic and zirconia dental crowns in Hanoi, Vietnam, with personalized restorative planning, multilingual support and patient journey coordination.",
 
       canonical: "/en/treatments/crowns",
 

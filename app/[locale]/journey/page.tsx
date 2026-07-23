@@ -2,9 +2,10 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 
 import { getDictionary } from "@/content/locales";
-import { buildMetadata } from "@/content/seo";
+import { buildMetadata, getSeoKeywords } from "@/content/seo";
 import { Journey } from "@/features/journey";
 import { isSupportedLocale } from "@/lib/i18n-routing";
+import type { Locale } from "@/types/i18n";
 
 interface JourneyPageProps {
   params: Promise<{
@@ -23,18 +24,18 @@ export async function generateMetadata({
 
   const dictionary = await getDictionary(locale);
   const journey = dictionary.pages.journey;
+  const currentLocale = locale as Locale;
 
   return buildMetadata({
     title: journey.seo.title,
     description: journey.seo.description,
     canonical: `/${locale}/journey`,
+    keywords: getSeoKeywords(currentLocale, "journey"),
     locale,
   });
 }
 
-export default async function JourneyPage({
-  params,
-}: JourneyPageProps) {
+export default async function JourneyPage({ params }: JourneyPageProps) {
   const { locale } = await params;
 
   if (!isSupportedLocale(locale)) {

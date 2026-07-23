@@ -13,6 +13,7 @@ interface BuildMetadataInput {
   description?: string;
   canonical?: string;
   image?: string;
+  keywords?: readonly string[];
   locale?: SupportedLocale;
   includeLanguageAlternates?: boolean;
 }
@@ -45,12 +46,14 @@ export function buildMetadata({
   description,
   canonical,
   image,
+  keywords,
   locale = defaultLocale,
   includeLanguageAlternates = true,
 }: BuildMetadataInput = {}): Metadata {
   const metaTitle = title ?? seo.title;
   const metaDescription = description ?? seo.description;
   const metaImage = image ?? seo.ogImage;
+  const metaKeywords = [...new Set([...seo.keywords, ...(keywords ?? [])])];
 
   return {
     metadataBase: new URL(seo.siteUrl),
@@ -59,7 +62,7 @@ export function buildMetadata({
 
     description: metaDescription,
 
-    keywords: seo.keywords,
+    keywords: metaKeywords,
 
     alternates: {
       canonical,

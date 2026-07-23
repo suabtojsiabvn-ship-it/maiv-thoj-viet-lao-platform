@@ -8,6 +8,7 @@ import {
   createBreadcrumbSchema,
   createFaqSchema,
   createTreatmentSchema,
+  getSeoKeywords,
   seo,
 } from "@/content/seo";
 import {
@@ -49,6 +50,7 @@ export async function generateMetadata({
     description: treatment.seo.description,
     canonical: treatment.seo.canonical ?? `/${locale}/treatments/${slug}`,
     image: treatment.seo.image ?? treatment.media.og,
+    keywords: getSeoKeywords(locale as Locale, "treatment", slug),
     locale: locale as Locale,
   });
 }
@@ -108,6 +110,7 @@ export default async function TreatmentDetailPage({
       question: item.question,
       answer: item.answer,
     })),
+    locale,
   );
 
   return (

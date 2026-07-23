@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 
 import { getDictionary } from "@/content/locales";
-import { buildMetadata } from "@/content/seo";
+import { buildMetadata, getSeoKeywords } from "@/content/seo";
 import { Booking } from "@/features/booking";
 import { isSupportedLocale } from "@/lib/i18n-routing";
 import type { Locale } from "@/types/i18n";
@@ -23,11 +23,13 @@ export async function generateMetadata({
   }
 
   const dictionary = await getDictionary(locale as Locale);
+  const currentLocale = locale as Locale;
 
   return buildMetadata({
     title: dictionary.booking.seo.title,
     description: dictionary.booking.seo.description,
     canonical: `/${locale}/booking`,
+    keywords: getSeoKeywords(currentLocale, "booking"),
     locale,
   });
 }

@@ -795,9 +795,9 @@ export const hmnDictionary: LocaleDictionary = {
 
     journey: {
       seo: {
-        title: "Txoj Kev Kho Hniav",
+        title: "Txoj Kev Tuaj Kho Hniav Hauv Nyab Laj",
         description:
-          "Saib txhua kauj ruam ua ntej, thaum thiab tom qab koj txoj kev kho hniav hauv Nyab Laj.",
+          "Saib kev npaj, tos tshav dav hlau, mus chaw kho hniav, kev txhais lus thiab kev saib xyuas txij thaum koj tuaj txog Nyab Laj mus txog hnub rov tsev.",
       },
 
       trustMessage: {
@@ -810,17 +810,17 @@ export const hmnDictionary: LocaleDictionary = {
 
     treatments: {
       seo: {
-        title: "Kev Kho Hniav",
+        title: "Kho Hniav Hauv Nyab Laj",
         description:
-          "Tshawb xyuas kev cog hniav, hniav yas, veneer thiab smile makeover nrog peb cov kws kho hniav uas ntseeg tau.",
+          "Kawm txog cog hniav, looj hniav ceramic, veneer thiab kev kho kom luag ntxhi zoo hauv Nyab Laj, nrog pab neeg hais lus Hmoob thiab kev npaj raws koj tus mob.",
       },
 
       badge: "KEV KHO HNIAV",
 
-      heading: "Xaiv txoj kev kho uas phim koj tshaj",
+      heading: "Kev kho hniav hauv Nyab Laj uas npaj raws koj tus mob",
 
       description:
-        "Kawm paub txhua hom kev kho hniav thiab tham nrog peb kom nrhiav tau txoj kev kho uas haum rau koj.",
+        "Kawm txog kev cog hniav, looj hniav, veneer thiab kev kho tag nrho lub luag ntxhi. Peb pab koj tham ua lus Hmoob thiab nkag siab cov kev xaiv ua ntej koj txiav txim siab.",
 
       schema: {
         collectionName: "Kev Kho Hniav",
@@ -838,14 +838,14 @@ export const hmnDictionary: LocaleDictionary = {
 
     destinations: {
       seo: {
-        title: "Tej Chaw Zoo Mus Saib Hauv Nyab Laj",
+        title: "Mus Ncig Nyab Laj Tom Qab Kho Hniav",
         description:
-          "Kawm ntxiv txog tej chaw tiag hauv Nyab Laj uas koj yuav xav mus saib ua ntej lossis tom qab kho hniav, yog koj lub sijhawm thiab kev rov zoo tso cai.",
+          "Kawm txog Sa Pa, Bắc Hà, Hà Giang, Mộc Châu thiab Hạ Long rau txoj kev kho hniav thiab mus ncig hauv Nyab Laj thaum sijhawm kho thiab kev rov zoo tso cai.",
       },
       badge: "KAWM NTXIV TXOG NYAB LAJ",
-      heading: "Tej chaw zoo mus saib thaum koj tuaj Nyab Laj",
+      heading: "Tej chaw mus ncig thaum koj tuaj kho hniav hauv Nyab Laj",
       description:
-        "Yog sijhawm kho hniav thiab koj txoj kev rov zoo tso cai, tej chaw no yuav pab kom koj txoj kev tuaj Nyab Laj kaj siab thiab muaj kev nco zoo ntxiv.",
+        "Yog kws kho hniav pom zoo thiab koj lub sijhawm tso cai, koj tuaj yeem ntxiv Sa Pa, Bắc Hà, Hà Giang, Mộc Châu lossis Hạ Long rau txoj kev tuaj kho hniav.",
       cardCta: "Kawm Ntxiv Txog Qhov Chaw No",
       backLabel: "Rov Mus Saib Txhua Qhov Chaw",
       bookingCta: "Tham Nrog Peb Npaj Koj Txoj Kev",
@@ -1017,14 +1017,14 @@ export const hmnDictionary: LocaleDictionary = {
 
     travelGuide: {
       seo: {
-        title: "Kev Qhia Tuaj Kho Hniav thiab Mus Ncig Hauv Nyab Laj",
+        title: "Kho Hniav thiab Mus Ncig Nyab Laj",
         description:
-          "Cov lus qhia txog kev npaj ntaub ntawv, tuaj tshav dav hlau, chaw nyob, kev mus los thiab kev saib xyuas tom qab kho hniav hauv Nyab Laj.",
+          "Kev qhia rau cov neeg Hmoob txog visa, tshav dav hlau, tsev so, kev mus los, zaub mov thiab mus ncig tom qab kho hniav hauv Nyab Laj.",
       },
       badge: "KEV QHIA TXOJ KEV TUAJ",
-      heading: "Npaj kom zoo, tuaj kom kaj siab.",
+      heading: "Npaj txoj kev tuaj kho hniav thiab mus ncig kom kaj siab",
       description:
-        "Cov lus qhia yooj yim rau txhua ntu ntawm koj txoj kev tuaj—txij npaj ntaub ntawv, tuaj txog tshav dav hlau, chaw nyob thiab kev mus los mus txog thaum so zoo tom qab kho hniav.",
+        "Nyeem cov lus qhia ua lus Hmoob txog kev npaj ntaub ntawv, tuaj tshav dav hlau, xaiv tsev so, kev mus los, zaub mov thiab kev saib xyuas tom qab kho hniav.",
       schema: {
         collectionName: "Kev Qhia Tuaj Kho Hniav Hauv Nyab Laj",
         breadcrumbHome: "Tsev",

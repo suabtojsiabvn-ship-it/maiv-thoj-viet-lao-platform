@@ -7,6 +7,7 @@ import {
   buildMetadata,
   createArticleSchema,
   createBreadcrumbSchema,
+  getSeoKeywords,
   seo,
 } from "@/content/seo";
 import {
@@ -53,6 +54,7 @@ export async function generateMetadata({
     description: content.seo.description,
     canonical: `/${currentLocale}/travel-guide/${slug}`,
     image: guide.seo.image ?? guide.media.coverImage,
+    keywords: getSeoKeywords(currentLocale, "travelGuideArticle", slug),
     locale: currentLocale,
   });
 }
@@ -92,6 +94,7 @@ export default async function TravelGuideDetailPage({
     description: content.seo.description,
     url: guideUrl,
     image: guide.seo.image ?? guide.media.coverImage,
+    inLanguage: currentLocale,
   });
 
   const breadcrumbSchema = createBreadcrumbSchema([

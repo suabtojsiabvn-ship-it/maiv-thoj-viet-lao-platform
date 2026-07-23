@@ -208,8 +208,7 @@ export const smileMakeoverTreatments: TreatmentContent[] = [
     },
 
     conversion: {
-      heading:
-        "Let’s begin your personalized smile transformation journey.",
+      heading: "Let’s begin your personalized smile transformation journey.",
 
       description:
         "Share your smile concerns, available dental records, photographs and expected travel plans with our team. We will help coordinate an initial consultation and explain the appropriate next step before you make a treatment decision.",
@@ -258,20 +257,15 @@ export const smileMakeoverTreatments: TreatmentContent[] = [
       ],
     },
 
-    relatedTreatments: [
-      "veneers",
-      "crowns",
-      "implant",
-    ],
+    relatedTreatments: ["veneers", "crowns", "implant"],
 
     media: treatmentsMedia.smileMakeover,
 
     seo: {
-      title:
-        "Smile Makeover in Vietnam | Maiv Thoj Viet Lao",
+      title: "Smile Makeover in Vietnam",
 
       description:
-        "Explore a personalized smile makeover in Vietnam with comprehensive treatment planning, multilingual support and international patient journey coordination.",
+        "Explore a personalized smile makeover in Hanoi, Vietnam, combining suitable cosmetic and restorative care with multilingual international patient support.",
 
       canonical: "/en/treatments/smileMakeover",
 

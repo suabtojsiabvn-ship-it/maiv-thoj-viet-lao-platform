@@ -231,19 +231,15 @@ export const veneersTreatments: TreatmentContent[] = [
       ],
     },
 
-    relatedTreatments: [
-      "crowns",
-      "smileMakeover",
-    ],
+    relatedTreatments: ["crowns", "smileMakeover"],
 
     media: treatmentsMedia.veneers,
 
     seo: {
-      title:
-        "Dental Veneers in Vietnam | Maiv Thoj Viet Lao",
+      title: "Dental Veneers in Vietnam",
 
       description:
-        "Explore personalized dental veneer treatment in Vietnam with multilingual patient journey support and care from trusted clinical partners.",
+        "Explore porcelain and personalized dental veneers in Hanoi, Vietnam, with Hmong and English support, smile planning and international patient coordination.",
 
       canonical: "/en/treatments/veneers",
 

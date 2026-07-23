@@ -1,20 +1,14 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import {
-  Mail,
-  MessageCircle,
-  Phone,
-} from "lucide-react";
+import { Mail, MessageCircle, Phone } from "lucide-react";
 
-import {
-  Container,
-  Section,
-} from "@/components/ui";
+import { Container, Section } from "@/components/ui";
 import { contactInfo } from "@/content/contact";
 import { getDictionary } from "@/content/locales";
-import { buildMetadata } from "@/content/seo";
+import { buildMetadata, getSeoKeywords } from "@/content/seo";
 import { isSupportedLocale } from "@/lib/i18n-routing";
+import type { Locale } from "@/types/i18n";
 
 interface ContactPageProps {
   params: Promise<{
@@ -33,18 +27,18 @@ export async function generateMetadata({
 
   const dictionary = await getDictionary(locale);
   const contact = dictionary.pages.contact;
+  const currentLocale = locale as Locale;
 
   return buildMetadata({
     title: contact.seo.title,
     description: contact.seo.description,
     canonical: `/${locale}/contact`,
+    keywords: getSeoKeywords(currentLocale, "contact"),
     locale,
   });
 }
 
-export default async function ContactPage({
-  params,
-}: ContactPageProps) {
+export default async function ContactPage({ params }: ContactPageProps) {
   const { locale } = await params;
 
   if (!isSupportedLocale(locale)) {
@@ -59,10 +53,7 @@ export default async function ContactPage({
 
   return (
     <main className="min-h-screen overflow-hidden bg-[#090806] text-[#F8F4EC]">
-      <Section
-        spacing="lg"
-        className="relative"
-      >
+      <Section spacing="lg" className="relative">
         <div
           aria-hidden="true"
           className="pointer-events-none absolute inset-x-0 top-0 h-80 bg-[radial-gradient(circle_at_top,rgba(214,168,75,0.12),transparent_68%)]"
@@ -92,10 +83,7 @@ export default async function ContactPage({
                 className="group rounded-[1.75rem] border border-[#176B5B]/70 bg-[#0C1713] p-6 shadow-[0_18px_55px_rgba(0,0,0,0.16)] transition duration-300 hover:-translate-y-1 hover:border-[#2A8A77] hover:bg-[#10221C] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#7FC9B9] focus-visible:ring-offset-4 focus-visible:ring-offset-[#090806] sm:p-8"
               >
                 <span className="flex size-12 items-center justify-center rounded-2xl border border-[#176B5B]/70 bg-[#176B5B]/15 text-[#7FC9B9]">
-                  <MessageCircle
-                    aria-hidden="true"
-                    className="size-6"
-                  />
+                  <MessageCircle aria-hidden="true" className="size-6" />
                 </span>
 
                 <p className="mt-6 text-xs font-semibold uppercase tracking-[0.22em] text-[#7FC9B9]">
@@ -111,15 +99,9 @@ export default async function ContactPage({
                 </p>
               </Link>
 
-              <Link
-                href={contactInfo.email.href}
-                className={standardCardClass}
-              >
+              <Link href={contactInfo.email.href} className={standardCardClass}>
                 <span className="flex size-12 items-center justify-center rounded-2xl border border-[#D6A84B]/30 bg-[#D6A84B]/10 text-[#E9CC82]">
-                  <Mail
-                    aria-hidden="true"
-                    className="size-6"
-                  />
+                  <Mail aria-hidden="true" className="size-6" />
                 </span>
 
                 <p className="mt-6 text-xs font-semibold uppercase tracking-[0.22em] text-[#E9CC82]">
@@ -140,10 +122,7 @@ export default async function ContactPage({
                 className={standardCardClass}
               >
                 <span className="flex size-12 items-center justify-center rounded-2xl border border-[#D6A84B]/30 bg-[#D6A84B]/10 text-[#E9CC82]">
-                  <Phone
-                    aria-hidden="true"
-                    className="size-6"
-                  />
+                  <Phone aria-hidden="true" className="size-6" />
                 </span>
 
                 <p className="mt-6 text-xs font-semibold uppercase tracking-[0.22em] text-[#E9CC82]">
@@ -164,10 +143,7 @@ export default async function ContactPage({
                 className={standardCardClass}
               >
                 <span className="flex size-12 items-center justify-center rounded-2xl border border-[#D6A84B]/30 bg-[#D6A84B]/10 text-[#E9CC82]">
-                  <Phone
-                    aria-hidden="true"
-                    className="size-6"
-                  />
+                  <Phone aria-hidden="true" className="size-6" />
                 </span>
 
                 <p className="mt-6 text-xs font-semibold uppercase tracking-[0.22em] text-[#E9CC82]">

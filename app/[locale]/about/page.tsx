@@ -2,11 +2,12 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 
 import { getDictionary } from "@/content/locales";
-import { buildMetadata } from "@/content/seo";
+import { buildMetadata, getSeoKeywords } from "@/content/seo";
 import { ClinicalPartner } from "@/features/clinical-partner";
 import { Coordinator } from "@/features/coordinator";
 import { Founder } from "@/features/founder";
 import { isSupportedLocale } from "@/lib/i18n-routing";
+import type { Locale } from "@/types/i18n";
 
 interface AboutPageProps {
   params: Promise<{
@@ -25,18 +26,18 @@ export async function generateMetadata({
 
   const dictionary = await getDictionary(locale);
   const about = dictionary.pages.about;
+  const currentLocale = locale as Locale;
 
   return buildMetadata({
     title: about.seo.title,
     description: about.seo.description,
     canonical: `/${locale}/about`,
+    keywords: getSeoKeywords(currentLocale, "about"),
     locale,
   });
 }
 
-export default async function AboutPage({
-  params,
-}: AboutPageProps) {
+export default async function AboutPage({ params }: AboutPageProps) {
   const { locale } = await params;
 
   if (!isSupportedLocale(locale)) {

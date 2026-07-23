@@ -17,6 +17,7 @@ interface ArticleSchemaInput {
   description: string;
   url: string;
   image: string;
+  inLanguage?: string;
   datePublished?: string;
   dateModified?: string;
 }
@@ -25,6 +26,7 @@ interface CollectionPageSchemaInput {
   name: string;
   description: string;
   url: string;
+  inLanguage?: string;
 }
 
 export const organizationSchema = {
@@ -107,13 +109,7 @@ export const anNhienDentalSchema = {
 
   areaServed: "International",
 
-  availableLanguage: [
-    "English",
-    "Vietnamese",
-    "Hmong",
-    "Thai",
-    "Lao",
-  ],
+  availableLanguage: ["English", "Vietnamese", "Hmong", "Thai", "Lao"],
 } as const;
 
 export const doctorToanSchema = {
@@ -151,9 +147,7 @@ export function createTreatmentSchema(
   };
 }
 
-export function createBreadcrumbSchema(
-  items: BreadcrumbItem[],
-) {
+export function createBreadcrumbSchema(items: BreadcrumbItem[]) {
   return {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -167,12 +161,11 @@ export function createBreadcrumbSchema(
   };
 }
 
-export function createFaqSchema(
-  faqs: FaqItem[],
-) {
+export function createFaqSchema(faqs: FaqItem[], inLanguage?: string) {
   return {
     "@context": "https://schema.org",
     "@type": "FAQPage",
+    ...(inLanguage ? { inLanguage } : {}),
 
     mainEntity: faqs.map((faq) => ({
       "@type": "Question",
@@ -191,6 +184,7 @@ export function createArticleSchema({
   description,
   url,
   image,
+  inLanguage,
   datePublished,
   dateModified,
 }: ArticleSchemaInput) {
@@ -201,26 +195,18 @@ export function createArticleSchema({
     headline,
     description,
     url,
+    ...(inLanguage ? { inLanguage } : {}),
 
     mainEntityOfPage: {
       "@type": "WebPage",
       "@id": url,
     },
 
-    image: [
-      new URL(
-        image,
-        urls.production,
-      ).toString(),
-    ],
+    image: [new URL(image, urls.production).toString()],
 
-    ...(datePublished
-      ? { datePublished }
-      : {}),
+    ...(datePublished ? { datePublished } : {}),
 
-    ...(dateModified
-      ? { dateModified }
-      : {}),
+    ...(dateModified ? { dateModified } : {}),
 
     author: {
       "@type": "Organization",
@@ -245,6 +231,7 @@ export function createCollectionPageSchema({
   name,
   description,
   url,
+  inLanguage,
 }: CollectionPageSchemaInput) {
   return {
     "@context": "https://schema.org",
@@ -253,6 +240,7 @@ export function createCollectionPageSchema({
     name,
     description,
     url,
+    ...(inLanguage ? { inLanguage } : {}),
 
     mainEntity: {
       "@type": "ItemList",

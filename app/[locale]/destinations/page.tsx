@@ -7,6 +7,7 @@ import {
   buildMetadata,
   createBreadcrumbSchema,
   createCollectionPageSchema,
+  getSeoKeywords,
   seo,
 } from "@/content/seo";
 import { Destinations } from "@/features/destinations";
@@ -30,11 +31,13 @@ export async function generateMetadata({
 
   const dictionary = await getDictionary(locale);
   const page = dictionary.pages.destinations;
+  const currentLocale = locale as Locale;
 
   return buildMetadata({
     title: page.seo.title,
     description: page.seo.description,
     canonical: `/${locale}/destinations`,
+    keywords: getSeoKeywords(currentLocale, "destinations"),
     locale,
   });
 }
@@ -63,6 +66,7 @@ export default async function DestinationListingPage({
     name: page.schema.collectionName,
     description: page.seo.description,
     url: pageUrl,
+    inLanguage: currentLocale,
   });
 
   const breadcrumbSchema = createBreadcrumbSchema([

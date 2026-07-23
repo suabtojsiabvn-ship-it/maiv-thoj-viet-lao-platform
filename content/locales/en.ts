@@ -788,9 +788,9 @@ export const enDictionary: LocaleDictionary = {
 
     journey: {
       seo: {
-        title: "Patient Journey",
+        title: "Dental Treatment Journey in Vietnam",
         description:
-          "See what happens before, during and after your dental treatment journey in Vietnam.",
+          "See how consultation, airport pickup, clinic visits, language support, transportation and aftercare are coordinated throughout your dental journey in Vietnam.",
       },
 
       trustMessage: {
@@ -803,17 +803,17 @@ export const enDictionary: LocaleDictionary = {
 
     treatments: {
       seo: {
-        title: "Dental Treatments",
+        title: "Dental Treatments in Vietnam",
         description:
-          "Explore implant dentistry, crowns, veneers and smile makeover treatments available through our trusted clinical partners.",
+          "Explore dental implants, veneers, ceramic crowns and smile makeovers in Hanoi, Vietnam, with multilingual support for Hmong and international patients.",
       },
 
       badge: "TREATMENTS",
 
-      heading: "Treatment options designed around your needs",
+      heading: "Dental treatments in Vietnam planned around your needs",
 
       description:
-        "Learn more about each treatment and discuss which option is appropriate for your situation.",
+        "Explore dental implants, ceramic crowns, porcelain veneers and personalized smile makeovers, then discuss your needs before making a treatment decision.",
 
       schema: {
         collectionName: "Dental Treatments",
@@ -830,14 +830,14 @@ export const enDictionary: LocaleDictionary = {
 
     destinations: {
       seo: {
-        title: "Vietnam Destinations",
+        title: "Vietnam Dental Tourism Destinations",
         description:
-          "Explore real destinations in Vietnam that may become part of your visit before or after dental treatment, when your schedule and recovery allow.",
+          "Explore Sa Pa, Bac Ha, Ha Giang, Moc Chau and Ha Long as part of a carefully planned dental tourism journey in Vietnam when recovery allows.",
       },
       badge: "EXPLORE VIETNAM",
-      heading: "Places worth discovering during your time in Vietnam",
+      heading: "Places to discover during your dental journey in Vietnam",
       description:
-        "When your treatment schedule and recovery allow, these real destinations can add a calm and meaningful experience to your visit.",
+        "When your treatment schedule, recovery and dentist's guidance allow, these destinations can add a meaningful travel experience to your dental journey.",
       cardCta: "Explore Destination",
       backLabel: "Back to All Destinations",
       bookingCta: "Plan Your Journey With Us",
@@ -988,17 +988,17 @@ export const enDictionary: LocaleDictionary = {
 
     travelGuide: {
       seo: {
-        title: "Vietnam Travel Guide for Dental Patients",
+        title: "Vietnam Dental Tourism Guide",
         description:
-          "Practical arrival, accommodation, transportation and aftercare guidance for international dental patients travelling to Vietnam.",
+          "Plan dental travel to Vietnam with practical guidance on visas, airport pickup, hotels, transportation, food and sightseeing after treatment.",
       },
 
       badge: "TRAVEL GUIDE",
 
-      heading: "Prepare well. Travel with confidence.",
+      heading: "Plan your dental treatment and travel in Vietnam",
 
       description:
-        "Clear, practical guidance for every part of your journey—from preparing documents and arriving at the airport to staying comfortably and travelling after treatment.",
+        "Use this practical dental tourism guide to prepare documents, airport arrival, accommodation, transportation, food and gentle travel after treatment.",
 
       schema: {
         collectionName: "Vietnam Travel Guide for Dental Patients",
