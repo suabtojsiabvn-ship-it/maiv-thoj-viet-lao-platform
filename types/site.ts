@@ -37,6 +37,7 @@ export type NavigationItemKey =
   | "home"
   | "treatments"
   | "journey"
+  | "media"
   | "about"
   | "contact";
 

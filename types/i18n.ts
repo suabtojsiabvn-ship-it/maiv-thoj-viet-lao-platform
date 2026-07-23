@@ -28,7 +28,7 @@ export interface LocaleInfo {
 }
 
 export type LocaleNavigationItemKey =
-  "home" | "treatments" | "journey" | "about" | "contact";
+  "home" | "treatments" | "journey" | "media" | "about" | "contact";
 
 export interface LocaleNavigationDictionary {
   label: string;

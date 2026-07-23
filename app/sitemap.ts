@@ -15,6 +15,7 @@ const STATIC_ROUTES = [
   "destinations",
   "faq",
   "journey",
+  "media",
   "treatments",
   "travel-guide",
 ] as const;

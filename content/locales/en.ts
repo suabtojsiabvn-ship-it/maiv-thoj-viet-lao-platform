@@ -16,6 +16,7 @@ export const enDictionary: LocaleDictionary = {
       home: "Home",
       treatments: "Treatments",
       journey: "Journey",
+      media: "Videos",
       about: "About",
       contact: "Contact",
     },

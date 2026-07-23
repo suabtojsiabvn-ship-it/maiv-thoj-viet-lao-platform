@@ -16,6 +16,7 @@ export const hmnDictionary: LocaleDictionary = {
       home: "Tsev",
       treatments: "Kho Hniav",
       journey: "Txoj Kev Taug",
+      media: "Yeeb Yaj Kiab",
       about: "Hais Txog Peb",
       contact: "Tiv Tauj Peb",
     },

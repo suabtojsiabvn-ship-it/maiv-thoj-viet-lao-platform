@@ -2,6 +2,7 @@ export type NavigationItemKey =
   | "home"
   | "treatments"
   | "journey"
+  | "media"
   | "about"
   | "contact";
 
@@ -15,6 +16,7 @@ export const navigation = {
     { key: "home", href: "/" },
     { key: "treatments", href: "/treatments" },
     { key: "journey", href: "/journey" },
+    { key: "media", href: "/media" },
     { key: "about", href: "/about" },
     { key: "contact", href: "/contact" },
   ] satisfies readonly NavigationItem[],

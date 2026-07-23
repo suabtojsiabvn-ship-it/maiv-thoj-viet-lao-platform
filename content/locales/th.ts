@@ -16,6 +16,7 @@ export const thDictionary: LocaleDictionary = {
       home: "หน้าหลัก",
       treatments: "การทำฟัน",
       journey: "เส้นทางการดูแล",
+      media: "วิดีโอรีวิว",
       about: "เกี่ยวกับเรา",
       contact: "ติดต่อ",
     },

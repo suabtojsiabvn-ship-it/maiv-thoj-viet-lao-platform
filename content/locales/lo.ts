@@ -20,6 +20,7 @@ export const loDictionary: LocaleDictionary = {
       home: "ໜ້າຫຼັກ",
       treatments: "ການເຮັດແຂ້ວ",
       journey: "ການເດີນທາງ",
+      media: "ວິດີໂອຣີວິວ",
       about: "ກ່ຽວກັບພວກເຮົາ",
       contact: "ຕິດຕໍ່",
     },

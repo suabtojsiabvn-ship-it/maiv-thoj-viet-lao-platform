@@ -17,6 +17,7 @@ export const viDictionary: LocaleDictionary = {
       home: "Trang chủ",
       treatments: "Điều trị",
       journey: "Hành trình",
+      media: "Video khách hàng",
       about: "Giới thiệu",
       contact: "Liên hệ",
     },

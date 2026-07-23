@@ -6,6 +6,7 @@ export type SeoKeywordSection =
   | "booking"
   | "contact"
   | "journey"
+  | "media"
   | "treatments"
   | "treatment"
   | "destinations"
@@ -96,6 +97,13 @@ const sectionKeywords: Partial<
       "dental treatment with travel support",
       "airport pickup for dental patients Vietnam",
     ],
+    media: [
+      "patient dental reviews Vietnam",
+      "dental testimonial videos Vietnam",
+      "Lao dental patients Vietnam",
+      "cosmetic dental journey Vietnam",
+      "Maiv Thoj patient reviews",
+    ],
     treatments: [
       "dental treatments in Vietnam",
       "cosmetic dentistry Vietnam",
@@ -142,6 +150,13 @@ const sectionKeywords: Partial<
       "npaj tuaj kho hniav",
       "tos tshav dav hlau kho hniav",
       "kho hniav thiab mus ncig",
+    ],
+    media: [
+      "neeg tuaj kho hniav qhia",
+      "yeeb yaj kiab kho hniav",
+      "cov neeg Nplog kho hniav hauv Nyab Laj",
+      "Maiv Thoj neeg tuaj kho hniav",
+      "saib kev kho hniav kom zoo nkauj",
     ],
     treatments: [
       "kev kho hniav hauv Nyab Laj",
