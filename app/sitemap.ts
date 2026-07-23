@@ -1,90 +1,78 @@
 import type { MetadataRoute } from "next";
 
-import {
-  getDestinationSlugs,
-} from "@/content/destinations";
-import {
-  SUPPORTED_LOCALES,
-} from "@/content/seo";
-import {
-  patientStories,
-} from "@/content/stories";
-import {
-  getTravelGuideSlugs,
-} from "@/content/travel-guide";
-import {
-  getTreatmentStaticParams,
-} from "@/content/treatments";
-import {
-  baseUrl,
-} from "@/lib/metadata";
+import { getDestinationStaticParams } from "@/content/destinations";
+import { SUPPORTED_LOCALES } from "@/content/seo";
+import { patientStories } from "@/content/stories";
+import { getTravelGuideStaticParams } from "@/content/travel-guide";
+import { getTreatmentStaticParams } from "@/content/treatments";
+import { defaultLocale } from "@/types/i18n";
+import { baseUrl } from "@/lib/metadata";
+
+const STATIC_ROUTES = [
+  "about",
+  "booking",
+  "contact",
+  "destinations",
+  "faq",
+  "journey",
+  "treatments",
+  "travel-guide",
+] as const;
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const now = new Date();
-
-  const sitemap: MetadataRoute.Sitemap = [
-    {
-      url: baseUrl,
-      lastModified: now,
-      changeFrequency: "weekly",
-      priority: 1,
-    },
-  ];
+  const sitemap: MetadataRoute.Sitemap = [];
 
   SUPPORTED_LOCALES.forEach((locale) => {
     sitemap.push({
       url: `${baseUrl}/${locale}`,
-      lastModified: now,
       changeFrequency: "weekly",
-      priority: 0.95,
+      priority: locale === defaultLocale ? 1 : 0.95,
+    });
+
+    STATIC_ROUTES.forEach((route) => {
+      sitemap.push({
+        url: `${baseUrl}/${locale}/${route}`,
+        changeFrequency:
+          route === "booking" || route === "contact" ? "monthly" : "weekly",
+        priority: route === "booking" || route === "treatments" ? 0.9 : 0.8,
+      });
     });
   });
 
-  getTreatmentStaticParams().forEach(
-    ({ locale, slug }) => {
-      sitemap.push({
-        url: `${baseUrl}/${locale}/treatments/${slug}`,
-        lastModified: now,
-        changeFrequency: "monthly",
-        priority: 0.9,
-      });
-    },
-  );
+  getTreatmentStaticParams().forEach(({ locale, slug }) => {
+    sitemap.push({
+      url: `${baseUrl}/${locale}/treatments/${slug}`,
+      changeFrequency: "monthly",
+      priority: 0.9,
+    });
+  });
 
   patientStories
     .filter((story) => story.published)
     .forEach((story) => {
       sitemap.push({
         url: `${baseUrl}/${story.locale}/stories/${story.slug}`,
-        lastModified: story.updatedAt
-          ? new Date(story.updatedAt)
-          : now,
+        ...(story.updatedAt ? { lastModified: new Date(story.updatedAt) } : {}),
         changeFrequency: "monthly",
         priority: 0.8,
       });
     });
 
-  getTravelGuideSlugs().forEach(
-    ({ locale, slug }) => {
-      sitemap.push({
-        url: `${baseUrl}/${locale}/travel-guide/${slug}`,
-        lastModified: now,
-        changeFrequency: "monthly",
-        priority: 0.7,
-      });
-    },
-  );
+  getTravelGuideStaticParams().forEach(({ locale, slug }) => {
+    sitemap.push({
+      url: `${baseUrl}/${locale}/travel-guide/${slug}`,
+      changeFrequency: "monthly",
+      priority: 0.7,
+    });
+  });
 
-  getDestinationSlugs().forEach(
-    ({ locale, slug }) => {
-      sitemap.push({
-        url: `${baseUrl}/${locale}/destinations/${slug}`,
-        lastModified: now,
-        changeFrequency: "monthly",
-        priority: 0.7,
-      });
-    },
-  );
+  getDestinationStaticParams().forEach(({ locale, slug }) => {
+    sitemap.push({
+      url: `${baseUrl}/${locale}/destinations/${slug}`,
+      changeFrequency: "monthly",
+      priority: 0.7,
+    });
+  });
 
   return sitemap;
 }

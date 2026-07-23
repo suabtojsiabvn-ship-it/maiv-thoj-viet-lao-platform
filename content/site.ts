@@ -14,7 +14,7 @@ export const site: SiteConfig = {
   },
 
   localization: {
-    defaultLanguage: "en",
+    defaultLanguage: "hmn",
     supportedLanguages: ["en", "vi", "lo", "hmn", "th"],
   },
 

@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation";
 
+import { getDictionary } from "@/content/locales";
 import { buildMetadata } from "@/content/seo";
 
 import { BeforeAfter } from "@/features/before-after";
@@ -31,7 +32,11 @@ export async function generateMetadata({ params }: HomePageProps) {
     return {};
   }
 
+  const dictionary = await getDictionary(locale);
+
   return buildMetadata({
+    title: dictionary.common.tagline,
+    description: dictionary.hero.subtitle,
     canonical: `/${locale}`,
     locale,
   });

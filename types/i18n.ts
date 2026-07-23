@@ -1,4 +1,4 @@
-export const defaultLocale = "en" as const;
+export const defaultLocale = "hmn" as const;
 
 export const locales = ["en", "hmn", "vi", "th", "lo"] as const;
 

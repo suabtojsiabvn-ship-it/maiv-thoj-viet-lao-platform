@@ -1,14 +1,10 @@
 import type { Metadata } from "next";
 
+import { defaultLocale } from "@/types/i18n";
+
 import { seo } from "./seo";
 
-export const SUPPORTED_LOCALES = [
-  "en",
-  "hmn",
-  "vi",
-  "th",
-  "lo",
-] as const;
+export const SUPPORTED_LOCALES = ["en", "hmn", "vi", "th", "lo"] as const;
 
 export type SupportedLocale = (typeof SUPPORTED_LOCALES)[number];
 
@@ -18,31 +14,30 @@ interface BuildMetadataInput {
   canonical?: string;
   image?: string;
   locale?: SupportedLocale;
+  includeLanguageAlternates?: boolean;
 }
 
-function buildLanguageAlternates(
-  locale: SupportedLocale,
-  canonical?: string,
-) {
+function buildLanguageAlternates(locale: SupportedLocale, canonical?: string) {
   if (!canonical) {
     return undefined;
   }
 
-  const normalized = canonical.startsWith("/")
-    ? canonical
-    : `/${canonical}`;
+  const normalized = canonical.startsWith("/") ? canonical : `/${canonical}`;
 
   const withoutLocale = normalized.replace(
-    new RegExp(`^/${locale}`),
+    new RegExp(`^/${locale}(?=/|$)`),
     "",
   );
 
-  return Object.fromEntries(
-    SUPPORTED_LOCALES.map((supportedLocale) => [
-      supportedLocale,
-      `/${supportedLocale}${withoutLocale}`,
-    ]),
-  );
+  return {
+    ...Object.fromEntries(
+      SUPPORTED_LOCALES.map((supportedLocale) => [
+        supportedLocale,
+        `/${supportedLocale}${withoutLocale}`,
+      ]),
+    ),
+    "x-default": `/${defaultLocale}${withoutLocale}`,
+  };
 }
 
 export function buildMetadata({
@@ -50,7 +45,8 @@ export function buildMetadata({
   description,
   canonical,
   image,
-  locale = "en",
+  locale = defaultLocale,
+  includeLanguageAlternates = true,
 }: BuildMetadataInput = {}): Metadata {
   const metaTitle = title ?? seo.title;
   const metaDescription = description ?? seo.description;
@@ -67,7 +63,9 @@ export function buildMetadata({
 
     alternates: {
       canonical,
-      languages: buildLanguageAlternates(locale, canonical),
+      languages: includeLanguageAlternates
+        ? buildLanguageAlternates(locale, canonical)
+        : undefined,
     },
 
     openGraph: {

@@ -34,10 +34,7 @@ export async function generateMetadata({
 }: StoryDetailPageProps): Promise<Metadata> {
   const { locale, slug } = await params;
 
-  const story = getPatientStoryBySlug(
-    locale,
-    slug,
-  );
+  const story = getPatientStoryBySlug(locale, slug);
 
   if (!story) {
     return {};
@@ -46,13 +43,10 @@ export async function generateMetadata({
   return buildMetadata({
     title: story.seo.title,
     description: story.seo.description,
-    canonical:
-      story.seo.canonical ??
-      `/${story.locale}/stories/${story.slug}`,
-    image:
-      story.seo.image ??
-      story.media.coverImage,
+    canonical: story.seo.canonical ?? `/${story.locale}/stories/${story.slug}`,
+    image: story.seo.image ?? story.media.coverImage,
     locale: story.locale,
+    includeLanguageAlternates: false,
   });
 }
 
@@ -61,10 +55,7 @@ export default async function StoryDetailPage({
 }: StoryDetailPageProps) {
   const { locale, slug } = await params;
 
-  const story = getPatientStoryBySlug(
-    locale,
-    slug,
-  );
+  const story = getPatientStoryBySlug(locale, slug);
 
   if (!story) {
     notFound();
@@ -81,9 +72,7 @@ export default async function StoryDetailPage({
     },
     {
       label: "Language",
-      value:
-        story.patient.language ??
-        "International",
+      value: story.patient.language ?? "International",
     },
     {
       label: "Treatment",
@@ -91,32 +80,22 @@ export default async function StoryDetailPage({
     },
     {
       label: "Material",
-      value:
-        story.treatment.material ??
-        "Personalized plan",
+      value: story.treatment.material ?? "Personalized plan",
     },
     {
       label: "Doctor",
-      value:
-        story.treatment.doctor ??
-        "Clinical team",
+      value: story.treatment.doctor ?? "Clinical team",
     },
     {
       label: "Duration",
-      value:
-        story.treatment.duration ??
-        "By treatment plan",
+      value: story.treatment.duration ?? "By treatment plan",
     },
   ];
 
-  const body =
-    story.testimonial.body ?? [
-      story.testimonial.quote,
-    ];
+  const body = story.testimonial.body ?? [story.testimonial.quote];
 
   const storyUrl = new URL(
-    story.seo.canonical ??
-      `/${story.locale}/stories/${story.slug}`,
+    story.seo.canonical ?? `/${story.locale}/stories/${story.slug}`,
     seo.siteUrl,
   ).toString();
 
@@ -125,35 +104,29 @@ export default async function StoryDetailPage({
     seo.siteUrl,
   ).toString();
 
-  const homeUrl = new URL(
-    `/${story.locale}`,
-    seo.siteUrl,
-  ).toString();
+  const homeUrl = new URL(`/${story.locale}`, seo.siteUrl).toString();
 
   const articleSchema = createArticleSchema({
     headline: story.title,
     description: story.seo.description,
     url: storyUrl,
-    image:
-      story.seo.image ??
-      story.media.coverImage,
+    image: story.seo.image ?? story.media.coverImage,
   });
 
-  const breadcrumbSchema =
-    createBreadcrumbSchema([
-      {
-        name: "Home",
-        url: homeUrl,
-      },
-      {
-        name: "Patient Stories",
-        url: storiesUrl,
-      },
-      {
-        name: story.title,
-        url: storyUrl,
-      },
-    ]);
+  const breadcrumbSchema = createBreadcrumbSchema([
+    {
+      name: "Home",
+      url: homeUrl,
+    },
+    {
+      name: "Patient Stories",
+      url: storiesUrl,
+    },
+    {
+      name: story.title,
+      url: storyUrl,
+    },
+  ]);
 
   return (
     <>
@@ -161,9 +134,7 @@ export default async function StoryDetailPage({
         id={`story-article-${story.slug}`}
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify(
-            articleSchema,
-          ),
+          __html: JSON.stringify(articleSchema),
         }}
       />
 
@@ -171,9 +142,7 @@ export default async function StoryDetailPage({
         id={`story-breadcrumb-${story.slug}`}
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify(
-            breadcrumbSchema,
-          ),
+          __html: JSON.stringify(breadcrumbSchema),
         }}
       />
 
@@ -181,9 +150,7 @@ export default async function StoryDetailPage({
         <ContentHero
           title={story.title}
           summary={story.summary}
-          coverImage={
-            story.media.coverImage
-          }
+          coverImage={story.media.coverImage}
         />
 
         <ContentMeta items={metaItems} />

@@ -22,6 +22,7 @@ export async function generateMetadata({ params }: FAQPageProps) {
     description:
       "Frequently asked questions about patient journey support, airport pickup, hotel coordination, dental treatment, payment and international patient care in Vietnam.",
     canonical: `/${locale}/faq`,
+    locale,
   });
 }
 
