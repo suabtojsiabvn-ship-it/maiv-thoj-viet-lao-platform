@@ -1,4 +1,4 @@
-import type { Locale } from "@/types/i18n";
+﻿import type { Locale } from "@/types/i18n";
 
 interface LocalizedVideoCopy {
   title: string;
@@ -40,7 +40,7 @@ const pageCopy: Record<Locale, MediaPageCopy> = {
       description:
         "Watch patient journeys, dental review videos and cosmetic smile stories from Lao customers receiving coordinated dental care in Vietnam.",
     },
-    badge: "Real journeys · Real voices",
+    badge: "Real journeys Â· Real voices",
     heading: "Patient stories, shared in their own words",
     description:
       "Watch moments from dental journeys between Laos and Vietnam, patient conversations and cosmetic smile references from An Nhien Dental.",
@@ -64,7 +64,7 @@ const pageCopy: Record<Locale, MediaPageCopy> = {
       description:
         "Saib cov neeg Nplog tuaj kho hniav hauv Nyab Laj qhia lawv txoj kev taug, lawv qhov kev xav thiab kev hloov hniav kom zoo nkauj.",
     },
-    badge: "Txoj kev tiag · Lus qhia tiag",
+    badge: "Txoj kev tiag Â· Lus qhia tiag",
     heading: "Cov neeg tuaj kho hniav qhia lawv zaj dab neeg",
     description:
       "Saib cov sijhawm ntawm txoj kev tuaj kho hniav ntawm Nplog teb thiab Nyab Laj, kev sib tham nrog cov neeg tuaj kho hniav thiab cov qauv hniav zoo nkauj ntawm An Nhien Dental.",
@@ -84,75 +84,75 @@ const pageCopy: Record<Locale, MediaPageCopy> = {
   },
   vi: {
     seo: {
-      title: "Video Cảm Nhận Khách Hàng | Maiv Thoj Viet Lao",
+      title: "Video Cáº£m Nháº­n KhÃ¡ch HÃ ng | Maiv Thoj Viet Lao",
       description:
-        "Xem hành trình làm răng, video review và chia sẻ thực tế của khách hàng Lào được đồng hành sang Việt Nam làm răng thẩm mỹ.",
+        "Xem hÃ nh trÃ¬nh lÃ m rÄƒng, video review vÃ  chia sáº» thá»±c táº¿ cá»§a khÃ¡ch hÃ ng LÃ o Ä‘Æ°á»£c Ä‘á»“ng hÃ nh sang Viá»‡t Nam lÃ m rÄƒng tháº©m má»¹.",
     },
-    badge: "Hành trình thật · Cảm nhận thật",
-    heading: "Khách hàng chia sẻ bằng chính câu chuyện của mình",
+    badge: "HÃ nh trÃ¬nh tháº­t Â· Cáº£m nháº­n tháº­t",
+    heading: "KhÃ¡ch hÃ ng chia sáº» báº±ng chÃ­nh cÃ¢u chuyá»‡n cá»§a mÃ¬nh",
     description:
-      "Theo dõi những khoảnh khắc trong hành trình làm răng từ Lào sang Việt Nam, các cuộc trò chuyện với khách hàng và những mẫu răng thẩm mỹ tại Nha khoa An Nhiên.",
-    playVideo: "Phát video",
-    watchOnYouTube: "Xem trên YouTube",
+      "Theo dÃµi nhá»¯ng khoáº£nh kháº¯c trong hÃ nh trÃ¬nh lÃ m rÄƒng tá»« LÃ o sang Viá»‡t Nam, cÃ¡c cuá»™c trÃ² chuyá»‡n vá»›i khÃ¡ch hÃ ng vÃ  nhá»¯ng máº«u rÄƒng tháº©m má»¹ táº¡i Nha khoa An NhiÃªn.",
+    playVideo: "PhÃ¡t video",
+    watchOnYouTube: "Xem trÃªn YouTube",
     videoLabel: "Video",
     shortLabel: "YouTube Short",
     disclaimer:
-      "Mỗi khách hàng có tình trạng khác nhau và kết quả thực tế có thể khác nhau. Bác sĩ cần thăm khám trước khi đưa ra chỉ định điều trị.",
-    ctaTitle: "Bạn muốn trao đổi về hành trình làm răng của mình?",
+      "Má»—i khÃ¡ch hÃ ng cÃ³ tÃ¬nh tráº¡ng khÃ¡c nhau vÃ  káº¿t quáº£ thá»±c táº¿ cÃ³ thá»ƒ khÃ¡c nhau. BÃ¡c sÄ© cáº§n thÄƒm khÃ¡m trÆ°á»›c khi Ä‘Æ°a ra chá»‰ Ä‘á»‹nh Ä‘iá»u trá»‹.",
+    ctaTitle: "Báº¡n muá»‘n trao Ä‘á»•i vá» hÃ nh trÃ¬nh lÃ m rÄƒng cá»§a mÃ¬nh?",
     ctaDescription:
-      "Hãy chia sẻ điều bạn đang quan tâm trước khi quyết định. Đội ngũ của chúng tôi sẽ giúp bạn hiểu bước tiếp theo và phối hợp hành trình sang Việt Nam.",
-    bookingLabel: "Bắt đầu hành trình",
-    whatsappLabel: "Trao đổi qua WhatsApp",
-    breadcrumbHome: "Trang chủ",
-    breadcrumbCurrent: "Video khách hàng",
+      "HÃ£y chia sáº» Ä‘iá»u báº¡n Ä‘ang quan tÃ¢m trÆ°á»›c khi quyáº¿t Ä‘á»‹nh. Äá»™i ngÅ© cá»§a chÃºng tÃ´i sáº½ giÃºp báº¡n hiá»ƒu bÆ°á»›c tiáº¿p theo vÃ  phá»‘i há»£p hÃ nh trÃ¬nh sang Viá»‡t Nam.",
+    bookingLabel: "Báº¯t Ä‘áº§u hÃ nh trÃ¬nh",
+    whatsappLabel: "Trao Ä‘á»•i qua WhatsApp",
+    breadcrumbHome: "Trang chá»§",
+    breadcrumbCurrent: "Video khÃ¡ch hÃ ng",
   },
   th: {
     seo: {
-      title: "วิดีโอรีวิวจากลูกค้า | Maiv Thoj Viet Lao",
+      title: "à¸§à¸´à¸”à¸µà¹‚à¸­à¸£à¸µà¸§à¸´à¸§à¸ˆà¸²à¸à¸¥à¸¹à¸à¸„à¹‰à¸² | Maiv Thoj Viet Lao",
       description:
-        "รับชมเส้นทางการทำฟัน วิดีโอรีวิว และประสบการณ์จริงของลูกค้าชาวลาวที่เดินทางมาทำฟันเพื่อความงามในเวียดนาม",
+        "à¸£à¸±à¸šà¸Šà¸¡à¹€à¸ªà¹‰à¸™à¸—à¸²à¸‡à¸à¸²à¸£à¸—à¸³à¸Ÿà¸±à¸™ à¸§à¸´à¸”à¸µà¹‚à¸­à¸£à¸µà¸§à¸´à¸§ à¹à¸¥à¸°à¸›à¸£à¸°à¸ªà¸šà¸à¸²à¸£à¸“à¹Œà¸ˆà¸£à¸´à¸‡à¸‚à¸­à¸‡à¸¥à¸¹à¸à¸„à¹‰à¸²à¸Šà¸²à¸§à¸¥à¸²à¸§à¸—à¸µà¹ˆà¹€à¸”à¸´à¸™à¸—à¸²à¸‡à¸¡à¸²à¸—à¸³à¸Ÿà¸±à¸™à¹€à¸žà¸·à¹ˆà¸­à¸„à¸§à¸²à¸¡à¸‡à¸²à¸¡à¹ƒà¸™à¹€à¸§à¸µà¸¢à¸”à¸™à¸²à¸¡",
     },
-    badge: "เส้นทางจริง · ความรู้สึกจริง",
-    heading: "เรื่องราวจากลูกค้าผ่านคำบอกเล่าของพวกเขา",
+    badge: "à¹€à¸ªà¹‰à¸™à¸—à¸²à¸‡à¸ˆà¸£à¸´à¸‡ Â· à¸„à¸§à¸²à¸¡à¸£à¸¹à¹‰à¸ªà¸¶à¸à¸ˆà¸£à¸´à¸‡",
+    heading: "à¹€à¸£à¸·à¹ˆà¸­à¸‡à¸£à¸²à¸§à¸ˆà¸²à¸à¸¥à¸¹à¸à¸„à¹‰à¸²à¸œà¹ˆà¸²à¸™à¸„à¸³à¸šà¸­à¸à¹€à¸¥à¹ˆà¸²à¸‚à¸­à¸‡à¸žà¸§à¸à¹€à¸‚à¸²",
     description:
-      "รับชมช่วงเวลาจากการเดินทางทำฟันระหว่างลาวและเวียดนาม บทสนทนากับลูกค้า และตัวอย่างรอยยิ้มเพื่อความงามจาก An Nhien Dental",
-    playVideo: "เล่นวิดีโอ",
-    watchOnYouTube: "ดูบน YouTube",
-    videoLabel: "วิดีโอ",
+      "à¸£à¸±à¸šà¸Šà¸¡à¸Šà¹ˆà¸§à¸‡à¹€à¸§à¸¥à¸²à¸ˆà¸²à¸à¸à¸²à¸£à¹€à¸”à¸´à¸™à¸—à¸²à¸‡à¸—à¸³à¸Ÿà¸±à¸™à¸£à¸°à¸«à¸§à¹ˆà¸²à¸‡à¸¥à¸²à¸§à¹à¸¥à¸°à¹€à¸§à¸µà¸¢à¸”à¸™à¸²à¸¡ à¸šà¸—à¸ªà¸™à¸—à¸™à¸²à¸à¸±à¸šà¸¥à¸¹à¸à¸„à¹‰à¸² à¹à¸¥à¸°à¸•à¸±à¸§à¸­à¸¢à¹ˆà¸²à¸‡à¸£à¸­à¸¢à¸¢à¸´à¹‰à¸¡à¹€à¸žà¸·à¹ˆà¸­à¸„à¸§à¸²à¸¡à¸‡à¸²à¸¡à¸ˆà¸²à¸ An Nhien Dental",
+    playVideo: "à¹€à¸¥à¹ˆà¸™à¸§à¸´à¸”à¸µà¹‚à¸­",
+    watchOnYouTube: "à¸”à¸¹à¸šà¸™ YouTube",
+    videoLabel: "à¸§à¸´à¸”à¸µà¹‚à¸­",
     shortLabel: "YouTube Short",
     disclaimer:
-      "ลูกค้าแต่ละคนมีสภาพช่องปากแตกต่างกันและผลลัพธ์อาจแตกต่างกัน ทันตแพทย์ต้องตรวจประเมินก่อนแนะนำการรักษา",
-    ctaTitle: "ต้องการพูดคุยเกี่ยวกับเส้นทางรอยยิ้มของคุณหรือไม่?",
+      "à¸¥à¸¹à¸à¸„à¹‰à¸²à¹à¸•à¹ˆà¸¥à¸°à¸„à¸™à¸¡à¸µà¸ªà¸ à¸²à¸žà¸Šà¹ˆà¸­à¸‡à¸›à¸²à¸à¹à¸•à¸à¸•à¹ˆà¸²à¸‡à¸à¸±à¸™à¹à¸¥à¸°à¸œà¸¥à¸¥à¸±à¸žà¸˜à¹Œà¸­à¸²à¸ˆà¹à¸•à¸à¸•à¹ˆà¸²à¸‡à¸à¸±à¸™ à¸—à¸±à¸™à¸•à¹à¸žà¸—à¸¢à¹Œà¸•à¹‰à¸­à¸‡à¸•à¸£à¸§à¸ˆà¸›à¸£à¸°à¹€à¸¡à¸´à¸™à¸à¹ˆà¸­à¸™à¹à¸™à¸°à¸™à¸³à¸à¸²à¸£à¸£à¸±à¸à¸©à¸²",
+    ctaTitle: "à¸•à¹‰à¸­à¸‡à¸à¸²à¸£à¸žà¸¹à¸”à¸„à¸¸à¸¢à¹€à¸à¸µà¹ˆà¸¢à¸§à¸à¸±à¸šà¹€à¸ªà¹‰à¸™à¸—à¸²à¸‡à¸£à¸­à¸¢à¸¢à¸´à¹‰à¸¡à¸‚à¸­à¸‡à¸„à¸¸à¸“à¸«à¸£à¸·à¸­à¹„à¸¡à¹ˆ?",
     ctaDescription:
-      "แบ่งปันข้อกังวลกับทีมของเราก่อนตัดสินใจ เราจะช่วยอธิบายขั้นตอนถัดไปและประสานงานการเดินทางมาเวียดนาม",
-    bookingLabel: "เริ่มต้นเส้นทางของคุณ",
-    whatsappLabel: "พูดคุยทาง WhatsApp",
-    breadcrumbHome: "หน้าหลัก",
-    breadcrumbCurrent: "วิดีโอจากลูกค้า",
+      "à¹à¸šà¹ˆà¸‡à¸›à¸±à¸™à¸‚à¹‰à¸­à¸à¸±à¸‡à¸§à¸¥à¸à¸±à¸šà¸—à¸µà¸¡à¸‚à¸­à¸‡à¹€à¸£à¸²à¸à¹ˆà¸­à¸™à¸•à¸±à¸”à¸ªà¸´à¸™à¹ƒà¸ˆ à¹€à¸£à¸²à¸ˆà¸°à¸Šà¹ˆà¸§à¸¢à¸­à¸˜à¸´à¸šà¸²à¸¢à¸‚à¸±à¹‰à¸™à¸•à¸­à¸™à¸–à¸±à¸”à¹„à¸›à¹à¸¥à¸°à¸›à¸£à¸°à¸ªà¸²à¸™à¸‡à¸²à¸™à¸à¸²à¸£à¹€à¸”à¸´à¸™à¸—à¸²à¸‡à¸¡à¸²à¹€à¸§à¸µà¸¢à¸”à¸™à¸²à¸¡",
+    bookingLabel: "à¹€à¸£à¸´à¹ˆà¸¡à¸•à¹‰à¸™à¹€à¸ªà¹‰à¸™à¸—à¸²à¸‡à¸‚à¸­à¸‡à¸„à¸¸à¸“",
+    whatsappLabel: "à¸žà¸¹à¸”à¸„à¸¸à¸¢à¸—à¸²à¸‡ WhatsApp",
+    breadcrumbHome: "à¸«à¸™à¹‰à¸²à¸«à¸¥à¸±à¸",
+    breadcrumbCurrent: "à¸§à¸´à¸”à¸µà¹‚à¸­à¸ˆà¸²à¸à¸¥à¸¹à¸à¸„à¹‰à¸²",
   },
   lo: {
     seo: {
-      title: "ວິດີໂອຣີວິວຈາກລູກຄ້າ | Maiv Thoj Viet Lao",
+      title: "àº§àº´àº”àºµà»‚àº­àº£àºµàº§àº´àº§àºˆàº²àºàº¥àº¹àºàº„à»‰àº² | Maiv Thoj Viet Lao",
       description:
-        "ຮັບຊົມການເດີນທາງມາເຮັດແຂ້ວ ວິດີໂອຣີວິວ ແລະ ຄວາມຮູ້ສຶກຈິງຂອງລູກຄ້າລາວທີ່ມາເຮັດແຂ້ວຢູ່ຫວຽດນາມ.",
+        "àº®àº±àºšàºŠàº»àº¡àºàº²àº™à»€àº”àºµàº™àº—àº²àº‡àº¡àº²à»€àº®àº±àº”à»àº‚à»‰àº§ àº§àº´àº”àºµà»‚àº­àº£àºµàº§àº´àº§ à»àº¥àº° àº„àº§àº²àº¡àº®àº¹à»‰àºªàº¶àºàºˆàº´àº‡àº‚àº­àº‡àº¥àº¹àºàº„à»‰àº²àº¥àº²àº§àº—àºµà»ˆàº¡àº²à»€àº®àº±àº”à»àº‚à»‰àº§àº¢àº¹à»ˆàº«àº§àº½àº”àº™àº²àº¡.",
     },
-    badge: "ການເດີນທາງຈິງ · ຄວາມຮູ້ສຶກຈິງ",
-    heading: "ເລື່ອງລາວຈາກຄຳບອກເລົ່າຂອງລູກຄ້າ",
+    badge: "àºàº²àº™à»€àº”àºµàº™àº—àº²àº‡àºˆàº´àº‡ Â· àº„àº§àº²àº¡àº®àº¹à»‰àºªàº¶àºàºˆàº´àº‡",
+    heading: "à»€àº¥àº·à»ˆàº­àº‡àº¥àº²àº§àºˆàº²àºàº„àº³àºšàº­àºà»€àº¥àº»à»ˆàº²àº‚àº­àº‡àº¥àº¹àºàº„à»‰àº²",
     description:
-      "ຮັບຊົມຊ່ວງເວລາຈາກການເດີນທາງມາເຮັດແຂ້ວລະຫວ່າງລາວແລະຫວຽດນາມ ການສຳພາດລູກຄ້າ ແລະ ຕົວຢ່າງແຂ້ວງາມຈາກ An Nhien Dental.",
-    playVideo: "ເປີດວິດີໂອ",
-    watchOnYouTube: "ເບິ່ງໃນ YouTube",
-    videoLabel: "ວິດີໂອ",
+      "àº®àº±àºšàºŠàº»àº¡àºŠà»ˆàº§àº‡à»€àº§àº¥àº²àºˆàº²àºàºàº²àº™à»€àº”àºµàº™àº—àº²àº‡àº¡àº²à»€àº®àº±àº”à»àº‚à»‰àº§àº¥àº°àº«àº§à»ˆàº²àº‡àº¥àº²àº§à»àº¥àº°àº«àº§àº½àº”àº™àº²àº¡ àºàº²àº™àºªàº³àºžàº²àº”àº¥àº¹àºàº„à»‰àº² à»àº¥àº° àº•àº»àº§àº¢à»ˆàº²àº‡à»àº‚à»‰àº§àº‡àº²àº¡àºˆàº²àº An Nhien Dental.",
+    playVideo: "à»€àº›àºµàº”àº§àº´àº”àºµà»‚àº­",
+    watchOnYouTube: "à»€àºšàº´à»ˆàº‡à»ƒàº™ YouTube",
+    videoLabel: "àº§àº´àº”àºµà»‚àº­",
     shortLabel: "YouTube Short",
     disclaimer:
-      "ລູກຄ້າແຕ່ລະຄົນມີສະພາບແຂ້ວແຕກຕ່າງກັນ ແລະ ຜົນລັບອາດແຕກຕ່າງກັນ. ທັນຕະແພດຕ້ອງກວດກ່ອນແນະນຳການຮັກສາ.",
-    ctaTitle: "ທ່ານຢາກປຶກສາເລື່ອງການເຮັດແຂ້ວຂອງທ່ານບໍ?",
+      "àº¥àº¹àºàº„à»‰àº²à»àº•à»ˆàº¥àº°àº„àº»àº™àº¡àºµàºªàº°àºžàº²àºšà»àº‚à»‰àº§à»àº•àºàº•à»ˆàº²àº‡àºàº±àº™ à»àº¥àº° àºœàº»àº™àº¥àº±àºšàº­àº²àº”à»àº•àºàº•à»ˆàº²àº‡àºàº±àº™. àº—àº±àº™àº•àº°à»àºžàº”àº•à»‰àº­àº‡àºàº§àº”àºà»ˆàº­àº™à»àº™àº°àº™àº³àºàº²àº™àº®àº±àºàºªàº².",
+    ctaTitle: "àº—à»ˆàº²àº™àº¢àº²àºàº›àº¶àºàºªàº²à»€àº¥àº·à»ˆàº­àº‡àºàº²àº™à»€àº®àº±àº”à»àº‚à»‰àº§àº‚àº­àº‡àº—à»ˆàº²àº™àºšà»?",
     ctaDescription:
-      "ບອກສິ່ງທີ່ທ່ານກັງວົນໃຫ້ທີມງານຮູ້ກ່ອນຕັດສິນໃຈ. ພວກເຮົາຈະຊ່ວຍອະທິບາຍຂັ້ນຕອນຕໍ່ໄປ ແລະ ປະສານງານການເດີນທາງມາຫວຽດນາມ.",
-    bookingLabel: "ເລີ່ມການເດີນທາງ",
-    whatsappLabel: "ສົນທະນາທາງ WhatsApp",
-    breadcrumbHome: "ໜ້າຫຼັກ",
-    breadcrumbCurrent: "ວິດີໂອຈາກລູກຄ້າ",
+      "àºšàº­àºàºªàº´à»ˆàº‡àº—àºµà»ˆàº—à»ˆàº²àº™àºàº±àº‡àº§àº»àº™à»ƒàº«à»‰àº—àºµàº¡àº‡àº²àº™àº®àº¹à»‰àºà»ˆàº­àº™àº•àº±àº”àºªàº´àº™à»ƒàºˆ. àºžàº§àºà»€àº®àº»àº²àºˆàº°àºŠà»ˆàº§àºàº­àº°àº—àº´àºšàº²àºàº‚àº±à»‰àº™àº•àº­àº™àº•à»à»ˆà»„àº› à»àº¥àº° àº›àº°àºªàº²àº™àº‡àº²àº™àºàº²àº™à»€àº”àºµàº™àº—àº²àº‡àº¡àº²àº«àº§àº½àº”àº™àº²àº¡.",
+    bookingLabel: "à»€àº¥àºµà»ˆàº¡àºàº²àº™à»€àº”àºµàº™àº—àº²àº‡",
+    whatsappLabel: "àºªàº»àº™àº—àº°àº™àº²àº—àº²àº‡ WhatsApp",
+    breadcrumbHome: "à»œà»‰àº²àº«àº¼àº±àº",
+    breadcrumbCurrent: "àº§àº´àº”àºµà»‚àº­àºˆàº²àºàº¥àº¹àºàº„à»‰àº²",
   },
 };
 
@@ -177,28 +177,28 @@ const videos = [
       },
       vi: {
         title:
-          "Maiv Thoj đồng hành cùng 5 khách Lào sang Việt Nam làm răng sứ thẩm mỹ",
+          "Maiv Thoj Ä‘á»“ng hÃ nh cÃ¹ng 5 khÃ¡ch LÃ o sang Viá»‡t Nam lÃ m rÄƒng sá»© tháº©m má»¹",
         description:
-          "Theo chân nhóm 5 khách hàng từ Lào sang Việt Nam cùng Maiv Thoj trong hành trình làm răng sứ thẩm mỹ được phối hợp trọn vẹn.",
+          "Theo chÃ¢n nhÃ³m 5 khÃ¡ch hÃ ng tá»« LÃ o sang Viá»‡t Nam cÃ¹ng Maiv Thoj trong hÃ nh trÃ¬nh lÃ m rÄƒng sá»© tháº©m má»¹ Ä‘Æ°á»£c phá»‘i há»£p trá»n váº¹n.",
       },
       th: {
         title:
-          "Maiv Thoj ดูแลลูกค้าชาวลาว 5 คนเดินทางมาเวียดนามเพื่อทำครอบฟันเพื่อความงาม",
+          "Maiv Thoj à¸”à¸¹à¹à¸¥à¸¥à¸¹à¸à¸„à¹‰à¸²à¸Šà¸²à¸§à¸¥à¸²à¸§ 5 à¸„à¸™à¹€à¸”à¸´à¸™à¸—à¸²à¸‡à¸¡à¸²à¹€à¸§à¸µà¸¢à¸”à¸™à¸²à¸¡à¹€à¸žà¸·à¹ˆà¸­à¸—à¸³à¸„à¸£à¸­à¸šà¸Ÿà¸±à¸™à¹€à¸žà¸·à¹ˆà¸­à¸„à¸§à¸²à¸¡à¸‡à¸²à¸¡",
         description:
-          "ติดตามเส้นทางของลูกค้า 5 คนจากลาวที่เดินทางมาเวียดนามพร้อม Maiv Thoj เพื่อทำฟันเพื่อความงาม",
+          "à¸•à¸´à¸”à¸•à¸²à¸¡à¹€à¸ªà¹‰à¸™à¸—à¸²à¸‡à¸‚à¸­à¸‡à¸¥à¸¹à¸à¸„à¹‰à¸² 5 à¸„à¸™à¸ˆà¸²à¸à¸¥à¸²à¸§à¸—à¸µà¹ˆà¹€à¸”à¸´à¸™à¸—à¸²à¸‡à¸¡à¸²à¹€à¸§à¸µà¸¢à¸”à¸™à¸²à¸¡à¸žà¸£à¹‰à¸­à¸¡ Maiv Thoj à¹€à¸žà¸·à¹ˆà¸­à¸—à¸³à¸Ÿà¸±à¸™à¹€à¸žà¸·à¹ˆà¸­à¸„à¸§à¸²à¸¡à¸‡à¸²à¸¡",
       },
       lo: {
         title:
-          "Maiv Thoj ພາລູກຄ້າລາວ 5 ຄົນມາຫວຽດນາມເພື່ອເຮັດແຂ້ວຄອບເພື່ອຄວາມງາມ",
+          "Maiv Thoj àºžàº²àº¥àº¹àºàº„à»‰àº²àº¥àº²àº§ 5 àº„àº»àº™àº¡àº²àº«àº§àº½àº”àº™àº²àº¡à»€àºžàº·à»ˆàº­à»€àº®àº±àº”à»àº‚à»‰àº§àº„àº­àºšà»€àºžàº·à»ˆàº­àº„àº§àº²àº¡àº‡àº²àº¡",
         description:
-          "ຕິດຕາມການເດີນທາງຂອງລູກຄ້າ 5 ຄົນຈາກລາວທີ່ມາຫວຽດນາມກັບ Maiv Thoj ເພື່ອເຮັດແຂ້ວເພື່ອຄວາມງາມ.",
+          "àº•àº´àº”àº•àº²àº¡àºàº²àº™à»€àº”àºµàº™àº—àº²àº‡àº‚àº­àº‡àº¥àº¹àºàº„à»‰àº² 5 àº„àº»àº™àºˆàº²àºàº¥àº²àº§àº—àºµà»ˆàº¡àº²àº«àº§àº½àº”àº™àº²àº¡àºàº±àºš Maiv Thoj à»€àºžàº·à»ˆàº­à»€àº®àº±àº”à»àº‚à»‰àº§à»€àºžàº·à»ˆàº­àº„àº§àº²àº¡àº‡àº²àº¡.",
       },
     },
   },
   {
     id: "lao-guest-new-smile-interview",
-    youtubeId: "Is4U8iuJATo",
-    url: "https://youtube.com/shorts/Is4U8iuJATo?feature=share",
+    youtubeId: "TUaGpD0CCmA",
+    url: "https://youtube.com/shorts/TUaGpD0CCmA?feature=share",
     format: "short",
     copy: {
       en: {
@@ -212,19 +212,19 @@ const videos = [
           "Tus qhua qhia tias cov hniav qub loj thiab tuab dhau ua rau nws tsis txaus siab. Tom qab tuaj kho hauv Nyab Laj, nws zoo siab rau nws cov hniav tshiab.",
       },
       vi: {
-        title: "Khách Lào chia sẻ cảm nhận về bộ răng mới",
+        title: "KhÃ¡ch LÃ o chia sáº» cáº£m nháº­n vá» bá»™ rÄƒng má»›i",
         description:
-          "Khách hàng từng chưa hài lòng vì bộ răng cũ vừa to vừa thô. Sau hành trình được Maiv Thoj đồng hành sang Việt Nam, khách chia sẻ sự hài lòng với nụ cười mới.",
+          "KhÃ¡ch hÃ ng tá»«ng chÆ°a hÃ i lÃ²ng vÃ¬ bá»™ rÄƒng cÅ© vá»«a to vá»«a thÃ´. Sau hÃ nh trÃ¬nh Ä‘Æ°á»£c Maiv Thoj Ä‘á»“ng hÃ nh sang Viá»‡t Nam, khÃ¡ch chia sáº» sá»± hÃ i lÃ²ng vá»›i ná»¥ cÆ°á»i má»›i.",
       },
       th: {
-        title: "ลูกค้าชาวลาวเล่าความรู้สึกที่มีต่อรอยยิ้มใหม่",
+        title: "à¸¥à¸¹à¸à¸„à¹‰à¸²à¸Šà¸²à¸§à¸¥à¸²à¸§à¹€à¸¥à¹ˆà¸²à¸„à¸§à¸²à¸¡à¸£à¸¹à¹‰à¸ªà¸¶à¸à¸—à¸µà¹ˆà¸¡à¸µà¸•à¹ˆà¸­à¸£à¸­à¸¢à¸¢à¸´à¹‰à¸¡à¹ƒà¸«à¸¡à¹ˆ",
         description:
-          "ลูกค้าเคยไม่พอใจกับฟันเดิมที่ดูใหญ่และหนา หลังได้รับการดูแลในเวียดนาม เธอเล่าถึงความพอใจกับฟันชุดใหม่",
+          "à¸¥à¸¹à¸à¸„à¹‰à¸²à¹€à¸„à¸¢à¹„à¸¡à¹ˆà¸žà¸­à¹ƒà¸ˆà¸à¸±à¸šà¸Ÿà¸±à¸™à¹€à¸”à¸´à¸¡à¸—à¸µà¹ˆà¸”à¸¹à¹ƒà¸«à¸à¹ˆà¹à¸¥à¸°à¸«à¸™à¸² à¸«à¸¥à¸±à¸‡à¹„à¸”à¹‰à¸£à¸±à¸šà¸à¸²à¸£à¸”à¸¹à¹à¸¥à¹ƒà¸™à¹€à¸§à¸µà¸¢à¸”à¸™à¸²à¸¡ à¹€à¸˜à¸­à¹€à¸¥à¹ˆà¸²à¸–à¸¶à¸‡à¸„à¸§à¸²à¸¡à¸žà¸­à¹ƒà¸ˆà¸à¸±à¸šà¸Ÿà¸±à¸™à¸Šà¸¸à¸”à¹ƒà¸«à¸¡à¹ˆ",
       },
       lo: {
-        title: "ລູກຄ້າລາວແບ່ງປັນຄວາມຮູ້ສຶກຕໍ່ແຂ້ວຊຸດໃໝ່",
+        title: "àº¥àº¹àºàº„à»‰àº²àº¥àº²àº§à»àºšà»ˆàº‡àº›àº±àº™àº„àº§àº²àº¡àº®àº¹à»‰àºªàº¶àºàº•à»à»ˆà»àº‚à»‰àº§àºŠàº¸àº”à»ƒà»à»ˆ",
         description:
-          "ກ່ອນໜ້ານີ້ລູກຄ້າບໍ່ພໍໃຈເພາະແຂ້ວເບິ່ງໃຫຍ່ແລະໜາ. ຫຼັງຈາກມາຮັບການດູແລຢູ່ຫວຽດນາມ ລູກຄ້າໄດ້ແບ່ງປັນຄວາມພໍໃຈຕໍ່ຮອຍຍິ້ມໃໝ່.",
+          "àºà»ˆàº­àº™à»œà»‰àº²àº™àºµà»‰àº¥àº¹àºàº„à»‰àº²àºšà»à»ˆàºžà»à»ƒàºˆà»€àºžàº²àº°à»àº‚à»‰àº§à»€àºšàº´à»ˆàº‡à»ƒàº«àºà»ˆà»àº¥àº°à»œàº². àº«àº¼àº±àº‡àºˆàº²àºàº¡àº²àº®àº±àºšàºàº²àº™àº”àº¹à»àº¥àº¢àº¹à»ˆàº«àº§àº½àº”àº™àº²àº¡ àº¥àº¹àºàº„à»‰àº²à»„àº”à»‰à»àºšà»ˆàº‡àº›àº±àº™àº„àº§àº²àº¡àºžà»à»ƒàºˆàº•à»à»ˆàº®àº­àºàºàº´à»‰àº¡à»ƒà»à»ˆ.",
       },
     },
   },
@@ -245,19 +245,19 @@ const videos = [
           "Saib ze cov qauv hniav thiab luag ntxhi zoo nkauj uas koj siv tau los tham nrog pab kws kho hniav ntawm An Nhien Dental.",
       },
       vi: {
-        title: "Tham khảo các mẫu răng thẩm mỹ tại Nha khoa An Nhiên",
+        title: "Tham kháº£o cÃ¡c máº«u rÄƒng tháº©m má»¹ táº¡i Nha khoa An NhiÃªn",
         description:
-          "Khám phá cận cảnh các dáng răng và mẫu nụ cười thẩm mỹ để tham khảo khi trao đổi cùng đội ngũ Nha khoa An Nhiên.",
+          "KhÃ¡m phÃ¡ cáº­n cáº£nh cÃ¡c dÃ¡ng rÄƒng vÃ  máº«u ná»¥ cÆ°á»i tháº©m má»¹ Ä‘á»ƒ tham kháº£o khi trao Ä‘á»•i cÃ¹ng Ä‘á»™i ngÅ© Nha khoa An NhiÃªn.",
       },
       th: {
-        title: "ชมตัวอย่างรูปทรงฟันเพื่อความงามที่ An Nhien Dental",
+        title: "à¸Šà¸¡à¸•à¸±à¸§à¸­à¸¢à¹ˆà¸²à¸‡à¸£à¸¹à¸›à¸—à¸£à¸‡à¸Ÿà¸±à¸™à¹€à¸žà¸·à¹ˆà¸­à¸„à¸§à¸²à¸¡à¸‡à¸²à¸¡à¸—à¸µà¹ˆ An Nhien Dental",
         description:
-          "ชมรูปทรงฟันและตัวอย่างรอยยิ้มอย่างใกล้ชิด เพื่อใช้ประกอบการพูดคุยกับทีมทันตแพทย์ของ An Nhien Dental",
+          "à¸Šà¸¡à¸£à¸¹à¸›à¸—à¸£à¸‡à¸Ÿà¸±à¸™à¹à¸¥à¸°à¸•à¸±à¸§à¸­à¸¢à¹ˆà¸²à¸‡à¸£à¸­à¸¢à¸¢à¸´à¹‰à¸¡à¸­à¸¢à¹ˆà¸²à¸‡à¹ƒà¸à¸¥à¹‰à¸Šà¸´à¸” à¹€à¸žà¸·à¹ˆà¸­à¹ƒà¸Šà¹‰à¸›à¸£à¸°à¸à¸­à¸šà¸à¸²à¸£à¸žà¸¹à¸”à¸„à¸¸à¸¢à¸à¸±à¸šà¸—à¸µà¸¡à¸—à¸±à¸™à¸•à¹à¸žà¸—à¸¢à¹Œà¸‚à¸­à¸‡ An Nhien Dental",
       },
       lo: {
-        title: "ຮັບຊົມຕົວຢ່າງຮູບຊົງແຂ້ວທີ່ An Nhien Dental",
+        title: "àº®àº±àºšàºŠàº»àº¡àº•àº»àº§àº¢à»ˆàº²àº‡àº®àº¹àºšàºŠàº»àº‡à»àº‚à»‰àº§àº—àºµà»ˆ An Nhien Dental",
         description:
-          "ເບິ່ງຮູບຊົງແຂ້ວ ແລະ ຕົວຢ່າງຮອຍຍິ້ມເພື່ອໃຊ້ປະກອບການປຶກສາກັບທີມທັນຕະແພດຂອງ An Nhien Dental.",
+          "à»€àºšàº´à»ˆàº‡àº®àº¹àºšàºŠàº»àº‡à»àº‚à»‰àº§ à»àº¥àº° àº•àº»àº§àº¢à»ˆàº²àº‡àº®àº­àºàºàº´à»‰àº¡à»€àºžàº·à»ˆàº­à»ƒàºŠà»‰àº›àº°àºàº­àºšàºàº²àº™àº›àº¶àºàºªàº²àºàº±àºšàº—àºµàº¡àº—àº±àº™àº•àº°à»àºžàº”àº‚àº­àº‡ An Nhien Dental.",
       },
     },
   },
@@ -278,19 +278,19 @@ const videos = [
           "Mloog tus qhua tuaj ntawm Nplog teb qhia txog nws txoj kev kho hniav thiab txoj kev pab uas nws tau txais.",
       },
       vi: {
-        title: "Khách hàng từ Lào chia sẻ cảm nhận sau khi làm răng",
+        title: "KhÃ¡ch hÃ ng tá»« LÃ o chia sáº» cáº£m nháº­n sau khi lÃ m rÄƒng",
         description:
-          "Lắng nghe trực tiếp chia sẻ của chị khách đến từ Lào về hành trình làm răng và sự hỗ trợ chị đã nhận được.",
+          "Láº¯ng nghe trá»±c tiáº¿p chia sáº» cá»§a chá»‹ khÃ¡ch Ä‘áº¿n tá»« LÃ o vá» hÃ nh trÃ¬nh lÃ m rÄƒng vÃ  sá»± há»— trá»£ chá»‹ Ä‘Ã£ nháº­n Ä‘Æ°á»£c.",
       },
       th: {
-        title: "ลูกค้าจากลาวแบ่งปันประสบการณ์หลังทำฟัน",
+        title: "à¸¥à¸¹à¸à¸„à¹‰à¸²à¸ˆà¸²à¸à¸¥à¸²à¸§à¹à¸šà¹ˆà¸‡à¸›à¸±à¸™à¸›à¸£à¸°à¸ªà¸šà¸à¸²à¸£à¸“à¹Œà¸«à¸¥à¸±à¸‡à¸—à¸³à¸Ÿà¸±à¸™",
         description:
-          "รับฟังลูกค้าชาวลาวเล่าประสบการณ์การทำฟันและการดูแลที่เธอได้รับตลอดการเดินทาง",
+          "à¸£à¸±à¸šà¸Ÿà¸±à¸‡à¸¥à¸¹à¸à¸„à¹‰à¸²à¸Šà¸²à¸§à¸¥à¸²à¸§à¹€à¸¥à¹ˆà¸²à¸›à¸£à¸°à¸ªà¸šà¸à¸²à¸£à¸“à¹Œà¸à¸²à¸£à¸—à¸³à¸Ÿà¸±à¸™à¹à¸¥à¸°à¸à¸²à¸£à¸”à¸¹à¹à¸¥à¸—à¸µà¹ˆà¹€à¸˜à¸­à¹„à¸”à¹‰à¸£à¸±à¸šà¸•à¸¥à¸­à¸”à¸à¸²à¸£à¹€à¸”à¸´à¸™à¸—à¸²à¸‡",
       },
       lo: {
-        title: "ລູກຄ້າຈາກລາວແບ່ງປັນຄວາມຮູ້ສຶກຫຼັງເຮັດແຂ້ວ",
+        title: "àº¥àº¹àºàº„à»‰àº²àºˆàº²àºàº¥àº²àº§à»àºšà»ˆàº‡àº›àº±àº™àº„àº§àº²àº¡àº®àº¹à»‰àºªàº¶àºàº«àº¼àº±àº‡à»€àº®àº±àº”à»àº‚à»‰àº§",
         description:
-          "ຮັບຟັງລູກຄ້າລາວແບ່ງປັນໂດຍກົງກ່ຽວກັບການເດີນທາງມາເຮັດແຂ້ວ ແລະ ການດູແລທີ່ນາງໄດ້ຮັບ.",
+          "àº®àº±àºšàºŸàº±àº‡àº¥àº¹àºàº„à»‰àº²àº¥àº²àº§à»àºšà»ˆàº‡àº›àº±àº™à»‚àº”àºàºàº»àº‡àºà»ˆàº½àº§àºàº±àºšàºàº²àº™à»€àº”àºµàº™àº—àº²àº‡àº¡àº²à»€àº®àº±àº”à»àº‚à»‰àº§ à»àº¥àº° àºàº²àº™àº”àº¹à»àº¥àº—àºµà»ˆàº™àº²àº‡à»„àº”à»‰àº®àº±àºš.",
       },
     },
   },
@@ -309,3 +309,4 @@ export function getMediaVideos(locale: Locale): MediaVideo[] {
     ...(video.copy[locale] ?? video.copy.en),
   }));
 }
+
