@@ -1,8 +1,10 @@
 "use client";
 
-import { useId, useState } from "react";
+import { useId, useRef, useState } from "react";
 import { useParams } from "next/navigation";
 import { Loader2 } from "lucide-react";
+
+import { EVENTS, trackEvent } from "@/lib/analytics";
 
 import { useBooking } from "../hooks/useBooking";
 import { useBookingForm } from "../hooks/useBookingForm";
@@ -37,6 +39,7 @@ export function BookingForm() {
 
   const [submitted, setSubmitted] = useState(false);
   const [submitError, setSubmitError] = useState<string | null>(null);
+  const hasStartedBooking = useRef(false);
 
   const {
     register,
@@ -48,8 +51,23 @@ export function BookingForm() {
   const onSubmit = handleSubmit(async (values) => {
     setSubmitError(null);
 
+    const analyticsParams = {
+      locale: params.locale ?? defaultLanguage,
+      preferred_language: values.preferredLanguage,
+      source: "booking_form",
+      treatment: values.treatment,
+    };
+
+    trackEvent(EVENTS.BOOKING_SUBMIT, analyticsParams);
+
     try {
       await submitBooking(values, booking.feedback);
+      trackEvent(EVENTS.BOOKING_SUCCESS, analyticsParams);
+      trackEvent(EVENTS.GENERATE_LEAD, {
+        ...analyticsParams,
+        lead_source: "booking_form",
+        method: "booking_form",
+      });
       reset();
       setSubmitted(true);
     } catch (error) {
@@ -58,6 +76,19 @@ export function BookingForm() {
       );
     }
   });
+
+  const handleBookingStart = () => {
+    if (hasStartedBooking.current) {
+      return;
+    }
+
+    hasStartedBooking.current = true;
+    trackEvent(EVENTS.BOOKING_START, {
+      locale: params.locale ?? defaultLanguage,
+      page_path: window.location.pathname,
+      source: "booking_form",
+    });
+  };
 
   if (submitted) {
     return (
@@ -71,6 +102,7 @@ export function BookingForm() {
   return (
     <form
       onSubmit={onSubmit}
+      onFocusCapture={handleBookingStart}
       noValidate
       aria-busy={isSubmitting}
       className="rounded-[2rem] border border-[#d6a84b]/20 bg-[#15130f] p-5 shadow-[0_28px_90px_rgba(0,0,0,0.3)] sm:p-8"

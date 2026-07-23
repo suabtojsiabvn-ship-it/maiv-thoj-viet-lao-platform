@@ -1,35 +1,18 @@
 "use client";
 
-import type {
-  AnalyticsEventName,
-} from "./events";
-import type {
-  AnalyticsEventParams,
-} from "./types";
+import { sendGAEvent } from "@next/third-parties/google";
 
-declare global {
-  interface Window {
-    dataLayer?: Array<Record<string, unknown>>;
-    gtag?: (
-      command: "event",
-      eventName: string,
-      params?: Record<string, unknown>,
-    ) => void;
-  }
-}
+import type { AnalyticsEventName } from "./events";
+import { isGoogleAnalyticsEnabled } from "./google-analytics";
+import type { AnalyticsEventParams } from "./types";
 
 export function trackEvent(
   event: AnalyticsEventName,
   params: AnalyticsEventParams = {},
 ) {
-  if (typeof window === "undefined") {
+  if (typeof window === "undefined" || !isGoogleAnalyticsEnabled) {
     return;
   }
 
-  window.dataLayer?.push({
-    event,
-    ...params,
-  });
-
-  window.gtag?.("event", event, params);
+  sendGAEvent("event", event, params);
 }

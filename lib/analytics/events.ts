@@ -6,11 +6,13 @@ export const EVENTS = {
   BOOKING_START: "booking_start",
   BOOKING_SUBMIT: "booking_submit",
   BOOKING_SUCCESS: "booking_success",
+  GENERATE_LEAD: "generate_lead",
   WHATSAPP_CLICK: "whatsapp_click",
+  PHONE_CLICK: "phone_click",
+  EMAIL_CLICK: "email_click",
   FAQ_OPEN: "faq_open",
   SEARCH: "search",
   RECOMMENDATION_CLICK: "recommendation_click",
 } as const;
 
-export type AnalyticsEventName =
-  (typeof EVENTS)[keyof typeof EVENTS];
+export type AnalyticsEventName = (typeof EVENTS)[keyof typeof EVENTS];

@@ -4,6 +4,11 @@ export interface AnalyticsEventParams {
   page?: string;
   locale?: string;
   source?: string;
+  channel?: string;
+  method?: string;
+  lead_source?: string;
+  page_path?: string;
+  preferred_language?: string;
   treatment?: string;
   story?: string;
   country?: string;

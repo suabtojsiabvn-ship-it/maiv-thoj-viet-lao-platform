@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter, Playfair_Display } from "next/font/google";
 import { notFound } from "next/navigation";
 
+import { SiteAnalytics } from "@/components/analytics";
 import { Header } from "@/components/layout";
 import { homepageSchema } from "@/content/seo";
 import { Footer } from "@/features/footer";
@@ -71,6 +72,8 @@ export default async function LocaleLayout({
             __html: JSON.stringify(homepageSchema),
           }}
         />
+
+        <SiteAnalytics />
       </body>
     </html>
   );
