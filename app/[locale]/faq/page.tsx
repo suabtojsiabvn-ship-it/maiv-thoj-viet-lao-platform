@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation";
 
+import { getDictionary } from "@/content/locales";
 import { buildMetadata } from "@/content/seo";
 import { FAQ } from "@/features/faq";
 import { isSupportedLocale } from "@/lib/i18n-routing";
@@ -17,8 +18,10 @@ export async function generateMetadata({ params }: FAQPageProps) {
     return {};
   }
 
+  const dictionary = await getDictionary(locale);
+
   return buildMetadata({
-    title: "FAQ | Maiv Thoj Viet Lao Platform",
+    title: dictionary.footer.sections.travel.links.faq,
     description:
       "Frequently asked questions about patient journey support, airport pickup, hotel coordination, dental treatment, payment and international patient care in Vietnam.",
     canonical: `/${locale}/faq`,
