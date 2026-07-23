@@ -28,11 +28,7 @@ export interface LocaleInfo {
 }
 
 export type LocaleNavigationItemKey =
-  | "home"
-  | "treatments"
-  | "journey"
-  | "about"
-  | "contact";
+  "home" | "treatments" | "journey" | "about" | "contact";
 
 export interface LocaleNavigationDictionary {
   label: string;
@@ -106,11 +102,7 @@ export interface LocaleFounderDictionary {
 }
 
 export type LocaleCoordinatorServiceKey =
-  | "planning"
-  | "airportWelcome"
-  | "communication"
-  | "coordination"
-  | "memories";
+  "planning" | "airportWelcome" | "communication" | "coordination" | "memories";
 
 export interface LocaleCoordinatorDictionary {
   sectionLabel: string;
@@ -576,11 +568,7 @@ export interface LocaleTreatmentsPageDictionary {
 }
 
 export type LocaleDestinationKey =
-  | "sapa"
-  | "bac-ha"
-  | "ha-giang"
-  | "moc-chau"
-  | "ha-long";
+  "sapa" | "bac-ha" | "ha-giang" | "moc-chau" | "ha-long";
 
 export interface LocaleDestinationItemDictionary {
   title: string;
@@ -734,6 +722,14 @@ export interface LocaleExploreDictionary {
   };
 }
 
+export interface LocaleCookieConsentDictionary {
+  title: string;
+  description: string;
+  accept: string;
+  reject: string;
+  settings: string;
+}
+
 export interface LocaleDictionary {
   common: {
     brandName: string;
@@ -755,6 +751,7 @@ export interface LocaleDictionary {
   trust: LocaleTrustDictionary;
   booking: LocaleBookingDictionary;
   explore: LocaleExploreDictionary;
+  cookieConsent: LocaleCookieConsentDictionary;
   footer: LocaleFooterDictionary;
 
   /**

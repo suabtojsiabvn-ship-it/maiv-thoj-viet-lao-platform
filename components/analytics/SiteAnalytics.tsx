@@ -1,18 +1,11 @@
-import { GoogleAnalytics } from "@next/third-parties/google";
-
 import { googleAnalyticsId } from "@/lib/analytics";
 
-import { ConversionTracker } from "./ConversionTracker";
+import { ConsentAwareAnalytics } from "./ConsentAwareAnalytics";
 
 export function SiteAnalytics() {
   if (!googleAnalyticsId) {
     return null;
   }
 
-  return (
-    <>
-      <ConversionTracker />
-      <GoogleAnalytics gaId={googleAnalyticsId} />
-    </>
-  );
+  return <ConsentAwareAnalytics measurementId={googleAnalyticsId} />;
 }

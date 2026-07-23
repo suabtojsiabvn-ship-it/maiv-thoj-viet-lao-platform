@@ -1,11 +1,13 @@
 import type { Metadata } from "next";
 import { Inter, Playfair_Display } from "next/font/google";
 import { notFound } from "next/navigation";
+import Script from "next/script";
 
 import { SiteAnalytics } from "@/components/analytics";
 import { Header } from "@/components/layout";
 import { homepageSchema } from "@/content/seo";
 import { Footer } from "@/features/footer";
+import { googleAnalyticsId, googleConsentDefaultScript } from "@/lib/analytics";
 import { defaultMetadata } from "@/lib/metadata";
 import { isSupportedLocale } from "@/lib/i18n-routing";
 import { LocaleProvider } from "@/providers/LocaleProvider";
@@ -56,6 +58,16 @@ export default async function LocaleLayout({
       className={`${inter.variable} ${playfair.variable}`}
     >
       <body>
+        {googleAnalyticsId && (
+          <Script
+            id="google-consent-default"
+            strategy="beforeInteractive"
+            dangerouslySetInnerHTML={{
+              __html: googleConsentDefaultScript,
+            }}
+          />
+        )}
+
         <LocaleProvider locale={locale as Locale}>
           <div className="flex min-h-screen flex-col bg-background text-foreground">
             <Header />
@@ -64,6 +76,8 @@ export default async function LocaleLayout({
 
             <Footer />
           </div>
+
+          <SiteAnalytics />
         </LocaleProvider>
 
         <script
@@ -72,8 +86,6 @@ export default async function LocaleLayout({
             __html: JSON.stringify(homepageSchema),
           }}
         />
-
-        <SiteAnalytics />
       </body>
     </html>
   );

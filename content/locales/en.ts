@@ -1191,6 +1191,15 @@ export const enDictionary: LocaleDictionary = {
     },
   },
 
+  cookieConsent: {
+    title: "Your privacy choices",
+    description:
+      "We use Google Analytics to understand how visitors use this website and improve our service. Analytics is activated only when you agree.",
+    accept: "Allow analytics",
+    reject: "Necessary only",
+    settings: "Privacy settings",
+  },
+
   footer: {
     description:
       "Maiv Thoj Viet Lao supports Hmong families and international patients throughout their dental journey to Vietnam—from the first conversation and travel planning to airport pickup, treatment coordination, and ongoing support after returning home.",

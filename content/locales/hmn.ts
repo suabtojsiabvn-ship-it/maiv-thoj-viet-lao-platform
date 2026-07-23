@@ -1216,6 +1216,15 @@ export const hmnDictionary: LocaleDictionary = {
     },
   },
 
+  cookieConsent: {
+    title: "Koj xaiv kev ceev ntiag tug",
+    description:
+      "Peb siv Google Analytics kom paub tias neeg siv lub website li cas thiab pab txhim kho peb txoj kev pab. Analytics tsuas qhib thaum koj pom zoo xwb.",
+    accept: "Pom zoo siv Analytics",
+    reject: "Tsuas siv yam tsim nyog",
+    settings: "Kho kev ceev ntiag tug",
+  },
+
   footer: {
     description:
       "Maiv Thoj Viet Lao pab cov tsev neeg Hmoob thiab cov neeg tuaj txawv teb chaws txij thawj lo lus sib tham, kev npaj kev taug kev, kev txais tom tshav dav hlau, kev koom tes nrog pab kws kho hniav, mus txog thaum lawv rov qab mus tsev.",

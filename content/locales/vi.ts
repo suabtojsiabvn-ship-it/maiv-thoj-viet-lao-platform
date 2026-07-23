@@ -1205,6 +1205,15 @@ export const viDictionary: LocaleDictionary = {
     },
   },
 
+  cookieConsent: {
+    title: "Lựa chọn quyền riêng tư",
+    description:
+      "Chúng tôi sử dụng Google Analytics để hiểu cách khách truy cập sử dụng website và cải thiện dịch vụ. Tính năng phân tích chỉ hoạt động khi bạn đồng ý.",
+    accept: "Cho phép phân tích",
+    reject: "Chỉ dùng thiết yếu",
+    settings: "Cài đặt quyền riêng tư",
+  },
+
   footer: {
     description:
       "Maiv Thoj Viet Lao đồng hành cùng khách hàng H'Mông và khách hàng quốc tế trên hành trình làm răng tại Việt Nam — từ tư vấn ban đầu, đón sân bay, hỗ trợ di chuyển cho đến khi trở về nhà.",

@@ -1,3 +1,4 @@
+export * from "./consent";
 export * from "./events";
 export * from "./google-analytics";
 export * from "./track";
