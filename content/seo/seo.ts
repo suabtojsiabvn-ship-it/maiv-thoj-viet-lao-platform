@@ -8,6 +8,12 @@ export const seo = {
 
   keywords: [
     "Maiv Thoj Viet Lao Platform",
+    "Maiv Thoj Viet Lao",
+    "Maiv Thoj",
+    "Txhim Tsawb",
+    "A Sử",
+    "A Su",
+    "A Sử (Txhim)",
     "dental care Vietnam",
     "dental treatment Vietnam",
     "dentist Vietnam",

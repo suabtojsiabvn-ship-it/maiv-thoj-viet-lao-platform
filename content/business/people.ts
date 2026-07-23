@@ -4,6 +4,8 @@ export const people = {
 
     name: "Maiv Thoj",
 
+    alternateNames: ["Maiv Thoj Viet Lao", "Maiv Thoj Viet Lao Platform"],
+
     role: "Community Advisor / International Advisor",
 
     description:
@@ -27,6 +29,8 @@ export const people = {
 
     name: "A Sử (Txhim)",
 
+    alternateNames: ["A Sử", "A Su", "Txhim", "Txhim Tsawb"],
+
     role: "International Patient Journey Manager",
 
     description:
@@ -39,13 +43,7 @@ export const people = {
 
     heroImage: "hero-asu",
 
-    languages: [
-      "English",
-      "Hmong",
-      "Vietnamese",
-      "Thai",
-      "Lao",
-    ],
+    languages: ["English", "Hmong", "Vietnamese", "Thai", "Lao"],
 
     services: [
       "Pre-Arrival Planning",

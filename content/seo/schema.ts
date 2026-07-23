@@ -34,7 +34,7 @@ export const organizationSchema = {
   "@type": "Organization",
 
   name: brand.name,
-  alternateName: brand.shortName,
+  alternateName: brand.alternateNames,
 
   url: urls.production,
   logo: `${urls.production}/images/logo.png`,
@@ -56,6 +56,7 @@ export const maivThojPersonSchema = {
   "@type": "Person",
 
   name: people.founder.name,
+  alternateName: people.founder.alternateNames,
   jobTitle: people.founder.role,
   description: people.founder.description,
 
@@ -78,6 +79,7 @@ export const aSuPersonSchema = {
   "@type": "Person",
 
   name: people.coordinator.name,
+  alternateName: people.coordinator.alternateNames,
   jobTitle: "International Patient Journey Manager",
   description: people.coordinator.description,
 

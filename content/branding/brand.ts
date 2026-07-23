@@ -3,6 +3,8 @@ export const brand = {
 
   shortName: "MTVL",
 
+  alternateNames: ["Maiv Thoj Viet Lao Platform", "Maiv Thoj Viet Lao", "MTVL"],
+
   tagline: "Your Trusted Health & Beauty Journey in Vietnam",
 
   description:

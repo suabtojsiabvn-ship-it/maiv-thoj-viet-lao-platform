@@ -43,6 +43,10 @@ const coreKeywords: Partial<Record<Locale, readonly string[]>> = {
     "Hmong dental care",
     "Hmong dentist Vietnam",
     "Hmong speaking dental support",
+    "Maiv Thoj dental Vietnam",
+    "Maiv Thoj Viet Lao dental",
+    "Txhim Tsawb dental support",
+    "A Su dental support Vietnam",
   ],
   hmn: [
     "kho hniav",
@@ -55,6 +59,10 @@ const coreKeywords: Partial<Record<Locale, readonly string[]>> = {
     "kws kho hniav hais lus Hmoob",
     "Hmong dental care",
     "Hmong dentist Vietnam",
+    "Maiv Thoj kho hniav",
+    "Maiv Thoj Viet Lao kho hniav",
+    "Txhim Tsawb kho hniav",
+    "A Sử kho hniav",
   ],
 };
 
